@@ -454,7 +454,8 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
 
         //Calculate the accumulator checkpoint only if the previous cached checkpoint need to be updated
         uint256 nCheckpoint;
-        uint256 hashBlockLastAccumulated = nHeight >= 50 ? chainActive[nHeight - (nHeight % 10) - 10]->GetBlockHash(): 0;
+        const int nHashLastAccumulatedMinStartHeight = 12;
+        uint256 hashBlockLastAccumulated = nHeight >= nHashLastAccumulatedMinStartHeight ? chainActive[nHeight - (nHeight % 10) - 10]->GetBlockHash(): 0;
         if (nHeight >= pCheckpointCache.first || pCheckpointCache.second.first != hashBlockLastAccumulated) {
             //For the period before v2 activation, zOBSR will be disabled and previous block's checkpoint is all that will be needed
             pCheckpointCache.second.second = pindexPrev->nAccumulatorCheckpoint;
