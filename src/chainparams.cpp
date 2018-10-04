@@ -54,7 +54,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("00000df30627f82b6349c0a5b4695478299564d8e8f588e8eb2a8fc04dba02dd"));
+    (0, uint256("0000070f9c4520b097379c2f6be965a4e3727acf250be9ae420ec6d10d0a02b5"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
     1533686511, // * UNIX timestamp of last checkpoint block
@@ -132,7 +132,7 @@ public:
         nLastPOWBlock = 101; //1
         nModifierUpdateBlock = 1; //2
         nZerocoinStartHeight = 2; //3
-        nZerocoinStartTime = 1533686513; //  (GMT): Tuesday, May 1, 2018 7:00:01
+        nZerocoinStartTime = 1538661894; //  GMT: Thursday, October 4, 2018 2:04:54 PM
         nBlockEnforceSerialRange = 1; //6 //Enforce serial range starting this block
         nBlockRecalculateAccumulators = 49; //8; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = 3; // 4; //First block that bad serials emerged
@@ -140,8 +140,8 @@ public:
         nBlockEnforceInvalidUTXO = 1; //7 //Start enforcing the invalid UTXO's
         nInvalidAmountFiltered = 0*COIN; //Amount of invalid coins filtered through exchanges, that should be considered valid
         nBlockZerocoinV2 = 150; //9; //!> The block that zerocoin v2 becomes active - roughly Tuesday, May 8, 2018 4:00:00 AM GMT
-        nEnforceNewSporkKey = 1533686512; //!> Sporks signed after (GMT): Tuesday, May 1, 2018 7:00:00 AM GMT must use the new spork key
-        nRejectOldSporkKey = 1533686513; //!> Fully reject old spork key after (GMT): Friday, June 1, 2018 12:00:00 AM
+        nEnforceNewSporkKey = 1538661892; //!> Sporks signed after GMT: Thursday, October 4, 2018 2:04:52 PM must use the new spork key
+        nRejectOldSporkKey = 1538661893; //!> Reject old spork key after GMT: Thursday, October 4, 2018 2:04:53 PM
 
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -153,24 +153,24 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "The NYT - Hawaii Braces for a Rare Encounter With a Hurricane";
+        const char* pszTimestamp = "Senate Gets F.B.I. Inquiry on Kavanaugh; White House Is ‘Confident’ on Confirmation";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].nValue = 1 * COIN;
+        txNew.vout[0].nValue = 0 * COIN;
         txNew.vout[0].scriptPubKey = CScript() << ParseHex("04079ebf2ae7a2041f67acbaec5b31c72f09fa6b5a4c04a012cf3344ee0475aa43625d6e161d50de26a38ec227cb559eeaf4dbc8138e1c3ea536ddf1607d4d8c7c") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1533686511;
+        genesis.nTime = 1538661890; // GMT: Thursday, October 4, 2018 2:04:50 PM
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 32057208;
+        genesis.nNonce = 33235910;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000df30627f82b6349c0a5b4695478299564d8e8f588e8eb2a8fc04dba02dd"));
-        assert(genesis.hashMerkleRoot == uint256("0x13caaa5dafbac3729f86c4089c693f98bdc58bc413d669493eb8490008ff6aa8"));
+        assert(hashGenesisBlock == uint256("0x0000070f9c4520b097379c2f6be965a4e3727acf250be9ae420ec6d10d0a02b5"));
+        assert(genesis.hashMerkleRoot == uint256("0x0e36366ad7a4ce0f1979569a95ccd0ca085612d0d48f3aa9daa6262177d3163d"));
 
         vSeeds.push_back(CDNSSeedData("1", "main1.seeder.obsr.org")); // OBSR official seed 1
         vSeeds.push_back(CDNSSeedData("2", "main2.seeder.obsr.org")); // OBSR official seed 2
@@ -255,7 +255,7 @@ public:
         nModifierUpdateBlock = 110; //approx Mon, 17 Apr 2017 04:00:00 GMT
         nMaxMoneyOut = 11250000000 * COIN;
         nZerocoinStartHeight = 150;
-        nZerocoinStartTime = 1533686513; // Thursday, 6. September 2018 04:18:48
+        nZerocoinStartTime = 1538661894; //  GMT: Thursday, October 4, 2018 2:04:54 PM
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = 180; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = 99999999; //First block that bad serials emerged
@@ -263,15 +263,15 @@ public:
         nBlockEnforceInvalidUTXO = 170; //Start enforcing the invalid UTXO's
         nInvalidAmountFiltered = 0; //Amount of invalid coins filtered through exchanges, that should be considered valid
         nBlockZerocoinV2 = 200; //!> The block that zerocoin v2 becomes active
-        nEnforceNewSporkKey = 1533686512; //!> Sporks signed after Wednesday, March 21, 2018 4:00:00 AM GMT must use the new spork key
-        nRejectOldSporkKey = 1533686513; //!> Reject old spork key after Saturday, March 31, 2018 12:00:00 AM GMT
+        nEnforceNewSporkKey = 1538661892; //!> Sporks signed after GMT: Thursday, October 4, 2018 2:04:52 PM must use the new spork key
+        nRejectOldSporkKey = 1538661893; //!> Reject old spork key after GMT: Thursday, October 4, 2018 2:04:53 PM
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1533686511; // GMT: Wednesday, 8. August 2018 00:01:51
-        genesis.nNonce = 39884649;
+        genesis.nTime = 1538661890; // GMT: Thursday, October 4, 2018 2:04:50 PM
+        genesis.nNonce = 43138716;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000017bb8caf04cff82a136481fe3bb95d6efac396cd268ba07c50d95783ae6"));
+        assert(hashGenesisBlock == uint256("0x000008c2f02402a0d4df651c0119941e45c9dcae64ec07215088048c3f450db9"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -337,13 +337,13 @@ public:
         nTargetTimespan = 24 * 60 * 60; // OBSR: 1 day
         nTargetSpacing = 1 * 60;        // OBSR: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1533686511; // GMT: Wednesday, 8. August 2018 00:01:51
+        genesis.nTime = 1538661890; // GMT: Thursday, October 4, 2018 2:04:50 PM
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 12346;
+        genesis.nNonce = 39884651;
 
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 29568;
-        assert(hashGenesisBlock == uint256("0x6130b8def32809175e2aaa1d259b2b4504b4d89622fabcacf2d9ba08f8038994"));
+        assert(hashGenesisBlock == uint256("0x2ea7e583abd0698f31b8f5126ad1b22fb68cc697e298e683e918be63dd0ce3f5"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
