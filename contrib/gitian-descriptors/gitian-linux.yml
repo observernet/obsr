@@ -1,5 +1,5 @@
 ---
-name: "obsr-linux-3.2"
+name: "obsr-linux-1.0"
 enable_cache: true
 suites:
 - "trusty"
