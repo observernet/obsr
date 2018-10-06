@@ -1,0 +1,15 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Type=Application
+Version=1.0.00
+Encoding=UTF-8
+Name=obsr
+Icon=${SNAP}/obsr128.png
+MimeType=x-scheme-handler/obsr;
+Exec=obsr %u
+Terminal=false
+Categories=Office;Finance;
+Comment=Obsr P2P Cryptocurrency
+Keywords=internet;obsr;
+Name[de_AT]=obsr.desktop

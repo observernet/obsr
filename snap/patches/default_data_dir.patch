@@ -1,0 +1,30 @@
+From b4078cf6011e81975202a3be53be759db3271427 Mon Sep 17 00:00:00 2001
+From: observerdev <dev@obsr.org>
+Date: Thu, 4 Oct 2018 17:15:08 +0200
+Subject: [PATCH] Patch datafolder path for SNAP
+
+We patch datadir to be in SNAP home,
+otherwise user can end up in deleting
+datadir on each snap update.
+
+This patch will be reverted in next commit.
+---
+ src/util.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/util.cpp b/src/util.cpp
+index e2546bd..cf09487 100644
+--- a/src/util.cpp
++++ b/src/util.cpp
+@@ -434,7 +434,7 @@ boost::filesystem::path GetDefaultDataDir()
+     return GetSpecialFolderPath(CSIDL_APPDATA) / "OBSR";
+ #else
+     fs::path pathRet;
+-    char* pszHome = getenv("HOME");
++    char* pszHome = getenv("SNAP_USER_COMMON");
+     if (pszHome == NULL || strlen(pszHome) == 0)
+         pathRet = fs::path("/");
+     else
+-- 
+2.7.4
+
