@@ -1,0 +1,11 @@
+[Protocol]
+exec=obsr-qt '%u'
+protocol=obsr
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
