@@ -7,7 +7,6 @@
 #include "ui_zobsrcontroldialog.h"
 
 #include "accumulators.h"
-#include "bitcoingui.h" //TreeWidgetItem
 #include "main.h"
 #include "walletmodel.h"
 
@@ -16,6 +15,14 @@ using namespace libzerocoin;
 
 std::set<std::string> ZObsrControlDialog::setSelectedMints;
 std::set<CMintMeta> ZObsrControlDialog::setMints;
+
+bool CZObsrControlWidgetItem::operator<(const QTreeWidgetItem &other) const {
+    int column = treeWidget()->sortColumn();
+    if (column == ZObsrControlDialog::COLUMN_DENOMINATION || column == ZObsrControlDialog::COLUMN_VERSION || column == ZObsrControlDialog::COLUMN_CONFIRMATIONS)
+        return data(column, Qt::UserRole).toLongLong() < other.data(column, Qt::UserRole).toLongLong();
+    return QTreeWidgetItem::operator<(other);
+}
+
 
 ZObsrControlDialog::ZObsrControlDialog(QWidget *parent) :
     QDialog(parent, Qt::WindowSystemMenuHint | Qt::WindowTitleHint | Qt::WindowCloseButtonHint),
@@ -56,7 +63,7 @@ void ZObsrControlDialog::updateList()
     QFlags<Qt::ItemFlag> flgTristate = Qt::ItemIsEnabled | Qt::ItemIsUserCheckable | Qt::ItemIsTristate;
     map<libzerocoin::CoinDenomination, int> mapDenomPosition;
     for (auto denom : libzerocoin::zerocoinDenomList) {
-        TreeWidgetItem* itemDenom(new TreeWidgetItem);
+        CZObsrControlWidgetItem* itemDenom(new CZObsrControlWidgetItem);
         ui->treeWidget->addTopLevelItem(itemDenom);
 
         //keep track of where this is positioned in tree widget
@@ -64,6 +71,7 @@ void ZObsrControlDialog::updateList()
 
         itemDenom->setFlags(flgTristate);
         itemDenom->setText(COLUMN_DENOMINATION, QString::number(denom));
+        itemDenom->setData(COLUMN_DENOMINATION, Qt::UserRole, QVariant((qlonglong) denom));
     }
 
     // select all unused coins - including not mature. Update status of coins too.
@@ -77,7 +85,7 @@ void ZObsrControlDialog::updateList()
     for (const CMintMeta& mint : setMints) {
         // assign this mint to the correct denomination in the tree view
         libzerocoin::CoinDenomination denom = mint.denom;
-        TreeWidgetItem *itemMint = new TreeWidgetItem(ui->treeWidget->topLevelItem(mapDenomPosition.at(denom)));
+        CZObsrControlWidgetItem *itemMint = new CZObsrControlWidgetItem(ui->treeWidget->topLevelItem(mapDenomPosition.at(denom)));
 
         // if the mint is already selected, then it needs to have the checkbox checked
         std::string strPubCoinHash = mint.hashPubcoin.GetHex();
@@ -88,8 +96,10 @@ void ZObsrControlDialog::updateList()
             itemMint->setCheckState(COLUMN_CHECKBOX, Qt::Unchecked);
 
         itemMint->setText(COLUMN_DENOMINATION, QString::number(mint.denom));
+        itemMint->setData(COLUMN_DENOMINATION, Qt::UserRole, QVariant((qlonglong) denom));
         itemMint->setText(COLUMN_PUBCOIN, QString::fromStdString(strPubCoinHash));
         itemMint->setText(COLUMN_VERSION, QString::number(mint.nVersion));
+        itemMint->setData(COLUMN_VERSION, Qt::UserRole, QVariant((qlonglong) mint.nVersion));
 
         int nConfirmations = (mint.nHeight ? nBestHeight - mint.nHeight : 0);
         if (nConfirmations < 0) {
@@ -98,6 +108,7 @@ void ZObsrControlDialog::updateList()
         }
 
         itemMint->setText(COLUMN_CONFIRMATIONS, QString::number(nConfirmations));
+        itemMint->setData(COLUMN_CONFIRMATIONS, Qt::UserRole, QVariant((qlonglong) nConfirmations));
 
         // check for maturity
         bool isMature = false;
