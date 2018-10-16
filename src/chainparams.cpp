@@ -140,9 +140,9 @@ public:
         bnProofOfWorkLimit = ~uint256(0) >> 20; // OBSR starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
-        nEnforceBlockUpgradeMajority = 1080;
-        nRejectBlockOutdatedMajority = 1368;
-        nToCheckBlockUpgradeMajority = 1440;
+        nEnforceBlockUpgradeMajority = 8100; // 75%
+        nRejectBlockOutdatedMajority = 10260; // 95%
+        nToCheckBlockUpgradeMajority = 10800; // Approximate expected amount of blocks in 7 days (1440*7.5)
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // OBSR: 1 day
         nTargetSpacing = 1 * 60;  // OBSR: 1 minute
@@ -265,9 +265,9 @@ public:
         pchMessageStart[3] = 0x14;
         vAlertPubKey = ParseHex("04d220a8d9b9da1564293ff0f827ee33fa3320b2b20a5169e5d8a1b6171b843e5b00268b7c3700e8b9ce2092091e12ee9507b4de7fc4e297c9053dd344a477d8a3");
         nDefaultPort = 29567;
-        nEnforceBlockUpgradeMajority = 51;
-        nRejectBlockOutdatedMajority = 75;
-        nToCheckBlockUpgradeMajority = 100;
+        nEnforceBlockUpgradeMajority = 4320; // 75%
+        nRejectBlockOutdatedMajority = 5472; // 95%
+        nToCheckBlockUpgradeMajority = 5760; // 4 days
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // OBSR: 1 day
         nTargetSpacing = 1 * 60;  // OBSR: 1 minute
