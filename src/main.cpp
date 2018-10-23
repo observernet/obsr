@@ -2038,10 +2038,10 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
     } else if (nHeight <= 20000 && nHeight > 1001) {
         ret = blockValue / (100 / 75);
     } else {
-        //When zOBSR is staked, masternode only gets 161 OBSR
+        //When zOBSR is staked, masternode only gets 157 OBSR
         ret = blockValue / (100 / 75);
         if (isZOBSRStake)
-            ret = 161 * COIN;
+            ret = 157 * COIN;
     }
 
     return ret;
