@@ -10,6 +10,7 @@
 #include "main.h"
 #include "txdb.h"
 #include "walletdb.h"
+#include "zobsrwallet.h"
 #include "accumulators.h"
 
 using namespace std;
@@ -429,9 +430,10 @@ bool CzOBSRTracker::UpdateStatusInternal(const std::set<uint256>& setMempool, CM
     return false;
 }
 
-std::set<CMintMeta> CzOBSRTracker::ListMints(bool fUnusedOnly, bool fMatureOnly, bool fUpdateStatus)
+std::set<CMintMeta> CzOBSRTracker::ListMints(bool fUnusedOnly, bool fMatureOnly, bool fUpdateStatus, bool fWrongSeed)
 {
     CWalletDB walletdb(strWalletFile);
+    CzOBSRWallet zOBSRWallet(strWalletFile);
     if (fUpdateStatus) {
         std::list<CZerocoinMint> listMintsDB = walletdb.ListMintedCoins();
         for (auto& mint : listMintsDB)
@@ -439,8 +441,11 @@ std::set<CMintMeta> CzOBSRTracker::ListMints(bool fUnusedOnly, bool fMatureOnly,
         LogPrint("zero", "%s: added %d zerocoinmints from DB\n", __func__, listMintsDB.size());
 
         std::list<CDeterministicMint> listDeterministicDB = walletdb.ListDeterministicMints();
-        for (auto& dMint : listDeterministicDB)
+        for (auto& dMint : listDeterministicDB) {
+            if (!fWrongSeed && !zOBSRWallet.CheckSeed(dMint)) 
+                continue;
             Add(dMint);
+        }
         LogPrint("zero", "%s: added %d dzobsr from DB\n", __func__, listDeterministicDB.size());
     }
 
@@ -479,6 +484,7 @@ std::set<CMintMeta> CzOBSRTracker::ListMints(bool fUnusedOnly, bool fMatureOnly,
             if (mint.nHeight >= mapMaturity.at(mint.denom))
                 continue;
         }
+
         setMints.insert(mint);
     }
 
