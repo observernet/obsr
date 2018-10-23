@@ -20,7 +20,7 @@ mnbudget prepare \<proposal-name\> \<url\> \<payment_count\> \<block_start\> \<o
 
 Example:
 ```
-mnbudget prepare cool-project http://www.cool-project/one.json 12 100000 y6R9oN12KnB9zydzTLc3LikD9cCjjQzYG7 1200 true
+mnbudget prepare cool-project http://www.cool-project/one.json 12 100000 u8NLKMDDQ67jNHEQHrWCNc686e9E7EyRmp 1200 true
 ```
 
 Output: `464a0eb70ea91c94295214df48c47baa72b3876cfb658744aaf863c7b5bf1ff0` - This is the collateral hash, copy this output for the next step
@@ -36,7 +36,7 @@ mnbudget submit \<proposal-name\> \<url\> \<payment_count\> \<block_start\> \<ob
 
 Example:
 ```
-mnbudget submit cool-project http://www.cool-project/one.json 12 100000 y6R9oN12KnB9zydzTLc3LikD9cCjjQzYG7 1200 464a0eb70ea91c94295214df48c47baa72b3876cfb658744aaf863c7b5bf1ff0
+mnbudget submit cool-project http://www.cool-project/one.json 12 100000 u8NLKMDDQ67jNHEQHrWCNc686e9E7EyRmp 1200 464a0eb70ea91c94295214df48c47baa72b3876cfb658744aaf863c7b5bf1ff0
 ```
 
 Output: `a2b29778ae82e45a973a94309ffa6aa2e2388b8f95b39ab3739f0078835f0491` - This is your proposal hash, which other nodes will use to vote on it
@@ -63,7 +63,7 @@ Output:
     "BlockEnd" : 100625,
     "TotalPaymentCount" : 12,
     "RemainingPaymentCount" : 12,
-    "PaymentAddress" : "y6R9oN12KnB9zydzTLc3LikD9cCjjQzYG7",
+    "PaymentAddress" : "u8NLKMDDQ67jNHEQHrWCNc686e9E7EyRmp",
     "Ratio" : 0.00000000,
     "Yeas" : 0,
     "Nays" : 0,
@@ -107,7 +107,7 @@ Output:
 	    "BlockEnd" : 100625,
 	    "TotalPaymentCount" : 12,
 	    "RemainingPaymentCount" : 12,
-	    "PaymentAddress" : "y6R9oN12KnB9zydzTLc3LikD9cCjjQzYG7",
+	    "PaymentAddress" : "u8NLKMDDQ67jNHEQHrWCNc686e9E7EyRmp",
 	    "Ratio" : 1.00000000,
 	    "Yeas" : 33,
 	    "Nays" : 0,

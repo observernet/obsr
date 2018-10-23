@@ -54,12 +54,19 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0000070f9c4520b097379c2f6be965a4e3727acf250be9ae420ec6d10d0a02b5"))
-    (1492, uint256("8da46d9871055be809995d090ad673d749f24fa521dbe1bb02eaf775ed498a06"));
+    (       0, uint256("0000070f9c4520b097379c2f6be965a4e3727acf250be9ae420ec6d10d0a02b5"))   // POW1 - PHASE 1 - Initial Premine block
+    (       1, uint256("0000007ad4bb62d97a626d7179df1dfdbc0ea96687865f5000efab0ffeb0185f"))   // POW2 - PHASE 2 - Closed Mining start
+    (     101, uint256("0000001ba0612b7bdbb997a3aa9d1d580120c6cb9acdd94f1abd96807e0c6114"))   // POS1 - PHASE 3 - Closed POS mining start
+    (    1001, uint256("30b8a5dfd3c4e9ef0952ac77a6da7b65f5f4a4fa94fdf24c0994360df71d8fbc"))   // POS2 - PHASE 4 - Closed POS mining
+    (    1492, uint256("8da46d9871055be809995d090ad673d749f24fa521dbe1bb02eaf775ed498a06"))
+    (   20000, uint256("57f027034fc78dd30ed779f4dec698b06cfbd437e85e9f80b38451993ceb34c0"))   // POS2 - PHASE 4 - Closed POS mining end
+    (   20001, uint256("7e38a5460b021b2a1d969c0d237805790db9c9773b8b90a18201c4e119f522bb"))   // POS3 - PHASE 5 - Public POS mining start
+    (   25000, uint256("38f219f342df4ebf09464f971d5cd3be57b575df25e5e316ae1723c28fb74712"))
+    (   26186, uint256("f32641d74c1a9b03561e53606d402a4a93e2325d1bd6a74b80c182f585290922"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1538807944, // * UNIX timestamp of last checkpoint block
-    2889,       // * total number of transactions between genesis and last checkpoint
+    1540311807, // * UNIX timestamp of last checkpoint block
+    62364,      // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
