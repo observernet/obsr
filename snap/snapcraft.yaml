@@ -31,7 +31,7 @@ parts:
   obsr:
     source: https://github.com/observerdev/obsr
     source-type: git
-    source-tag: master
+    source-tag: v1.0.1
     plugin: autotools
     # XXX We don't want to copy the full blockchain every time that the snap is
     # updated, but there's no way to define a default data dir in bitcoin-qt.
