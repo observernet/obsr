@@ -29,7 +29,7 @@ apps:
 
 parts:
   obsr:
-    source: https://github.com/observerdev/obsr
+    source: https://github.com/observernet/obsr
     source-type: git
     source-tag: v1.0.1
     plugin: autotools
