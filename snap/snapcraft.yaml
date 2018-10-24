@@ -26,7 +26,7 @@ apps:
 
 parts:
   obsr:
-    source: https://github.com/obsr/obsr
+    source: https://github.com/observernet/obsr
     source-type: git
     source-tag: master
     plugin: autotools
