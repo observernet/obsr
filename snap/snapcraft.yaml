@@ -92,7 +92,7 @@ parts:
     prime:
       - -*
   gmp:
-    source: https://gmplib.org/download/gmp/gmp-5.1.3.tar.xz
+    source: https://gmplib.org/download/gmp/archive/gmp-3.1.tar.bz2
     plugin: nil
     override-build: |
       ./configure --enable-cxx --disable-shared --with-pic --prefix=$SNAPCRAFT_PART_INSTALL
