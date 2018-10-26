@@ -130,5 +130,7 @@ qa/pull-tester/test.*/*
 CMakeLists.txt
 cmake-build-debug
 
+.coveralls.yml
+
 # VScode
 .vscode/
