@@ -13,7 +13,7 @@ sudo: false
 env:
   global:
     - MAKEJOBS=-j3
-    - RUN_TESTS=true
+    - RUN_TESTS=false
     - BASE_OUTDIR=$TRAVIS_BUILD_DIR/out
 
 cache:
