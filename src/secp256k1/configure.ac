@@ -97,7 +97,7 @@ AC_ARG_ENABLE(coverage,
 AC_ARG_ENABLE(tests,
     AS_HELP_STRING([--enable-tests],[compile tests (default is yes)]),
     [use_tests=$enableval],
-    [use_tests=yes])
+    [use_tests=no])
 
 AC_ARG_ENABLE(openssl_tests,
     AS_HELP_STRING([--enable-openssl-tests],[enable OpenSSL tests, if OpenSSL is available (default is auto)]),
@@ -112,7 +112,7 @@ AC_ARG_ENABLE(experimental,
 AC_ARG_ENABLE(exhaustive_tests,
     AS_HELP_STRING([--enable-exhaustive-tests],[compile exhaustive tests (default is yes)]),
     [use_exhaustive_tests=$enableval],
-    [use_exhaustive_tests=yes])
+    [use_exhaustive_tests=no])
 
 AC_ARG_ENABLE(endomorphism,
     AS_HELP_STRING([--enable-endomorphism],[enable endomorphism (default is no)]),
