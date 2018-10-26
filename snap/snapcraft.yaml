@@ -87,15 +87,17 @@ parts:
       ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$SNAPCRAFT_PART_INSTALL
     override-build: |
       cd build_unix
+      make
       make install
     prime:
       - -*
   gmp:
-    source: https://gmplib.org/download/gmp/gmp-6.1.2.tar.bz2
+    source: https://gmplib.org/download/gmp/gmp-5.1.3.tar.xz
     plugin: nil
     override-build: |
       ./configure --enable-cxx --disable-shared --with-pic --prefix=$SNAPCRAFT_PART_INSTALL
     override-build: |
+      make
       make install
   patches:
     source: snap/patches
