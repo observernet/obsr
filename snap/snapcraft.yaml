@@ -40,7 +40,7 @@ parts:
       - libssl-dev
       - libevent-dev
       - bsdmainutils
-      - libgmp
+      - libgmp-dev
       # Boost.
       - libboost-system-dev
       - libboost-filesystem-dev
