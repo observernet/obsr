@@ -64,6 +64,7 @@ parts:
     stage-packages: [ca-certificates]
     after:
       - berkeleydb
+      - gmp
       - desktop-qt5
       - patches
   desktop-qt5:
@@ -89,6 +90,13 @@ parts:
       make install
     prime:
       - -*
+  gmp:
+    source: https://gmplib.org/download/gmp/gmp-6.1.2.tar.bz2
+    plugin: nil
+    override-build: |
+      ./configure
+      make
+      make install
   patches:
     source: snap/patches
     plugin: dump
