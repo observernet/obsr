@@ -1,5 +1,5 @@
 name: obsr
-version: master
+version: v1.0.1
 summary:   peer-to-peer network based digital currency
 description: |
   Obsr is a free open source peer-to-peer electronic cash system that
@@ -8,7 +8,7 @@ description: |
   transact directly with each other, with the help of a P2P network to
   check for double-spending.
 
-grade: devel
+grade: stable
 confinement: strict
 
 apps:
@@ -25,13 +25,16 @@ apps:
     desktop: obsr.desktop
   cli:
     command: obsr-cli
+    plugs: [network, network-bind]
+    environment:
+      XDG_DATA_DIRS: $SNAP_USER_DATA:$SNAP/usr/share:$XDG_DATA_DIRS
     aliases: [obsr-cli]
 
 parts:
   obsr:
     source: https://github.com/observernet/obsr
     source-type: git
-    source-tag: master
+    source-tag: v1.0.1
     plugin: autotools
     # We don't want to copy the full blockchain every time that the snap is    
     # updated, but there's no way to define a default data dir in bitcoin-qt.
@@ -83,10 +86,11 @@ parts:
   berkeleydb:
     source: http://download.oracle.com/berkeley-db/db-4.8.30.tar.gz
     plugin: nil
-    override-build: |
+    build: |
       cd build_unix
       ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$SNAPCRAFT_PART_INSTALL
-      make
+    install: |
+      cd build_unix
       make install
     prime:
       - -*
