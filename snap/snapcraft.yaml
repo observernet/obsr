@@ -17,18 +17,10 @@ apps:
     plugs: [network, network-bind]
     environment:
       XDG_DATA_DIRS: $SNAP_USER_DATA:$SNAP/usr/share:$XDG_DATA_DIRS
-    aliases: [obsrd]
   qt:
     command: desktop-launch obsr-qt
     plugs: [network, network-bind, unity7]
-    aliases: [obsr-qt]
     desktop: obsr.desktop
-  cli:
-    command: obsr-cli
-    plugs: [network, network-bind]
-    environment:
-      XDG_DATA_DIRS: $SNAP_USER_DATA:$SNAP/usr/share:$XDG_DATA_DIRS
-    aliases: [obsr-cli]
 
 parts:
   obsr:
