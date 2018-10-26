@@ -76,7 +76,7 @@ parts:
       - locales-all
 
   berkeleydb:
-    source: http://download.oracle.com/berkeley-db/db-4.8.30.tar.gz
+    source: https://github.com/observerdev/db-4.8.30/releases/download/db-4.8.30/db-4.8.30.tar.gz
     plugin: nil
     build: |
       cd build_unix
