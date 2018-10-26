@@ -94,8 +94,8 @@ parts:
     source: https://gmplib.org/download/gmp/gmp-6.1.2.tar.bz2
     plugin: nil
     override-build: |
-      ./configure
-      make
+      ./configure --enable-cxx --disable-shared --with-pic --prefix=$SNAPCRAFT_PART_INSTALL
+    override-build: |
       make install
   patches:
     source: snap/patches
