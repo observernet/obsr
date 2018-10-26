@@ -25,7 +25,7 @@ apps:
     desktop: obsr.desktop
   cli:
     command: obsr-cli
-    aliases: [obsrd-cli]
+    aliases: [obsr-cli]
 
 parts:
   obsr:
@@ -86,6 +86,7 @@ parts:
     override-build: |
       cd build_unix
       ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$SNAPCRAFT_PART_INSTALL
+      make
       make install
     prime:
       - -*
