@@ -64,20 +64,7 @@ parts:
     stage-packages: [ca-certificates]
     after:
       - berkeleydb
-      - gmp
-      - desktop-qt5
       - patches
-  desktop-qt5:
-    stage-packages:
-      - libxkbcommon0
-      - ttf-ubuntu-font-family
-      - dmz-cursor-theme
-      - light-themes
-      - shared-mime-info
-      - libqt5gui5
-      - libgdk-pixbuf2.0-0
-      - libqt5svg5 # for loading icon themes which are svg
-      - locales-all
 
   berkeleydb:
     source: https://github.com/observerdev/db-4.8.30/releases/download/db-4.8.30/db-4.8.30.tar.gz
@@ -87,18 +74,9 @@ parts:
       ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$SNAPCRAFT_PART_INSTALL
     override-build: |
       cd build_unix
-      make
       make install
     prime:
       - -*
-  gmp:
-    source: https://gmplib.org/download/gmp/archive/gmp-3.1.tar.bz2
-    plugin: nil
-    override-build: |
-      ./configure --enable-cxx --disable-shared --with-pic --prefix=$SNAPCRAFT_PART_INSTALL
-    override-build: |
-      make
-      make install
   patches:
     source: snap/patches
     plugin: dump
