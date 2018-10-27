@@ -21,8 +21,6 @@ apps:
     command: desktop-launch obsr-qt
     plugs: [network, network-bind, unity7]
     desktop: obsr.desktop
-  cli:
-    command: obsr-cli
 
 parts:
   obsr:
