@@ -82,7 +82,6 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     (     150, uint256("0x500f4e82b8880a70a611c617ab9c506482c8a37edf3a46e5b15ab2909fbca84f"))   // Zercoin V1 first block
     (     200, uint256("0xc0d057c811435dd9083b6e19b192f70cd9476daa1a87f1e6665387de198a5a72"))   // Zercoin V1 first block
     (     205, uint256("0xd626da8a76d9597438f47c8af776624944eec28500d5eba0cc95ae23446158dd"));  // Last block
-nZerocoinStartHeight
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     1540603720,

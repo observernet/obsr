@@ -2,7 +2,7 @@
 
 [Desktop Entry]
 Type=Application
-Version=1.0.00
+Version=1.0.1
 Encoding=UTF-8
 Name=obsr
 Icon=${SNAP}/obsr128.png
@@ -12,4 +12,3 @@ Terminal=false
 Categories=Office;Finance;
 Comment=Obsr P2P Cryptocurrency
 Keywords=internet;obsr;
-Name[de_AT]=obsr.desktop
