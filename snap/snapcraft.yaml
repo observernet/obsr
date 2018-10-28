@@ -38,7 +38,6 @@ parts:
       - g++
       - pkg-config
       - libssl-dev
-      - libssl1.0
       - libevent-dev
       - bsdmainutils
       - libgmp-dev
