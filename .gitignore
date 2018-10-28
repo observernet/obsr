@@ -134,6 +134,8 @@ cmake-build-debug
 
 # VScode
 .vscode/
+.vscode/launch.json
+.vscode/settings.json
 
 # Snap
 parts/
@@ -141,3 +143,4 @@ prime/
 *.snap
 snap/.snapcraft/*
 stage/
+obsr_source.tar.bz2
