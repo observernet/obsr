@@ -134,3 +134,10 @@ cmake-build-debug
 
 # VScode
 .vscode/
+
+# Snap
+parts/
+prime/
+*.snap
+snap/.snapcraft/*
+stage/
