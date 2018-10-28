@@ -63,11 +63,12 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
     (   20001, uint256("7e38a5460b021b2a1d969c0d237805790db9c9773b8b90a18201c4e119f522bb"))   // POS3 - PHASE 5 - Public POS mining start
     (   25000, uint256("38f219f342df4ebf09464f971d5cd3be57b575df25e5e316ae1723c28fb74712"))
     (   26186, uint256("f32641d74c1a9b03561e53606d402a4a93e2325d1bd6a74b80c182f585290922"))
-    (   27904, uint256("7ea6796ce8118af336e8dd0477e4bcb8db8ce4796729910aadaf0903897fe588")); // 1.0.1
+    (   27904, uint256("7ea6796ce8118af336e8dd0477e4bcb8db8ce4796729910aadaf0903897fe588"))  // 1.0.1
+    (   33725, uint256("e054033ada99bf7abcb7aa6092d52e51c955694801ec5677148b517ed024d433")); // 1.0.2
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1540416629, // * UNIX timestamp of last checkpoint block
-    65866,      // * total number of transactions between genesis and last checkpoint
+    1540770142, // * UNIX timestamp of last checkpoint block
+    77957,      // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
@@ -81,11 +82,12 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     (     102, uint256("0x607b3edd508b79ecc5d5bda2c2081fecb169dd11b48fee4fcf954787673e9322"))   // First PoS block
     (     150, uint256("0x500f4e82b8880a70a611c617ab9c506482c8a37edf3a46e5b15ab2909fbca84f"))   // Zercoin V1 first block
     (     200, uint256("0xc0d057c811435dd9083b6e19b192f70cd9476daa1a87f1e6665387de198a5a72"))   // Zercoin V1 first block
-    (     205, uint256("0xd626da8a76d9597438f47c8af776624944eec28500d5eba0cc95ae23446158dd"));  // Last block
+    (     205, uint256("0xd626da8a76d9597438f47c8af776624944eec28500d5eba0cc95ae23446158dd"))   // v1.0.1
+    (    3389, uint256("0x93950de8f56aad470e5d9d1bd186a4431b84b2f33b20b48f4a7589dfdcee9c89"));  // v1.0.2
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1540603720,
-    319,
+    1540770124,
+    7295,
     250};
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
