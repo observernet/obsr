@@ -37,7 +37,8 @@ parts:
     build-packages:
       - g++
       - pkg-config
-      - libssl1.0-dev
+      - libssl-dev
+      - libssl1.0
       - libevent-dev
       - bsdmainutils
       - libgmp-dev
