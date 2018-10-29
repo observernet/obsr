@@ -1713,9 +1713,9 @@ Favor verificar o endereço e tente novamente.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/observernet/observernet-translations</source>
+https://www.transifex.com/observer/obsr</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude contribuido com traduções aqui:
-https://www.transifex.com/observernet/observernet-translations</translation>
+https://www.transifex.com/observer/obsr</translation>
     </message>
     <message>
         <source>Connect to the OBSR network through a SOCKS5 proxy.</source>

@@ -1219,9 +1219,9 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/observernet/observernet-translations</source>
+https://www.transifex.com/observer/obsr</source>
         <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/observernet/observernet-translations </translation>
+https://www.transifex.com/observer/obsr </translation>
     </message>
     <message>
         <source>Connect to the OBSR network through a SOCKS5 proxy.</source>
