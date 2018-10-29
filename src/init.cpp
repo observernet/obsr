@@ -1694,6 +1694,8 @@ bool AppInit2()
         //Inititalize zOBSRWallet
         uiInterface.InitMessage(_("Syncing zOBSR wallet..."));
 
+        pwalletMain->InitAutoConvertAddresses();
+
         bool fEnableZObsrBackups = GetBoolArg("-backupzobsr", true);
         pwalletMain->setZObsrAutoBackups(fEnableZObsrBackups);
 
