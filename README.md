@@ -27,7 +27,9 @@ More information at [obsr.org](http://www.obsr.org)
 
 ### Downloads
 ---
+
 [![Download SHA256SUMS.asc](https://img.shields.io/github/downloads/observernet/obsr/v1.0.1/SHA256SUMS.asc.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/SHA256SUMS.asc) [![Latest Release](https://img.shields.io/github/downloads/observernet/obsr/latest/total.svg)](https://github.com/observernet/obsr/releases/latest)
+
 
 | Windows | MacOS | Linux |
 |:-:|:-:|:-:|
