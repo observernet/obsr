@@ -1,5 +1,5 @@
 name: obsr
-architectures: [armhf, amd64, i386]
+#architectures: [armhf, amd64, i386]
 version: v1.0.1
 summary:   peer-to-peer network based digital currency
 description: |
@@ -34,13 +34,11 @@ parts:
     # We don't want to copy the full blockchain every time that the snap is    
     # updated, but there's no way to define a default data dir in bitcoin-qt.
     # Also, it would be better if we could split the wallet from the blockchain
-    override-build: git apply $SNAPCRAFT_STAGE/default_data_dir.patch && ./autogen.sh && ./configure LDFLAGS='-L/usr/local/BerkeleyDB.4.8/lib/' CPPFLAGS='-I/usr/local/BerkeleyDB.4.8/include/' && make install
-    stage:
-      - usr/local/BerkeleyDB.4.8/lib/*
-      - usr/local/BerkeleyDB.4.8/include/*
+    prepare: git apply $SNAPCRAFT_STAGE/default_data_dir.patch
     build-packages:
       - g++
       - autoconf
+      - automake
       - pkg-config
       - libssl-dev
       - libevent-dev
@@ -69,13 +67,16 @@ parts:
     stage-packages: [ca-certificates]
     after:
       - berkeleydb
+      - desktop-qt5
       - patches
   berkeleydb:
     source: https://github.com/observerdev/db-4.8.30/releases/download/db-4.8.30/db-4.8.30.tar.gz
     plugin: nil
-    override-build: |
+    build: |
       cd build_unix
-      ../dist/configure --enable-cxx --disable-shared --with-pic
+      ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$SNAPCRAFT_PART_INSTALL
+    install: |
+      cd build_unix
       make install
     prime:
       - -*
