@@ -25,16 +25,6 @@ OBSR is an open source crypto-currency focused on fast private transactions with
 
 More information at [obsr.org](http://www.obsr.org)
 
-### Downloads
-
-[![Download SHA256SUMS.asc](https://img.shields.io/github/downloads/observernet/obsr/v1.0.1/SHA256SUMS.asc.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/SHA256SUMS.asc) [![Latest Release](https://img.shields.io/github/downloads/observernet/obsr/latest/total.svg)](https://github.com/observernet/obsr/releases/latest)
-
-
-| Windows | MacOS | Linux |
-|:-:|:-:|:-:|
-| [![Download obsr Setup for Windows 32-bit](https://img.shields.io/github/downloads/observernet/obsr/latest/obsr-1.0.1-win32-setup-unsigned.exe.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-win32-setup-unsigned.exe) [![Download obsr Setup for Windows 64-bit](https://img.shields.io/github/downloads/observernet/obsr/latest/obsr-1.0.1-win64-setup-unsigned.exe.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-win64-setup-unsigned.exe) [![Download obsr binaries for Windows 32-bit](https://img.shields.io/github/downloads/observernet/obsr/latest/obsr-1.0.1-win32.zip.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-win32.zip) [![Download obsr binaries for Windows 64-bit](https://img.shields.io/github/downloads/observernet/obsr/latest/obsr-1.0.1-win64.zip.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-win64.zip) | [![Download obsr Setup for OSX 32-bit](https://img.shields.io/github/downloads/observernet/obsr/v1.0.1/obsr-1.0.1-osx-unsigned.dmg.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-osx-unsigned.dmg)[![Download obsr Setup for OSX 64-bit](https://img.shields.io/github/downloads/observernet/obsr/v1.0.1/obsr-1.0.1-osx64.tar.gz.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-osx64.tar.gz.exe) | [![Download obsr for Linux 32-bit (i686)](https://img.shields.io/github/downloads/observernet/obsr/v1.0.1/obsr-1.0.1-i686-pc-linux-gnu.tar.gz.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-i686-pc-linux-gnu.tar.gz) [![Download obsr for Linux 64-bit (x86_x64)](https://img.shields.io/github/downloads/observernet/obsr/v1.0.1/obsr-1.0.1-x86_64-linux-gnu.tar.gz.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-x86_64-linux-gnu.tar.gz) [![Download obsr for ARM Linux](https://img.shields.io/github/downloads/observernet/obsr/v1.0.1/obsr-1.0.1-arm-linux-gnueabihf.tar.gz.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-arm-linux-gnueabihf.tar.gz) [![Download obsr for aarch64 Linux](https://img.shields.io/github/downloads/observernet/obsr/v1.0.1/obsr-1.0.1-aarch64-linux-gnu.tar.gz.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-aarch64-linux-gnu.tar.gz) |
-
-
 ### Coin Specs
 <table>
 <tr><td>Algo</td><td>Quark</td></tr>
@@ -63,4 +53,13 @@ Source forked from ([PIVX](https://pivx.org/)): ([Last source commit](https://gi
 <tr><td>102-20000</td><td>75% (0 OBSR)</td><td>25% (0 OBSR)</td><td>N/A</td></tr>
 <tr><td>20001-Infinite</td><td>75% (161.25 OBSR)</td><td>25% (53.75 OBSR)</td><td>N/A</td></tr>
 </table>
+
+### Downloads
+
+[![Download SHA256SUMS.asc](https://img.shields.io/github/downloads/observernet/obsr/v1.0.1/SHA256SUMS.asc.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/SHA256SUMS.asc) [![Latest Release](https://img.shields.io/github/downloads/observernet/obsr/latest/total.svg)](https://github.com/observernet/obsr/releases/latest)
+
+
+| Windows | MacOS | Linux |
+|:-:|:-:|:-:|
+| [![Download obsr Setup for Windows 32-bit](https://img.shields.io/github/downloads/observernet/obsr/latest/obsr-1.0.1-win32-setup-unsigned.exe.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-win32-setup-unsigned.exe) [![Download obsr Setup for Windows 64-bit](https://img.shields.io/github/downloads/observernet/obsr/latest/obsr-1.0.1-win64-setup-unsigned.exe.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-win64-setup-unsigned.exe) [![Download obsr binaries for Windows 32-bit](https://img.shields.io/github/downloads/observernet/obsr/latest/obsr-1.0.1-win32.zip.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-win32.zip) [![Download obsr binaries for Windows 64-bit](https://img.shields.io/github/downloads/observernet/obsr/latest/obsr-1.0.1-win64.zip.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-win64.zip) | [![Download obsr Setup for OSX 32-bit](https://img.shields.io/github/downloads/observernet/obsr/v1.0.1/obsr-1.0.1-osx-unsigned.dmg.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-osx-unsigned.dmg)[![Download obsr Setup for OSX 64-bit](https://img.shields.io/github/downloads/observernet/obsr/v1.0.1/obsr-1.0.1-osx64.tar.gz.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-osx64.tar.gz.exe) | [![Download obsr for Linux 32-bit (i686)](https://img.shields.io/github/downloads/observernet/obsr/v1.0.1/obsr-1.0.1-i686-pc-linux-gnu.tar.gz.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-i686-pc-linux-gnu.tar.gz) [![Download obsr for Linux 64-bit (x86_x64)](https://img.shields.io/github/downloads/observernet/obsr/v1.0.1/obsr-1.0.1-x86_64-linux-gnu.tar.gz.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-x86_64-linux-gnu.tar.gz) [![Download obsr for ARM Linux](https://img.shields.io/github/downloads/observernet/obsr/v1.0.1/obsr-1.0.1-arm-linux-gnueabihf.tar.gz.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-arm-linux-gnueabihf.tar.gz) [![Download obsr for aarch64 Linux](https://img.shields.io/github/downloads/observernet/obsr/v1.0.1/obsr-1.0.1-aarch64-linux-gnu.tar.gz.svg)](https://github.com/observernet/obsr/releases/download/v1.0.1/obsr-1.0.1-aarch64-linux-gnu.tar.gz) |
 
