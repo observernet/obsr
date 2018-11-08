@@ -184,6 +184,9 @@ BITCOIN_CORE_H = \
   zobsrchain.h \
   zobsrtracker.h \
   zobsrwallet.h \
+  genwit.h \
+  concurrentqueue.h \
+  lightzobsrthread.h \
   zmq/zmqabstractnotifier.h \
   zmq/zmqconfig.h \
   zmq/zmqnotificationinterface.h \
@@ -274,6 +277,7 @@ libbitcoin_wallet_a_SOURCES = \
   zobsrwallet.cpp \
   zobsrtracker.cpp \
   stakeinput.cpp \
+  genwit.cpp \
   $(BITCOIN_CORE_H)
 
 # crypto primitives library
