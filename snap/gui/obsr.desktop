@@ -2,7 +2,7 @@
 
 [Desktop Entry]
 Type=Application
-Version=1.0.1
+Version=1.0.2
 Encoding=UTF-8
 Name=obsr
 Icon=${SNAP}/obsr128.png
@@ -10,5 +10,5 @@ MimeType=x-scheme-handler/obsr;
 Exec=obsr %u
 Terminal=false
 Categories=Office;Finance;
-Comment=Obsr P2P Cryptocurrency
-Keywords=internet;obsr;
+Comment=Observer P2P Cryptocurrency
+Keywords=internet;obsr;observer;crypto;blockchain;weather
