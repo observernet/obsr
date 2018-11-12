@@ -442,8 +442,8 @@ UniValue bip38encrypt(const UniValue& params, bool fHelp)
             "\"key\"                (string) The encrypted private key\n"
 
             "\nExamples:\n" +
-            HelpExampleCli("bip38encrypt", "\"DMJRSsuU9zfyrvxVaAEFQqK4MxZg6vgeS6\" \"mypasphrase\"") +
-            HelpExampleRpc("bip38encrypt", "\"DMJRSsuU9zfyrvxVaAEFQqK4MxZg6vgeS6\" \"mypasphrase\""));
+            HelpExampleCli("bip38encrypt", "\"oRJMLdWKxk9fetcWjLiHC6d2923Fx5XyzZ\" \"mypasphrase\"") +
+            HelpExampleRpc("bip38encrypt", "\"oRJMLdWKxk9fetcWjLiHC6d2923Fx5XyzZ\" \"mypasphrase\""));
 
     LOCK2(cs_main, pwalletMain->cs_wallet);
 
