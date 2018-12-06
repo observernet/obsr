@@ -19,7 +19,7 @@ apps:
       XDG_DATA_DIRS: $SNAP_USER_DATA:$SNAP/usr/share:$XDG_DATA_DIRS
   qt:
     command: desktop-launch obsr-qt
-    plugs: [network, network-bind, unity7]
+    plugs: [network, network-bind, unity7, desktop, desktop-legacy, wayland, x11]
     desktop: obsr.desktop
   cli:
     command: obsr-cli
