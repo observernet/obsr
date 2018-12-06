@@ -2,7 +2,7 @@
 
 [Desktop Entry]
 Type=Application
-Version=1.0.2
+Version=1.0.99-master
 Encoding=UTF-8
 Name=obsr
 Icon=${SNAP}/obsr128.png

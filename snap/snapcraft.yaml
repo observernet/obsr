@@ -1,5 +1,5 @@
 name: obsr
-version: v1.0.2
+version: v1.0.2-master
 summary:   peer-to-peer network based digital currency
 description: |
   Obsr is a free open source peer-to-peer electronic cash system that
@@ -8,7 +8,7 @@ description: |
   transact directly with each other, with the help of a P2P network to
   check for double-spending.
 
-grade: stable
+grade: devel
 confinement: strict
 
 apps:
@@ -32,7 +32,7 @@ parts:
   obsr:
     source: https://github.com/observernet/obsr
     source-type: git
-    source-tag: v1.0.2
+    source-tag: master
     plugin: autotools
     # We don't want to copy the full blockchain every time that the snap is    
     # updated, but there's no way to define a default data dir in bitcoin-qt.
