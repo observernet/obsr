@@ -26,7 +26,8 @@ apps:
     plugs: [network, network-bind]
     environment:
       XDG_DATA_DIRS: $SNAP_USER_DATA:$SNAP/usr/share:$XDG_DATA_DIRS
-
+  tx:
+    command: obsr-tx
 parts:
   obsr:
     source: https://github.com/observernet/obsr
