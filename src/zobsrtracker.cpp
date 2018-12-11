@@ -278,8 +278,9 @@ bool CzOBSRTracker::UpdateState(const CMintMeta& meta)
     return true;
 }
 
-void CzOBSRTracker::Add(const CDeterministicMint& dMint, bool isNew, bool isArchived)
+void CzOBSRTracker::Add(const CDeterministicMint& dMint, bool isNew, bool isArchived, CzOBSRWallet* zOBSRWallet)
 {
+    bool iszOBSRWalletInitialized = (NULL != zOBSRWallet);
     CMintMeta meta;
     meta.hashPubcoin = dMint.GetPubcoinHash();
     meta.nHeight = dMint.GetHeight();
@@ -291,8 +292,11 @@ void CzOBSRTracker::Add(const CDeterministicMint& dMint, bool isNew, bool isArch
     meta.denom = dMint.GetDenomination();
     meta.isArchived = isArchived;
     meta.isDeterministic = true;
-    CzOBSRWallet zOBSRWallet(strWalletFile);
-    meta.isSeedCorrect = zOBSRWallet.CheckSeed(dMint);
+    if (! iszOBSRWalletInitialized)
+        zOBSRWallet = new CzOBSRWallet(strWalletFile);
+    meta.isSeedCorrect = zOBSRWallet->CheckSeed(dMint);
+    if (! iszOBSRWalletInitialized)
+        delete zOBSRWallet;
     mapSerialHashes[meta.hashSerial] = meta;
 
     if (isNew)
@@ -443,9 +447,12 @@ std::set<CMintMeta> CzOBSRTracker::ListMints(bool fUnusedOnly, bool fMatureOnly,
         LogPrint("zero", "%s: added %d zerocoinmints from DB\n", __func__, listMintsDB.size());
 
         std::list<CDeterministicMint> listDeterministicDB = walletdb.ListDeterministicMints();
+
+        CzOBSRWallet* zOBSRWallet = new CzOBSRWallet(strWalletFile);
         for (auto& dMint : listDeterministicDB) {
-            Add(dMint);
+            Add(dMint, false, false, zOBSRWallet);
         }
+        delete zOBSRWallet;
         LogPrint("zero", "%s: added %d dzobsr from DB\n", __func__, listDeterministicDB.size());
     }
 

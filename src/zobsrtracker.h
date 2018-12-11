@@ -10,6 +10,7 @@
 #include <list>
 
 class CDeterministicMint;
+class CzOBSRWallet;
 
 class CzOBSRTracker
 {
@@ -22,7 +23,7 @@ private:
 public:
     CzOBSRTracker(std::string strWalletFile);
     ~CzOBSRTracker();
-    void Add(const CDeterministicMint& dMint, bool isNew = false, bool isArchived = false);
+    void Add(const CDeterministicMint& dMint, bool isNew = false, bool isArchived = false, CzOBSRWallet* zOBSRWallet = NULL);
     void Add(const CZerocoinMint& mint, bool isNew = false, bool isArchived = false);
     bool Archive(CMintMeta& meta);
     bool HasPubcoin(const CBigNum& bnValue) const;
