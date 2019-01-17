@@ -6184,7 +6184,6 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
                 vRecv >> height;
                 vRecv >> den;
                 CBigNum bnAccValue = 0;
-                LogPrint("zobsr", "%s : accvalue request, height %d\n", __func__, height);
                 //std::cout << "asking for checkpoint value in height: " << height << ", den: " << den << std::endl;
                 if (!GetAccumulatorValue(height, den, bnAccValue)) {
                     std::cout << "peer misbehaving for request an invalid acc checkpoint" << std::endl;
@@ -6201,8 +6200,6 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
                 // TODO: Response with an error?
                 PrintExceptionContinue(&e, "ProcessMessages()");
             }
-        }else{
-            LogPrint("zobsr", "%s : accvalue request, node zc deactivated %d\n", __func__);
         }
     }
 
