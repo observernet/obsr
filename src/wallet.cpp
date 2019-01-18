@@ -121,6 +121,7 @@ CBitcoinAddress CWallet::GenerateNewAutoMintKey()
     btcAddress.Set(keyID);
     CWalletDB(strWalletFile).WriteAutoConvertKey(btcAddress);
     SetAddressBook(keyID, "automint-address", "receive");
+    setAutoConvertAddresses.emplace(btcAddress);
     return btcAddress;
 }
 
