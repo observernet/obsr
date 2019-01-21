@@ -43,7 +43,7 @@ public:
 
     bool addWitWork(CGenWit wit) {
         if (!isWorkerRunning) {
-            LogPrintf("%s obsr-light-thread not running trying to add wit work \n");
+            LogPrintf("%s not running trying to add wit work \n", "obsr-light-thread");
             return false;
         }
         requestsQueue.push(wit);
