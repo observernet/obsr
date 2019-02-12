@@ -486,7 +486,6 @@ std::list<CBlockIndex*> calculateAccumulatedBlocksFor(
 
     std::list<CBlockIndex*> blocksToInclude;
     int amountOfScannedBlocks = 0;
-    bool fDoubleCounted = false;
     while (pindex) {
         if (pindex->nHeight != startHeight && pindex->pprev->nAccumulatorCheckpoint != pindex->nAccumulatorCheckpoint)
             ++nCheckpointsAdded;
