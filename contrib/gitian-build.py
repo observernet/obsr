@@ -53,7 +53,6 @@ def build():
 
     subprocess.check_call(['wget', '-N', '-P', 'inputs', 'http://downloads.sourceforge.net/project/osslsigncode/osslsigncode/osslsigncode-1.7.1.tar.gz'])
     subprocess.check_call(['wget', '-N', '-P', 'inputs', 'https://bitcoincore.org/cfields/osslsigncode-Backports-to-1.7.1.patch'])
-    subprocess.check_call(['wget', '-O', 'inputs/MacOSX10.11.sdk.tar.gz' '-N', '-P', 'inputs', 'https://github.com/observerdev/MacOSX-SDK/releases/download/v10.11/MacOSX10.11.sdk.tar.gz'])
     subprocess.check_call(['make', '-C', '../obsr/depends', 'download', 'SOURCES_PATH=' + os.getcwd() + '/cache/common'])
 
     if args.linux:
@@ -183,7 +182,16 @@ def main():
         if not 'LXC_GUEST_IP' in os.environ.keys():
             os.environ['LXC_GUEST_IP'] = '10.0.3.5'
 
+    # Script will fail to automaticly download all resources if inputs folder does not exist
+    subprocess.check_call(['mkdir', '-p', 'gitian-builder/inputs'])
+
     # Disable for MacOS if no SDK found
+    if args.macos and not os.path.isfile('gitian-builder/inputs/MacOSX10.11.sdk.tar.gz'):
+    	subprocess.check_call(['wget', '-O', 'gitian-builder/inputs/MacOSX10.11.sdk.tar.gz', '-N', '-P', 'inputs', 'https://github.com/gitianuser/MacOSX-SDKs/releases/download/MacOSX10.11.sdk/MacOSX10.11.sdk.tar.gz'])
+    	if args.macos and not os.path.isfile('gitian-builder/inputs/MacOSX10.11.sdk.tar.gz'):
+        	print('Cannot build for MacOS, SDK does not exist. Will build for other OSes')
+        	args.macos = False
+
     if args.macos and not os.path.isfile('gitian-builder/inputs/MacOSX10.11.sdk.tar.gz'):
         print('Cannot build for MacOS, SDK does not exist. Will build for other OSes')
         args.macos = False

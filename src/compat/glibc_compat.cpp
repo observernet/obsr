@@ -1,4 +1,4 @@
-// Copyright (c) 2009-2014 The Bitcoin developers
+// Copyright (c) 2009-2017 The Bitcoin Core developers
 // Copyright (c) 2017 The PIVX developers
 // Copyright (c) 2018 The OBSR developers
 // Distributed under the MIT software license, see the accompanying
@@ -69,6 +69,8 @@ __asm(".symver log2f_old,log2f@GLIBC_2.2.5");
 __asm(".symver log2f_old,log2f@GLIBC_2.4");
 #elif defined(__aarch64__)
 __asm(".symver log2f_old,log2f@GLIBC_2.17");
+#elif defined(__riscv)
+__asm(".symver log2f_old,log2f@GLIBC_2.27");
 #endif
 extern "C" float __wrap_log2f(float x)
 {
