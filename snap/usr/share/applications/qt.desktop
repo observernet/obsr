@@ -4,11 +4,11 @@
 Type=Application
 Version=1.0.99-master
 Encoding=UTF-8
-Name=obsr
-Icon=${SNAP}/obsr128.png
+Name=OBServer
+Icon=${SNAP}/qt.ico
 MimeType=x-scheme-handler/obsr;
-Exec=obsr %u
+Exec=obsr.qt %u
 Terminal=false
 Categories=Office;Finance;
 Comment=Observer P2P Cryptocurrency
-Keywords=internet;obsr;observer;crypto;blockchain;weather
+Keywords=internet;obsr;observer;crypto;blockchain;weather;main
