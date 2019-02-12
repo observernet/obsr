@@ -1,3 +1,5 @@
+# Copyright (c) 2018-2019 The Ion developers
+# Copyright (c) 2019 The OBSR developers
 name: obsr
 version: v1.0.2-master
 summary:   peer-to-peer network based digital currency
@@ -10,66 +12,104 @@ description: |
 
 grade: devel
 confinement: strict
-
+icon: share/pixmaps/bitcoin256.png
 apps:
   daemon:
     command: obsrd
-    plugs: [network, network-bind]
+    plugs: [network, network-bind, home, removable-media]
     environment:
       XDG_DATA_DIRS: $SNAP_USER_DATA:$SNAP/usr/share:$XDG_DATA_DIRS
+  daemon-testnet:
+    command: obsrd --testnet
+    plugs: [network, network-bind, home, removable-media]
+    environment:
+      XDG_DATA_DIRS: $SNAP_USER_DATA:$SNAP/usr/share:$XDG_DATA_DIRS
+  daemon-regtest:
+    command: obsrd --regtest
+    plugs: [network, network-bind, home, removable-media]
   qt:
     command: desktop-launch obsr-qt
-    plugs: [network, network-bind, unity7, desktop, desktop-legacy, wayland, x11]
-    desktop: obsr.desktop
+    plugs: [network, network-bind, unity7, unity8-calendar, unity8-contacts, desktop, desktop-legacy, wayland, x11, mir, opengl, home, removable-media]
+    desktop: qt.desktop
+  qt-testnet:
+    command: desktop-launch obsr-qt --testnet
+    plugs: [network, network-bind, unity7, unity8-calendar, unity8-contacts, desktop, desktop-legacy, wayland, x11, mir, opengl, home, removable-media]
+    desktop: qt-testnet.desktop
+  qt-regtest:
+    command: desktop-launch obsr-qt --regtest
+    plugs: [network, network-bind, unity7, unity8-calendar, unity8-contacts, desktop, desktop-legacy, wayland, x11, mir, opengl, home, removable-media]
+    desktop: qt-regtest.desktop
   cli:
     command: obsr-cli
-    plugs: [network, network-bind]
-    environment:
-      XDG_DATA_DIRS: $SNAP_USER_DATA:$SNAP/usr/share:$XDG_DATA_DIRS
+    plugs: [network, network-bind, home]
+  cli-testnet:
+    command: obsr-cli --testnet
+    plugs: [network, network-bind, home]
+  cli-regtest:
+    command: obsr-cli --regtest
+    plugs: [network, network-bind, home]
   tx:
     command: obsr-tx
+    plugs: [home]
 parts:
   obsr:
     source: https://github.com/observernet/obsr
     source-type: git
     source-tag: master
-    plugin: autotools
-    # We don't want to copy the full blockchain every time that the snap is    
-    # updated, but there's no way to define a default data dir in bitcoin-qt.
-    # Also, it would be better if we could split the wallet from the blockchain
-    prepare: git apply $SNAPCRAFT_STAGE/default_data_dir.patch
+    plugin: nil
+    override-build: |
+      # Patch - Default home folder
+      ## We don't want to copy the full blockchain every time that the snap is   
+      ## updated, but there's no way to define a default data dir in obsr-qt.
+      ## Additionaly we fix funcs.mk
+      git apply $SNAPCRAFT_STAGE/default_data_dir.patch
+      git apply $SNAPCRAFT_STAGE/fix-bdb-tmp-folder.patch
+      ## Patch - Fix Bug extracting sources without ownership
+      sed -i 's/tar --strip-components/tar --no-same-owner --strip-components/' $SNAPCRAFT_PART_BUILD/depends/funcs.mk
+      # Build Dependencies
+      echo "START BUILDING FOR $SNAPCRAFT_ARCH_TRIPLET architecture"
+      cd $SNAPCRAFT_PART_BUILD/depends
+      # Fix building ARM and AARCh64, as on some point they fail with, predownload all packages
+      #   curl: (22) The requested URL returned error: 407
+      make download-linux
+      if [ $SNAPCRAFT_ARCH_TRIPLET = "i386-linux-gnu" ]
+      then
+        make HOST=i686-linux-gnu
+      else
+        make HOST=$SNAPCRAFT_ARCH_TRIPLET
+      fi
+      # Configure Obsr Core
+      cd $SNAPCRAFT_PART_BUILD
+      ./autogen.sh
+      if [ $SNAPCRAFT_ARCH_TRIPLET = "i386-linux-gnu" ]
+      then
+        ./configure --prefix=`pwd`/depends/i686-linux-gnu
+      else
+        ./configure --prefix=`pwd`/depends/$SNAPCRAFT_ARCH_TRIPLET
+      fi
+      # Compile Obsr Core
+      make
+      # Install Obsr Core
+      make install prefix=$SNAPCRAFT_PART_INSTALL
+      # print in log which files are installed
+      echo "Installed files:"
+      find $SNAPCRAFT_PART_INSTALL -type f
     build-packages:
+      - curl
+      - wget
       - g++
+      - gcc
+      - make
       - autoconf
       - automake
+      - cmake
       - pkg-config
-      - libssl-dev
-      - libevent-dev
+      - libtool
       - bsdmainutils
-      - libgmp-dev
-      # Boost.
-      - libboost-system-dev
-      - libboost-filesystem-dev
-      - libboost-chrono-dev
-      - libboost-program-options-dev
-      - libboost-test-dev
-      - libboost-thread-dev
-      # Optional.
-      - libminiupnpc-dev
-      - libzmq3-dev
-      # GUI.
-      - libqt5gui5
-      - libqt5core5a
-      - libqt5dbus5
-      - qttools5-dev
-      - qttools5-dev-tools
-      - libprotobuf-dev
-      - protobuf-compiler
-      # Optional.
-      - libqrencode-dev
+      - binutils
+      - python3
     stage-packages: [ca-certificates]
     after:
-      - berkeleydb
       - desktop-qt5
       - patches
   desktop-qt5:
@@ -83,22 +123,12 @@ parts:
       - libgdk-pixbuf2.0-0
       - libqt5svg5 # for loading icon themes which are svg
       - locales-all
-  berkeleydb:
-    source: https://github.com/observerdev/db-4.8.30/releases/download/db-4.8.30/db-4.8.30.tar.gz
-    plugin: nil
-    build: |
-      cd build_unix
-      ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$SNAPCRAFT_PART_INSTALL
-    install: |
-      cd build_unix
-      make install
-    prime:
-      - -*
+      - qtwayland5
   patches:
     source: snap/patches
     plugin: dump
     prime:
       - -*
   desktop:
-    source: snap/gui
+    source: snap/usr/share/applications
     plugin: dump

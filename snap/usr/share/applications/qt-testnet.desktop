@@ -1,0 +1,14 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Type=Application
+Version=1.0.99-master
+Encoding=UTF-8
+Name=OBServer QT Testnet
+Icon=${SNAP}/qt-testnet.ico
+MimeType=x-scheme-handler/obsr;
+Exec=obsr.qt-testnet %u
+Terminal=false
+Categories=Office;Finance;
+Comment=Observer P2P Cryptocurrency
+Keywords=internet;obsr;observer;crypto;blockchain;weather;testnet
