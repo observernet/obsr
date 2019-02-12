@@ -379,19 +379,19 @@ libbitcoin_util_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_util_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_util_a_SOURCES = \
   allocators.cpp \
-  compat/strnlen.cpp \
-  compat/glibc_sanity.cpp \
-  compat/glibcxx_sanity.cpp \
   chainparamsbase.cpp \
   clientversion.cpp \
+  compat/glibc_sanity.cpp \
+  compat/glibcxx_sanity.cpp \
+  compat/strnlen.cpp \
   random.cpp \
   rpc/protocol.cpp \
   support/cleanse.cpp \
   sync.cpp \
   uint256.cpp \
   util.cpp \
-  utilstrencodings.cpp \
   utilmoneystr.cpp \
+  utilstrencodings.cpp \
   utiltime.cpp \
   $(BITCOIN_CORE_H)
 
