@@ -344,8 +344,15 @@ bool static Bind(const CService& addr, unsigned int flags)
     return true;
 }
 
+void OnRPCStarted()
+{
+    uiInterface.NotifyBlockTip.connect(RPCNotifyBlockChange);
+}
+
 void OnRPCStopped()
 {
+    uiInterface.NotifyBlockTip.disconnect(RPCNotifyBlockChange);
+    //RPCNotifyBlockChange(0);
     cvBlockChange.notify_all();
     LogPrint("rpc", "RPC stopped.\n");
 }
@@ -591,6 +598,11 @@ std::string HelpMessage(HelpMessageMode mode)
         strUsage += HelpMessageOpt("-rpcworkqueue=<n>", strprintf("Set the depth of the work queue to service RPC calls (default: %d)", DEFAULT_HTTP_WORKQUEUE));
         strUsage += HelpMessageOpt("-rpcservertimeout=<n>", strprintf("Timeout during HTTP requests (default: %d)", DEFAULT_HTTP_SERVER_TIMEOUT));
     }
+
+    strUsage += HelpMessageOpt("-blockspamfilter=<n>", strprintf(_("Use block spam filter (default: %u)"), DEFAULT_BLOCK_SPAM_FILTER));
+    strUsage += HelpMessageOpt("-blockspamfiltermaxsize=<n>", strprintf(_("Maximum size of the list of indexes in the block spam filter (default: %u)"), DEFAULT_BLOCK_SPAM_FILTER_MAX_SIZE));
+    strUsage += HelpMessageOpt("-blockspamfiltermaxavg=<n>", strprintf(_("Maximum average size of an index occurrence in the block spam filter (default: %u)"), DEFAULT_BLOCK_SPAM_FILTER_MAX_AVG));
+
     return strUsage;
 }
 
@@ -720,6 +732,7 @@ bool InitSanityCheck(void)
 
 bool AppInitServers()
 {
+    RPCServer::OnStarted(&OnRPCStarted);
     RPCServer::OnStopped(&OnRPCStopped);
     RPCServer::OnPreCommand(&OnRPCPreCommand);
     if (!InitHTTPServer())
@@ -1231,6 +1244,7 @@ bool AppInit2()
 
     }  // (!fDisableWallet)
 #endif // ENABLE_WALLET
+
     // ********************************************************* Step 6: network initialization
 
     RegisterNodeSignals(GetNodeSignals());
@@ -1491,18 +1505,53 @@ bool AppInit2()
                     }
                 }
 
+                // Wrapped serials inflation check
+                bool reindexDueWrappedSerials = false;
+                bool reindexZerocoin = false;
+                int chainHeight = chainActive.Height();
+                if(Params().NetworkID() == CBaseChainParams::MAIN && chainHeight > Params().Zerocoin_Block_EndFakeSerial()) {
+
+                    // Supply needs to be exactly GetSupplyBeforeFakeSerial + GetWrapppedSerialInflationAmount
+                    CBlockIndex* pblockindex = chainActive[Params().Zerocoin_Block_EndFakeSerial() + 1];
+                    CAmount zobsrSupplyCheckpoint = Params().GetSupplyBeforeFakeSerial() + GetWrapppedSerialInflationAmount();
+
+                    if (pblockindex->GetZerocoinSupply() < zobsrSupplyCheckpoint) {
+                        // Trigger reindex due wrapping serials
+                        LogPrintf("Current GetZerocoinSupply: %d vs %d\n", pblockindex->GetZerocoinSupply()/COIN , zobsrSupplyCheckpoint/COIN);
+                        reindexDueWrappedSerials = true;
+                    } else if (pblockindex->GetZerocoinSupply() > zobsrSupplyCheckpoint) {
+                        // Trigger global zOBSR reindex
+                        reindexZerocoin = true;
+                        LogPrintf("Current GetZerocoinSupply: %d vs %d\n", pblockindex->GetZerocoinSupply()/COIN , zobsrSupplyCheckpoint/COIN);
+                    }
+
+                }
+
+                // Reindex only for wrapped serials inflation.
+                if (reindexDueWrappedSerials)
+                    AddWrappedSerialsInflation();
+
                 // Recalculate money supply for blocks that are impacted by accounting issue after zerocoin activation
-                if (GetBoolArg("-reindexmoneysupply", false)) {
-                    if (chainActive.Height() > Params().Zerocoin_StartHeight()) {
+                if (GetBoolArg("-reindexmoneysupply", false) || reindexZerocoin) {
+                    if (chainHeight > Params().Zerocoin_StartHeight()) {
                         RecalculateZOBSRMinted();
                         RecalculateZOBSRSpent();
                     }
-                    RecalculateOBSRSupply(1);
+                    // Recalculate from the zerocoin activation or from scratch.
+                    RecalculateOBSRSupply(reindexZerocoin ? Params().Zerocoin_StartHeight() : 1);
+                }
+
+                // Check Recalculation result
+                if(Params().NetworkID() == CBaseChainParams::MAIN && chainHeight > Params().Zerocoin_Block_EndFakeSerial()) {
+                    CBlockIndex* pblockindex = chainActive[Params().Zerocoin_Block_EndFakeSerial() + 1];
+                    CAmount zobsrSupplyCheckpoint = Params().GetSupplyBeforeFakeSerial() + GetWrapppedSerialInflationAmount();
+                    if (pblockindex->GetZerocoinSupply() != zobsrSupplyCheckpoint)
+                        return InitError(strprintf("ZerocoinSupply Recalculation failed: %d vs %d", pblockindex->GetZerocoinSupply()/COIN , zobsrSupplyCheckpoint/COIN));
                 }
 
                 // Force recalculation of accumulators.
                 if (GetBoolArg("-reindexaccumulators", false)) {
-                    if (chainActive.Height() > Params().Zerocoin_Block_V2_Start()) {
+                    if (chainHeight > Params().Zerocoin_Block_V2_Start()) {
                         CBlockIndex *pindex = chainActive[Params().Zerocoin_Block_V2_Start()];
                         while (pindex->nHeight < chainActive.Height()) {
                             if (!count(listAccCheckpointsNoDB.begin(), listAccCheckpointsNoDB.end(),
@@ -1522,16 +1571,30 @@ bool AppInit2()
                     }
                 }
 
-                uiInterface.InitMessage(_("Verifying blocks..."));
+                if (!fReindex) {
+                    uiInterface.InitMessage(_("Verifying blocks..."));
 
-                // Flag sent to validation code to let it know it can skip certain checks
-                fVerifyingBlocks = true;
+                    // Flag sent to validation code to let it know it can skip certain checks
+                    fVerifyingBlocks = true;
 
-                // Zerocoin must check at level 4
-                if (!CVerifyDB().VerifyDB(pcoinsdbview, 4, GetArg("-checkblocks", 100))) {
-                    strLoadError = _("Corrupted block database detected");
-                    fVerifyingBlocks = false;
-                    break;
+                    {
+                        LOCK(cs_main);
+                        CBlockIndex *tip = chainActive[chainActive.Height()];
+                        RPCNotifyBlockChange(tip->GetBlockHash());
+                        if (tip && tip->nTime > GetAdjustedTime() + 2 * 60 * 60) {
+                            strLoadError = _("The block database contains a block which appears to be from the future. "
+                                             "This may be due to your computer's date and time being set incorrectly. "
+                                             "Only rebuild the block database if you are sure that your computer's date and time are correct");
+                            break;
+                        }
+                    }
+
+                    // Zerocoin must check at level 4
+                    if (!CVerifyDB().VerifyDB(pcoinsdbview, 4, GetArg("-checkblocks", 100))) {
+                        strLoadError = _("Corrupted block database detected");
+                        fVerifyingBlocks = false;
+                        break;
+                    }
                 }
             } catch (std::exception& e) {
                 if (fDebug) LogPrintf("%s\n", e.what());

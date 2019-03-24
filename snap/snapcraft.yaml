@@ -1,7 +1,7 @@
 # Copyright (c) 2018-2019 The Ion developers
 # Copyright (c) 2019 The OBSR developers
 name: obsr
-version: v1.0.2-master
+version: v1.1.00
 summary:   peer-to-peer network based digital currency
 description: |
   Obsr is a free open source peer-to-peer electronic cash system that
@@ -10,7 +10,7 @@ description: |
   transact directly with each other, with the help of a P2P network to
   check for double-spending.
 
-grade: devel
+grade: stable
 confinement: strict
 icon: share/pixmaps/bitcoin256.png
 apps:

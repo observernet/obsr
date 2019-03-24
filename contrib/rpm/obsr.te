@@ -1,0 +1,81 @@
+policy_module(obsr, 1.100.1)
+
+########################################
+#
+# Declarations
+#
+
+type obsr_t;
+type obsr_exec_t;
+init_daemon_domain(obsr_t, obsr_exec_t)
+
+permissive obsr_t;
+
+type obsr_initrc_exec_t;
+init_script_file(obsr_initrc_exec_t)
+
+type obsr_conf_t;
+files_type(obsr_conf_t)
+
+type obsr_var_lib_t;
+files_type(obsr_var_lib_t)
+
+type obsr_var_run_t;
+files_type(obsr_var_run_t)
+
+type obsr_port_t;
+corenet_port(obsr_port_t)
+
+########################################
+#
+# obsr local policy
+#
+allow obsr_t self:process { fork };
+
+allow obsr_t self:fifo_file rw_fifo_file_perms;
+allow obsr_t self:unix_stream_socket create_stream_socket_perms;
+
+manage_dirs_pattern(obsr_t, obsr_conf_t, obsr_conf_t)
+manage_files_pattern(obsr_t, obsr_conf_t, obsr_conf_t)
+
+manage_dirs_pattern(obsr_t, obsr_var_lib_t, obsr_var_lib_t)
+manage_files_pattern(obsr_t, obsr_var_lib_t, obsr_var_lib_t)
+files_var_lib_filetrans(obsr_t, obsr_var_lib_t, { dir file })
+
+manage_dirs_pattern(obsr_t, obsr_var_run_t, obsr_var_run_t)
+manage_files_pattern(obsr_t, obsr_var_run_t, obsr_var_run_t)
+
+sysnet_dns_name_resolve(obsr_t)
+corenet_all_recvfrom_unlabeled(obsr_t)
+
+allow obsr_t self:tcp_socket create_stream_socket_perms;
+corenet_tcp_sendrecv_generic_if(obsr_t)
+corenet_tcp_sendrecv_generic_node(obsr_t)
+corenet_tcp_sendrecv_all_ports(obsr_t)
+corenet_tcp_bind_generic_node(obsr_t)
+
+gen_require(`
+    type obsr_port_t;
+')
+allow obsr_t obsr_port_t:tcp_socket name_bind;
+
+gen_require(`
+    type obsr_port_t;
+')
+allow obsr_t obsr_port_t:tcp_socket name_connect;
+
+domain_use_interactive_fds(obsr_t)
+
+files_read_etc_files(obsr_t)
+
+miscfiles_read_localization(obsr_t)
+
+sysnet_dns_name_resolve(obsr_t)
+
+allow obsr_t obsr_exec_t:file execute_no_trans;
+allow obsr_t self:process setsched;
+corecmd_exec_ls(obsr_t)
+corenet_tcp_connect_http_port(obsr_t)
+dev_read_urand(obsr_t)
+fs_getattr_xattr_fs(obsr_t)
+kernel_read_system_state(obsr_t)

@@ -67,11 +67,12 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
     (   33725, uint256("e054033ada99bf7abcb7aa6092d52e51c955694801ec5677148b517ed024d433"))   //
     (   54559, uint256("70ae62a807304ac7fd9f49e6fc8851ac0016b4343259f23c3ecca5cb6e68538e"))   //
     (   70868, uint256("c08a09e908c04faab3e218239f74f82b6f1643493de3fde06b51e2ed951f817f"))   // 1.0.2
-    (   87574, uint256("3a820ed9cbc6d9575f4641280278fe48b4571e8fb74dd633ee590d4a3b558f34"));  // 1.0.2
+    (   87574, uint256("3a820ed9cbc6d9575f4641280278fe48b4571e8fb74dd633ee590d4a3b558f34"))   // 1.0.2
+    (  241475, uint256("9a36409d7483d3068a9a7bb0caf27abeea9e9b8dbc1fc9fe9334461552420dde"));  // 1.1.00 (fake stake fix)
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1544053072, // * UNIX timestamp of last checkpoint block
-    190446,     // * total number of transactions between genesis and last checkpoint
+    1553417312, // * UNIX timestamp of last checkpoint block
+    502535,     // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
@@ -164,6 +165,10 @@ public:
         nBlockZerocoinV2 = 150; //!> The block that zerocoin v2 becomes active - GMT: Friday, October 5, 2018 3:58:01 PM
         nEnforceNewSporkKey = 1538661892; //!> Sporks signed after GMT: Thursday, October 4, 2018 2:04:52 PM must use the new spork key
         nRejectOldSporkKey = 1538661893; //!> Reject old spork key after GMT: Thursday, October 4, 2018 2:04:53 PM
+
+        // Fake Serial Attack
+        nFakeSerialBlockheightEnd = 1686229;
+        nSupplyBeforeFakeSerial = 4131563 * COIN;   // zerocoin supply at block nFakeSerialBlockheightEnd
 
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -288,6 +293,10 @@ public:
         nEnforceNewSporkKey = 1538661892; //!> Sporks signed after GMT: Thursday, October 4, 2018 2:04:52 PM must use the new spork key
         nRejectOldSporkKey = 1538661893; //!> Reject old spork key after GMT: Thursday, October 4, 2018 2:04:53 PM
 
+        // Fake Serial Attack
+        nFakeSerialBlockheightEnd = -1;
+        nSupplyBeforeFakeSerial = 0;
+
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1538661890; // GMT: Thursday, October 4, 2018 2:04:50 PM
         genesis.nNonce = 43138716;
@@ -346,7 +355,6 @@ public:
     {
         networkID = CBaseChainParams::REGTEST;
         strNetworkID = "regtest";
-        strNetworkID = "regtest";
         pchMessageStart[0] = 0x22;
         pchMessageStart[1] = 0xc6;
         pchMessageStart[2] = 0x6c;
@@ -359,13 +367,28 @@ public:
         nTargetTimespan = 24 * 60 * 60; // OBSR: 1 day
         nTargetSpacing = 1 * 60;        // OBSR: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1538661890; // GMT: Thursday, October 4, 2018 2:04:50 PM
-        genesis.nBits = 0x207fffff;
-        genesis.nNonce = 39884651;
+        nLastPOWBlock = 250;
+        nMaturity = 100;
+        nMasternodeCountDrift = 4;
+        nModifierUpdateBlock = 0; //approx Mon, 17 Apr 2017 04:00:00 GMT
+        nMaxMoneyOut = 43199500 * COIN;
+        nZerocoinStartHeight = 300;
+        nBlockZerocoinV2 = 300;
+        nZerocoinStartTime = 1501776000;
+        nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
+        nBlockRecalculateAccumulators = 999999999; //Trigger a recalculation of accumulators
+        nBlockFirstFraudulent = 999999999; //First block that bad serials emerged
+        nBlockLastGoodCheckpoint = 999999999; //Last valid accumulator checkpoint
+
+        // Fake Serial Attack
+        nFakeSerialBlockheightEnd = -1;
+
+        //! Modify the regtest genesis block so the timestamp is valid for a later start.
+        genesis.nTime = 1538661889; // GMT: Thursday, 4. October 2018 14:04:49
+        genesis.nNonce = 42973829;
 
         hashGenesisBlock = genesis.GetHash();
-        nDefaultPort = 29568;
-        assert(hashGenesisBlock == uint256("0x2ea7e583abd0698f31b8f5126ad1b22fb68cc697e298e683e918be63dd0ce3f5"));
+        assert(hashGenesisBlock == uint256("0x1265ebd42a422c5a808fef389d6172cf9181986a8dc9aba78bf7dbc9f2c9f05c"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
@@ -375,6 +398,7 @@ public:
         fDefaultConsistencyChecks = true;
         fRequireStandard = false;
         fMineBlocksOnDemand = true;
+        fSkipProofOfWorkCheck = true;
         fTestnetToBeDeprecatedFieldRPC = false;
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
