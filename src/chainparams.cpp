@@ -81,17 +81,11 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of
     (       0, uint256("0x0000070f9c4520b097379c2f6be965a4e3727acf250be9ae420ec6d10d0a02b5"))
     (       1, uint256("0x00000f5a3d0540fe8e48f5fdb3e03bc1dc3329177067cd9dfa112ffe72f9c00c"))
-    (      99, uint256("0x000000e262fd60c2a04f6cb0e5f021e4de964f677c27d0916007db15771d3ebf"))   // Testlaunch PoW End
-    (     101, uint256("0x00000032bc5d0f02cce93bb7f8b05515ec189e44b23bad9ba985ba7a5820c061"))   // Last PoW block
-    (     102, uint256("0x607b3edd508b79ecc5d5bda2c2081fecb169dd11b48fee4fcf954787673e9322"))   // First PoS block
-    (     150, uint256("0x500f4e82b8880a70a611c617ab9c506482c8a37edf3a46e5b15ab2909fbca84f"))   // Zercoin V1 first block
-    (     200, uint256("0xc0d057c811435dd9083b6e19b192f70cd9476daa1a87f1e6665387de198a5a72"))   // Zercoin V1 first block
-    (     205, uint256("0xd626da8a76d9597438f47c8af776624944eec28500d5eba0cc95ae23446158dd"))   // v1.0.1
-    (    3389, uint256("0x93950de8f56aad470e5d9d1bd186a4431b84b2f33b20b48f4a7589dfdcee9c89"));  // v1.0.2
+    (      99, uint256("0x000000e262fd60c2a04f6cb0e5f021e4de964f677c27d0916007db15771d3ebf"));   // Testlaunch PoW End
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1540770124,
-    7295,
+    1538950314,
+    101,
     250};
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
