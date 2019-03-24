@@ -383,12 +383,11 @@ public:
         nFakeSerialBlockheightEnd = -1;
 
         //! Modify the regtest genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1538661890; // GMT: Thursday, October 4, 2018 2:04:50 PM
-        genesis.nNonce = 39884651;
+        genesis.nTime = 1538661889; // GMT: Thursday, 4. October 2018 14:04:49
+        genesis.nNonce = 42973829;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x2ea7e583abd0698f31b8f5126ad1b22fb68cc697e298e683e918be63dd0ce3f5"));
-        //assert(hashGenesisBlock == uint256("0x2ea7e583abd0698f31b8f5126ad1b22fb68cc697e298e683e918be63dd0ce3f5"));
+        assert(hashGenesisBlock == uint256("0x1265ebd42a422c5a808fef389d6172cf9181986a8dc9aba78bf7dbc9f2c9f05c"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
