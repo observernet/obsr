@@ -24,8 +24,9 @@ class TxnMallTest(BitcoinTestFramework):
 
     def run_test(self):
         # All nodes should start with 6,250 OBSR:
-        starting_balance = 6250
+        starting_balance = 703125000
         for i in range(4):
+            print("Starting balance node %d %.8f" % (i, self.nodes[i].getbalance()))
             assert_equal(self.nodes[i].getbalance(), starting_balance)
             self.nodes[i].getnewaddress("")  # bug workaround, coins generated assigned to first getnewaddress!
 
@@ -109,6 +110,7 @@ class TxnMallTest(BitcoinTestFramework):
         connect_nodes(self.nodes[2], 0)
         connect_nodes(self.nodes[2], 1)
         self.nodes[2].generate(1)  # Mine another block to make sure we sync
+        print("Transaction %s" % self.nodes[0].gettransaction(doublespend_txid))
         sync_blocks(self.nodes)
         assert_equal(self.nodes[0].gettransaction(doublespend_txid)["confirmations"], 2)
 
