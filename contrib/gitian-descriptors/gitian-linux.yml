@@ -1,5 +1,5 @@
 ---
-name: "obsr-linux-1.0"
+name: "obsr-linux-1.1"
 enable_cache: true
 suites:
 - "bionic"
