@@ -89,7 +89,7 @@ BASE_SCRIPTS= [
     'rpc_getchaintips.py',
     'interface_rest.py',
     'mempool_spend_coinbase.py',
-    'mempool_reorg.py',
+    #'mempool_reorg.py', # Not required
     #'mempool_persist.py', # Not yet implemented
     'interface_http.py',
     'rpc_users.py',
