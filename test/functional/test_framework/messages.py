@@ -26,8 +26,8 @@ import time
 from test_framework.siphash import siphash256
 from test_framework.util import hex_str_to_bytes, bytes_to_hex_str
 
-MIN_VERSION_SUPPORTED = 60001
-MY_VERSION = 70914  # past bip-31 for ping/pong
+MIN_VERSION_SUPPORTED = 70800
+MY_VERSION = 70916  # past bip-31 for ping/pong
 MY_SUBVERSION = b"/python-mininode-tester:0.0.3/"
 MY_RELAY = 1 # from version 70001 onwards, fRelay should be appended to version messages (BIP37)
 
