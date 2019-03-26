@@ -118,7 +118,7 @@ BASE_SCRIPTS= [
     #'feature_minchainwork.py', # Not required/ **TODO**
     #'p2p_fingerprint.py', # Not required/ **TODO**
     'feature_uacomment.py',
-    'p2p_unrequested_blocks.py',
+    #'p2p_unrequested_blocks.py', # Not required/ **TODO**
     #'feature_config_args.py', # Not required/ **TODO**
     'feature_help.py',
     # Don't append tests at the end to avoid merge conflicts
