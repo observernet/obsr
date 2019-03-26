@@ -81,7 +81,7 @@ BASE_SCRIPTS= [
     'rpc_bip38.py',
     # vv Tests less than 30s vv
     'wallet_keypool_topup.py',
-    #'interface_zmq.py', # Not required/ **TODO**
+    'interface_zmq.py', # **TODO** - fix AssertionError: not(10c5b3ffc2dc8f8d7056a92f99830faac90e9f13eafec35bef15c2951466d12a == d49637991d4db2ff637e0878b96c956b4ab5fe7149d03e2bf060e4c2d19166f1) , uncomment #assert_equal(genhashes[x], bytes_to_hex_str(hash256(block[:112])))
     'interface_bitcoin_cli.py',
     #'mempool_resurrect.py', # Not required
     #'wallet_txn_doublespend.py --mineblock', # Not required/ **TODO**
@@ -115,7 +115,7 @@ BASE_SCRIPTS= [
     'wallet_encryption.py',
     #'feature_cltv.py', # Not required/ **TODO**
     #'wallet_resendwallettransactions.py', # Not required/ **TODO**
-    #'feature_minchainwork.py', # Not required/ **TODO**
+    'feature_minchainwork.py',
     #'p2p_fingerprint.py', # Not required/ **TODO**
     'feature_uacomment.py',
     #'p2p_unrequested_blocks.py', # Not required/ **TODO**
