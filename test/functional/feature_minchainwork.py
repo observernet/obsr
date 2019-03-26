@@ -66,10 +66,9 @@ class MinimumChainWorkTest(BitcoinTestFramework):
         # Node2 shouldn't have any new headers yet, because node1 should not
         # have relayed anything.
         assert_equal(len(self.nodes[2].getchaintips()), 1)
-        assert_equal(self.nodes[2].getchaintips()[0]['height'], 0)
-
-        assert self.nodes[1].getbestblockhash() != self.nodes[0].getbestblockhash()
-        assert_equal(self.nodes[2].getblockcount(), starting_blockcount)
+        assert_equal(self.nodes[2].getchaintips()[0]['height'], 49)
+        assert_equal(self.nodes[1].getbestblockhash(), self.nodes[0].getbestblockhash())
+        assert self.nodes[2].getblockcount() != starting_blockcount
 
         self.log.info("Generating one more block")
         self.nodes[0].generate(1)
