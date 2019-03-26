@@ -148,3 +148,16 @@ prime/
 snap/.snapcraft/*
 stage/
 obsr_source.tar.bz2
+
+# test suite
+.cookie
+.lock
+blocks/
+budget.dat
+chainstate/
+database/
+masternode.conf
+mncache.dat
+mnpayments.dat
+sporks/
+zerocoin
