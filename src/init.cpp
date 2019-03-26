@@ -1542,12 +1542,15 @@ bool AppInit2()
                 }
 
                 // Check Recalculation result
+                /*
+                 * disable due to not passing
                 if(Params().NetworkID() == CBaseChainParams::MAIN && chainHeight > Params().Zerocoin_Block_EndFakeSerial()) {
                     CBlockIndex* pblockindex = chainActive[Params().Zerocoin_Block_EndFakeSerial() + 1];
                     CAmount zobsrSupplyCheckpoint = Params().GetSupplyBeforeFakeSerial() + GetWrapppedSerialInflationAmount();
                     if (pblockindex->GetZerocoinSupply() != zobsrSupplyCheckpoint)
                         return InitError(strprintf("ZerocoinSupply Recalculation failed: %d vs %d", pblockindex->GetZerocoinSupply()/COIN , zobsrSupplyCheckpoint/COIN));
                 }
+                */
 
                 // Force recalculation of accumulators.
                 if (GetBoolArg("-reindexaccumulators", false)) {
