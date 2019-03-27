@@ -81,8 +81,8 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of
     (       0, uint256("0x0000070f9c4520b097379c2f6be965a4e3727acf250be9ae420ec6d10d0a02b5"))
     (       1, uint256("0x00000f5a3d0540fe8e48f5fdb3e03bc1dc3329177067cd9dfa112ffe72f9c00c"))
-    (      99, uint256("0x000000e262fd60c2a04f6cb0e5f021e4de964f677c27d0916007db15771d3ebf"))    // Testlaunch PoW 2 blocks to end remain
-    (     100, uint256("0x0000003288e4e769c33dddfdb75aacf30520ef5a3d6c1ae9a33bb551864b5963"));   // 
+    (      99, uint256("0x000000e262fd60c2a04f6cb0e5f021e4de964f677c27d0916007db15771d3ebf")) // Testlaunch PoW 2 blocks to end remain
+    (     100, uint256("0x0000003288e4e769c33dddfdb75aacf30520ef5a3d6c1ae9a33bb551864b5963"));// 
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     1553659468,
