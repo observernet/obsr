@@ -68,11 +68,11 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
     (   54559, uint256("70ae62a807304ac7fd9f49e6fc8851ac0016b4343259f23c3ecca5cb6e68538e"))   //
     (   70868, uint256("c08a09e908c04faab3e218239f74f82b6f1643493de3fde06b51e2ed951f817f"))   // 1.0.2
     (   87574, uint256("3a820ed9cbc6d9575f4641280278fe48b4571e8fb74dd633ee590d4a3b558f34"))   // 1.0.2
-    (  241475, uint256("9a36409d7483d3068a9a7bb0caf27abeea9e9b8dbc1fc9fe9334461552420dde"));  // 1.1.00 (fake stake fix)
+    (  245272, uint256("abe066fe4a8c896754975d397418f55f485106c765640fa2556abb09a7807b5d"));  // 1.1.00 (fake stake fix)
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1553417312, // * UNIX timestamp of last checkpoint block
-    502535,     // * total number of transactions between genesis and last checkpoint
+    1553647863, // * UNIX timestamp of last checkpoint block
+    510148,     // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
@@ -81,11 +81,12 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of
     (       0, uint256("0x0000070f9c4520b097379c2f6be965a4e3727acf250be9ae420ec6d10d0a02b5"))
     (       1, uint256("0x00000f5a3d0540fe8e48f5fdb3e03bc1dc3329177067cd9dfa112ffe72f9c00c"))
-    (      99, uint256("0x000000e262fd60c2a04f6cb0e5f021e4de964f677c27d0916007db15771d3ebf"));   // Testlaunch PoW End
+    (      99, uint256("0x000000e262fd60c2a04f6cb0e5f021e4de964f677c27d0916007db15771d3ebf")) // Testlaunch PoW 2 blocks to end remain
+    (     100, uint256("0x0000003288e4e769c33dddfdb75aacf30520ef5a3d6c1ae9a33bb551864b5963"));// 
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1538950314,
-    101,
+    1553659468,
+    102,
     250};
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
@@ -313,7 +314,7 @@ public:
         // Testnet obsr BIP32 prvkeys start with 'DRKP'
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
         // Testnet obsr BIP44 coin type is '1' (All coin's testnet default)
-        base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x77)(0x67)(0x71).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
 
