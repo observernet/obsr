@@ -141,6 +141,8 @@ void ZObsrControlDialog::updateList()
             string strReason = "";
             if(nConfirmations < Params().Zerocoin_MintRequiredConfirmations())
                 strReason = strprintf("Needs %d more confirmations", Params().Zerocoin_MintRequiredConfirmations() - nConfirmations);
+            else if (model->getEncryptionStatus() == WalletModel::EncryptionStatus::Locked)
+                strReason = "Your wallet is locked. Impossible to precompute or spend zOBSR.";
             else if (!mint.isSeedCorrect)
                 strReason = "The zOBSR seed used to mint this zOBSR is not the same as currently hold in the wallet";
             else
