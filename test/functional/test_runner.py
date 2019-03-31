@@ -91,7 +91,7 @@ BASE_SCRIPTS= [
     #'mempool_spend_coinbase.py', # Not required/ **TODO**
     #'mempool_reorg.py', # Not required
     #'mempool_persist.py', # Not yet implemented
-    #'interface_http.py', # Not required/ **TODO**
+    'interface_http.py',
     #'rpc_users.py', # Not required/ **TODO**
     'feature_proxy.py',
     'rpc_signrawtransaction.py',
