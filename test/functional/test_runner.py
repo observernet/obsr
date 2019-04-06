@@ -72,7 +72,7 @@ BASE_SCRIPTS= [
     'rpc_listtransactions.py',
     # vv Tests less than 60s vv
     'wallet_zapwallettxes.py',
-    #'wallet_importmulti.py', # Not required/ **TODO**
+    #'wallet_importmulti.py', # No importmulti function
     #'mempool_limit.py', # We currently don't limit our mempool
     'wallet_listreceivedby.py',
     #'wallet_abandonconflict.py', # Not required/ **TODO**
@@ -87,6 +87,7 @@ BASE_SCRIPTS= [
     #'wallet_txn_doublespend.py --mineblock', # Not required/ **TODO**
     #'wallet_txn_clone.py --mineblock', # Not required/ **TODO**
     #'rpc_getchaintips.py', # Not required/ **TODO**
+    #'p2p_sendheaders, # needs full rewrite/ **TODO** 
     'interface_rest.py',
     #'mempool_spend_coinbase.py', # Not required/ **TODO**
     #'mempool_reorg.py', # Not required
@@ -102,16 +103,16 @@ BASE_SCRIPTS= [
     'wallet_disable.py',
     'rpc_net.py',
     'wallet_keypool.py',
-    #'p2p_mempool.py', # Not required/ **TODO**
-    #'mining_prioritisetransaction.py', # Not required/ **TODO**
+    'p2p_mempool.py',
+    'mining_prioritisetransaction.py',
     #'p2p_invalid_block.py', # Not required/ **TODO**
     #'p2p_invalid_tx.py', # Not required/ **TODO**
     'rpc_signmessage.py',
     #'wallet_import_rescan.py', # Not required/ **TODO**
-    #'mining_basic.py', # Not required/ **TODO**
+    'mining_basic.py',
     #'wallet_bumpfee.py', # Not required/ **TODO**
     #'wallet_listsinceblock.py', # Not required/ **TODO**
-    #'p2p_leak.py', # Not required/ **TODO**
+    'p2p_leak.py',
     'wallet_encryption.py',
     #'feature_cltv.py', # Not required/ **TODO**
     #'wallet_resendwallettransactions.py', # Not required/ **TODO**
@@ -132,7 +133,7 @@ EXTENDED_SCRIPTS = [
     #'feature_fee_estimation.py', # Not required/ **TODO**
     # vv Tests less than 5m vv
     # vv Tests less than 2m vv
-    #'p2p_timeouts.py', # Not required/ **TODO**
+    'p2p_timeouts.py',
     # vv Tests less than 60s vv
     #'p2p_feefilter.py', # Not required/ **TODO**
     'rpc_bind.py',
@@ -335,6 +336,7 @@ def run_tests(test_list, src_dir, build_dir, exeext, tmpdir, jobs=1, enable_cove
         os.rmdir(tmpdir)
 
     all_passed = all(map(lambda test_result: test_result.was_successful, test_results))
+
 
     sys.exit(not all_passed)
 
