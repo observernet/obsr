@@ -101,8 +101,7 @@ class PrioritiseTransactionTest(BitcoinTestFramework):
         # transactions should have been.
         mempool = self.nodes[0].getrawmempool()
         self.log.info("Assert that de-prioritised transaction is still in mempool")
-        if high_fee_tx in mempool:
-            self.log.info("Transaction found")
+        assert(high_fee_tx in mempool)
         for x in txids[2]:
             if (x != high_fee_tx):
                 assert(x not in mempool)
@@ -141,8 +140,6 @@ class PrioritiseTransactionTest(BitcoinTestFramework):
         self.nodes[0].prioritisetransaction(tx_id, 0, -int(self.relayfee*COIN))
         self.nodes[0].setmocktime(mock_time+10)
         new_template = self.nodes[0].getblocktemplate()
-        self.log.info("Template %s" % template)
-        self.log.info("New Template %s" % new_template)
 
         assert(template != new_template)
 
