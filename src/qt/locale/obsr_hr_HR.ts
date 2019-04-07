@@ -5271,8 +5271,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Autorska prava (C) 2015-%i The PIVX Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) %i The OBSR Core Developers</source>
-        <translation>Autorska prava (C) %i The OBSR Core Developers</translation>
+        <source>Copyright (C) 2018-%i The OBSR Core Developers</source>
+        <translation>Autorska prava (C) 2018-%i The OBSR Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

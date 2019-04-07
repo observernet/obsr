@@ -3796,7 +3796,7 @@ https://www.transifex.com/observer/obsr</translation>
         <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do PIVX Core</translation>
     </message>
     <message>
-        <source>Copyright (C) %i The OBSR Core Developers</source>
+        <source>Copyright (C) 2018-%i The OBSR Core Developers</source>
         <translation>Todos os direitos reservados (C) %i aos Desenvolvedores do OBSR Core</translation>
     </message>
     <message>

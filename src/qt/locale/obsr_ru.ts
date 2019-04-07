@@ -5269,7 +5269,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>Copyright (C) 2015-%i Разработчики PIVX Core</translation>
     </message>
     <message>
-        <source>Copyright (C) %i The OBSR Core Developers</source>
+        <source>Copyright (C) 2018-%i The OBSR Core Developers</source>
         <translation>Copyright (C) %i Разработчики OBSR Core</translation>
     </message>
     <message>

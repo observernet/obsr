@@ -6872,7 +6872,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) %i The OBSR Core Developers</source>
+        <source>Copyright (C) 2018-%i The OBSR Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -5270,8 +5270,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Copyright (C) 2015-%i The PIVX Kernontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) %i The OBSR Core Developers</source>
-        <translation>Copyright (C) %i The OBSR Kernontwikkelaars</translation>
+        <source>Copyright (C) 2018-%i The OBSR Core Developers</source>
+        <translation>Copyright (C) 2018-%i The OBSR Kernontwikkelaars</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
