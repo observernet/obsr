@@ -469,7 +469,8 @@ static const CRPCCommand vRPCCommands[] =
         {"zerocoin", "setzobsrseed", &setzobsrseed, false, false, true},
         {"zerocoin", "generatemintlist", &generatemintlist, false, false, true},
         {"zerocoin", "searchdzobsr", &searchdzobsr, false, false, true},
-        {"zerocoin", "dzobsrstate", &dzobsrstate, false, false, true}
+        {"zerocoin", "dzobsrstate", &dzobsrstate, false, false, true},
+        {"zerocoin", "clearspendcache", &clearspendcache, false, false, true}
 
 #endif // ENABLE_WALLET
 };

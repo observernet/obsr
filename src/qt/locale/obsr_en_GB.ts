@@ -1,231 +1,231 @@
-<TS language="hr_HR" version="2.1">
+<TS language="en_GB" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Desnom tipkom miša kliknite za uređivanje adrese ili oznake</translation>
+        <translation>Right-click to edit address or label</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Stvori novu adresu</translation>
+        <translation>Create a new address</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>Novo</translation>
+        <translation>&amp;New</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopirajte trenutno odabranu adresu u međuspremnik sustava</translation>
+        <translation>Copy the currently selected address to the system clipboard</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>Kopiraj</translation>
+        <translation>&amp;Copy</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Izbrisati trenutno odabranu adresu s popisa</translation>
+        <translation>Delete the currently selected address from the list</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>Izbriši</translation>
+        <translation>&amp;Delete</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Izvoz podataka iz trenutne kartice u datoteku</translation>
+        <translation>Export the data in the current tab to a file</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>Izvoz</translation>
+        <translation>&amp;Export</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>Zatvori</translation>
+        <translation>C&amp;lose</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Odaberite adresu za slanje novčića</translation>
+        <translation>Choose the address to send coins to</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Odaberite adresu za primanje novčića</translation>
+        <translation>Choose the address to receive coins with</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>Odaberi</translation>
+        <translation>C&amp;hoose</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Adresa primatelja</translation>
+        <translation>Sending addresses</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Adresa primatelja</translation>
+        <translation>Receiving addresses</translation>
     </message>
     <message>
         <source>These are your OBSR addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To su vaše OBSR adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <translation>These are your OBSR addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <source>These are your OBSR addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To su vaše OBSR adrese za primanje uplata. Preporuča se upotreba nove adrese primatelja za svaku transakciju.</translation>
+        <translation>These are your OBSR addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>Kopiraj adresu</translation>
+        <translation>&amp;Copy Address</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Kopiraj oznaku</translation>
+        <translation>Copy &amp;Label</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>Uredi</translation>
+        <translation>&amp;Edit</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Izvezi popis adresa</translation>
+        <translation>Export Address List</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Datoteka odvojena zarezom (* .csv)</translation>
+        <translation>Comma separated file (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Izvoz nije uspio</translation>
+        <translation>Exporting Failed</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Došlo je do pogreške prilikom spremanja popisa adresa na %1. Molim te pokušaj ponovno</translation>
+        <translation>There was an error trying to save the address list to %1. Please try again.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Oznaka</translation>
+        <translation>Label</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adresa</translation>
+        <translation>Address</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez oznake)</translation>
+        <translation>(no label)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Passphrase Dialog (tajni dijalog)</translation>
+        <translation>Passphrase Dialog</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Unesite zaporku</translation>
+        <translation>Enter passphrase</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nova zaporka</translation>
+        <translation>New passphrase</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Ponovi novu zaporku</translation>
+        <translation>Repeat new passphrase</translation>
     </message>
     <message>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>Služi za onemogućavanje spornog slanja novca kada je OS račun ugrožen. Ne pruža nikakvu stvarnu sigurnost.</translation>
+        <translation>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</translation>
     </message>
     <message>
         <source>For anonymization, automint, and staking only</source>
-        <translation>Samo za anonimizaciju, automint i staking</translation>
+        <translation>For anonymisation, automint, and staking only</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Unesi novu zaporku za novčanik. 1. Molimo koristite zaporku od 2. 10 ili više nasumičnih simbola, ili 3. osam i više riječi 3. </translation>
+        <translation>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Šifriranje novčanika</translation>
+        <translation>Encrypt wallet</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Ova operacija zahtijeva zaporku za otključavanje novčanika.</translation>
+        <translation>This operation needs your wallet passphrase to unlock the wallet.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Otključaj novčanik</translation>
+        <translation>Unlock wallet</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Ova operacija zahtjeva zaporku novčanika za dešifriranje novčanika</translation>
+        <translation>This operation needs your wallet passphrase to decrypt the wallet.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Dešifriraj novčanik</translation>
+        <translation>Decrypt wallet</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Promijeni zaporku</translation>
+        <translation>Change passphrase</translation>
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Unesi staru i novu zaporku novčanika.</translation>
+        <translation>Enter the old and new passphrase to the wallet.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Potvrdi šifriranje novčanika</translation>
+        <translation>Confirm wallet encryption</translation>
     </message>
     <message>
         <source>OBSR will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your OBSRs from being stolen by malware infecting your computer.</source>
-        <translation>OBSR se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše OBSR od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <translation>OBSR will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your OBSRs from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
+        <translation>Are you sure you wish to encrypt your wallet?</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR OBSR&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite zaporku, 1 izgubit ćete sve Vaše OBSRove 1 !</translation>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR OBSR&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Novčanik šifriran</translation>
+        <translation>Wallet encrypted</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>VAŽNO: Bilo kakve prethodne sigurnosne kopije koje ste napravili iz svoje datoteke lisnice trebale bi se zamijeniti novom generičkom, šifriranom datotekom lisnice. Iz sigurnosnih razloga, prethodne sigurnosne kopije nekodirane datoteke novčanika postat će beskorisne čim počnete koristiti novi, šifrirani novčanik.</translation>
+        <translation>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Šifriranje novčanika neuspijelo</translation>
+        <translation>Wallet encryption failed</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Šifriranje novčanika neuspijelo zbog unutarnje greške. Vaš novčanik nije šifriran.</translation>
+        <translation>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Unesene lozinke se ne podudaraju.</translation>
+        <translation>The supplied passphrases do not match.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Otključavanje novčanika neuspijelo</translation>
+        <translation>Wallet unlock failed</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Zaporka za šifriranje novčanika bila je netočna.</translation>
+        <translation>The passphrase entered for the wallet decryption was incorrect.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Neuspjelo šifriranje novčanika</translation>
+        <translation>Wallet decryption failed</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Zaporka novčanika uspješno promijenjena.</translation>
+        <translation>Wallet passphrase was successfully changed.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Upozorenje: Caps Lock uključen!</translation>
+        <translation>Warning: The Caps Lock key is on!</translation>
     </message>
 </context>
 <context>
@@ -236,34 +236,34 @@
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>Blokiran do</translation>
+        <translation>Banned Until</translation>
     </message>
 </context>
 <context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
-        <translation>BIP 38 Alat</translation>
+        <translation>BIP 38 Tool</translation>
     </message>
     <message>
         <source>&amp;BIP 38 Encrypt</source>
-        <translation>BIP 38 Šifra</translation>
+        <translation>&amp;BIP 38 Encrypt</translation>
     </message>
     <message>
         <source>Address:</source>
-        <translation>Adresa: </translation>
+        <translation>Address:</translation>
     </message>
     <message>
         <source>Enter a OBSR Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Unesite OBSR adresu koju želite šifrirati pomoću BIP 38. Unesite zaporku u srednjem okviru. Pritisnite šifriranje za izračunavanje šifriranog privatnog ključa.</translation>
+        <translation>Enter a OBSR Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</translation>
     </message>
     <message>
         <source>The OBSR address to encrypt</source>
-        <translation>OBSR adresa za šifriranje</translation>
+        <translation>The OBSR address to encrypt</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Odaberite prethodno upotrijebljenu adresu</translation>
+        <translation>Choose previously used address</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -271,7 +271,7 @@
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Zalijepite adresu iz međuspremnika</translation>
+        <translation>Paste address from clipboard</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -279,366 +279,374 @@
     </message>
     <message>
         <source>Passphrase: </source>
-        <translation>Zaporka:</translation>
+        <translation>Passphrase: </translation>
     </message>
     <message>
         <source>Encrypted Key:</source>
-        <translation>Šifrirani ključ:</translation>
+        <translation>Encrypted Key:</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopirajte trenutačni potpis u međuspremnik sustava</translation>
+        <translation>Copy the current signature to the system clipboard</translation>
     </message>
     <message>
         <source>Encrypt the private key for this OBSR address</source>
-        <translation>Šifriranje privatnog ključa za ovu OBSR adresu</translation>
+        <translation>Encrypt the private key for this OBSR address</translation>
     </message>
     <message>
         <source>Reset all fields</source>
-        <translation>Ponovno postavite sva polja</translation>
+        <translation>Reset all fields</translation>
     </message>
     <message>
         <source>The encrypted private key</source>
-        <translation>Šifrirani privatni ključ</translation>
+        <translation>The encrypted private key</translation>
     </message>
     <message>
         <source>Decrypt the entered key using the passphrase</source>
-        <translation>Dešifriranje unesenog ključa pomoću zaporke</translation>
+        <translation>Decrypt the entered key using the passphrase</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
-        <translation>Šifriraj ključ</translation>
+        <translation>Encrypt &amp;Key</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Poništi sve</translation>
+        <translation>Clear &amp;All</translation>
     </message>
     <message>
         <source>&amp;BIP 38 Decrypt</source>
-        <translation>BIP 38 Dešifriranje</translation>
+        <translation>&amp;BIP 38 Decrypt</translation>
     </message>
     <message>
         <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
-        <translation>Unesite BIP 38 šifrirani privatni ključ. Unesite zaporku u srednji okvir. Pritisnite gumb za dešifriranje da biste izračunali privatni ključ. Nakon dešifriranja ključa, klikom na "Import Address" dodati će taj privatni ključ u novčanik.</translation>
+        <translation>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
-        <translation>Dešifriraj ključ</translation>
+        <translation>Decrypt &amp;Key</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
-        <translation>Dešifrirani ključ</translation>
+        <translation>Decrypted Key:</translation>
     </message>
     <message>
         <source>Import Address</source>
-        <translation>Uvoz adrese</translation>
+        <translation>Import Address</translation>
     </message>
     <message>
         <source>Click "Decrypt Key" to compute key</source>
-        <translation>Pritisnite "Dešifriraj ključ" za izračunavanje ključa</translation>
+        <translation>Click "Decrypt Key" to compute key</translation>
     </message>
     <message>
         <source>The entered passphrase is invalid. </source>
-        <translation>Unesena zaporka je nevažeća.</translation>
+        <translation>The entered passphrase is invalid.</translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
-        <translation>Dozvoljeno: 0-9, a-z, A-Z.</translation>
+        <translation>Allowed: 0-9,a-z,A-Z,</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Unesena adresa je nevažeća.</translation>
+        <translation>The entered address is invalid.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Provjerite adresu i pokušajte ponovno.</translation>
+        <translation>Please check the address and try again.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Unesena adresa ne odnosi se na ključ.</translation>
+        <translation>The entered address does not refer to a key.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Otključavanje novčanika je otkazano.</translation>
+        <translation>Wallet unlock was cancelled.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Privatni ključ za unesenu adresu nije dostupan.</translation>
+        <translation>Private key for the entered address is not available.</translation>
     </message>
     <message>
         <source>Failed to decrypt.</source>
-        <translation>Dešifriranje neuspijelo</translation>
+        <translation>Failed to decrypt.</translation>
     </message>
     <message>
         <source>Please check the key and passphrase and try again.</source>
-        <translation>Provjerite ključ i lozinku te pokušajte ponovo.</translation>
+        <translation>Please check the key and passphrase and try again.</translation>
     </message>
     <message>
         <source>Data Not Valid.</source>
-        <translation>Podaci nisu valjani.</translation>
+        <translation>Data Not Valid.</translation>
     </message>
     <message>
         <source>Please try again.</source>
-        <translation>Pokušajte ponovno.</translation>
+        <translation>Please try again.</translation>
     </message>
     <message>
         <source>Please wait while key is imported</source>
-        <translation>Molimo pričekajte dok se ključ uvozi</translation>
+        <translation>Please wait while key is imported</translation>
     </message>
     <message>
         <source>Key Already Held By Wallet</source>
-        <translation>Novčanik već sadrži ključ</translation>
+        <translation>Key Already Held By Wallet</translation>
     </message>
     <message>
         <source>Error Adding Key To Wallet</source>
-        <translation>Greška prilikom dodavanja ključa u novčanik</translation>
+        <translation>Error Adding Key To Wallet</translation>
     </message>
     <message>
         <source>Successfully Added Private Key To Wallet</source>
-        <translation>Privatni ključ uspješno dodan u novčanik</translation>
+        <translation>Successfully Added Private Key To Wallet</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>Wallet</source>
-        <translation>Novčanik</translation>
+        <translation>Wallet</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>Node ( čvor )</translation>
+        <translation>Node</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>Pregled</translation>
+        <translation>&amp;Overview</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Prikaži opći pregled novčanika</translation>
+        <translation>Show general overview of wallet</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>Šalji</translation>
+        <translation>&amp;Send</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>Primi</translation>
+        <translation>&amp;Receive</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>Transakcije</translation>
+        <translation>&amp;Transactions</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Pregled povijesti transakcija</translation>
+        <translation>Browse transaction history</translation>
     </message>
     <message>
         <source>Privacy Actions for zOBSR</source>
-        <translation>Postavke privatnosti za zOBSR</translation>
+        <translation>Privacy Actions for zOBSR</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>Izlaz</translation>
+        <translation>E&amp;xit</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Napusti aplikaciju</translation>
+        <translation>Quit application</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>O Qt</translation>
+        <translation>About &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Prikažiinformacije o Qt</translation>
+        <translation>Show information about Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>Mogućnosti</translation>
+        <translation>&amp;Options...</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>Prikaži / Sakrij</translation>
+        <translation>&amp;Show / Hide</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Prikaži ili sakrij glavni prozor</translation>
+        <translation>Show or hide the main Window</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>Šifriraj novčanik</translation>
+        <translation>&amp;Encrypt Wallet...</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Šifriranje privatnih ključeva koji pripadaju vašem novčaniku</translation>
+        <translation>Encrypt the private keys that belong to your wallet</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>Sigurnosna kopija novčanika ...</translation>
+        <translation>&amp;Backup Wallet...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Sigurnosna kopija novčanika na drugo mjesto</translation>
+        <translation>Backup wallet to another location</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>Promijeni zaporku</translation>
+        <translation>&amp;Change Passphrase...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Promjena zaporke koja se koristi za šifriranje lisnice</translation>
+        <translation>Change the passphrase used for wallet encryption</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>Otključaj novčanik ...</translation>
+        <translation>&amp;Unlock Wallet...</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Otključaj novčanik</translation>
+        <translation>Unlock wallet</translation>
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
-        <translation>Zaključaj novčanik</translation>
+        <translation>&amp;Lock Wallet</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Potpišite poruku ...</translation>
+        <translation>Sign &amp;message...</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>Potvrdite poruku ...</translation>
+        <translation>&amp;Verify message...</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>Informacije</translation>
+        <translation>&amp;Information</translation>
     </message>
     <message>
         <source>Show diagnostic information</source>
-        <translation>Prikaz dijagnostičkih podataka</translation>
+        <translation>Show diagnostic information</translation>
     </message>
     <message>
         <source>&amp;Debug console</source>
-        <translation>Konzola za uklanjanje pogrešaka</translation>
+        <translation>&amp;Debug console</translation>
     </message>
     <message>
         <source>Open debugging console</source>
-        <translation>Otvorite konzolu za uklanjanje pogrešaka</translation>
+        <translation>Open debugging console</translation>
     </message>
     <message>
         <source>&amp;Network Monitor</source>
-        <translation>Monitor mreže</translation>
+        <translation>&amp;Network Monitor</translation>
     </message>
     <message>
         <source>Show network monitor</source>
-        <translation>Prikaži mrežni monitor</translation>
+        <translation>Show network monitor</translation>
     </message>
     <message>
         <source>&amp;Peers list</source>
-        <translation>Popis suradnika</translation>
+        <translation>&amp;Peers list</translation>
     </message>
     <message>
         <source>Show peers info</source>
-        <translation>Prikaži podatke o vršnjacima</translation>
+        <translation>Show peers info</translation>
     </message>
     <message>
         <source>Wallet &amp;Repair</source>
-        <translation>Popravak novčanika</translation>
+        <translation>Wallet &amp;Repair</translation>
     </message>
     <message>
         <source>Show wallet repair options</source>
-        <translation>Prikaz opcija popravka novčanika</translation>
+        <translation>Show wallet repair options</translation>
     </message>
     <message>
         <source>Open configuration file</source>
-        <translation>Otvorite konfiguracijsku datoteku</translation>
+        <translation>Open configuration file</translation>
     </message>
     <message>
         <source>Show Automatic &amp;Backups</source>
-        <translation>Prikaži automatsko sigurnosno kopiranje</translation>
+        <translation>Show Automatic &amp;Backups</translation>
     </message>
     <message>
         <source>Show automatically created wallet backups</source>
-        <translation>Pokaži automatski stvorene sigurnosne kopije novčanika</translation>
+        <translation>Show automatically created wallet backups</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>Adrese slanja ...</translation>
+        <translation>&amp;Sending addresses...</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Prikaz popisa upotrijebljenih adresa slanja i oznaka</translation>
+        <translation>Show the list of used sending addresses and labels</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>Adresa primatelja...</translation>
+        <translation>&amp;Receiving addresses...</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Prikaz popisa korištenih adresa primatelja i oznaka</translation>
+        <translation>Show the list of used receiving addresses and labels</translation>
     </message>
     <message>
         <source>&amp;Multisignature creation...</source>
-        <translation>Stvaranje višestruke oznake ...</translation>
+        <translation>&amp;Multisignature creation...</translation>
     </message>
     <message>
         <source>Create a new multisignature address and add it to this wallet</source>
-        <translation>Izradite novu višestruk adresu i dodaj je u novčanik</translation>
+        <translation>Create a new multisignature address and add it to this wallet</translation>
     </message>
     <message>
         <source>&amp;Multisignature spending...</source>
-        <translation>Višepotpisno trošenje...</translation>
+        <translation>&amp;Multisignature spending...</translation>
     </message>
     <message>
         <source>Spend from a multisignature address</source>
-        <translation>Provedite s višestruke adrese </translation>
+        <translation>Spend from a multisignature address</translation>
     </message>
     <message>
         <source>&amp;Multisignature signing...</source>
-        <translation>Višestruki potpis</translation>
+        <translation>&amp;Multisignature signing...</translation>
     </message>
     <message>
         <source>Sign with a multisignature address</source>
-        <translation>Prijavite se s višestrukom adresom</translation>
+        <translation>Sign with a multisignature address</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Otvori URI</translation>
+        <translation>Open &amp;URI...</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>Opcije naredbene linije</translation>
+        <translation>&amp;Command-line options</translation>
+    </message>
+    <message numerus="yes">
+        <source>Processed %n blocks of transaction history.</source>
+        <translation><numerusform>Processed %n block of transaction history.</numerusform><numerusform>Processed %n blocks of transaction history.</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
-        <translation>Usklađivanje dodatnih podataka: %p%</translation>
+        <translation>Synchronising additional data: %p%</translation>
     </message>
     <message>
         <source>%1 behind. Scanning block %2</source>
-        <translation>%1 iza. Skeniranje bloka %2</translation>
+        <translation>%1 behind. Scanning block %2</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonymization and staking only</source>
-        <translation>Novčanik je šifriran i trenutačno je otključan samo radi anonimizacije i stakinga</translation>
+        <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonymisation and staking only</translation>
+    </message>
+    <message>
+        <source>Tor is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
+        <translation>Tor is &lt;b&gt;enabled&lt;/b&gt;: %1</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>Datoteka</translation>
+        <translation>&amp;File</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>Postavke</translation>
+        <translation>&amp;Settings</translation>
     </message>
     <message>
         <source>&amp;Tools</source>
-        <translation>Alati</translation>
+        <translation>&amp;Tools</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>Pomoć</translation>
+        <translation>&amp;Help</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Alatna traka kartica</translation>
+        <translation>Tabs toolbar</translation>
     </message>
     <message>
         <source>OBSR Core</source>
@@ -646,151 +654,171 @@
     </message>
     <message>
         <source>Send coins to a OBSR address</source>
-        <translation>Pošaljite kovanice na OBSR adresu</translation>
+        <translation>Send coins to a OBSR address</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and obsr: URIs)</source>
-        <translation>Zahtjev za plaćanje (generira QR kodove i obsr: URI)</translation>
+        <translation>Request payments (generates QR codes and obsr: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
-        <translation>Privatnost</translation>
+        <translation>&amp;Privacy</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
-        <translation>Masternodes</translation>
+        <translation>&amp;Masternodes</translation>
     </message>
     <message>
         <source>Browse masternodes</source>
-        <translation>Pretraži masternodes</translation>
+        <translation>Browse masternodes</translation>
     </message>
     <message>
         <source>&amp;About OBSR Core</source>
-        <translation>O OBSR Core</translation>
+        <translation>&amp;About OBSR Core</translation>
     </message>
     <message>
         <source>Show information about OBSR Core</source>
-        <translation>Prikaz informacija o OBSR Core-u</translation>
+        <translation>Show information about OBSR Core</translation>
     </message>
     <message>
         <source>Modify configuration options for OBSR</source>
-        <translation>Izmijenite konfiguracijske opcije za OBSR</translation>
+        <translation>Modify configuration options for OBSR</translation>
     </message>
     <message>
         <source>Sign messages with your OBSR addresses to prove you own them</source>
-        <translation>Potpišite poruke s vašim OBSR adresama kako biste dokazali da ih posjedujete</translation>
+        <translation>Sign messages with your OBSR addresses to prove you own them</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified OBSR addresses</source>
-        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim OBSR adresama</translation>
+        <translation>Verify messages to ensure they were signed with specified OBSR addresses</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
-        <translation>BIP38 Alat</translation>
+        <translation>&amp;BIP38 tool</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
-        <translation>Šifriranje i dešifriranje privatnih ključeva pomoću zaporke</translation>
+        <translation>Encrypt and decrypt private keys using a passphrase</translation>
     </message>
     <message>
         <source>&amp;MultiSend</source>
-        <translation>Višestruko slanje</translation>
+        <translation>&amp;MultiSend</translation>
     </message>
     <message>
         <source>MultiSend Settings</source>
-        <translation>Postavke Višestrukog slanja</translation>
+        <translation>MultiSend Settings</translation>
     </message>
     <message>
         <source>Open Wallet &amp;Configuration File</source>
-        <translation>Otvorite konfiguracijsku datoteku novčanika</translation>
+        <translation>Open Wallet &amp;Configuration File</translation>
     </message>
     <message>
         <source>Open &amp;Masternode Configuration File</source>
-        <translation>Otvori Masternode konfiguracijsku datoteku</translation>
+        <translation>Open &amp;Masternode Configuration File</translation>
     </message>
     <message>
         <source>Open Masternode configuration file</source>
-        <translation>Otvori Masternode konfiguracijsku datoteku</translation>
+        <translation>Open Masternode configuration file</translation>
     </message>
     <message>
         <source>Open a OBSR: URI or payment request</source>
-        <translation>Otvori OBSR: URI zahtjev za plačanje</translation>
+        <translation>Open a OBSR: URI or payment request</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
-        <translation>Blockchain istraživač</translation>
+        <translation>&amp;Blockchain explorer</translation>
     </message>
     <message>
         <source>Block explorer window</source>
-        <translation>Prozor Block preglednika</translation>
+        <translation>Block explorer window</translation>
     </message>
     <message>
         <source>Show the OBSR Core help message to get a list with possible OBSR command-line options</source>
-        <translation>Pokažite poruku OBSR Core pomoći da biste dobili popis s mogućim OBSR opcijama naredbenog retka</translation>
+        <translation>Show the OBSR Core help message to get a list with possible OBSR command-line options</translation>
     </message>
     <message>
         <source>OBSR Core client</source>
-        <translation>OBSRIX Core Klijent</translation>
+        <translation>OBSR Core client</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to OBSR network</source>
+        <translation><numerusform>%n active connection(s) to OBSR network</numerusform><numerusform>%n active connection(s) to OBSR network</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Sinkronizacija s mrežom...</translation>
+        <translation>Synchronising with network...</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
-        <translation>Uvoz blokova s diska...</translation>
+        <translation>Importing blocks from disk...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Ponovno indeksiranje blokova na disku ...</translation>
+        <translation>Reindexing blocks on disk...</translation>
     </message>
     <message>
         <source>No block source available...</source>
-        <translation>Block izvor nije dostupan...</translation>
+        <translation>No block source available...</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Ažurirano</translation>
+        <translation>Up to date</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n hour</numerusform><numerusform>%n hours</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n day</numerusform><numerusform>%n days</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n week</numerusform><numerusform>%n weeks</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 i %2</translation>
+        <translation>%1 and %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n year</numerusform><numerusform>%n years</numerusform></translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Nadoknađivanje</translation>
+        <translation>Catching up...</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Posljednji primljeni blok generiran je prije %1.</translation>
+        <translation>Last received block was generated %1 ago.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transakcije nakon toga još neće biti vidljive.</translation>
+        <translation>Transactions after this will not yet be visible.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Greška</translation>
+        <translation>Error</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Upozorenje</translation>
+        <translation>Warning</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informacije</translation>
+        <translation>Information</translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Poslane transakcije</translation>
+        <translation>Sent transaction</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Dolazne transakcije</translation>
+        <translation>Incoming transaction</translation>
     </message>
     <message>
         <source>Sent MultiSend transaction</source>
-        <translation>Pošalji Višestruku transakciju</translation>
+        <translation>Sent MultiSend transaction</translation>
     </message>
     <message>
         <source>Date: %1
@@ -798,70 +826,70 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation>Datum: %1
-Iznos: %2
-Tip: %3
-Adresa: %4
+        <translation>Date: %1
+Amount: %2
+Type: %3
+Address: %4
 </translation>
     </message>
     <message>
         <source>Staking is active
  MultiSend: %1</source>
-        <translation>Aktivan Staking
-Višestruko slanje: %1</translation>
+        <translation>Staking is active
+ MultiSend: %1</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation>Aktivno </translation>
+        <translation>Active</translation>
     </message>
     <message>
         <source>Not Active</source>
-        <translation>Neaktivno</translation>
+        <translation>Not Active</translation>
     </message>
     <message>
         <source>Staking is not active
  MultiSend: %1</source>
-        <translation>Staking nije aktivan
-Višestruko slanje: %1</translation>
+        <translation>Staking is not active
+ MultiSend: %1</translation>
     </message>
     <message>
         <source>AutoMint is currently enabled and set to </source>
-        <translation>AutoMint je trenutno omogućen i podešen na</translation>
+        <translation>AutoMint is currently enabled and set to </translation>
     </message>
     <message>
         <source>AutoMint is disabled</source>
-        <translation>AutoMint je onemogućen</translation>
+        <translation>AutoMint is disabled</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Novčanik je &lt;b&gt;šifriran&lt;/b&gt; i trenutno &lt;b&gt;otključan&lt;/b&gt;</translation>
+        <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Novčanik je 1. šifriran 1. i trenutno 2. zaključan 2.</translation>
+        <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
     </context>
 <context>
     <name>BlockExplorer</name>
     <message>
         <source>Blockchain Explorer</source>
-        <translation>Blockchain preglednik</translation>
+        <translation>Blockchain Explorer</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Natrag</translation>
+        <translation>Back</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation>Naprijed</translation>
+        <translation>Forward</translation>
     </message>
     <message>
         <source>Address / Block / Transaction</source>
-        <translation>Adresa / Block / Transakcija</translation>
+        <translation>Address / Block / Transaction</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Pretraga</translation>
+        <translation>Search</translation>
     </message>
     <message>
         <source>TextLabel</source>
@@ -869,45 +897,45 @@ Višestruko slanje: %1</translation>
     </message>
     <message>
         <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (obsr.conf).</source>
-        <translation>Nisu prikazane sve transakcije. Za pregled svih transakcija morate postaviti txindex = 1 u konfiguracijskoj datoteci (obsr.conf).</translation>
+        <translation>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (obsr.conf).</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
         <source>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)</source>
-        <translation>Ukupno: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Nepoznato: %5)</translation>
+        <translation>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)</translation>
     </message>
     <message>
         <source>Network Alert</source>
-        <translation>Upozorenje o mreži</translation>
+        <translation>Network Alert</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>Količina:</translation>
+        <translation>Quantity:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bytovi:</translation>
+        <translation>Bytes:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Iznos:</translation>
+        <translation>Amount:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Prioritet:</translation>
+        <translation>Priority:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Naknada:</translation>
+        <translation>Fee:</translation>
     </message>
     <message>
         <source>Coin Selection</source>
-        <translation>Odabir novčića</translation>
+        <translation>Coin Selection</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -915,296 +943,296 @@ Višestruko slanje: %1</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Naknadne naknade:</translation>
+        <translation>After Fee:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Razlika:</translation>
+        <translation>Change:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>(ne)odaberi sve</translation>
+        <translation>(un)select all</translation>
     </message>
     <message>
         <source>toggle lock state</source>
-        <translation>prebaciti stanje zaključavanja</translation>
+        <translation>toggle lock state</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Granati prikaz</translation>
+        <translation>Tree mode</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Popis</translation>
+        <translation>List mode</translation>
     </message>
     <message>
         <source>(1 locked)</source>
-        <translation>(1 zaključan)</translation>
+        <translation>(1 locked)</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Iznos</translation>
+        <translation>Amount</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>Primljeno s oznakom</translation>
+        <translation>Received with label</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>Primljeno s adresom</translation>
+        <translation>Received with address</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Tip</translation>
+        <translation>Type</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Date</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Potvrde</translation>
+        <translation>Confirmations</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Potvrđeno</translation>
+        <translation>Confirmed</translation>
     </message>
     <message>
         <source>Priority</source>
-        <translation>Prioritet</translation>
+        <translation>Priority</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopiraj adresu</translation>
+        <translation>Copy address</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopiraj oznaku</translation>
+        <translation>Copy label</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopiraj iznos</translation>
+        <translation>Copy amount</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Kopiraj ID transakcije</translation>
+        <translation>Copy transaction ID</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>Zaključaj neiskorišteno</translation>
+        <translation>Lock unspent</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>Otključaj neiskorišteno</translation>
+        <translation>Unlock unspent</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Kopirajte količinu</translation>
+        <translation>Copy quantity</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Kopiraj naknadu</translation>
+        <translation>Copy fee</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Kopiraj naknadnu naknadu</translation>
+        <translation>Copy after fee</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Kopiraj bitove</translation>
+        <translation>Copy bytes</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>Kopiraj prioritet</translation>
+        <translation>Copy priority</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Kopiraj dust</translation>
+        <translation>Copy dust</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Kopiraj razliku</translation>
+        <translation>Copy change</translation>
     </message>
     <message>
         <source>Please switch to "List mode" to use this function.</source>
-        <translation>Prebacite se na "popis" kako biste koristili ovu funkciju.</translation>
+        <translation>Please switch to "List mode" to use this function.</translation>
     </message>
     <message>
         <source>highest</source>
-        <translation>najviši</translation>
+        <translation>highest</translation>
     </message>
     <message>
         <source>higher</source>
-        <translation>viši</translation>
+        <translation>higher</translation>
     </message>
     <message>
         <source>high</source>
-        <translation>visok</translation>
+        <translation>high</translation>
     </message>
     <message>
         <source>medium-high</source>
-        <translation>srednje visok</translation>
+        <translation>medium-high</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>srednje</translation>
+        <translation>medium</translation>
     </message>
     <message>
         <source>low-medium</source>
-        <translation>srednje niži</translation>
+        <translation>low-medium</translation>
     </message>
     <message>
         <source>low</source>
-        <translation>nizak</translation>
+        <translation>low</translation>
     </message>
     <message>
         <source>lower</source>
-        <translation>niži</translation>
+        <translation>lower</translation>
     </message>
     <message>
         <source>lowest</source>
-        <translation>najniži</translation>
+        <translation>lowest</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 zaključano)</translation>
+        <translation>(%1 locked)</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>bez</translation>
+        <translation>none</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>da</translation>
+        <translation>yes</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>ne</translation>
+        <translation>no</translation>
     </message>
     <message>
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
-        <translation>Ova oznaka postaje crvena, ako je veličina transakcije veća od 1000 bajta.</translation>
+        <translation>This label turns red if the transaction size is greater than 1000 bytes.</translation>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>To znači da je potrebna naknada od najmanje %1 po kB.</translation>
+        <translation>This means a fee of at least %1 per kB is required.</translation>
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
-        <translation>Varira +/- 1 byte po unosu.</translation>
+        <translation>Can vary +/- 1 byte per input.</translation>
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>Vjerojatnije je da će transakcije s većim prioritetom biti uključene u blok.</translation>
+        <translation>Transactions with higher priority are more likely to get included into a block.</translation>
     </message>
     <message>
         <source>This label turns red, if the priority is smaller than "medium".</source>
-        <translation>Ova oznaka postaje crvena, ako je prioritet manji od "srednji".</translation>
+        <translation>This label turns red if the priority is smaller than "medium".</translation>
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
-        <translation>Ova oznaka postaje crvena ako neki primatelj prima iznos manji od %1.</translation>
+        <translation>This label turns red if any recipient receives an amount smaller than %1.</translation>
     </message>
     <message>
         <source>Can vary +/- %1 uobsr per input.</source>
-        <translation>Može varirati +/- %1 uobsr po unosu.</translation>
+        <translation>Can vary +/- %1 uobsr per input.</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez oznake)</translation>
+        <translation>(no label)</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation>promijeni s %1 (%2)</translation>
+        <translation>change from %1 (%2)</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(promjena)</translation>
+        <translation>(change)</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Uredi Adresu</translation>
+        <translation>Edit Address</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>Oznaka</translation>
+        <translation>&amp;Label</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Oznaka povezana s ovim unosom popisa adresa</translation>
+        <translation>The label associated with this address list entry</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>Adresa</translation>
+        <translation>&amp;Address</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Adresa povezana s ovim unosom popisa adresa. To se može promijeniti samo za slanje adresa.</translation>
+        <translation>The address associated with this address list entry. This can only be modified for sending addresses.</translation>
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>Nova adresa za primanje</translation>
+        <translation>New receiving address</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Nova adresa za slanje</translation>
+        <translation>New sending address</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Uređivanje adrese primatelja</translation>
+        <translation>Edit receiving address</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Uređivanje adrese slanja</translation>
+        <translation>Edit sending address</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid OBSR address.</source>
-        <translation>Unesena adresa "%1" nije važeća OBSR adresa.</translation>
+        <translation>The entered address "%1" is not a valid OBSR address.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>Unesena adresa "%1" već je u adresaru.</translation>
+        <translation>The entered address "%1" is already in the address book.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Nije moguće otključati novčanik.</translation>
+        <translation>Could not unlock wallet.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>Novo generiranje ključa nije uspjelo.</translation>
+        <translation>New key generation failed.</translation>
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Kreirat će se novi direktorij podataka.</translation>
+        <translation>A new data directory will be created.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>naziv</translation>
+        <translation>name</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Direktorij već postoji. Dodajte %1 ako namjeravate izraditi novi direktorij ovdje.</translation>
+        <translation>Directory already exists. Add %1 if you intend to create a new directory here.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Put već postoji i nije direktorij.</translation>
+        <translation>Path already exists and is not a directory.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Ovdje nije moguće stvoriti direktorij za podatke.</translation>
+        <translation>Cannot create data directory here.</translation>
     </message>
 </context>
 <context>
     <name>GovernancePage</name>
     <message>
         <source>Form</source>
-        <translation>Obrazac</translation>
+        <translation>Form</translation>
     </message>
     <message>
         <source>0</source>
@@ -1215,7 +1243,7 @@ Višestruko slanje: %1</translation>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>verzija</translation>
+        <translation>version</translation>
     </message>
     <message>
         <source>OBSR Core</source>
@@ -1227,70 +1255,70 @@ Višestruko slanje: %1</translation>
     </message>
     <message>
         <source>About OBSR Core</source>
-        <translation>O OBSR Core</translation>
+        <translation>About OBSR Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Opcije naredbene linije</translation>
+        <translation>Command-line options</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Upotreba:</translation>
+        <translation>Usage:</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>opcije naredbenog retka</translation>
+        <translation>command-line options</translation>
     </message>
     <message>
         <source>UI Options:</source>
-        <translation>UI mogućnosti:</translation>
+        <translation>UI Options:</translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: %u)</source>
-        <translation>Odaberite direktorij za podatke pri pokretanju (zadano: %u)</translation>
+        <translation>Choose data directory on start up (default: %u)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: %u)</source>
-        <translation>Prikažite zaslon prilikom pokretanja (zadano: %u)</translation>
+        <translation>Show splash screen on start up (default: %u)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Postavite jezik, na primjer "de_DE" (zadano: regionalni sustav)</translation>
+        <translation>Set language, for example "de_DE" (default: system locale)</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>Početak minimiziran</translation>
+        <translation>Start minimised</translation>
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Postavite SSL potvrde korijena za zahtjev za plaćanje (zadano: -system-)</translation>
+        <translation>Set SSL root certificates for payment request (default: -system-)</translation>
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Dobrodošli</translation>
+        <translation>Welcome</translation>
     </message>
     <message>
         <source>Welcome to OBSR Core.</source>
-        <translation>Dobrodošli u OBSR Core.</translation>
+        <translation>Welcome to OBSR Core.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where OBSR Core will store its data.</source>
-        <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će OBSR Core pohraniti svoje podatke.</translation>
+        <translation>As this is the first time the program is launched, you can choose where OBSR Core will store its data.</translation>
     </message>
     <message>
         <source>OBSR Core will download and store a copy of the OBSR block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>OBSR Core preuzima i pohranjuje kopiju OBSR blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
+        <translation>OBSR Core will download and store a copy of the OBSR block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Upotrijebite zadani direktorij podataka</translation>
+        <translation>Use the default data directory</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>Koristite prilagođeni direktorij podataka:</translation>
+        <translation>Use a custom data directory:</translation>
     </message>
     <message>
         <source>OBSR Core</source>
@@ -1298,26 +1326,26 @@ Višestruko slanje: %1</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Greška: ne može se izraditi direktorij podataka "%1".</translation>
+        <translation>Error: Specified data directory "%1" cannot be created.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Greška</translation>
+        <translation>Error</translation>
     </message>
     <message>
         <source>%1 GB of free space available</source>
-        <translation>%1 GB slobodnog prostora na raspolaganju</translation>
+        <translation>%1 GB of free space available</translation>
     </message>
     <message>
         <source>(of %1 GB needed)</source>
-        <translation>(%1 GB potrebno)</translation>
+        <translation>(of %1 GB needed)</translation>
     </message>
 </context>
 <context>
     <name>MasternodeList</name>
     <message>
         <source>Form</source>
-        <translation>Obrazac</translation>
+        <translation>Form</translation>
     </message>
     <message>
         <source>MASTERNODES</source>
@@ -1325,19 +1353,19 @@ Višestruko slanje: %1</translation>
     </message>
     <message>
         <source>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see "MISSING" in "Status" field.</source>
-        <translation>Napomena: Status vaših masternoda u lokalnom novčaniku može potencijalno biti malo netočan. 1. Uvijek pričekajte da novčanik sinkronizira dodatne podatke, a potom dvaput provjerite od drugog čvora 2. čiji čvor bi trebao biti pokrenut, ali u polju "Status" još uvijek vidite "MISSING".</translation>
+        <translation>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see "MISSING" in "Status" field.</translation>
     </message>
     <message>
         <source>Alias</source>
-        <translation>pseudonim</translation>
+        <translation>Alias</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adresa</translation>
+        <translation>Address</translation>
     </message>
     <message>
         <source>Protocol</source>
-        <translation>Protokol</translation>
+        <translation>Protocol</translation>
     </message>
     <message>
         <source>Status</source>
@@ -1345,11 +1373,11 @@ Višestruko slanje: %1</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation>Aktivno </translation>
+        <translation>Active</translation>
     </message>
     <message>
         <source>Last Seen (UTC)</source>
-        <translation>Zadnji put viđen (UTC)</translation>
+        <translation>Last Seen (UTC)</translation>
     </message>
     <message>
         <source>Pubkey</source>
@@ -1357,23 +1385,23 @@ Višestruko slanje: %1</translation>
     </message>
     <message>
         <source>S&amp;tart alias</source>
-        <translation>Započni pseudonim</translation>
+        <translation>S&amp;tart alias</translation>
     </message>
     <message>
         <source>Start &amp;all</source>
-        <translation>Započni sve</translation>
+        <translation>Start &amp;all</translation>
     </message>
     <message>
         <source>Start &amp;MISSING</source>
-        <translation> Započni NEDOSTAJE</translation>
+        <translation>Start &amp;MISSING</translation>
     </message>
     <message>
         <source>&amp;Update status</source>
-        <translation>Ažuriraj status</translation>
+        <translation>&amp;Update status</translation>
     </message>
     <message>
         <source>Status will be updated automatically in (sec):</source>
-        <translation>Status će se automatski ažurirati u (s):</translation>
+        <translation>Status will be updated automatically in (sec):</translation>
     </message>
     <message>
         <source>0</source>
@@ -1381,39 +1409,39 @@ Višestruko slanje: %1</translation>
     </message>
     <message>
         <source>Start alias</source>
-        <translation>Pokreni alias</translation>
+        <translation>Start alias</translation>
     </message>
     <message>
         <source>Confirm masternode start</source>
-        <translation>Potvrdite početak masternode</translation>
+        <translation>Confirm masternode start</translation>
     </message>
     <message>
         <source>Are you sure you want to start masternode %1?</source>
-        <translation>Jeste li sigurni da želite pokrenuti masternode%1?</translation>
+        <translation>Are you sure you want to start masternode %1?</translation>
     </message>
     <message>
         <source>Confirm all masternodes start</source>
-        <translation>Potvrdite da svi masternodi počinju</translation>
+        <translation>Confirm all masternodes start</translation>
     </message>
     <message>
         <source>Are you sure you want to start ALL masternodes?</source>
-        <translation>Jeste li sigurni da želite pokrenuti SVE masternode?</translation>
+        <translation>Are you sure you want to start ALL masternodes?</translation>
     </message>
     <message>
         <source>Command is not available right now</source>
-        <translation>Naredba trenutačno nije dostupna</translation>
+        <translation>Command is not available right now</translation>
     </message>
     <message>
         <source>You can't use this command until masternode list is synced</source>
-        <translation>Ne možete upotrijebiti ovu naredbu sve dok se masternod ne sinkronizira</translation>
+        <translation>You can't use this command until masternode list is synced</translation>
     </message>
     <message>
         <source>Confirm missing masternodes start</source>
-        <translation>Potvrdite da nedostaje početak masternoda</translation>
+        <translation>Confirm missing masternodes start</translation>
     </message>
     <message>
         <source>Are you sure you want to start MISSING masternodes?</source>
-        <translation>Jeste li sigurni da želite započeti MISSING masternodes?</translation>
+        <translation>Are you sure you want to start MISSING masternodes?</translation>
     </message>
 </context>
 <context>
@@ -1424,45 +1452,45 @@ Višestruko slanje: %1</translation>
     </message>
     <message>
         <source>Enter whole numbers 1 - 100</source>
-        <translation>Unesi cijele brojeve 1 - 100</translation>
+        <translation>Enter whole numbers 1 - 100</translation>
     </message>
     <message>
         <source>Enter % to Give (1-100)</source>
-        <translation>Unesi % za Give (1-100)</translation>
+        <translation>Enter % to Give (1-100)</translation>
     </message>
     <message>
         <source>Enter Address to Send to</source>
-        <translation>Unesite adresu za slanje</translation>
+        <translation>Enter Address to Send to</translation>
     </message>
     <message>
         <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other OBSR addresses after it matures.
 To Add: enter percentage to give and OBSR address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend vam omogućuje da automatski pošaljete do 100% svoje nagrade za ulog ili masternode  nagrade na popis drugih OBSR adresa nakon što sazrijete.
-Za Dodaj: unesite postotak za davanje i OBSR adresu za dodavanje MultiSend vektoru.
-Za brisanje: Unesite adresu za brisanje i pritisnite Delete.
-MultiSend neće biti aktiviran dok ne kliknete Aktiviraj</translation>
+        <translation>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other OBSR addresses after it matures.
+To Add: enter percentage to give and OBSR address to add to the MultiSend vector.
+To Delete: Enter address to delete and press delete.
+MultiSend will not be activated unless you have clicked Activate</translation>
     </message>
     <message>
         <source>Add to MultiSend Vector</source>
-        <translation>Dodaj u MultiSend Vektor</translation>
+        <translation>Add to MultiSend Vector</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation>Dodaj</translation>
+        <translation>Add</translation>
     </message>
     <message>
         <source>Deactivate MultiSend</source>
-        <translation>Deaktiviraj MultiSend</translation>
+        <translation>Deactivate MultiSend</translation>
     </message>
     <message>
         <source>Deactivate</source>
-        <translation>Deaktiviraj</translation>
+        <translation>Deactivate</translation>
     </message>
     <message>
         <source>Choose an address from the address book</source>
-        <translation>Odaberite adresu iz adresara</translation>
+        <translation>Choose an address from the address book</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1470,110 +1498,180 @@ MultiSend neće biti aktiviran dok ne kliknete Aktiviraj</translation>
     </message>
     <message>
         <source>Percentage of stake to send</source>
-        <translation>Postotak udjela za slanje</translation>
+        <translation>Percentage of stake to send</translation>
     </message>
     <message>
         <source>Percentage:</source>
-        <translation>Udio:</translation>
+        <translation>Percentage:</translation>
     </message>
     <message>
         <source>Address to send portion of stake to</source>
-        <translation>Adresa za slanje dijela udjela</translation>
+        <translation>Address to send portion of stake to</translation>
     </message>
     <message>
         <source>Address:</source>
-        <translation>Adresa: </translation>
+        <translation>Address:</translation>
     </message>
     <message>
         <source>Label:</source>
-        <translation>Oznaka:</translation>
+        <translation>Label:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Unesite oznaku za ovu adresu da biste je dodali u adresar</translation>
+        <translation>Enter a label for this address to add it to your address book</translation>
     </message>
     <message>
         <source>Delete Address From MultiSend Vector</source>
-        <translation>Izbriši adresu iz MultiSend vektora</translation>
+        <translation>Delete Address From MultiSend Vector</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Izbriši</translation>
+        <translation>Delete</translation>
     </message>
     <message>
         <source>Activate MultiSend</source>
-        <translation>Aktiviraj MultiSend</translation>
+        <translation>Activate MultiSend</translation>
     </message>
     <message>
         <source>Activate</source>
-        <translation>Aktiviraj</translation>
+        <translation>Activate</translation>
     </message>
     <message>
         <source>View MultiSend Vector</source>
-        <translation>Pogledajte MultiSend Vector</translation>
+        <translation>View MultiSend Vector</translation>
     </message>
     <message>
         <source>View MultiSend</source>
-        <translation>Pogledaj MultiSend</translation>
+        <translation>View MultiSend</translation>
     </message>
     <message>
         <source>Send For Stakes</source>
-        <translation>Pošalji za uloge tj Stakes</translation>
+        <translation>Send For Stakes</translation>
     </message>
     <message>
         <source>Send For Masternode Rewards</source>
-        <translation>Pošalji za Masternode nagrade</translation>
+        <translation>Send For Masternode Rewards</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez oznake)</translation>
+        <translation>(no label)</translation>
+    </message>
+    <message>
+        <source>MultiSend Active for Stakes and Masternode Rewards</source>
+        <translation>MultiSend Active for Stakes and Masternode Rewards</translation>
+    </message>
+    <message>
+        <source>MultiSend Active for Stakes</source>
+        <translation>MultiSend Active for Stakes</translation>
+    </message>
+    <message>
+        <source>MultiSend Active for Masternode Rewards</source>
+        <translation>MultiSend Active for Masternode Rewards</translation>
+    </message>
+    <message>
+        <source>MultiSend Not Active</source>
+        <translation>MultiSend Not Active</translation>
+    </message>
+    <message>
+        <source>The entered address: %1 is invalid.
+Please check the address and try again.</source>
+        <translation>The entered address: %1 is invalid.
+Please check the address and try again.</translation>
+    </message>
+    <message>
+        <source>The total amount of your MultiSend vector is over 100% of your stake reward</source>
+        <translation>The total amount of your MultiSend vector is over 100% of your stake reward</translation>
+    </message>
+    <message>
+        <source>Saved the MultiSend to memory, but failed saving properties to the database.</source>
+        <translation>Saved the MultiSend to memory, but failed saving properties to the database.</translation>
+    </message>
+    <message>
+        <source>MultiSend Vector</source>
+        <translation>MultiSend Vector</translation>
+    </message>
+    <message>
+        <source>Removed %1</source>
+        <translation>Removed %1</translation>
+    </message>
+    <message>
+        <source>Could not locate address</source>
+        <translation>Could not locate address</translation>
+    </message>
+    <message>
+        <source>Unable to activate MultiSend, check MultiSend vector</source>
+        <translation>Unable to activate MultiSend, check MultiSend vector</translation>
+    </message>
+    <message>
+        <source>Need to select to send on stake and/or masternode rewards</source>
+        <translation>Need to select to send on stake and/or masternode rewards</translation>
+    </message>
+    <message>
+        <source>MultiSend activated but writing settings to DB failed</source>
+        <translation>MultiSend activated but writing settings to DB failed</translation>
+    </message>
+    <message>
+        <source>MultiSend activated</source>
+        <translation>MultiSend activated</translation>
+    </message>
+    <message>
+        <source>First Address Not Valid</source>
+        <translation>First Address Not Valid</translation>
+    </message>
+    <message>
+        <source>MultiSend deactivated but writing settings to DB failed</source>
+        <translation>MultiSend deactivated but writing settings to DB failed</translation>
+    </message>
+    <message>
+        <source>MultiSend deactivated</source>
+        <translation>MultiSend deactivated</translation>
     </message>
     <message>
         <source>Please Enter 1 - 100 for percent.</source>
-        <translation>Unesite 1 - 100 za postotak.</translation>
+        <translation>Please Enter 1 - 100 for percent.</translation>
     </message>
 </context>
 <context>
     <name>MultisigDialog</name>
     <message>
         <source>Multisignature Address Interactions</source>
-        <translation>Multisignature interakcije adresa</translation>
+        <translation>Multisignature Address Interactions</translation>
     </message>
     <message>
         <source>Create MultiSignature &amp;Address</source>
-        <translation>Kreiraj MultiSignature Adresu</translation>
+        <translation>Create MultiSignature &amp;Address</translation>
     </message>
     <message>
         <source>How many people must sign to verify a transaction</source>
-        <translation>Koliko se ljudi mora potpisati za potvrdu transakcije</translation>
+        <translation>How many people must sign to verify a transaction</translation>
     </message>
     <message>
         <source>Enter the minimum number of signatures required to sign transactions</source>
-        <translation>Unesite minimalni broj potpisa potrebnih za potpisivanje transakcija</translation>
+        <translation>Enter the minimum number of signatures required to sign transactions</translation>
     </message>
     <message>
         <source>Address Label:</source>
-        <translation>Oznaka adrese:</translation>
+        <translation>Address Label:</translation>
     </message>
     <message>
         <source>Add another address that could sign to verify a transaction from the multisig address.</source>
-        <translation>Dodajte drugu adresu koja bi se mogla potpisati da biste potvrdili transakciju s multisig adrese.</translation>
+        <translation>Add another address that could sign to verify a transaction from the multisig address.</translation>
     </message>
     <message>
         <source>&amp;Add Address / Key</source>
-        <translation>Dodaj adresu/ključ</translation>
+        <translation>&amp;Add Address / Key</translation>
     </message>
     <message>
         <source>Local addresses or public keys that can sign:</source>
-        <translation>Lokalne adrese ili javni ključevi koji se mogu prijaviti:</translation>
+        <translation>Local addresses or public keys that can sign:</translation>
     </message>
     <message>
         <source>Create a new multisig address</source>
-        <translation>Stvori novu multisig adresu</translation>
+        <translation>Create a new multisig address</translation>
     </message>
     <message>
         <source>C&amp;reate</source>
-        <translation>Stvori</translation>
+        <translation>C&amp;reate</translation>
     </message>
     <message>
         <source>Status:</source>
@@ -1583,29 +1681,29 @@ MultiSend neće biti aktiviran dok ne kliknete Aktiviraj</translation>
         <source>Use below to quickly import an address by its redeem. Don't forget to add a label before clicking import!
 Keep in mind, the wallet will rescan the blockchain to find transactions containing the new address.
 Please be patient after clicking import.</source>
-        <translation>Upotrijebite dolje niže kako biste brzo uvezite adresu njezinim otkupom. Ne zaboravite dodati oznaku prije nego što kliknete uvoz!
-Imajte na umu da će novčanik ponovno skenirati blok-mrežu kako bi pronašao transakcije koje sadrže novu adresu.
-Budite strpljivi nakon što kliknete uvoz.</translation>
+        <translation>Use below to quickly import an address by its redeem. Don't forget to add a label before clicking import!
+Keep in mind, the wallet will rescan the blockchain to find transactions containing the new address.
+Please be patient after clicking import.</translation>
     </message>
     <message>
         <source>&amp;Import Redeem</source>
-        <translation>Uvoz Redeem</translation>
+        <translation>&amp;Import Redeem</translation>
     </message>
     <message>
         <source>&amp;Create MultiSignature Tx</source>
-        <translation>Kreiraj MultiSignature Tx</translation>
+        <translation>&amp;Create MultiSignature Tx</translation>
     </message>
     <message>
         <source>Inputs:</source>
-        <translation>Unosi:</translation>
+        <translation>Inputs:</translation>
     </message>
     <message>
         <source>Coin Control</source>
-        <translation>Upravljanje novčićem</translation>
+        <translation>Coin Control</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
-        <translation>Odabrano:</translation>
+        <translation>Quantity Selected:</translation>
     </message>
     <message>
         <source>0</source>
@@ -1613,41 +1711,39 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Iznos:</translation>
+        <translation>Amount:</translation>
     </message>
     <message>
         <source>Add an input to fund the outputs</source>
-        <translation>Dodajte unos za financiranje izlaza
-</translation>
+        <translation>Add an input to fund the outputs</translation>
     </message>
     <message>
         <source>Add a Raw Input</source>
-        <translation>Dodajte neobrađeni unos</translation>
+        <translation>Add a Raw Input</translation>
     </message>
     <message>
         <source>Address / Amount:</source>
-        <translation>Adresa / iznos:</translation>
+        <translation>Address / Amount:</translation>
     </message>
     <message>
         <source>Add destinations to send OBSR to</source>
-        <translation>Dodajte odredišta za slanje OBSR
-</translation>
+        <translation>Add destinations to send OBSR to</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
-        <translation>Dodaj odredište</translation>
+        <translation>Add &amp;Destination</translation>
     </message>
     <message>
         <source>Create a transaction object using the given inputs to the given outputs</source>
-        <translation>Stvaranje transakcijskog objekta pomoću zadanih ulaza na navedene izlaze</translation>
+        <translation>Create a transaction object using the given inputs to the given outputs</translation>
     </message>
     <message>
         <source>Cr&amp;eate</source>
-        <translation>Kreiraj</translation>
+        <translation>Cr&amp;eate</translation>
     </message>
     <message>
         <source>&amp;Sign MultiSignature Tx</source>
-        <translation>Potpiši MultiSignature Tx</translation>
+        <translation>&amp;Sign MultiSignature Tx</translation>
     </message>
     <message>
         <source>Transaction Hex:</source>
@@ -1655,133 +1751,133 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
     </message>
     <message>
         <source>Sign the transaction from this wallet or from provided private keys</source>
-        <translation>Potpišite transakciju iz novčanika ili privatnih ključeva</translation>
+        <translation>Sign the transaction from this wallet or from provided private keys</translation>
     </message>
     <message>
         <source>S&amp;ign</source>
-        <translation>potpiši</translation>
+        <translation>S&amp;ign</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DISABLED until transaction has been signed enough times.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DISABLED dok transakcija nije potpisana dovoljno puta.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DISABLED until transaction has been signed enough times.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Co&amp;mmit</source>
-        <translation>Izvršiti</translation>
+        <translation>Co&amp;mmit</translation>
     </message>
     <message>
         <source>Add private keys to sign the transaction with</source>
-        <translation>Dodajte privatne ključeve da biste potpisali transakciju</translation>
+        <translation>Add private keys to sign the transaction with</translation>
     </message>
     <message>
         <source>Add Private &amp;Key</source>
-        <translation>Dodaj privatni ključ</translation>
+        <translation>Add Private &amp;Key</translation>
     </message>
     <message>
         <source>Sign with only private keys (Not Recommened)</source>
-        <translation>Prijavite se samo s privatnim ključevima (nije preporučeno)</translation>
+        <translation>Sign with only private keys (Not Recommened)</translation>
     </message>
     <message>
         <source>Invalid Tx Hash.</source>
-        <translation>Nevažeći Tx Hash.</translation>
+        <translation>Invalid Tx Hash.</translation>
     </message>
     <message>
         <source>Vout position must be positive.</source>
-        <translation>Vout položaj mora biti pozitivan.</translation>
+        <translation>Vout position must be positive.</translation>
     </message>
     <message>
         <source>Maximum possible addresses reached. (15)</source>
-        <translation>Dostignute maksimalne moguće adrese. (15)</translation>
+        <translation>Maximum possible addresses reached. (15)</translation>
     </message>
     <message>
         <source>Vout Position: </source>
-        <translation>Vout Pozicija: </translation>
+        <translation>Vout Position: </translation>
     </message>
     <message>
         <source>Amount: </source>
-        <translation>Iznos:</translation>
+        <translation>Amount: </translation>
     </message>
     <message>
         <source>Maximum (15)</source>
-        <translation>Maksimum (15)</translation>
+        <translation>Maximum (15)</translation>
     </message>
 </context>
 <context>
     <name>ObfuscationConfig</name>
     <message>
         <source>Configure Obfuscation</source>
-        <translation>Konfiguriraj Obfuscation</translation>
+        <translation>Configure Obfuscation</translation>
     </message>
     <message>
         <source>Basic Privacy</source>
-        <translation>Osnovna privatnost</translation>
+        <translation>Basic Privacy</translation>
     </message>
     <message>
         <source>High Privacy</source>
-        <translation>Visoka privatnost</translation>
+        <translation>High Privacy</translation>
     </message>
     <message>
         <source>Maximum Privacy</source>
-        <translation>Maksimalna privatnost</translation>
+        <translation>Maximum Privacy</translation>
     </message>
     <message>
         <source>Please select a privacy level.</source>
-        <translation>Odaberi razinu privatnosti.</translation>
+        <translation>Please select a privacy level.</translation>
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 10000 OBSR</source>
-        <translation>Koristite 2 odvojene masternode za miješanje sredstava do 10000 OBSR</translation>
+        <translation>Use 2 separate masternodes to mix funds up to 10000 OBSR</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 10000 OBSR</source>
-        <translation>Koristite 8 zasebnih masternoda za miješanje sredstava do 10000 OBSR</translation>
+        <translation>Use 8 separate masternodes to mix funds up to 10000 OBSR</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
-        <translation>Koristite 16 zasebnih masternodova</translation>
+        <translation>Use 16 separate masternodes</translation>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 OBSR to anonymize 10000 OBSR</source>
-        <translation>Ova je opcija najbrža i košta oko 0,025 OBSR da anonimizira 10000 OBSR</translation>
+        <translation>This option is the quickest and will cost about ~0.025 OBSR to anonymise 10000 OBSR</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 OBSR to anonymize 10000 OBSR</source>
-        <translation>Ova je opcija umjereno brza i košta oko 0,05 OBSR da anonimizira 10000 OBSR</translation>
+        <translation>This option is moderately fast and will cost about 0.05 OBSR to anonymise 10000 OBSR</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Ovo je najsporiji i najsigurniji izbor. Korištenje maksimalne anonimnosti košta</translation>
+        <translation>This is the slowest and most secure option. Using maximum anonymity will cost</translation>
     </message>
     <message>
         <source>0.1 OBSR per 10000 OBSR you anonymize.</source>
-        <translation>0,1 OBSR po 10000 OBSR za anonimizaciju.</translation>
+        <translation>0.1 OBSR per 10000 OBSR you anonymise.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
-        <translation>Obfuscation Konfiguracija</translation>
+        <translation>Obfuscation Configuration</translation>
     </message>
     <message>
         <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening OBSR's configuration screen.</source>
-        <translation>Obfuscation je uspješno postavljen na osnovne (%1 i 2 runde). To možete promijeniti u bilo kojem trenutku otvaranjem zaslona za konfiguraciju OBSR-a.</translation>
+        <translation>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening OBSR's configuration screen.</translation>
     </message>
     <message>
         <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening OBSR's configuration screen.</source>
-        <translation>Obfuscation je uspješno postavljen na visoku razinu (%1 i 8 krugova). To možete promijeniti u bilo kojem trenutku otvaranjem zaslona za konfiguraciju OBSR-a</translation>
+        <translation>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening OBSR's configuration screen.</translation>
     </message>
     <message>
         <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening OBSR's configuration screen.</source>
-        <translation>Obfuscation je uspješno postavljen na maksimalnu razinu (%1 i 16 krugova). To možete promijeniti u bilo kojem trenutku otvaranjem zaslona za konfiguraciju OBSR-a.</translation>
+        <translation>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening OBSR's configuration screen.</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>Otvori URI</translation>
+        <translation>Open URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Otvorite zahtjev za plaćanje iz URI ili datoteke</translation>
+        <translation>Open payment request from URI or file</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -1789,26 +1885,26 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Odaberite datoteku zahtjeva za plaćanje</translation>
+        <translation>Select payment request file</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>Odaberite datoteku zahtjeva za plaćanje za otvaranje</translation>
+        <translation>Select payment request file to open</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Mogućnosti</translation>
+        <translation>Options</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>Glavno</translation>
+        <translation>&amp;Main</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>Veličina database cachea</translation>
+        <translation>Size of &amp;database cache</translation>
     </message>
     <message>
         <source>MB</source>
@@ -1816,505 +1912,512 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Broj skripti i foruma za potvrdu</translation>
+        <translation>Number of script &amp;verification threads</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = auto, &lt;0 = ostavi toliko jezgri)</translation>
+        <translation>(0 = auto, &lt;0 = leave that many cores free)</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>Novčanik</translation>
+        <translation>W&amp;allet</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
-        <translation>Ako onemogućite potrošnju nepotvrđenih promjena, promjena s transakcijskog kanala bit će upotrijebljena sve dok ta transakcija nema barem jednu potvrdu. To također utječe na izračun salda.</translation>
+        <translation>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</translation>
     </message>
     <message>
         <source>Automatically open the OBSR client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvorite OBSR klijentski priključak na rooteru. To funkcionira samo kada vaš rooter podržava UPnP i omogućen je.</translation>
+        <translation>Automatically open the OBSR client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Prihvatite veze izvana</translation>
+        <translation>Accept connections from outside</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Dopusti dolazne veze</translation>
+        <translation>Allow incoming connections</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>Povežite se putem SOCKS5 proxyja (zadani proxy):</translation>
+        <translation>&amp;Connect through SOCKS5 proxy (default proxy):</translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>Stručnjak</translation>
+        <translation>Expert</translation>
     </message>
     <message>
         <source>Automatically start OBSR after logging in to the system.</source>
-        <translation>Automatski pokrenite OBSR nakon prijave u sustav.</translation>
+        <translation>Automatically start OBSR after logging in to the system.</translation>
     </message>
     <message>
         <source>&amp;Start OBSR on system login</source>
-        <translation>Pokrenite OBSR na prijavi u sustav</translation>
+        <translation>&amp;Start OBSR on system login</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Bilo da pokazuju značajke kontrole novčića ili ne.</translation>
+        <translation>Whether to show coin control features or not.</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Omogućite značajke kontrole novčića</translation>
+        <translation>Enable coin &amp;control features</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
-        <translation>Prikaži dodatnu karticu s popisom svih svojih masternoda u prvom pod-tabu i sve masternode na mreži u drugoj podkartici.</translation>
+        <translation>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
-        <translation>Prikaži Masternodes Tab</translation>
+        <translation>Show Masternodes Tab</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>Provedite nepotvrđene promjene</translation>
+        <translation>&amp;Spend unconfirmed change</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>Mreža</translation>
+        <translation>&amp;Network</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting OBSR.</source>
-        <translation>Ovdje se može postaviti jezik korisničkog sučelja. Ova postavka će stupiti na snagu nakon ponovnog pokretanja OBSR-a.</translation>
+        <translation>The user interface language can be set here. This setting will take effect after restarting OBSR.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
 https://www.transifex.com/observer/obsr</source>
-        <translation>Jezik nedostaje ili prijevod nije potpun? Pomozite s prijevodima ovdje:
+        <translation>Language missing or translation incomplete? Help contributing translations here:
 https://www.transifex.com/observer/obsr</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Karte porta pomoću UPnP
-</translation>
+        <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
         <source>Enable automatic minting of OBSR units to zOBSR</source>
-        <translation>Omogućite automint OBSR jedinica na zOBSR</translation>
+        <translation>Enable automatic minting of OBSR units to zOBSR</translation>
     </message>
     <message>
         <source>Enable zOBSR Automint</source>
-        <translation>Omogući zOBSR Automint</translation>
+        <translation>Enable zOBSR Automint</translation>
     </message>
     <message>
         <source>Percentage of incoming OBSR which get automatically converted to zOBSR via Zerocoin Protocol (min: 10%)</source>
-        <translation>Postotak dolaznih OBSR koji se automatski pretvara u zOBSR putem protokola Zerocoin (min: 10%)</translation>
+        <translation>Percentage of incoming OBSR which get automatically converted to zOBSR via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
         <source>Percentage of autominted zOBSR</source>
-        <translation>Postotak automatiziranog zOBSR</translation>
+        <translation>Percentage of autominted zOBSR</translation>
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough OBSR for this denomination is available</source>
-        <translation>Pričekajte s automatskom pretvorbom u Zerocoin dok ne bude dostupno dovoljno OBSR za apoen</translation>
+        <translation>Wait with automatic conversion to Zerocoin until enough OBSR for this denomination is available</translation>
     </message>
     <message>
         <source>Preferred Automint zOBSR Denomination</source>
-        <translation>Preferirana Automint zOBSR denominacijad</translation>
+        <translation>Preferred Automint zOBSR Denomination</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
-        <translation>Prag razdvajanja Stake-a:</translation>
+        <translation>Stake split threshold:</translation>
     </message>
     <message>
         <source>Connect to the OBSR network through a SOCKS5 proxy.</source>
-        <translation>Povežite se s OBSR mrežom putem SOCKS5 proxy poslužitelja.</translation>
+        <translation>Connect to the OBSR network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>Proxy IP:</translation>
+        <translation>Proxy &amp;IP:</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>IP adresa proxya (npr. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>Port:</translation>
+        <translation>&amp;Port:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Port proxya (npr. 9050)</translation>
+        <translation>Port of the proxy (e.g. 9050)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>Prozor</translation>
+        <translation>&amp;Window</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Prikaži samo ikonu trake nakon minimaliziranja prozora.</translation>
+        <translation>Show only a tray icon after minimising the window.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>Minimaliziraj na traku umjesto Taskbar</translation>
+        <translation>&amp;Minimise to the tray instead of the taskbar</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimiziraj umjesto izlaska iz aplikacije kada je prozor zatvoren. Kada je ova opcija omogućena, program će biti zatvoren samo nakon odabira opcije Quit u izborniku.</translation>
+        <translation>Minimise instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>Minimiziraj pri zatvaranju</translation>
+        <translation>M&amp;inimise on close</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>Prikaz</translation>
+        <translation>&amp;Display</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>Jezik sučelja korisnika:</translation>
+        <translation>User Interface &amp;language:</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
-        <translation>Tema sučelja korisnika:</translation>
+        <translation>User Interface Theme:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Jedinica za prikaz količine:</translation>
+        <translation>&amp;Unit to show amounts in:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Odaberite zadanu jedinicu podjele za prikazivanje u sučelju i za slanje novca.</translation>
+        <translation>Choose the default subdivision unit to show in the interface and when sending coins.</translation>
     </message>
     <message>
         <source>Decimal digits</source>
-        <translation>Decimalnih znamenki</translation>
+        <translation>Decimal digits</translation>
     </message>
     <message>
         <source>Hide empty balances</source>
-        <translation>Sakri praznu bilancu</translation>
+        <translation>Hide empty balances</translation>
+    </message>
+    <message>
+        <source>Hide orphan stakes in transaction lists</source>
+        <translation>Hide orphan stakes in transaction lists</translation>
+    </message>
+    <message>
+        <source>Hide orphan stakes</source>
+        <translation>Hide orphan stakes</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>URL-ovi treće strane (npr. Blok-istraživač) koji se pojavljuju na kartici transakcija kao stavke kontekstualnog izbornika. %s u URL-u zamjenjuje se transakcijom. Višestruki URL-ovi razdvojeni su okomitim trakom |.</translation>
+        <translation>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>URL transakcije treće stranke</translation>
+        <translation>Third party transaction URLs</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Aktivne opcije naredbenog retka koje nadjačavaju gore navedene opcije:</translation>
+        <translation>Active command-line options that override above options:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Ponovno postavite sve opcije klijenta na zadano.</translation>
+        <translation>Reset all client options to default.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>Mogućnosti ponovnog postavljanja</translation>
+        <translation>&amp;Reset Options</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>U redu</translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>Poništi</translation>
+        <translation>&amp;Cancel</translation>
     </message>
     <message>
         <source>Any</source>
-        <translation>bilo koji</translation>
+        <translation>Any</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>Zadani</translation>
+        <translation>default</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>bez</translation>
+        <translation>none</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Potvrdi ponovno postavljanje mogućnosti</translation>
+        <translation>Confirm options reset</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Ponovno pokretanje klijenta potrebno je za aktiviranje promjena.</translation>
+        <translation>Client restart required to activate changes.</translation>
     </message>
     <message>
         <source>Client will be shutdown, do you want to proceed?</source>
-        <translation>Klijent će biti isključen, želite li nastaviti?</translation>
+        <translation>Client will be shut down, do you want to proceed?</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Ova će promjena zahtijevati ponovno pokretanje klijenta.</translation>
+        <translation>This change would require a client restart.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Isporučena proxy adresa nije važeća.</translation>
+        <translation>The supplied proxy address is invalid.</translation>
     </message>
     <message>
         <source>The supplied proxy port is invalid.</source>
-        <translation>Isporučeni proxy priključak nije valjan.</translation>
+        <translation>The supplied proxy port is invalid.</translation>
     </message>
     <message>
         <source>The supplied proxy settings are invalid.</source>
-        <translation>Isporučene proxy postavke nisu važeće.</translation>
+        <translation>The supplied proxy settings are invalid.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>Obrazac</translation>
+        <translation>Form</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>Dostupno:</translation>
+        <translation>Available:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Vaš trenutni potrošni saldo</translation>
+        <translation>Your current spendable balance</translation>
     </message>
     <message>
         <source>Total Balance, including all unavailable coins.</source>
-        <translation>Ukupni saldo, uključujući sve nedostupne kovanice.</translation>
+        <translation>Total Balance, including all unavailable coins.</translation>
     </message>
     <message>
         <source>OBSR Balance</source>
-        <translation>OBSR Saldo</translation>
+        <translation>OBSR Balance</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>Na čekanju:</translation>
+        <translation>Pending:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Ukupni broj transakcija koje još nisu potvrđene i ne računaju se na potrošnju</translation>
+        <translation>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>Nezrelo:</translation>
+        <translation>Immature:</translation>
     </message>
     <message>
         <source>Staked or masternode rewards that has not yet matured</source>
-        <translation>Nagradne ili nagomilane nagrade koje još nisu sazrele</translation>
+        <translation>Staked or masternode rewards that has not yet matured</translation>
     </message>
     <message>
         <source>Current locked balance in watch-only addresses</source>
-        <translation>Trenutačno zaključana ravnoteža u adresama samo za gledanje</translation>
+        <translation>Current locked balance in watch-only addresses</translation>
     </message>
     <message>
         <source>Your current OBSR balance, unconfirmed and immature transactions included</source>
-        <translation>Uključena je vaša trenutna bilanca OBSR, nepotvrđene i nezrele transakcije</translation>
+        <translation>Your current OBSR balance, unconfirmed and immature transactions included</translation>
     </message>
     <message>
         <source>zOBSR Balance</source>
-        <translation>zOBSR Bilanca</translation>
+        <translation>zOBSR Balance</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
 These zOBSR are spendable.</source>
-        <translation>Mature: više od 20 potvrda i više od 1 mint od iste denominacije nakon što je mintan.
-Ti zOBSRs se mogu potrošiti.</translation>
+        <translation>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
+These zOBSR are spendable.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
 Immature: confirmed, but less than 1 mint of the same denomination after it was minted</source>
-        <translation>Nepotvrđeno: manje od 20 potvrda
-Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</translation>
+        <translation>Unconfirmed: less than 20 confirmations
+Immature: confirmed, but less than 1 mint of the same denomination after it was minted</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the OBSR network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije mogu biti zastarjele. Vaš se novčanik automatski sinkronizira s OBSR mrežom nakon uspostavljanja veze, ali taj postupak još nije dovršen.</translation>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronises with the OBSR network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
-        <translation>PREGLED</translation>
+        <translation>OVERVIEW</translation>
     </message>
     <message>
         <source>Combined Balance (including unconfirmed and immature coins)</source>
-        <translation>Kombinirana bilanca (uključujući nepotvrđene i nezrele novčiće)</translation>
+        <translation>Combined Balance (including unconfirmed and immature coins)</translation>
     </message>
     <message>
         <source>Combined Balance</source>
-        <translation>Kombinirani saldo</translation>
+        <translation>Combined Balance</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Nepotvrđene transakcije za adrese samo za praćenje</translation>
+        <translation>Unconfirmed transactions to watch-only addresses</translation>
     </message>
     <message>
         <source>Staked or masternode rewards in watch-only addresses that has not yet matured</source>
-        <translation>Staked ili masternode nagrade u adresama koje samo za gledanje još nisu sazrele</translation>
+        <translation>Staked or masternode rewards in watch-only addresses that have not yet matured</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>Ukupno:</translation>
+        <translation>Total:</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>Trenutačna ukupna bilanca u adresama samo za praćenje</translation>
+        <translation>Current total balance in watch-only addresses</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>Samo za gledati:</translation>
+        <translation>Watch-only:</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Vaš trenutni saldo u adresama samo za gledanje</translation>
+        <translation>Your current balance in watch-only addresses</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>Po potrošiti:</translation>
+        <translation>Spendable:</translation>
     </message>
     <message>
         <source>Locked OBSR or Masternode collaterals. These are excluded from zOBSR minting.</source>
-        <translation>Zaključani OBSR ili Masternode kolateral. Oni su isključeni iz zOBSR kovanja.</translation>
+        <translation>Locked OBSR or Masternode collaterals. These are excluded from zOBSR minting.</translation>
     </message>
     <message>
         <source>Locked:</source>
-        <translation>Zaključano:</translation>
+        <translation>Locked:</translation>
     </message>
     <message>
         <source>Unconfirmed:</source>
-        <translation>Nepotvrđeno:</translation>
+        <translation>Unconfirmed:</translation>
     </message>
     <message>
         <source>Your current zOBSR balance, unconfirmed and immature zOBSR included.</source>
-        <translation>Vaša trenutačna zOBSR bilanca, nepotvrđena i nezrela zOBSR.</translation>
+        <translation>Your current zOBSR balance, unconfirmed and immature zOBSR included.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>Nedavne transakcije</translation>
+        <translation>Recent transactions</translation>
     </message>
     <message>
         <source>out of sync</source>
-        <translation>nije sinkronizirano</translation>
+        <translation>out of sync</translation>
     </message>
     <message>
         <source>Current percentage of zOBSR.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Trenutni postotak zOBSR.
-Ako je omogućeno automatsko navođenje, ovaj postotak će se podmiriti oko konfiguriranog postotka automatskog navođenja (zadano = 10%).
+        <translation>Current percentage of zOBSR.
+If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </translation>
     </message>
     <message>
         <source>AutoMint is currently enabled and set to </source>
-        <translation>AutoMint je trenutno omogućen i podešen na</translation>
+        <translation>AutoMint is currently enabled and set to </translation>
     </message>
     <message>
         <source>To disable AutoMint add 'enablezeromint=0' in obsr.conf.</source>
-        <translation>Da biste onemogućili AutoMint, dodajte 'enablezeromint=0' u obsr.conf.</translation>
+        <translation>To disable AutoMint add 'enablezeromint=0' in obsr.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
 To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in obsr.conf</source>
-        <translation>AutoMint je trenutno onemogućen.
-Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablezeromint=1' u obsr.conf</translation>
+        <translation>AutoMint is currently disabled.
+To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in obsr.conf</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>Greška zahtjeva za plaćanje</translation>
+        <translation>Payment request error</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>rukovanje s URI</translation>
+        <translation>URI handling</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
-        <translation>URL za dohvaćanje zahtjeva za plaćanje nije valjan: %1</translation>
+        <translation>Payment request fetch URL is invalid: %1</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
-        <translation>Upravljanje datotekama zahtjeva za plaćanjem</translation>
+        <translation>Payment request file handling</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>Nevažeća adresa za plaćanje %1</translation>
+        <translation>Invalid payment address %1</translation>
     </message>
     <message>
         <source>Cannot start obsr: click-to-pay handler</source>
-        <translation>Ne može se pokrenuti obsr: clik-to-pay handler</translation>
+        <translation>Cannot start obsr: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid OBSR address or malformed URI parameters.</source>
-        <translation>URI se ne može analizirati! To može biti uzrokovana nevažećom OBSR adresom ili nepravilnim URI parametrima.</translation>
+        <translation>URI cannot be parsed! This can be caused by an invalid OBSR address or malformed URI parameters.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Datoteku zahtjeva za plaćanje ne može se pročitati! To može biti uzrokovana nevažećom datotekom zahtjeva za plaćanjem.</translation>
+        <translation>Payment request file cannot be read! This can be caused by an invalid payment request file.</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
-        <translation>Zahtjev za plaćanje odbijen</translation>
+        <translation>Payment request rejected</translation>
     </message>
     <message>
         <source>Payment request network doesn't match client network.</source>
-        <translation>Mreža zahtjeva za plaćanje ne odgovara mreži klijenta.</translation>
+        <translation>Payment request network doesn't match client network.</translation>
     </message>
     <message>
         <source>Payment request has expired.</source>
-        <translation>Zahtjev za plaćanje je istekao.</translation>
+        <translation>Payment request has expired.</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>Zahtjev za plaćanje nije pokrenut.</translation>
+        <translation>Payment request is not initialised.</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Nepodržane su nepotvrđeni zahtjevi za plaćanje prilagođenim skriptama za plaćanje.</translation>
+        <translation>Unverified payment requests to custom payment scripts are unsupported.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Zatražena uplata od %1 je premala (smatra se prašinom).</translation>
+        <translation>Requested payment amount of %1 is too small (considered dust).</translation>
     </message>
     <message>
         <source>Refund from %1</source>
-        <translation>Povrat od %1</translation>
+        <translation>Refund from %1</translation>
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Zahtjev za isplatu %1 prevelik je (%2 bajta, dopušteno je %3bajta).</translation>
+        <translation>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</translation>
     </message>
     <message>
         <source>Payment request DoS protection</source>
-        <translation>Zahtjev za plaćanje DoS zaštitu</translation>
+        <translation>Payment request DoS protection</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
-        <translation>Pogreška pri komunikaciji s %1: %2</translation>
+        <translation>Error communicating with %1: %2</translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>Zahtjev za plaćanje ne može se rastaviti!</translation>
+        <translation>Payment request cannot be parsed!</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>Loš odgovor od poslužitelja %1</translation>
+        <translation>Bad response from server %1</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation>Greška odgovora mreže</translation>
+        <translation>Network request error</translation>
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation>Plaćanje je priznato</translation>
+        <translation>Payment acknowledged</translation>
     </message>
 </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>Address/Hostname</source>
-        <translation>Adresa / Naziv poslužitelja</translation>
+        <translation>Address/Hostname</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Verzija</translation>
+        <translation>Version</translation>
     </message>
     <message>
         <source>Ping Time</source>
@@ -2325,11 +2428,11 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
     <name>PrivacyDialog</name>
     <message>
         <source>Zerocoin Actions:</source>
-        <translation>Zerocoin radnje:</translation>
+        <translation>Zerocoin Actions:</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the OBSR network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije mogu biti zastarjele. Vaš se novčanik automatski sinkronizira s OBSR mrežom nakon uspostavljanja veze, ali taj postupak još nije dovršen.</translation>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronises with the OBSR network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2345,11 +2448,11 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
-        <translation>Dostupne za mintanje su kovanice koje su potvrđene i nisu zaključane ili Masternode kolateralne.</translation>
+        <translation>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</translation>
     </message>
     <message>
         <source>Available for Minting:</source>
-        <translation>Dostupno za Minting:</translation>
+        <translation>Available for Minting:</translation>
     </message>
     <message>
         <source>0.000 000 00 OBSR</source>
@@ -2357,7 +2460,7 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
-        <translation>Ponovno postavite Zerocoin Wallet DB. Briše transakcije koje nisu dospjele u blockchain.</translation>
+        <translation>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -2365,71 +2468,71 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
     </message>
     <message>
         <source>Coin Control...</source>
-        <translation>Upravljanje novčićem...</translation>
+        <translation>Coin Control...</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Količina:</translation>
+        <translation>Quantity:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Iznos:</translation>
+        <translation>Amount:</translation>
     </message>
     <message>
         <source>Rescan the complete blockchain for  Zerocoin mints and their meta-data.</source>
-        <translation>Ponovo skenirajte kompletnog blockchaina za Zerocoin mints i njihove meta-podataka.</translation>
+        <translation>Rescan the complete blockchain for  Zerocoin mints and their meta-data.</translation>
     </message>
     <message>
         <source>ReScan</source>
-        <translation>Ponovno pretraži</translation>
+        <translation>ReScan</translation>
     </message>
     <message>
         <source>Status and/or Mesages from the last Mint Action.</source>
-        <translation>Status i/ili poruke od zadnje Mint akcije</translation>
+        <translation>Status and/or Messages from the last Mint Action.</translation>
     </message>
     <message>
         <source>PRIVACY</source>
-        <translation>PRIVATNOST</translation>
+        <translation>PRIVACY</translation>
     </message>
     <message>
         <source>Enter an amount of Obsr to convert to zOBSR</source>
-        <translation>Unesite iznos Obsr za pretvorbu u zOBSR</translation>
+        <translation>Enter an amount of Obsr to convert to zOBSR</translation>
     </message>
     <message>
         <source>zOBSR Control</source>
-        <translation>Upravljanje zOBSR</translation>
+        <translation>zOBSR Control</translation>
     </message>
     <message>
         <source>zOBSR Selected:</source>
-        <translation>zOBSR Odabrani:</translation>
+        <translation>zOBSR Selected:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
-        <translation>Odabrano:</translation>
+        <translation>Quantity Selected:</translation>
     </message>
     <message>
         <source>Spend Zerocoin. Without 'Pay To:' address creates payments to yourself.</source>
-        <translation>Potroši Zerocoin. Bez adrese "Pay To:" stvara plaćanja za sebe.</translation>
+        <translation>Spend Zerocoin. Without 'Pay To:' address creates payments to yourself.</translation>
     </message>
     <message>
         <source>Spend Zerocoin</source>
-        <translation>Potroši Zerocoin</translation>
+        <translation>Spend Zerocoin</translation>
     </message>
     <message>
         <source>Available (mature and spendable) zOBSR for spending</source>
-        <translation>Dostupni (zreli) zOBSR za potrošnju</translation>
+        <translation>Available (mature and spendable) zOBSR for spending</translation>
     </message>
     <message>
         <source>Available Balance:</source>
-        <translation>Dostupna Bilanca:</translation>
+        <translation>Available Balance:</translation>
     </message>
     <message>
         <source>Available (mature and spendable) zOBSR for spending
 
 zOBSR are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Dostupni (zreli) zOBSR za potrošnju
+        <translation>Available (mature and spendable) zOBSR for spending
 
-zOBSR su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denominacije nakon što su bili mintani</translation>
+zOBSR are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</translation>
     </message>
     <message>
         <source>0 zOBSR</source>
@@ -2437,15 +2540,15 @@ zOBSR su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denomina
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>Platiti:</translation>
+        <translation>Pay &amp;To:</translation>
     </message>
     <message>
         <source>The OBSR address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>OBSR adresa za slanje uplate. Stvara lokalno plaćanje za sebe kada je prazno.</translation>
+        <translation>The OBSR address to send the payment to. Creates local payment to yourself when empty.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Odaberite prethodno upotrijebljenu adresu</translation>
+        <translation>Choose previously used address</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2453,7 +2556,7 @@ zOBSR su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denomina
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Zalijepite adresu iz međuspremnika</translation>
+        <translation>Paste address from clipboard</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2461,57 +2564,57 @@ zOBSR su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denomina
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>Oznaka:</translation>
+        <translation>&amp;Label:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Unesite oznaku za ovu adresu da biste ga dodali na popis upotrijebljenih adresa</translation>
+        <translation>Enter a label for this address to add it to the list of used addresses</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>Količina:</translation>
+        <translation>A&amp;mount:</translation>
     </message>
     <message>
         <source>Convert Change to Zerocoin (might cost additional fees)</source>
-        <translation>Pretvori razliku u Zerocoin (može proizvesti dodatne troškove)</translation>
+        <translation>Convert Change to Zerocoin (might cost additional fees)</translation>
     </message>
     <message>
         <source>If checked, the wallet tries to minimize the returning change instead of minimizing the number of spent denominations.</source>
-        <translation>Ako je označeno, novčanik pokušava smanjiti povratnu razliku umjesto da minimizira broj utrošenih apoena.</translation>
+        <translation>If checked, the wallet tries to minimise the returning change instead of minimising the number of spent denominations.</translation>
     </message>
     <message>
         <source>Minimize Change</source>
-        <translation>Minimiziraj razliku</translation>
+        <translation>Minimise Change</translation>
     </message>
     <message>
         <source>Information about the available Zerocoin funds.</source>
-        <translation>Informacije o dostupnim Zerocoin fondovima.</translation>
+        <translation>Information about the available Zerocoin funds.</translation>
     </message>
     <message>
         <source>Zerocoin Stats:</source>
-        <translation>Statistike Zerocoina:</translation>
+        <translation>Zerocoin Stats:</translation>
     </message>
     <message>
         <source>Total Balance including unconfirmed and immature zOBSR</source>
-        <translation>Ukupni saldo uključujući nepotvrđeni i nedovršeni zOBSR</translation>
+        <translation>Total Balance including unconfirmed and immature zOBSR</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
-        <translation>Ukupno Zerocoin Stanje:</translation>
+        <translation>Total Zerocoin  Balance:</translation>
     </message>
     <message>
         <source>Denominations with value 1:</source>
-        <translation>Denominacije s vrijednošću 1:</translation>
+        <translation>Denominations with value 1:</translation>
     </message>
     <message>
         <source>Denom. with value 1:</source>
-        <translation>Denom. s vrijednošću 1:</translation>
+        <translation>Denom. with value 1:</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
 Immature: confirmed, but less than 1 mint of the same denomination after it was minted</source>
-        <translation>Nepotvrđeno: manje od 20 potvrda
-Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</translation>
+        <translation>Unconfirmed: less than 20 confirmations
+Immature: confirmed, but less than 1 mint of the same denomination after it was minted</translation>
     </message>
     <message>
         <source>Show the current status of automatic zOBSR minting.
@@ -2524,14 +2627,16 @@ To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zOBSR
 
 </source>
-        <translation>Pokažite trenutačni status automatskog zOBSR mintanja.
+        <translation>Show the current status of automatic zOBSR minting.
 
-Da biste promijenili status (potrebno je ponovno pokretanje):
-- omogući: dodajte 'enablezeromint = 1' u obsr.conf
-- onemogućiti: dodajte 'enablezeromint = 0' na obsr.conf
+To change the status (restart required):
+- enable: add 'enablezeromint=1' to obsr.conf
+- disable: add 'enablezeromint=0' to obsr.conf
 
-Promjena postotka (nije potrebno ponovno pokretanje):
-- izbornik Postavke-&gt; Opcije-&gt; Postotak zOBSR</translation>
+To change the percentage (no restart required):
+- menu Settings-&gt;Options-&gt;Percentage of autominted zOBSR
+
+</translation>
     </message>
     <message>
         <source>AutoMint Status</source>
@@ -2539,7 +2644,7 @@ Promjena postotka (nije potrebno ponovno pokretanje):
     </message>
     <message>
         <source>Global Supply:</source>
-        <translation>Globalna ponuda:</translation>
+        <translation>Global Supply:</translation>
     </message>
     <message>
         <source>Denom. 1:</source>
@@ -2578,64 +2683,76 @@ Promjena postotka (nije potrebno ponovno pokretanje):
         <translation>0 x</translation>
     </message>
     <message>
+        <source>Show zOBSR denominations list</source>
+        <translation>Show zOBSR denominations list</translation>
+    </message>
+    <message>
+        <source>Show Denominations</source>
+        <translation>Show Denominations</translation>
+    </message>
+    <message>
         <source>Denominations with value 5:</source>
-        <translation>Denominacije s vrijednošću 5:</translation>
+        <translation>Denominations with value 5:</translation>
     </message>
     <message>
         <source>Denom. with value 5:</source>
-        <translation>Denom. s vrijednošću 5: </translation>
+        <translation>Denom. with value 5:</translation>
     </message>
     <message>
         <source>Denominations with value 10:</source>
-        <translation>Denominacije s vrijednošću 10:</translation>
+        <translation>Denominations with value 10:</translation>
     </message>
     <message>
         <source>Denom. with value 10:</source>
-        <translation>Denom. s vrijednošću 10:</translation>
+        <translation>Denom. with value 10:</translation>
     </message>
     <message>
         <source>Denominations with value 50:</source>
-        <translation>Denominacije s vrijednošću 50:</translation>
+        <translation>Denominations with value 50:</translation>
     </message>
     <message>
         <source>Denom. with value 50:</source>
-        <translation>Denom. s vrijednošću 50:</translation>
+        <translation>Denom. with value 50:</translation>
     </message>
     <message>
         <source>Denominations with value 100:</source>
-        <translation>Denominacije s vrijednošću 100:</translation>
+        <translation>Denominations with value 100:</translation>
     </message>
     <message>
         <source>Denom. with value 100:</source>
-        <translation>Denom. s vrijednošću 100:</translation>
+        <translation>Denom. with value 100:</translation>
     </message>
     <message>
         <source>Denominations with value 500:</source>
-        <translation>Denominacije s vrijednošću 500:</translation>
+        <translation>Denominations with value 500:</translation>
     </message>
     <message>
         <source>Denom. with value 500:</source>
-        <translation>Denom. s vrijednošću 500:</translation>
+        <translation>Denom. with value 500:</translation>
     </message>
     <message>
         <source>Denominations with value 1000:</source>
-        <translation>Denominacije s vrijednošću 1000:</translation>
+        <translation>Denominations with value 1000:</translation>
     </message>
     <message>
         <source>Denom. with value 1000:</source>
-        <translation>Denom. s vrijednošću 1000:</translation>
+        <translation>Denom. with value 1000:</translation>
     </message>
     <message>
         <source>Denominations with value 5000:</source>
-        <translation>Denominacije s vrijednošću 5000:</translation>
+        <translation>Denominations with value 5000:</translation>
     </message>
     <message>
         <source>Denom. with value 5000:</source>
-        <translation>Denom. s vrijednošću 5000:</translation>
+        <translation>Denom. with value 5000:</translation>
+    </message>
+    <message>
+        <source>Hide Denominations</source>
+        <translation>Hide Denominations</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Prioritet:</translation>
+        <translation>Priority:</translation>
     </message>
     <message>
         <source>TextLabel</source>
@@ -2643,7 +2760,7 @@ Promjena postotka (nije potrebno ponovno pokretanje):
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Naknada:</translation>
+        <translation>Fee:</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -2651,74 +2768,75 @@ Promjena postotka (nije potrebno ponovno pokretanje):
     </message>
     <message>
         <source>no</source>
-        <translation>ne</translation>
+        <translation>no</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bytovi:</translation>
+        <translation>Bytes:</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Nedovoljna sredstva!</translation>
+        <translation>Insufficient funds!</translation>
     </message>
     <message>
         <source>Coins automatically selected</source>
-        <translation>Kovanice se automatski odabiru</translation>
+        <translation>Coins automatically selected</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>srednje</translation>
+        <translation>medium</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Značajke upravljanja novcem</translation>
+        <translation>Coin Control Features</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Ako je to aktivirano, ali adresa za izmjenu je prazna ili nije valjana, promjena će biti poslana na novo generiranu adresu.</translation>
+        <translation>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>Prilagođene izmjene adrese</translation>
+        <translation>Custom change address</translation>
     </message>
     <message>
         <source>Amount After Fee:</source>
-        <translation>Iznos nakon naknade:</translation>
+        <translation>Amount After Fee:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Razlika:</translation>
+        <translation>Change:</translation>
     </message>
     <message>
         <source>out of sync</source>
-        <translation>nije sinkronizirano</translation>
+        <translation>out of sync</translation>
     </message>
     <message>
         <source>Mint Status: Okay</source>
-        <translation>Mint Status: U redu</translation>
+        <translation>Mint Status: Okay</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Kopirajte količinu</translation>
+        <translation>Copy quantity</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopiraj iznos</translation>
+        <translation>Copy amount</translation>
     </message>
     <message>
         <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware.
 Please be patient...</source>
-        <translation>Pokretanje ResetMintZerocoin: ponovno skeniranje potpunog blockchain, to će trajati i do 30 minuta, ovisno o vašem hardveru.</translation>
+        <translation>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware.
+Please be patient...</translation>
     </message>
     <message>
         <source>) needed.
 Maximum allowed: </source>
-        <translation>) potrebno.
-Maksimalno dopušteno:</translation>
+        <translation>) needed.
+Maximum allowed: </translation>
     </message>
     <message>
         <source>zOBSR Spend #: </source>
-        <translation>zOBSR utrošeno #: </translation>
+        <translation>zOBSR Spend #: </translation>
     </message>
     <message>
         <source>zOBSR Mint</source>
@@ -2726,55 +2844,55 @@ Maksimalno dopušteno:</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
-        <translation> &lt;b&gt;omogući&lt;/b&gt;.</translation>
+        <translation> &lt;b&gt;enabled&lt;/b&gt;.</translation>
     </message>
     <message>
         <source> &lt;b&gt;disabled&lt;/b&gt;.</source>
-        <translation> &lt;b&gt;onemogući&lt;/b&gt;.</translation>
+        <translation> &lt;b&gt;disabled&lt;/b&gt;.</translation>
     </message>
     <message>
         <source> Configured target percentage: &lt;b&gt;</source>
-        <translation> Konfigirani ciljani postotak: &lt;b&gt;</translation>
+        <translation> Configured target percentage: &lt;b&gt;</translation>
     </message>
     <message>
         <source>zOBSR is currently disabled due to maintenance.</source>
-        <translation>Zbog održavanja zOBSR je trenutačno onemogućen.</translation>
+        <translation>zOBSR is currently disabled due to maintenance.</translation>
     </message>
     <message>
         <source>zOBSR is currently undergoing maintenance.</source>
-        <translation>Radovi u tijeku na zOBSR.</translation>
+        <translation>zOBSR is currently undergoing maintenance.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
-        <translation>Denom. s vrijednošću &lt;b&gt;1&lt;/b&gt;:</translation>
+        <translation>Denom. with value &lt;b&gt;1&lt;/b&gt;:</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;5&lt;/b&gt;:</source>
-        <translation>Denom. s vrijednošću &lt;b&gt;5&lt;/b&gt;:</translation>
+        <translation>Denom. with value &lt;b&gt;5&lt;/b&gt;:</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;10&lt;/b&gt;:</source>
-        <translation>Denom. s vrijednošću&lt;b&gt;10&lt;/b&gt;:</translation>
+        <translation>Denom. with value &lt;b&gt;10&lt;/b&gt;:</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;50&lt;/b&gt;:</source>
-        <translation>Denom. s vrijednošću &lt;b&gt;50&lt;/b&gt;:</translation>
+        <translation>Denom. with value &lt;b&gt;50&lt;/b&gt;:</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;100&lt;/b&gt;:</source>
-        <translation>Denom. s vrijednošću &lt;b&gt;100&lt;/b&gt;:</translation>
+        <translation>Denom. with value &lt;b&gt;100&lt;/b&gt;:</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;500&lt;/b&gt;:</source>
-        <translation>Denom. s vrijednošću &lt;b&gt;500&lt;/b&gt;:</translation>
+        <translation>Denom. with value &lt;b&gt;500&lt;/b&gt;:</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1000&lt;/b&gt;:</source>
-        <translation>Denom. s vrijednošću &lt;b&gt;1000&lt;/b&gt;:</translation>
+        <translation>Denom. with value &lt;b&gt;1000&lt;/b&gt;:</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;5000&lt;/b&gt;:</source>
-        <translation>Denom. s vrijednošću &lt;b&gt;5000&lt;/b&gt;:</translation>
+        <translation>Denom. with value &lt;b&gt;5000&lt;/b&gt;:</translation>
     </message>
     <message>
         <source>AutoMint Status:</source>
@@ -2814,11 +2932,11 @@ Maksimalno dopušteno:</translation>
     </message>
     <message>
         <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
-        <translation>Pogreška: vaš je novčanik zaključan. Najprije unesite zaporku novčanika.</translation>
+        <translation>Error: Your wallet is locked. Please enter the wallet passphrase first.</translation>
     </message>
     <message>
         <source>Message: Enter an amount &gt; 0.</source>
-        <translation>Poruka: unesite iznos&gt; 0.</translation>
+        <translation>Message: Enter an amount &gt; 0.</translation>
     </message>
     <message>
         <source>Minting </source>
@@ -2826,20 +2944,21 @@ Maksimalno dopušteno:</translation>
     </message>
     <message>
         <source>Successfully minted </source>
-        <translation>Uspješno mintano</translation>
+        <translation>Successfully minted </translation>
     </message>
     <message>
         <source> zOBSR in </source>
-        <translation> ulazni zOBSR </translation>
+        <translation> zOBSR in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
 </source>
-        <translation>sek. Upotrijebljene denominacije:</translation>
+        <translation> sec. Used denominations:
+</translation>
     </message>
     <message>
         <source>Duration: </source>
-        <translation>Trajanje:</translation>
+        <translation>Duration: </translation>
     </message>
     <message>
         <source> sec.
@@ -2849,80 +2968,86 @@ Maksimalno dopušteno:</translation>
     </message>
     <message>
         <source>Starting ResetSpentZerocoin: </source>
-        <translation>Pokretanje ResetSpentZerocoin:</translation>
+        <translation>Starting ResetSpentZerocoin: </translation>
     </message>
     <message>
         <source>No 'Pay To' address provided, creating local payment</source>
-        <translation>Nije dodijeljena adresa "Plati", stvarajući lokalnu uplatu</translation>
+        <translation>No 'Pay To' address provided, creating local payment</translation>
     </message>
     <message>
         <source>Invalid Obsr Address</source>
-        <translation>Nevažeća Obsr Adresa</translation>
+        <translation>Invalid Obsr Address</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
-        <translation>Neispravan iznos slanja</translation>
+        <translation>Invalid Send Amount</translation>
     </message>
     <message>
         <source>Confirm additional Fees</source>
-        <translation>Potvrdite dodatne naknade</translation>
+        <translation>Confirm additional Fees</translation>
     </message>
     <message>
         <source>Are you sure you want to send?&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Jeste li sigurni da želite poslati?</translation>
+        <translation>Are you sure you want to send?&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <source> to address </source>
-        <translation>na adresu</translation>
+        <translation> to address </translation>
     </message>
     <message>
         <source> to a newly generated (unused and therefore anonymous) local address &lt;br /&gt;</source>
-        <translation>na novo generiranu (neiskorištenu i stoga anonimnu) lokalnu adresu</translation>
+        <translation> to a newly generated (unused and therefore anonymous) local address &lt;br /&gt;</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Potvrdite slanje novca</translation>
+        <translation>Confirm send coins</translation>
     </message>
     <message>
         <source>Failed to fetch mint associated with serial hash</source>
-        <translation>Neuspjelo dohvaćanje minta asociranog s serijskim hashom</translation>
+        <translation>Failed to fetch mint associated with serial hash</translation>
     </message>
     <message>
         <source>Too much inputs (</source>
-        <translation>Previše unosa (</translation>
+        <translation>Too much inputs (</translation>
     </message>
     <message>
         <source>
 Either mint higher denominations (so fewer inputs are needed) or reduce the amount to spend.</source>
-        <translation>Ili mintaj više vrijedne denominacije (tako da je potrebno manje ulaza) ili smanjiti iznos potrošnje</translation>
+        <translation>
+Either mint higher denominations (so fewer inputs are needed) or reduce the amount to spend.</translation>
     </message>
     <message>
         <source>Spend Zerocoin failed with status = </source>
-        <translation>Utrošak Zerocoina nije uspjela s statusom =</translation>
+        <translation>Spend Zerocoin failed with status = </translation>
+    </message>
+    <message numerus="yes">
+        <source>PrivacyDialog</source>
+        <comment>Enter an amount of OBSR to convert to zOBSR</comment>
+        <translation><numerusform>PrivacyDialog</numerusform><numerusform>PrivacyDialog</numerusform></translation>
     </message>
     <message>
         <source>denomination: </source>
-        <translation>denominacija:</translation>
+        <translation>denomination: </translation>
     </message>
     <message>
         <source>serial: </source>
-        <translation>serijski:</translation>
+        <translation>serial: </translation>
     </message>
     <message>
         <source>Spend is 1 of : </source>
-        <translation>Potrošnja je 1 od:</translation>
+        <translation>Spend is 1 of : </translation>
     </message>
     <message>
         <source>value out: </source>
-        <translation>izlazna vrijednost:</translation>
+        <translation>value out: </translation>
     </message>
     <message>
         <source>address: </source>
-        <translation>adresa:</translation>
+        <translation>address: </translation>
     </message>
     <message>
         <source>Sending successful, return code: </source>
-        <translation>Slanje uspješno, povratni kod:</translation>
+        <translation>Sending successful, return code: </translation>
     </message>
     <message>
         <source>txid: </source>
@@ -2930,7 +3055,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>fee: </source>
-        <translation>naknada:</translation>
+        <translation>fee: </translation>
     </message>
 </context>
 <context>
@@ -2940,11 +3065,11 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>Iznos</translation>
+        <translation>Amount</translation>
     </message>
     <message>
         <source>Enter a OBSR address (e.g. %1)</source>
-        <translation>Unesite OBSR adresu (npr., %1)</translation>
+        <translation>Enter a OBSR address (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2964,23 +3089,23 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>NETWORK</source>
-        <translation>MREŽA</translation>
+        <translation>NETWORK</translation>
     </message>
     <message>
         <source>BLOOM</source>
-        <translation>RAST</translation>
+        <translation>BLOOM</translation>
     </message>
     <message>
         <source>UNKNOWN</source>
-        <translation>NEPOZNATO</translation>
+        <translation>UNKNOWN</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Ništa</translation>
+        <translation>None</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>N/D</translation>
+        <translation>N/A</translation>
     </message>
     <message>
         <source>%1 ms</source>
@@ -2995,15 +3120,15 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>Spremi sliku...</translation>
+        <translation>&amp;Save Image...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>Kopiraj sliku</translation>
+        <translation>&amp;Copy Image</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>Spremi QR kod</translation>
+        <translation>Save QR Code</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
@@ -3014,72 +3139,71 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <name>RPCConsole</name>
     <message>
         <source>Tools window</source>
-        <translation>Alatni prozor</translation>
+        <translation>Tools window</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>Informacije</translation>
+        <translation>&amp;Information</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Opće</translation>
+        <translation>General</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Naziv</translation>
+        <translation>Name</translation>
     </message>
     <message>
         <source>Client name</source>
-        <translation>Ime klijenta
-</translation>
+        <translation>Client name</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>N/D</translation>
+        <translation>N/A</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Broj veza</translation>
+        <translation>Number of connections</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>Otvori</translation>
+        <translation>&amp;Open</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>Vrijeme pokretanja</translation>
+        <translation>Start up time</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Mreža</translation>
+        <translation>Network</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Zadnje vrijeme bloka</translation>
+        <translation>Last block time</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Otkloni neispravnost log datoteke</translation>
+        <translation>Debug log file</translation>
     </message>
     <message>
         <source>Using OpenSSL version</source>
-        <translation>Koristeći OpenSSL verziju</translation>
+        <translation>Using OpenSSL version</translation>
     </message>
     <message>
         <source>Build date</source>
-        <translation>Datum gradnje</translation>
+        <translation>Build date</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Trenutan broj blokova</translation>
+        <translation>Current number of blocks</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>Verzija klijenta</translation>
+        <translation>Client version</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Upotreba verzije BerkeleyDB</translation>
+        <translation>Using BerkeleyDB version</translation>
     </message>
     <message>
         <source>Block chain</source>
@@ -3087,51 +3211,51 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>Open the OBSR debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorite OBSR debug log datoteku iz aktualnog direktorija podataka. To može potrajati nekoliko sekundi za velike datoteke zapisnika.</translation>
+        <translation>Open the OBSR debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
-        <translation>Broj Masternoda</translation>
+        <translation>Number of Masternodes</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>Konzola</translation>
+        <translation>&amp;Console</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Očisti konzolu</translation>
+        <translation>Clear console</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>Promet Mreže</translation>
+        <translation>&amp;Network Traffic</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>Očisti</translation>
+        <translation>&amp;Clear</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>Ukupno</translation>
+        <translation>Totals</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Primljeno</translation>
+        <translation>Received</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>Poslano</translation>
+        <translation>Sent</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>Peers</translation>
+        <translation>&amp;Peers</translation>
     </message>
     <message>
         <source>Banned peers</source>
-        <translation>Blokirani peer-ovi</translation>
+        <translation>Banned peers</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Odaberite peer da biste vidjeli detaljne informacije.</translation>
+        <translation>Select a peer to view detailed information.</translation>
     </message>
     <message>
         <source>Whitelisted</source>
@@ -3139,43 +3263,43 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>Direction</source>
-        <translation>Upute</translation>
+        <translation>Direction</translation>
     </message>
     <message>
         <source>Protocol</source>
-        <translation>Protokol</translation>
+        <translation>Protocol</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Verzija</translation>
+        <translation>Version</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Servis</translation>
+        <translation>Services</translation>
     </message>
     <message>
         <source>Ban Score</source>
-        <translation>Ban rezultat</translation>
+        <translation>Ban Score</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Vrijeme veze</translation>
+        <translation>Connection Time</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Zadnji slanje</translation>
+        <translation>Last Send</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>Zadnji prijem</translation>
+        <translation>Last Receive</translation>
     </message>
     <message>
         <source>Bytes Sent</source>
-        <translation>Poslani Bytovi</translation>
+        <translation>Bytes Sent</translation>
     </message>
     <message>
         <source>Bytes Received</source>
-        <translation>Primljeni Bytovi</translation>
+        <translation>Bytes Received</translation>
     </message>
     <message>
         <source>Ping Time</source>
@@ -3183,91 +3307,91 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>&amp;Wallet Repair</source>
-        <translation>Popravak novčanika</translation>
+        <translation>&amp;Wallet Repair</translation>
     </message>
     <message>
         <source>Delete local Blockchain Folders</source>
-        <translation>Izbrišite lokalne mape Blockchaina</translation>
+        <translation>Delete local Blockchain Folders</translation>
     </message>
     <message>
         <source>Wallet In Use:</source>
-        <translation>Novčanik u uporabi:</translation>
+        <translation>Wallet In Use:</translation>
     </message>
     <message>
         <source>Starting Block</source>
-        <translation>Zapoćinje Block</translation>
+        <translation>Starting Block</translation>
     </message>
     <message>
         <source>Synced Headers</source>
-        <translation>Sinkronizirana zaglavlja</translation>
+        <translation>Synced Headers</translation>
     </message>
     <message>
         <source>Synced Blocks</source>
-        <translation>Sinkronizirana zaglavlja</translation>
+        <translation>Synced Blocks</translation>
     </message>
     <message>
         <source>The duration of a currently outstanding ping.</source>
-        <translation>Trajanje trenutno prisutnog ping-a.</translation>
+        <translation>The duration of a currently outstanding ping.</translation>
     </message>
     <message>
         <source>Ping Wait</source>
-        <translation>Pingaj Novčanik</translation>
+        <translation>Ping Wait</translation>
     </message>
     <message>
         <source>Time Offset</source>
-        <translation>Pomak vremena</translation>
+        <translation>Time Offset</translation>
     </message>
     <message>
         <source>Custom Backup Path:</source>
-        <translation>Put prilagođenog sigurnosnog kopiranja:</translation>
+        <translation>Custom Backup Path:</translation>
     </message>
     <message>
         <source>Custom zOBSR Backup Path:</source>
-        <translation>Prilagođeni put zOBSR sigurnosne kopije:</translation>
+        <translation>Custom zOBSR Backup Path:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
-        <translation>Prag za prilagođene sigurnosne kopije:</translation>
+        <translation>Custom Backups Threshold:</translation>
     </message>
     <message>
         <source>Salvage wallet</source>
-        <translation>Spasi novčanik</translation>
+        <translation>Salvage wallet</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat.</source>
-        <translation>Pokušaj oporavka privatnih ključeva iz korumpirane wallet.dat.</translation>
+        <translation>Attempt to recover private keys from a corrupt wallet.dat.</translation>
     </message>
     <message>
         <source>Rescan blockchain files</source>
-        <translation>Ponovno skeniranje blockchain datoteka</translation>
+        <translation>Rescan blockchain files</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions.</source>
-        <translation>Ponovno skeniranje blok-lanca za transakcije novčanika koji nedostaju.</translation>
+        <translation>Rescan the block chain for missing wallet transactions.</translation>
     </message>
     <message>
         <source>Recover transactions 1</source>
-        <translation>Oporavak transakcije 1</translation>
+        <translation>Recover transactions 1</translation>
     </message>
     <message>
         <source>Recover transactions from blockchain (keep meta-data, e.g. account owner).</source>
-        <translation>Obnova transakcija od blockchaina (zadržite meta-podatke, npr. Vlasnika računa).</translation>
+        <translation>Recover transactions from blockchain (keep meta-data, e.g. account owner).</translation>
     </message>
     <message>
         <source>Recover transactions 2</source>
-        <translation>Oporavak transakcije 2</translation>
+        <translation>Recover transactions 2</translation>
     </message>
     <message>
         <source>Recover transactions from blockchain (drop meta-data).</source>
-        <translation>Obnova transakcija iz blockchaina (izbaci meta-podatake).</translation>
+        <translation>Recover transactions from blockchain (drop meta-data).</translation>
     </message>
     <message>
         <source>Upgrade wallet format</source>
-        <translation>Nadogradnja formata Novčanika</translation>
+        <translation>Upgrade wallet format</translation>
     </message>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files.</source>
-        <translation>Obnovi indeks blok lanca iz trenutnih blk000 ?? dat datoteka.</translation>
+        <translation>Rebuild block chain index from current blk000??.dat files.</translation>
     </message>
     <message>
         <source>-resync:</source>
@@ -3275,87 +3399,95 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>Deletes all local blockchain folders so the wallet synchronizes from scratch.</source>
-        <translation>Briše sve lokalne mape blokiranja tako da se novčanik sinkronizira ispočetka.</translation>
+        <translation>Deletes all local blockchain folders so the wallet synchronises from scratch.</translation>
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
-        <translation>Donji gumbi će ponovo pokrenuti novčanik pomoću opcija naredbenog retka za popravak lisnice, popraviti probleme s korumpiranim datotekama blockchaina ili nedostajućim / zastarjelim transakcijama.</translation>
+        <translation>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockchain files or missing/obsolete transactions.</translation>
     </message>
     <message>
         <source>Wallet repair options.</source>
-        <translation>Opcije popravka novčanika.</translation>
+        <translation>Wallet repair options.</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</source>
-        <translation>Nadogradnja novčanika na najnoviji format pri pokretanju. (Napomena: ovo NIJE ažuriranje novčanika!)</translation>
+        <translation>Upgrade wallet to latest format on start up. (Note: this is NOT an update of the wallet itself!)</translation>
     </message>
     <message>
         <source>Rebuild index</source>
-        <translation>Obnovi indeks</translation>
+        <translation>Rebuild index</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>U:</translation>
+        <translation>In:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>Iz:</translation>
+        <translation>Out:</translation>
     </message>
     <message>
         <source>Welcome to the OBSR RPC console.</source>
-        <translation>Dobrodošli na OBSR RPC konzolu.</translation>
+        <translation>Welcome to the OBSR RPC console.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
-        <translation>Odspoji Node</translation>
+        <translation>&amp;Disconnect Node</translation>
     </message>
     <message>
         <source>Ban Node for</source>
-        <translation>Ban Node za</translation>
+        <translation>Ban Node for</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
-        <translation>1 sat</translation>
+        <translation>1 &amp;hour</translation>
     </message>
     <message>
         <source>1 &amp;day</source>
-        <translation>1 dan</translation>
+        <translation>1 &amp;day</translation>
     </message>
     <message>
         <source>1 &amp;week</source>
-        <translation>1 tjedan</translation>
+        <translation>1 &amp;week</translation>
     </message>
     <message>
         <source>1 &amp;year</source>
-        <translation>1 godinu</translation>
+        <translation>1 &amp;year</translation>
     </message>
     <message>
         <source>&amp;Unban Node</source>
-        <translation>Nebanani Nodovi</translation>
+        <translation>&amp;Unban Node</translation>
     </message>
     <message>
         <source>This will delete your local blockchain folders and the wallet will synchronize the complete Blockchain from scratch.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>To će izbrisati vaše lokalne mape blockcahaina i novčanik će uskladiti cijeli Blockchain od nule.</translation>
+        <translation>This will delete your local blockchain folders and the wallet will synchronise the complete Blockchain from scratch.&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <source>This needs quite some time and downloads a lot of data.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>To treba dosta vremena i preuzimanja puno podataka.</translation>
+        <translation>This needs quite some time and downloads a lot of data.&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <source>Your transactions and funds will be visible again after the download has completed.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Vaše transakcije i sredstva bit će ponovno vidljivi nakon preuzimanja.</translation>
+        <translation>Your transactions and funds will be visible again after the download has completed.&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <source>Do you want to continue?.&lt;br /&gt;</source>
-        <translation>Želite li nastaviti?</translation>
+        <translation>Do you want to continue?.&lt;br /&gt;</translation>
     </message>
     <message>
         <source>Confirm resync Blockchain</source>
-        <translation>Potvrdite resync Blockchain</translation>
+        <translation>Confirm resync Blockchain</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
+        <translation>Use up and down arrows to navigate history, and %1 to clear screen.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Upišite pomoć za pregled dostupnih naredbi.</translation>
+        <translation>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</translation>
+    </message>
+    <message>
+        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
+        <translation>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -3383,150 +3515,161 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>never</source>
-        <translation>nikada</translation>
+        <translation>never</translation>
     </message>
     <message>
         <source>Inbound</source>
-        <translation>Dolazno</translation>
+        <translation>Inbound</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>Odlazno</translation>
+        <translation>Outbound</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Da</translation>
+        <translation>Yes</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Ne</translation>
+        <translation>No</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Nepoznato</translation>
+        <translation>Unknown</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</source>
-        <translation>Ponovno upotrijebite jednu od prethodno korištenih adresa za primanje. Ponovno korištenje adresa ima sigurnosne i privatne probleme. Nemojte to koristiti ako ponovno ne generirate prethodno izvršeni zahtjev za plaćanje.</translation>
+        <translation>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>Ponovno upotrijebite postojeću adresu primatelja (nije preporučeno)</translation>
+        <translation>R&amp;euse an existing receiving address (not recommended)</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>Poruka:</translation>
+        <translation>&amp;Message:</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>Dodatna oznaka za povezivanje s novom adresom primatelja.</translation>
+        <translation>An optional label to associate with the new receiving address.</translation>
+    </message>
+    <message>
+        <source>Your receiving address. You can copy and use it to receive coins on this wallet. A new one will be generated once it is used.</source>
+        <translation>Your receiving address. You can copy and use it to receive coins on this wallet. A new one will be generated once it is used.</translation>
+    </message>
+    <message>
+        <source>&amp;Address:</source>
+        <translation>&amp;Address:</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>Količina:</translation>
+        <translation>A&amp;mount:</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the OBSR network.</source>
-        <translation>Dodatna poruka priložena zahtjevu za plaćanje, koji će se prikazati kada se zahtjev otvori. Napomena: poruka neće biti poslana s plaćanjem putem OBSR mreže.</translation>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the OBSR network.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
-        <translation>PRIMI</translation>
+        <translation>RECEIVE</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the OBSR network.</source>
-        <translation>Dodatna poruka za pridruživanje zahtjevu za plaćanje koja će se prikazati kada se zahtjev otvori.Napomena: poruka neće biti poslana s plaćanjem putem OBSR mreže.</translation>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the OBSR network.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Upotrijebite ovaj obrazac da biste zatražili plaćanja. Sva su polja neobvezna.</translation>
+        <translation>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>Oznaka:</translation>
+        <translation>&amp;Label:</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Neobavezna količina za zahtjev. Ostavite ovo prazno ili nulu da ne zatražite određeni iznos.</translation>
+        <translation>An optional amount to request. Leave this empty or zero to not request a specific amount.</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>Zatraži plaćanje</translation>
+        <translation>&amp;Request payment</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Izbriši sva polja obrasca.</translation>
+        <translation>Clear all fields of the form.</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Izbriši</translation>
+        <translation>Clear</translation>
+    </message>
+    <message>
+        <source>Receiving Addresses</source>
+        <translation>Receiving Addresses</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>Zahtjev za povijest plaćanja</translation>
+        <translation>Requested payments history</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Prikaz odabranog zahtjeva (jednako kao dvostruki klik na unos)</translation>
+        <translation>Show the selected request (does the same as double clicking an entry)</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>Prikaži</translation>
+        <translation>Show</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Uklonite odabrane stavke s popisa</translation>
+        <translation>Remove the selected entries from the list</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Ukloni</translation>
+        <translation>Remove</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopiraj oznaku</translation>
+        <translation>Copy label</translation>
     </message>
     <message>
         <source>Copy message</source>
-        <translation>Kopiraj poruku</translation>
+        <translation>Copy message</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopiraj iznos</translation>
+        <translation>Copy amount</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopiraj adresu</translation>
+        <translation>Copy address</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>QR Kod</translation>
+        <translation>QR Code</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>Kopiraj URI</translation>
+        <translation>Copy &amp;URI</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Kopiraj adresu</translation>
+        <translation>Copy &amp;Address</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>Spremi sliku...</translation>
+        <translation>&amp;Save Image...</translation>
     </message>
     <message>
         <source>Request payment to %1</source>
-        <translation>Zatražite uplatu na %1</translation>
+        <translation>Request payment to %1</translation>
     </message>
     <message>
         <source>Payment information</source>
-        <translation>Informacije o plaćanju
-</translation>
+        <translation>Payment information</translation>
     </message>
     <message>
         <source>URI</source>
@@ -3534,105 +3677,105 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>Address</source>
-        <translation>Adresa</translation>
+        <translation>Address</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Iznos</translation>
+        <translation>Amount</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Oznaka</translation>
+        <translation>Label</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Poruka</translation>
+        <translation>Message</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>URI predug, pokušajte smanjiti tekst za oznaku / poruku.</translation>
+        <translation>Resulting URI too long, try to reduce the text for label / message.</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Greška kodiranja URI u QR kod.</translation>
+        <translation>Error encoding URI into QR Code.</translation>
     </message>
 </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Date</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Oznaka</translation>
+        <translation>Label</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Poruka</translation>
+        <translation>Message</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adresa</translation>
+        <translation>Address</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Iznos</translation>
+        <translation>Amount</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez oznake)</translation>
+        <translation>(no label)</translation>
     </message>
     <message>
         <source>(no message)</source>
-        <translation>( bez poruke )</translation>
+        <translation>(no message)</translation>
     </message>
     <message>
         <source>(no amount)</source>
-        <translation>(bez iznosa)</translation>
+        <translation>(no amount)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Salji novac</translation>
+        <translation>Send Coins</translation>
     </message>
     <message>
         <source>SEND</source>
-        <translation>Šalji</translation>
+        <translation>SEND</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Značajke upravljanja novcem</translation>
+        <translation>Coin Control Features</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Nedovoljna sredstva!</translation>
+        <translation>Insufficient funds!</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Količina:</translation>
+        <translation>Quantity:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bytovi:</translation>
+        <translation>Bytes:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Iznos:</translation>
+        <translation>Amount:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Prioritet:</translation>
+        <translation>Priority:</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>srednje</translation>
+        <translation>medium</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Naknada:</translation>
+        <translation>Fee:</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -3640,77 +3783,79 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>no</source>
-        <translation>ne</translation>
+        <translation>no</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Naknadne naknade:</translation>
+        <translation>After Fee:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Razlika:</translation>
+        <translation>Change:</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Ako je to aktivirano, ali adresa za izmjenu je prazna ili nije valjana, promjena će biti poslana na novo generiranu adresu.</translation>
+        <translation>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>Prilagođene izmjene adrese</translation>
+        <translation>Custom change address</translation>
     </message>
     <message>
         <source>Split UTXO</source>
-        <translation>Podijeli UTXO</translation>
+        <translation>Split UTXO</translation>
     </message>
     <message>
         <source># of outputs</source>
-        <translation># izlaza</translation>
+        <translation># of outputs</translation>
     </message>
     <message>
         <source>UTXO Size:</source>
-        <translation>Veličina UTXO:</translation>
+        <translation>UTXO Size:</translation>
     </message>
     <message>
         <source>0 OBSR</source>
         <translation>0 OBSR</translation>
     </message>
     <message>
+        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 OBSR applies</source>
+        <translation>SwiftX technology allows for near instant transactions - A flat fee of 0.01 OBSR applies</translation>
+    </message>
+    <message>
         <source>Transaction Fee:</source>
-        <translation>Naknada za transakciju:
-</translation>
+        <translation>Transaction Fee:</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>Odaberi...</translation>
+        <translation>Choose...</translation>
     </message>
     <message>
         <source>collapse fee-settings</source>
-        <translation>spusti postavke naknade</translation>
+        <translation>collapse fee-settings</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>Minimiziraj</translation>
+        <translation>Minimise</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>po kilobytu</translation>
+        <translation>per kilobyte</translation>
     </message>
     <message>
         <source>total at least</source>
-        <translation>ukupno barem</translation>
+        <translation>total at least</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
-        <translation>(pročitajte opis)</translation>
+        <translation>(read the tooltip)</translation>
     </message>
     <message>
         <source>Custom:</source>
-        <translation>Prilagođeno:
-</translation>
+        <translation>Custom:</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Smart naknada još nije inicirana. To obično traje nekoliko blokova ...)</translation>
+        <translation>(Smart fee not initialised yet. This usually takes a few blocks...)</translation>
     </message>
     <message>
         <source>SwiftX</source>
@@ -3718,226 +3863,234 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>Confirmation time:</source>
-        <translation>Vrijeme potvrde:</translation>
+        <translation>Confirmation time:</translation>
     </message>
     <message>
         <source>Open Coin Control...</source>
-        <translation>Otvori kontrolu nad novcem ...</translation>
+        <translation>Open Coin Control...</translation>
     </message>
     <message>
         <source>Coins automatically selected</source>
-        <translation>Kovanice se automatski odabiru</translation>
+        <translation>Coins automatically selected</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 uOBSRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uOBSRs in fee,&lt;br /&gt;while "at least" pays 1000 uOBSRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ako je prilagođena naknada postavljena na 1000 uOBSR-ova, a transakcija je samo 250 bajta, tada "po kilobajtu" se plaća samo 250 uOBSR-a, dok se "barem" plaća 1000 uOBSR-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
+        <translation>If the custom fee is set to 1000 uOBSRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uOBSRs in fee,&lt;br /&gt;while "at least" pays 1000 uOBSRs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 uOBSRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uOBSRs in fee,&lt;br /&gt;while "total at least" pays 1000 uOBSRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ako je prilagođena naknada postavljena na 1000 uOBSR, a transakcija je samo 250 bajta, tada "po kilobajtu" plaća se samo 250 uOBSR-ova, a "ukupno barem" plaća 1000 uOBSR-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
+        <translation>If the custom fee is set to 1000 uOBSRs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uOBSRs in fee,&lt;br /&gt;while "total at least" pays 1000 uOBSRs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for OBSR transactions than the network can process.</source>
-        <translation>Plaćanje samo minimalne naknade je sasvim u redu sve dok j obujma transakcija manji od prostora u blokovima. No, budite svjesni da to može dovesti do transakcije koja nikada se ne potvrđuje kada se pojavi više zahtjeva za OBSR transakcijama nego što mreža može obraditi.</translation>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for OBSR transactions than the network can process.</translation>
     </message>
     <message>
         <source>normal</source>
-        <translation>normalno</translation>
+        <translation>normal</translation>
     </message>
     <message>
         <source>fast</source>
-        <translation>brzo</translation>
+        <translation>fast</translation>
     </message>
     <message>
         <source>Recommended</source>
-        <translation>Preporučeno</translation>
+        <translation>Recommended</translation>
     </message>
     <message>
         <source>Send as zero-fee transaction if possible</source>
-        <translation>Pošaljite kao transakciju s nultom naknadom, ako je moguće</translation>
+        <translation>Send as zero-fee transaction if possible</translation>
     </message>
     <message>
         <source>(confirmation may take longer)</source>
-        <translation>(potvrda može potrajati dulje)</translation>
+        <translation>(confirmation may take longer)</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Potvrdite slanje</translation>
+        <translation>Confirm the send action</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>Pošalji</translation>
+        <translation>S&amp;end</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Izbriši sva polja obrasca.</translation>
+        <translation>Clear all fields of the form.</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Poništi sve</translation>
+        <translation>Clear &amp;All</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Pošaljite više primatelja odjednom</translation>
+        <translation>Send to multiple recipients at once</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>Dodaj primatelja</translation>
+        <translation>Add &amp;Recipient</translation>
     </message>
     <message>
         <source>Anonymized OBSR</source>
-        <translation>Anonimiziran OBSR</translation>
+        <translation>Anonymised OBSR</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Stanje:</translation>
+        <translation>Balance:</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Kopirajte količinu</translation>
+        <translation>Copy quantity</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopiraj iznos</translation>
+        <translation>Copy amount</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Kopiraj naknadu</translation>
+        <translation>Copy fee</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Kopiraj naknadnu naknadu</translation>
+        <translation>Copy after fee</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Kopiraj bitove</translation>
+        <translation>Copy bytes</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>Kopiraj prioritet</translation>
+        <translation>Copy priority</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Kopiraj dust</translation>
+        <translation>Copy dust</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Kopiraj razliku</translation>
+        <translation>Copy change</translation>
     </message>
     <message>
         <source>The split block tool does not work when sending to outside addresses. Try again.</source>
-        <translation>Alat za podjelu blokova ne radi kada se šalje na vanjske adrese. Pokušajte ponovo.</translation>
+        <translation>The split block tool does not work when sending to outside addresses. Try again.</translation>
     </message>
     <message>
         <source>The split block tool does not work with multiple addresses. Try again.</source>
-        <translation>Alat za podjelu blocka ne funkcionira s više adresa. Pokušajte ponovo.</translation>
+        <translation>The split block tool does not work with multiple addresses. Try again.</translation>
     </message>
     <message>
         <source>Warning: Invalid OBSR address</source>
-        <translation>Upozorenje: Nevažeća OBSR adresa</translation>
+        <translation>Warning: Invalid OBSR address</translation>
     </message>
     <message>
         <source>%1 to %2</source>
-        <translation>%1 u %2</translation>
+        <translation>%1 to %2</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>Jeste li sigurni da želite poslati?</translation>
+        <translation>Are you sure you want to send?</translation>
     </message>
     <message>
         <source>are added as transaction fee</source>
-        <translation>dodaju se kao transakcijska naknada</translation>
+        <translation>are added as transaction fee</translation>
     </message>
     <message>
         <source>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</source>
-        <translation>Ukupni iznos = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt; = %2</translation>
+        <translation>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Potvrdite slanje novca</translation>
+        <translation>Confirm send coins</translation>
     </message>
     <message>
         <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
-        <translation>Naknada %1 puta veća od %2 po kB smatra se nerazumljivo visokom naknadom.</translation>
+        <translation>A fee %1 times higher than %2 per kB is considered an insanely high fee.</translation>
+    </message>
+    <message numerus="yes">
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation><numerusform>Estimated to begin confirmation within %n block.</numerusform><numerusform>Estimated to begin confirmation within %n blocks.</numerusform></translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>Adresa primatelja nije važeća, ponovo provjerite.</translation>
+        <translation>The recipient address is not valid, please recheck.</translation>
     </message>
     <message>
         <source>using SwiftX</source>
-        <translation>koristi SwiftX</translation>
+        <translation>using SwiftX</translation>
     </message>
     <message>
         <source> split into %1 outputs using the UTXO splitter.</source>
-        <translation>podijeljeno na %1 izlaza pomoću UTXO razdjelnika.</translation>
+        <translation> split into %1 outputs using the UTXO splitter.</translation>
     </message>
     <message>
         <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
-        <translation>&lt;b&gt;(%1 of %2 unosa prikazana)&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Iznos za plaćanje mora biti veći od 0.</translation>
+        <translation>The amount to pay must be larger than 0.</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>Iznos prelazi vaš saldo.</translation>
+        <translation>The amount exceeds your balance.</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Ukupni iznos prelazi vaš saldo kada je uključena naknada za transakciju %1.</translation>
+        <translation>The total exceeds your balance when the %1 transaction fee is included.</translation>
     </message>
     <message>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Duplicirana adresa pronađena, može poslati samo na svaku adresu jednom po pošiljci.</translation>
+        <translation>Duplicate address found, can only send to each address once per send operation.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
-        <translation>Izrada transakcija nije uspjela!</translation>
+        <translation>Transaction creation failed!</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Transakcija je odbijena! To se može dogoditi ako su neki od novčića u vašem novčaniku već bili potrošeni, primjerice, ako ste upotrijebili kopiju wallet.data, a novčići su potrošeni u kopiji, ali nisu označeni kao ovdje potrošeni.</translation>
+        <translation>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</translation>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>Pogreška: novčanik je otključan samo za anonimizaciju kovanica.</translation>
+        <translation>Error: The wallet was unlocked only to anonymise coins.</translation>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins. Unlock canceled.</source>
-        <translation>Pogreška: novčanik je otključan samo za anonimizaciju kovanica. Otključavanje je otkazano.</translation>
+        <translation>Error: The wallet was unlocked only to anonymise coins. Unlock cancelled.</translation>
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
-        <translation>Platite samo minimalnu naknadu od %1</translation>
+        <translation>Pay only the minimum fee of %1</translation>
+    </message>
+    <message>
+        <source>Estimated to get 6 confirmations near instantly with &lt;b&gt;SwiftX&lt;/b&gt;!</source>
+        <translation>Estimated to get 6 confirmations near instantly with &lt;b&gt;SwiftX&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>Upozorenje: nepoznata adresa za promjenu</translation>
+        <translation>Warning: Unknown change address</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez oznake)</translation>
+        <translation>(no label)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>This is a normal payment.</source>
-        <translation>Ovo je uobičajeno plaćanje.</translation>
+        <translation>This is a normal payment.</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>Platiti:</translation>
+        <translation>Pay &amp;To:</translation>
     </message>
     <message>
         <source>The OBSR address to send the payment to</source>
-        <translation>OBSR adresa za slanje uplate</translation>
+        <translation>The OBSR address to send the payment to</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Odaberite prethodno upotrijebljenu adresu</translation>
+        <translation>Choose previously used address</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -3945,7 +4098,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Zalijepite adresu iz međuspremnika</translation>
+        <translation>Paste address from clipboard</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -3953,35 +4106,35 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Ukloni ovaj unos</translation>
+        <translation>Remove this entry</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>Oznaka:</translation>
+        <translation>&amp;Label:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Unesite oznaku za ovu adresu da biste ga dodali na popis upotrijebljenih adresa</translation>
+        <translation>Enter a label for this address to add it to the list of used addresses</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>Količina:</translation>
+        <translation>A&amp;mount:</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Poruka:</translation>
+        <translation>Message:</translation>
     </message>
     <message>
         <source>A message that was attached to the OBSR: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the OBSR network.</source>
-        <translation>Poruka koja je bila povezana s OBSR: URI koji će biti pohranjen s transakcijom za vašu referencu. Napomena: ova poruka neće biti poslana preko OBSR mreže.</translation>
+        <translation>A message that was attached to the OBSR: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the OBSR network.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
-        <translation>Ovo je nepotvrđeni zahtjev za plaćanje.</translation>
+        <translation>This is an unverified payment request.</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>Platiti:</translation>
+        <translation>Pay To:</translation>
     </message>
     <message>
         <source>Memo:</source>
@@ -3989,45 +4142,45 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>This is a verified payment request.</source>
-        <translation>Ovo je potvrđeni zahtjev za plaćanje.</translation>
+        <translation>This is a verified payment request.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Unesite oznaku za ovu adresu da biste je dodali u adresar</translation>
+        <translation>Enter a label for this address to add it to your address book</translation>
     </message>
 </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
         <source>OBSR Core is shutting down...</source>
-        <translation>OBSR Core se zatvara ...</translation>
+        <translation>OBSR Core is shutting down...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Nemojte isključivati računalo dok ovaj prozor ne nestane.</translation>
+        <translation>Do not shut down the computer until this window disappears.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Potpisi - potpišite / potvrdite poruku</translation>
+        <translation>Signatures - Sign / Verify a Message</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>Potpiši poruku</translation>
+        <translation>&amp;Sign Message</translation>
     </message>
     <message>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Možete potpisati poruke s vašim adresama kako biste dokazali da ih posjedujete. Pazite da ne potpišete ništa nejasno, jer napadi za krađu identiteta mogu Vas pokušati uvjeriti da vam potpišu identitet. Potpišite samo detalje oko kojih se slažete.</translation>
+        <translation>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
     </message>
     <message>
         <source>The OBSR address to sign the message with</source>
-        <translation>OBSR adresa za potpisivanje poruke</translation>
+        <translation>The OBSR address to sign the message with</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Odaberite prethodno upotrijebljenu adresu</translation>
+        <translation>Choose previously used address</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -4035,7 +4188,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Zalijepite adresu iz međuspremnika</translation>
+        <translation>Paste address from clipboard</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -4043,107 +4196,107 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Unesite poruku koju želite potpisati ovdje</translation>
+        <translation>Enter the message you want to sign here</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation>Potpis</translation>
+        <translation>Signature</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopirajte trenutačni potpis u međuspremnik sustava</translation>
+        <translation>Copy the current signature to the system clipboard</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this OBSR address</source>
-        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove OBSR adrese</translation>
+        <translation>Sign the message to prove you own this OBSR address</translation>
     </message>
     <message>
         <source>The OBSR address the message was signed with</source>
-        <translation>OBSR adresa s kojom je potpisana poruka</translation>
+        <translation>The OBSR address the message was signed with</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified OBSR address</source>
-        <translation>Potvrdite poruku kako biste bili sigurni da je potpisana s navedenom OBSR adresom</translation>
+        <translation>Verify the message to ensure it was signed with the specified OBSR address</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>Potpiši poruku</translation>
+        <translation>Sign &amp;Message</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Ponovno postavite sva polja s obavijestima o potpisima</translation>
+        <translation>Reset all sign message fields</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>Poništi sve</translation>
+        <translation>Clear &amp;All</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>Potvrdi poruku</translation>
+        <translation>&amp;Verify Message</translation>
     </message>
     <message>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Unesite adresu potpisivanja, poruku (provjerite da točno kopirate presjeke, razmake, kartice itd.) I potpis ispod da biste potvrdili poruku. Budite pažljivi da ne čitate više u potpisu od onoga što je u samoj potpisanoj poruci kako bi se izbjegla prijevara s čovjekom u sredini.</translation>
+        <translation>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>Potvrdite poruku</translation>
+        <translation>Verify &amp;Message</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Ponovno postavite sva polja za potvrdu poruka</translation>
+        <translation>Reset all verify message fields</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
-        <translation>Kliknite "potpiši poruku" da biste generirali potpis</translation>
+        <translation>Click "Sign Message" to generate signature</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Unesena adresa je nevažeća.</translation>
+        <translation>The entered address is invalid.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Provjerite adresu i pokušajte ponovno.</translation>
+        <translation>Please check the address and try again.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Unesena adresa ne odnosi se na ključ.</translation>
+        <translation>The entered address does not refer to a key.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Otključavanje novčanika je otkazano.</translation>
+        <translation>Wallet unlock was cancelled.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Privatni ključ za unesenu adresu nije dostupan.</translation>
+        <translation>Private key for the entered address is not available.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>Potpisivanje poruka nije uspjelo.</translation>
+        <translation>Message signing failed.</translation>
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>Poruka potpisana.</translation>
+        <translation>Message signed.</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>Potpis nije mogao biti dekodiran.</translation>
+        <translation>The signature could not be decoded.</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
-        <translation>Provjerite potpis i pokušajte ponovo.</translation>
+        <translation>Please check the signature and try again.</translation>
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>Potpis se nije podudarao s digestom poruka.</translation>
+        <translation>The signature did not match the message digest.</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
-        <translation>Potvrda poruke nije uspjela.</translation>
+        <translation>Message verification failed.</translation>
     </message>
     <message>
         <source>Message verified.</source>
-        <translation>Poruka je potvrđena.</translation>
+        <translation>Message verified.</translation>
     </message>
 </context>
 <context>
@@ -4154,19 +4307,19 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>Version %1</source>
-        <translation>Verzija %1</translation>
+        <translation>Version %1</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Bitcoin Core programeri</translation>
+        <translation>The Bitcoin Core developers</translation>
     </message>
     <message>
         <source>The Dash Core developers</source>
-        <translation>Dash Core programeri</translation>
+        <translation>The Dash Core developers</translation>
     </message>
     <message>
         <source>The OBSR Core developers</source>
-        <translation>OBSR Core programeri</translation>
+        <translation>The OBSR Core developers</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4182,13 +4335,17 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
 </context>
 <context>
     <name>TransactionDesc</name>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Open for %n more block</numerusform><numerusform>Open for %n more blocks</numerusform></translation>
+    </message>
     <message>
         <source>Open until %1</source>
-        <translation>Otvori dok %1</translation>
+        <translation>Open until %1</translation>
     </message>
     <message>
         <source>conflicted</source>
-        <translation>u sukobu</translation>
+        <translation>conflicted</translation>
     </message>
     <message>
         <source>%1/offline</source>
@@ -4196,43 +4353,43 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>%1/unconfirmed</source>
-        <translation>%1/nepotvrđen</translation>
+        <translation>%1/unconfirmed</translation>
     </message>
     <message>
         <source>%1 confirmations</source>
-        <translation>%1 potvrđeno</translation>
+        <translation>%1 confirmations</translation>
     </message>
     <message>
         <source>%1/offline (verified via SwiftX)</source>
-        <translation>%1/offline (provjereno s SwiftX)</translation>
+        <translation>%1/offline (verified via SwiftX)</translation>
     </message>
     <message>
         <source>%1/confirmed (verified via SwiftX)</source>
-        <translation>%1 / potvrđeno (potvrđeno putem usluge SwiftX)</translation>
+        <translation>%1/confirmed (verified via SwiftX)</translation>
     </message>
     <message>
         <source>%1 confirmations (verified via SwiftX)</source>
-        <translation>Potvrde %1 (potvrđene putem SwiftX-a)</translation>
+        <translation>%1 confirmations (verified via SwiftX)</translation>
     </message>
     <message>
         <source>%1/offline (SwiftX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1 / offline (SwiftX potvrda u tijeku - %2 od %3 potpisa)</translation>
+        <translation>%1/offline (SwiftX verification in progress - %2 of %3 signatures)</translation>
     </message>
     <message>
         <source>%1/confirmed (SwiftX verification in progress - %2 of %3 signatures )</source>
-        <translation>%1 / potvrđeno (provjera SwiftX u tijeku -%2 od %3 potpisa)</translation>
+        <translation>%1/confirmed (SwiftX verification in progress - %2 of %3 signatures )</translation>
     </message>
     <message>
         <source>%1 confirmations (SwiftX verification in progress - %2 of %3 signatures)</source>
-        <translation>Potvrde %1 (provjera SwiftX u tijeku -%2 od %3 potpisa)</translation>
+        <translation>%1 confirmations (SwiftX verification in progress - %2 of %3 signatures)</translation>
     </message>
     <message>
         <source>%1/offline (SwiftX verification failed)</source>
-        <translation>%1 / offline (SwiftX verifikacija nije uspjela)</translation>
+        <translation>%1/offline (SwiftX verification failed)</translation>
     </message>
     <message>
         <source>%1/confirmed (SwiftX verification failed)</source>
-        <translation>%1 / potvrđeno (nije uspjela SwiftX provjera)</translation>
+        <translation>%1/confirmed (SwiftX verification failed)</translation>
     </message>
     <message>
         <source>Status</source>
@@ -4240,194 +4397,205 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, još nije uspješno emitiran</translation>
+        <translation>, has not been successfully broadcast yet</translation>
+    </message>
+    <message numerus="yes">
+        <source>, broadcast through %n node(s)</source>
+        <translation><numerusform>, broadcast through %n node</numerusform><numerusform>, broadcast through %n nodes</numerusform></translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Date</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>Izvor</translation>
+        <translation>Source</translation>
     </message>
     <message>
         <source>Generated</source>
-        <translation>Kreirano</translation>
+        <translation>Generated</translation>
     </message>
     <message>
         <source>From</source>
-        <translation>Oblik</translation>
+        <translation>From</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>nepoznato</translation>
+        <translation>unknown</translation>
     </message>
     <message>
         <source>To</source>
-        <translation>Za</translation>
+        <translation>To</translation>
     </message>
     <message>
         <source>own address</source>
-        <translation>moja adresa</translation>
+        <translation>own address</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>samo za gledanje</translation>
+        <translation>watch-only</translation>
     </message>
     <message>
         <source>label</source>
-        <translation>oznaka</translation>
+        <translation>label</translation>
     </message>
     <message>
         <source>Credit</source>
-        <translation>Kredit</translation>
+        <translation>Credit</translation>
+    </message>
+    <message numerus="yes">
+        <source>matures in %n more block(s)</source>
+        <translation><numerusform>matures in %n more block</numerusform><numerusform>matures in %n more blocks</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
-        <translation>nije prihvaćeno</translation>
+        <translation>not accepted</translation>
     </message>
     <message>
         <source>Debit</source>
-        <translation>Dugovanje</translation>
+        <translation>Debit</translation>
     </message>
     <message>
         <source>Total debit</source>
-        <translation>Ukupan dug</translation>
+        <translation>Total debit</translation>
     </message>
     <message>
         <source>Total credit</source>
-        <translation>Ukupni kredit</translation>
+        <translation>Total credit</translation>
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>Naknada za transakciju</translation>
+        <translation>Transaction fee</translation>
     </message>
     <message>
         <source>Net amount</source>
-        <translation>Neto iznos</translation>
+        <translation>Net amount</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Poruka</translation>
+        <translation>Message</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation>Komentar</translation>
+        <translation>Comment</translation>
     </message>
     <message>
         <source>Transaction ID</source>
-        <translation>Transakcijski ID</translation>
+        <translation>Transaction ID</translation>
     </message>
     <message>
         <source>Output index</source>
-        <translation>Izlazni indeks</translation>
+        <translation>Output index</translation>
     </message>
     <message>
         <source>Merchant</source>
-        <translation>Trgovac</translation>
+        <translation>Merchant</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Generirani novčići moraju se narasti za %1 blokova prije nego što se mogu potrošiti. Kada ste generirali taj blok, emitiran je na mrežu koji će biti dodan u blok lanac. Ako ne uspije ući u lanac, stanje će se promijeniti u "ne prihvaća" i neće biti potrošeno. To se ponekad može dogoditi ako drugi čvor generira blok u roku od nekoliko sekundi od vašeg.</translation>
+        <translation>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</translation>
     </message>
     <message>
         <source>Debug information</source>
-        <translation>Informacije o uklanjanju pogrešaka</translation>
+        <translation>Debug information</translation>
     </message>
     <message>
         <source>Transaction</source>
-        <translation>Transakcija</translation>
+        <translation>Transaction</translation>
     </message>
     <message>
         <source>Inputs</source>
-        <translation>Unosi</translation>
+        <translation>Inputs</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Iznos</translation>
+        <translation>Amount</translation>
     </message>
     <message>
         <source>true</source>
-        <translation>točno</translation>
+        <translation>true</translation>
     </message>
     <message>
         <source>false</source>
-        <translation>netočno</translation>
+        <translation>false</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
         <source>Transaction details</source>
-        <translation>Detalji transakcije
-</translation>
+        <translation>Transaction details</translation>
     </message>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Ovo okno prikazuje detaljan opis transakcije</translation>
+        <translation>This pane shows a detailed description of the transaction</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Date</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Tip</translation>
+        <translation>Type</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adresa</translation>
+        <translation>Address</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Open for %n more block</numerusform><numerusform>Open for %n more blocks</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Otvori dok %1</translation>
+        <translation>Open until %1</translation>
     </message>
     <message>
         <source>Offline</source>
-        <translation>Van mreže</translation>
+        <translation>Offline</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>Nepotvrđen</translation>
+        <translation>Unconfirmed</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Potvrđivanje (%1 od %2 preporučene potvrde)</translation>
+        <translation>Confirming (%1 of %2 recommended confirmations)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Potvrđeno (potvrde %1)</translation>
+        <translation>Confirmed (%1 confirmations)</translation>
     </message>
     <message>
         <source>Conflicted</source>
-        <translation>u sukobu</translation>
+        <translation>Conflicted</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Nedovršeno (potvrda %1, bit će dostupna nakon %2)</translation>
+        <translation>Immature (%1 confirmations, will be available after %2)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Taj blok nije primljen od strane drugih čvorova i vjerojatno neće biti prihvaćeni!</translation>
+        <translation>This block was not received by any other nodes and will probably not be accepted!</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Primljeno s</translation>
+        <translation>Received with</translation>
     </message>
     <message>
         <source>Masternode Reward</source>
-        <translation>Masternode Nagrada</translation>
+        <translation>Masternode Reward</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>Zaprimljeno s</translation>
+        <translation>Received from</translation>
     </message>
     <message>
         <source>Received via Obfuscation</source>
-        <translation>Zaprimljeno preko Zametanja</translation>
+        <translation>Received via Obfuscation</translation>
     </message>
     <message>
         <source>OBSR Stake</source>
@@ -4439,59 +4607,59 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>Obfuscation Denominate</source>
-        <translation>Zameteni denonimi</translation>
+        <translation>Obfuscation Denominate</translation>
     </message>
     <message>
         <source>Obfuscation Collateral Payment</source>
-        <translation>Zametena kolateralna plačanja</translation>
+        <translation>Obfuscation Collateral Payment</translation>
     </message>
     <message>
         <source>Obfuscation Make Collateral Inputs</source>
-        <translation>Prikrivanje Izrade Kolateralnih Unosa</translation>
+        <translation>Obfuscation Make Collateral Inputs</translation>
     </message>
     <message>
         <source>Obfuscation Create Denominations</source>
-        <translation>Prikrivanje Stvara Denominacije</translation>
+        <translation>Obfuscation Create Denominations</translation>
     </message>
     <message>
         <source>Converted OBSR to zOBSR</source>
-        <translation>Pretvoreni OBSR u zOBSR</translation>
+        <translation>Converted OBSR to zOBSR</translation>
     </message>
     <message>
         <source>Spent zOBSR</source>
-        <translation>Utrošeni zOBSR</translation>
+        <translation>Spent zOBSR</translation>
     </message>
     <message>
         <source>Received OBSR from zOBSR</source>
-        <translation>Primljeni OBSR od zOBSR</translation>
+        <translation>Received OBSR from zOBSR</translation>
     </message>
     <message>
         <source>Minted Change as zOBSR from zOBSR Spend</source>
-        <translation>Mintana razlika zOBSR od zOBSR Utroška</translation>
+        <translation>Minted Change as zOBSR from zOBSR Spend</translation>
     </message>
     <message>
         <source>Converted zOBSR to OBSR</source>
-        <translation>Pretvoreni zOBSR u OBSR</translation>
+        <translation>Converted zOBSR to OBSR</translation>
     </message>
     <message>
         <source>Anonymous (zOBSR Transaction)</source>
-        <translation>Anonimno (zOBSR Transakcija)</translation>
+        <translation>Anonymous (zOBSR Transaction)</translation>
     </message>
     <message>
         <source>Anonymous (zOBSR Stake)</source>
-        <translation>Anonimno (zOBSR Stake)</translation>
+        <translation>Anonymous (zOBSR Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Pošalji za:</translation>
+        <translation>Sent to</translation>
     </message>
     <message>
         <source>Orphan Block - Generated but not accepted. This does not impact your holdings.</source>
-        <translation>Orphan Block - Generirano, ali nije prihvaćeno. Ovo ne utječe na Vašu imovinu.</translation>
+        <translation>Orphan Block - Generated but not accepted. This does not impact your holdings.</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>Plačanje samom sebi</translation>
+        <translation>Payment to yourself</translation>
     </message>
     <message>
         <source>Mined</source>
@@ -4503,82 +4671,82 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>watch-only</source>
-        <translation>samo za gledanje</translation>
+        <translation>watch-only</translation>
     </message>
     <message>
         <source>(n/a)</source>
-        <translation>(n/d)</translation>
+        <translation>(n/a)</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Status transakcije. Zadržite pokazivač iznad ovog polja da biste prikazali broj potvrda.</translation>
+        <translation>Transaction status. Hover over this field to show number of confirmations.</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Datum i vrijeme prijema transakcije.</translation>
+        <translation>Date and time that the transaction was received.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
-        <translation>Vrsta transakcije.</translation>
+        <translation>Type of transaction.</translation>
     </message>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Bez obzira je li riječ o adresi za praćenje ili nije uključena u tu transakciju.</translation>
+        <translation>Whether or not a watch-only address is involved in this transaction.</translation>
     </message>
     <message>
         <source>Destination address of transaction.</source>
-        <translation>Odredišna adresa transakcije.</translation>
+        <translation>Destination address of transaction.</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Iznos uklonjen iz ili dodan u stanje.</translation>
+        <translation>Amount removed from or added to balance.</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>Sve</translation>
+        <translation>All</translation>
     </message>
     <message>
         <source>Today</source>
-        <translation>Danas</translation>
+        <translation>Today</translation>
     </message>
     <message>
         <source>This week</source>
-        <translation>Ovaj tjedan</translation>
+        <translation>This week</translation>
     </message>
     <message>
         <source>This month</source>
-        <translation>Ovaj mjesec</translation>
+        <translation>This month</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation>Prošli mjesec</translation>
+        <translation>Last month</translation>
     </message>
     <message>
         <source>This year</source>
-        <translation>Ove godine</translation>
+        <translation>This year</translation>
     </message>
     <message>
         <source>Range...</source>
-        <translation>Domet...</translation>
+        <translation>Range...</translation>
     </message>
     <message>
         <source>Most Common</source>
-        <translation>Najučestaliji</translation>
+        <translation>Most Common</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Primljeno s</translation>
+        <translation>Received with</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Pošalji za:</translation>
+        <translation>Sent to</translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation>Sam sebi</translation>
+        <translation>To yourself</translation>
     </message>
     <message>
         <source>Mined</source>
@@ -4590,7 +4758,7 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>Masternode Reward</source>
-        <translation>Masternode Nagrada</translation>
+        <translation>Masternode Reward</translation>
     </message>
     <message>
         <source>Zerocoin Mint</source>
@@ -4598,79 +4766,83 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>Zerocoin Spend</source>
-        <translation>Zerocoin utrošak</translation>
+        <translation>Zerocoin Spend</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
-        <translation>Zerocoin utrošen na sebe</translation>
+        <translation>Zerocoin Spend to Self</translation>
     </message>
     <message>
         <source>Other</source>
-        <translation>Drugi</translation>
+        <translation>Other</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
-        <translation>Unesite adresu ili oznaku za pretraživanje</translation>
+        <translation>Enter address or label to search</translation>
     </message>
     <message>
         <source>Min amount</source>
-        <translation>Min količina</translation>
+        <translation>Min amount</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopiraj adresu</translation>
+        <translation>Copy address</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopiraj oznaku</translation>
+        <translation>Copy label</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopiraj iznos</translation>
+        <translation>Copy amount</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Kopiraj ID transakcije</translation>
+        <translation>Copy transaction ID</translation>
     </message>
     <message>
         <source>Edit label</source>
-        <translation>Uredi oznaku</translation>
+        <translation>Edit label</translation>
     </message>
     <message>
         <source>Show transaction details</source>
-        <translation>Prikaz pojedinosti o transakciji</translation>
+        <translation>Show transaction details</translation>
+    </message>
+    <message>
+        <source>Hide orphan stakes</source>
+        <translation>Hide orphan stakes</translation>
     </message>
     <message>
         <source>Export Transaction History</source>
-        <translation>Izvezi povijest transakcija</translation>
+        <translation>Export Transaction History</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Datoteka odvojena zarezom (* .csv)</translation>
+        <translation>Comma separated file (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Potvrđeno</translation>
+        <translation>Confirmed</translation>
     </message>
     <message>
         <source>Watch-only</source>
-        <translation>samo za gledanje</translation>
+        <translation>Watch-only</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Date</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Tip</translation>
+        <translation>Type</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Oznaka</translation>
+        <translation>Label</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adresa</translation>
+        <translation>Address</translation>
     </message>
     <message>
         <source>ID</source>
@@ -4678,83 +4850,83 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Izvoz nije uspio</translation>
+        <translation>Exporting Failed</translation>
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Došlo je do pogreške prilikom pokušaja spremanja povijesti transakcija na %1.</translation>
+        <translation>There was an error trying to save the transaction history to %1.</translation>
     </message>
     <message>
         <source>Exporting Successful</source>
-        <translation>Izvoz uspješan</translation>
+        <translation>Exporting Successful</translation>
     </message>
     <message>
         <source>Received OBSR from zOBSR</source>
-        <translation>Primljeni OBSR od zOBSR</translation>
+        <translation>Received OBSR from zOBSR</translation>
     </message>
     <message>
         <source>Zerocoin Spend, Change in zOBSR</source>
-        <translation>Zerocoin Utrošeno, Razlika (ostatak) u zOBSR</translation>
+        <translation>Zerocoin Spend, Change in zOBSR</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation>Povijest transakcija uspješno je spremljena u %1.</translation>
+        <translation>The transaction history was successfully saved to %1.</translation>
     </message>
     <message>
         <source>Range:</source>
-        <translation>Doseg:</translation>
+        <translation>Range:</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>za</translation>
+        <translation>to</translation>
     </message>
 </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Jedinica za prikaz iznosa. Kliknite da biste odabrali drugu jedinicu.</translation>
+        <translation>Unit to show amounts in. Click to select another unit.</translation>
     </message>
 </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>Novčanik nije učitan.</translation>
+        <translation>No wallet has been loaded.</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Salji novac</translation>
+        <translation>Send Coins</translation>
     </message>
     <message>
         <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 OBSR.</source>
-        <translation>SwiftX ne podržava slanje visokih vrijednosti. Transakcije su trenutačno ograničene na %1 OBSR.</translation>
+        <translation>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 OBSR.</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
         <source>HISTORY</source>
-        <translation>POVIJEST</translation>
+        <translation>HISTORY</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>Izvoz</translation>
+        <translation>&amp;Export</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Izvoz podataka iz trenutne kartice u datoteku</translation>
+        <translation>Export the data in the current tab to a file</translation>
     </message>
     <message>
         <source>Selected amount:</source>
-        <translation>Odabran iznos:</translation>
+        <translation>Selected amount:</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>Sigurnosna kopija novčanika</translation>
+        <translation>Backup Wallet</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
@@ -4765,11 +4937,11 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     <name>ZObsrControlDialog</name>
     <message>
         <source>Select zOBSR to Spend</source>
-        <translation>Odabrani zOBSR za utrošiti</translation>
+        <translation>Select zOBSR to Spend</translation>
     </message>
     <message>
         <source>Quantity</source>
-        <translation>Količina</translation>
+        <translation>Quantity</translation>
     </message>
     <message>
         <source>0</source>
@@ -4781,274 +4953,278 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>Select/Deselect All</source>
-        <translation>Odaberite/poništi odabir za Sve</translation>
+        <translation>Select/Deselect All</translation>
     </message>
     </context>
 <context>
     <name>obsr-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = zadržite metapodatke tx, npr. Vlasnika računa i podatke o zahtjevu za plaćanje, 2 = odbaci meta podataka tx)</translation>
+        <translation>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>Dopusti JSON-RPC veze od određenog izvora. Vrijedi za jednu IP (npr. 1.2.3.4), mrežu / mrežnu masku (npr. 1.2.3.4/255.255.255.0) ili mrežu / CIDR (npr. 1.2.3.4/24). Ova se opcija može odrediti više puta</translation>
+        <translation>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Veži se na navedenu adresu i uvijek slušajte na njemu. Koristite [host]: port notation za IPv6</translation>
+        <translation>Bind to given address and always listen on it. Use [host]:port notation for IPv6</translation>
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
-        <translation>Veži se na navedenoj adresi i dopuštenim kolegama koji se povezuju s njom. Koristite [host]: port notation za IPv6</translation>
+        <translation>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</translation>
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Pridržavajte se na navedenu adresu da biste slušali veze JSON-RPC. Koristite [host]: port notation za IPv6. Ova se opcija može odrediti više puta (zadano: vezati se na sva sučelja)</translation>
+        <translation>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</translation>
     </message>
     <message>
         <source>Calculated accumulator checkpoint is not what is recorded by block index</source>
-        <translation>Izračunata kontrolna točka akumulatora nije ono što se bilježi indeksom blokova</translation>
+        <translation>Calculated accumulator checkpoint is not what is recorded by block index</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. OBSR Core is probably already running.</source>
-        <translation>Nije moguće dobiti zaključavanje na direktoriju podataka %s. OBSR Core vjerojatno već radi.</translation>
+        <translation>Cannot obtain a lock on data directory %s. OBSR Core is probably already running.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>Promjena ponašanja glasova na automatskom finaliziranom proračunu. mode = auto: Glasujte samo za točan završeni proračun s mojim generiranim proračunom. (niz, zadani: automatski)</translation>
+        <translation>Change automatic finalised budget voting behaviour. mode=auto: Vote for only exact finalised budget match to my generated budget. (string, default: auto)</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
-        <translation>Stalne besplatne transakcije bez ograničenja stope na &lt;n&gt;* 1000 bajta po minuti (zadano: %u)</translation>
+        <translation>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>Izradite nove datoteke s zadanim dozvolama za sustav, umjesto umask 077 (samo učinkovite s funkcijom onemogućene lisnice)</translation>
+        <translation>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Izbrišite sve transakcije lisnice i obnavljajte one dijelove blok-lanca kroz -rescan pri pokretanju</translation>
+        <translation>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on start up</translation>
     </message>
     <message>
         <source>Delete all zerocoin spends and mints that have been recorded to the blockchain database and reindex them (0-1, default: %u)</source>
-        <translation>Izbriši sve zerocoin utroške i minteve koji su zabilježeni na blockchain database i reindexiraj ih (0-1, default: %u)</translation>
+        <translation>Delete all zerocoin spends and mints that have been recorded to the blockchain database and reindex them (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
-        <translation>Distribuirano pod MIT softverskom licencom, pogledajte priloženu datoteku COPYING ili &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+        <translation>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
         <source>Enable automatic wallet backups triggered after each zOBSR minting (0-1, default: %u)</source>
-        <translation>Omogući automatsko sigurnosno kopiranje novčanika nakon svakog zOBSR mintanja (0-1, default: %u)</translation>
+        <translation>Enable automatic wallet backups triggered after each zOBSR minting (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable or disable staking functionality for OBSR inputs (0-1, default: %u)</source>
-        <translation>Omogući ili onemogući staking funkcionalnosti za OBSR unose (0-1, default: %u)</translation>
+        <translation>Enable or disable staking functionality for OBSR inputs (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable or disable staking functionality for zOBSR inputs (0-1, default: %u)</source>
-        <translation>Omogući ili onemogući staking funkcionalnosti za zOBSR unose (0-1, default: %u)</translation>
+        <translation>Enable or disable staking functionality for zOBSR inputs (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
-        <translation>Omogućite funkcionalnost administracije s odgovarajućim privatnim ključem.</translation>
+        <translation>Enable spork administration functionality with the appropriate private key.</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
-        <translation>Unesite način rada regresije, koji koristi poseban lanac u kojem blokovi mogu biti riješeni odmah.</translation>
+        <translation>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Pogreška: Slušanje dolaznih veza nije uspjelo (slušajte pogrešku vraćenu pogrešku %s)</translation>
+        <translation>Error: Listening for incoming connections failed (listen returned error %s)</translation>
     </message>
     <message>
         <source>Error: The transaction is larger than the maximum allowed transaction size!</source>
-        <translation>Pogreška: transakcija je veća od maksimalne dozvoljene veličine transakcije!</translation>
+        <translation>Error: The transaction is larger than the maximum allowed transaction size!</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Pogreška: nepodržani argument - pronađeni su kanali. Postavljanje SOCKS verzije više nije moguće, samo SOCKS5 proksiji su podržani.</translation>
+        <translation>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible any more, only SOCKS5 proxies are supported.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Izvršite naredbu kada se primi odgovarajuće upozorenje ili vidimo jako dugo račvanje (%s u cmd zamjenjuje se porukom)</translation>
+        <translation>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Izvrši naredbu prilikom promjene transakcije naočanika (%s u cmd zamjenjuje se TxID-om)</translation>
+        <translation>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Izvrši naredbu kada se promijeni najbolji blok (%s u cmd zamjenjuje se blokovskim raspršivanjem)</translation>
+        <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
     </message>
     <message>
         <source>Fees (in OBSR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Naknade (u OBSR / Kb) manje od toga smatraju se nulom naknadom za prosljeđivanje (zadano: %s)</translation>
+        <translation>Fees (in OBSR/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
     </message>
     <message>
         <source>Fees (in OBSR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Naknade (u OBSR / Kb) manje od toga smatraju se nulom naknadom za izradu transakcija (zadano: %s)</translation>
+        <translation>Fees (in OBSR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
-        <translation>Ispraznite aktivnost baze podataka iz baze memorije na dnevnik diska svakog megabajta (zadano: %u)</translation>
+        <translation>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</translation>
     </message>
     <message>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
-        <translation>Pronađeni su nepotvrđeni denonimi izlaza, čekat će dok ne potvrde nastavak.</translation>
+        <translation>Found unconfirmed denominated outputs, will wait till they confirm to continue.</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>Ako paytxfee nije postavljen, uključite dovoljnu naknadu kako bi transakcije započele potvrdu u prosjeku unutar n blokova (zadana vrijednost: %u)</translation>
+        <translation>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
-        <translation>U ovom načinu rada -genproclimit kontrolira koliko blokova se generiraju odmah.</translation>
+        <translation>In this mode -genproclimit controls how many blocks are generated immediately.</translation>
     </message>
     <message>
         <source>Insufficient or insufficient confirmed funds, you might need to wait a few minutes and try again.</source>
-        <translation>Nedovoljno ili nedovoljno potvrđena sredstva, možda ćete morati pričekati nekoliko minuta i pokušati ponovno.</translation>
+        <translation>Insufficient or insufficient confirmed funds, you might need to wait a few minutes and try again.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Nevažeći iznos za -maxtxfee =&lt;amount&gt;: '%s' (mora biti barem minimalna naknada od %s kako bi se spriječili zastoji)</translation>
+        <translation>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</translation>
     </message>
     <message>
         <source>Keep the specified amount available for spending at all times (default: 0)</source>
-        <translation>Zadržavajte određeni iznos dostupan za potrošnju u svakom trenutku (zadano: 0)</translation>
+        <translation>Keep the specified amount available for spending at all times (default: 0)</translation>
     </message>
     <message>
         <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
-        <translation>Prijavite prioritet transakcije i naknadu po kB kada se mining-ju blokovi (zadano: %u)</translation>
+        <translation>Log transaction priority and fee per kB when mining blocks (default: %u)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>Održavajte cijeli indeks transakcija, koji se koristi pozivom getrawtransaction rpc (zadano: %u)</translation>
+        <translation>Maintain a full transaction index, used by the getrawtransaction RPC call (default: %u)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Maksimalna veličina podataka u transakcijama nosača podataka koje šaljemo i minamo (zadana vrijednost: %u)</translation>
+        <translation>Maximum size of data in data carrier transactions we relay and mine (default: %u)</translation>
     </message>
     <message>
         <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
-        <translation>Maksimalne ukupne naknade za upotrebu u jednoj transakciji novčanika, postavljanje preniske mogu prekidati velike transakcije (zadano: %s)</translation>
+        <translation>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Broj sekundi za neprimjereno ponašanje vršnjaka iz ponovnog povezivanja (zadano: %u)</translation>
+        <translation>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</translation>
     </message>
     <message>
         <source>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Prikrivanje koristi točno iznose denominiranih sredstava za slanje sredstava, možda ćete jednostavno morati anonimizirati još novca.</translation>
+        <translation>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymise some more coins.</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Izlazne informacije o pogrešci (zadano: %u, &lt;category&gt; unos je neobavezan)</translation>
+        <translation>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
-        <translation>Upit za peer adrese putem DNS traženja, ako je niska adresa (zadana: 1 ako nije povezana)</translation>
+        <translation>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</translation>
     </message>
     <message>
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
-        <translation>Randomizirati vjerodajnice za svaku proxy vezu. To omogućuje izolaciju Tor izvora (zadano: %u)</translation>
+        <translation>Randomise credentials for every proxy connection. This enables Tor stream isolation (default: %u)</translation>
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
-        <translation>Zahtijevajte visoki prioritet za preusmjeravanje transakcija besplatnih ili niskih naknada (zadano: %u)</translation>
+        <translation>Require high priority for relaying free or low-fee transactions (default:%u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file (default: %u)</source>
-        <translation>Pošaljite informacije o praćenju i debugu na konzolu umjesto datoteke debug.log (zadano: %u)</translation>
+        <translation>Send trace/debug info to console instead of debug.log file (default: %u)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Postavite maksimalnu veličinu transakcija s visokim prioritetom / niske naknade u bajtima (zadano: %d)</translation>
+        <translation>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Postavite broj niza provjere skripte (%u do %d, 0 = auto, &lt;0 = ostavite toliko jezgri slobodno, zadano: %d)</translation>
+        <translation>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</translation>
     </message>
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
-        <translation>Postavite broj niti za generiranje novčića ako je omogućeno (-1 = sve jezgre, zadana vrijednost: %d)</translation>
+        <translation>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</translation>
     </message>
     <message>
         <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
-        <translation>Prikaži potvrde N za uspješno zaključanu transakciju (0-9999, zadano: %u)</translation>
+        <translation>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</translation>
     </message>
     <message>
         <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
-        <translation>Podržite filtriranje blokova i transakciju s filtrima za cvjetanje (zadano: %u)</translation>
+        <translation>Support filtering of blocks and transaction with bloom filters (default: %u)</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>Ovaj proizvod uključuje softver razvijen od strane OpenSSL projekta za uporabu u OpenSSL Toolkitu i kriptografskom softveru kojeg je napisao Eric Young i UPnP softver koji je napisao Thomas Bernard.</translation>
+        <translation>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
+        <translation>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. OBSR Core is probably already running.</source>
-        <translation>Nije moguće vezati se na %s na ovom računalu. OBSR Core vjerojatno već radi.</translation>
+        <translation>Unable to bind to %s on this computer. OBSR Core is probably already running.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
-        <translation>Nije moguće locirati dovoljno sredstava s domenom Prikrivanja za tu transakciju.</translation>
+        <translation>Unable to locate enough Obfuscation denominated funds for this transaction.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 1000000 OBSR.</source>
-        <translation>Nije moguće pronaći dovoljno prikrivenih sredstava koja nisu denominirana za ovu transakciju koja nisu jednaka 1000000 OBSR.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 OBSR.</source>
+        <translation>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 OBSR.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000000 OBSR.</source>
-        <translation>Nije moguće pronaći dovoljno sredstava za ovu transakciju koja nije jednaka 1000000 OBSR.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 OBSR.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 10000 OBSR.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Koristite zasebni SOCKS5 proxy za pristup kolegama putem Tor skrivenih usluga (zadano: %s)</translation>
+        <translation>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</translation>
     </message>
     <message>
         <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>Upozorenje: -maxtxfee je vrlo visoka! Naknade ovoliko visoke mogu se platiti samo jednom transakcijom.</translation>
+        <translation>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Upozorenje: -paytxfee je vrlo visoka! To je transakcijska naknada koju ćete platiti ako šaljete transakciju.</translation>
+        <translation>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</translation>
     </message>
     <message>
         <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong OBSR Core will not work properly.</source>
-        <translation>Upozorenje: Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, OBSR Core neće raditi ispravno.</translation>
+        <translation>Warning: Please check that your computer's date and time are correct! If your clock is wrong OBSR Core will not work properly.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Upozorenje: Čini se da se mreža ne slaže u potpunosti! Čini se da neki rudari imaju problema.</translation>
+        <translation>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Upozorenje: Čini se da se ne slažemo s našim vršnjacima! Možda ćete morati nadograditi ili možda želite nadograditi druge čvorove.</translation>
+        <translation>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</translation>
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Upozorenje: pogreška u čitanju wallet.dat! Svi ključevi pravilno čitaju, ali podaci o transakciji ili unosi u adresaru možda nedostaju ili su netočni.</translation>
+        <translation>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Upozorenje: wallet.dat je oštećen, podaci su spašeni! Izvorni wallet.dat spremljen je kao lisnica. {Timestamp} .bak u %s; ako su vaša salda ili transakcije netočne, trebali biste ih vratiti iz sigurnosne kopije.</translation>
+        <translation>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
-        <translation>Dopuštene kolege koji se povezuju s određenom netmask ili IP adresa. Može se navesti više puta.</translation>
+        <translation>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Popis dopuštenih suradnika ne može biti zabranjen DoS i njihova se transakcija uvijek prenosi, čak i ako su već u spremištu,  na primjer. za pristupnika</translation>
+        <translation>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</translation>
     </message>
     <message>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
-        <translation>Morate odrediti masternodeprivkey u konfiguraciji. Za pomoć pogledajte dokumentaciju.</translation>
+        <translation>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</translation>
     </message>
     <message>
-        <source>(9567 could be used only on mainnet)</source>
-        <translation>(9567 se može koristiti samo na mainnetu)</translation>
+        <source>(51472 could be used only on mainnet)</source>
+        <translation>(51472 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -5059,640 +5235,644 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 9567 for mainnet)</source>
-        <translation>(mora biti 9567 za glavnu mrežu)</translation>
+        <source>(must be 51472 for mainnet)</source>
+        <translation>(must be 51472 for mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Prihvatite naredbeni redak i JSON-RPC naredbe</translation>
+        <translation>Accept command line and JSON-RPC commands</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Prihvatite veze s vanjske strane (zadana postavka: 1 ako nema proxy ili -connect)</translation>
+        <translation>Accept connections from outside (default: 1 if no -proxy or -connect)</translation>
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
-        <translation>Prihvatite javne zahtjeve za REST (zadano: %u)</translation>
+        <translation>Accept public REST requests (default: %u)</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Dodajte čvor za povezivanje i pokušajte zadržati vezu otvorenu</translation>
+        <translation>Add a node to connect to and attempt to keep the connection open</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Dopustite traženja DNS-a za -addnode, -seednode i -connect</translation>
+        <translation>Allow DNS lookups for -addnode, -seednode and -connect</translation>
     </message>
     <message>
         <source>Already have that input.</source>
-        <translation>Već imate taj unos.</translation>
+        <translation>Already have that input.</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Uvijek se upita za peer adrese putem DNS pretraživanja (zadano: %u)</translation>
+        <translation>Always query for peer addresses via DNS lookup (default: %u)</translation>
+    </message>
+    <message>
+        <source>Append comment to the user agent string</source>
+        <translation>Append comment to the user agent string</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Pokušaj oporavka privatnih ključeva iz korumpirane wallet.dat</translation>
+        <translation>Attempt to recover private keys from a corrupt wallet.dat</translation>
     </message>
     <message>
         <source>Automatically create Tor hidden service (default: %d)</source>
-        <translation>Automatski izradite Tor skrivenu uslugu (zadano: %d)</translation>
+        <translation>Automatically create Tor hidden service (default: %d)</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Opcije izrade blokova:</translation>
+        <translation>Block creation options:</translation>
     </message>
     <message>
         <source>Calculating missing accumulators...</source>
-        <translation>Izračun akumulatora koji nedostaju ...</translation>
+        <translation>Calculating missing accumulators...</translation>
     </message>
     <message>
         <source>Can't denominate: no compatible inputs left.</source>
-        <translation>Nije moguće denominirati: nema kompatibilnih ulaza.</translation>
+        <translation>Can't denominate: no compatible inputs left.</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>
-        <translation>Nije moguće pronaći slučajni Masternode.</translation>
+        <translation>Can't find random Masternode.</translation>
     </message>
     <message>
         <source>Can't mix while sync in progress.</source>
-        <translation>Nije moguće miješati dok je sinkronizacija u tijeku.</translation>
+        <translation>Can't mix while sync in progress.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Nije moguće novčanik vratiti na nižu verziju</translation>
+        <translation>Cannot downgrade wallet</translation>
     </message>
     <message>
         <source>Cannot resolve -bind address: '%s'</source>
-        <translation>Nije moguće riješiti adresu pošiljatelja: '%s'</translation>
+        <translation>Cannot resolve -bind address: '%s'</translation>
     </message>
     <message>
         <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>Nije moguće riješiti vanjsku adresu: '%s'</translation>
+        <translation>Cannot resolve -externalip address: '%s'</translation>
     </message>
     <message>
         <source>Cannot resolve -whitebind address: '%s'</source>
-        <translation>Nije moguće riješiti -whitebind adresu: '%s'</translation>
+        <translation>Cannot resolve -whitebind address: '%s'</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>Ne možete zapisati zadanu adresu</translation>
+        <translation>Cannot write default address</translation>
     </message>
     <message>
         <source>Collateral not valid.</source>
-        <translation>Zalog nije valjan.</translation>
+        <translation>Collateral not valid.</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
-        <translation>Povežite se samo s navedenim čvorom(ima)</translation>
+        <translation>Connect only to the specified node(s)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
-        <translation>Povežite se preko SOCKS5 proxyja</translation>
+        <translation>Connect through SOCKS5 proxy</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Povežite se s čvorom za preuzimanje peer adresa i odspojite se</translation>
+        <translation>Connect to a node to retrieve peer addresses, and disconnect</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Mogućnosti povezivanja:</translation>
+        <translation>Connection options:</translation>
     </message>
     <message>
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Autorska prava (C) 2009-%i Bitcoin Core Developers</translation>
+        <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
         <source>Copyright (C) 2014-%i The Dash Core Developers</source>
-        <translation>Autorska prava (C) 2014-%i The Dash Core Developers</translation>
+        <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Autorska prava (C) 2015-%i The PIVX Core Developers</translation>
-    </message>
-    <message>
-        <source>Copyright (C) 2018-%i The OBSR Core Developers</source>
-        <translation>Autorska prava (C) 2018-%i The OBSR Core Developers</translation>
+        <source>Copyright (C) 2015-%i The OBSR Core Developers</source>
+        <translation>Copyright (C) 2015-%i The OBSR Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>Otkriven oštećen blok podataka</translation>
+        <translation>Corrupted block database detected</translation>
     </message>
     <message>
         <source>Could not parse masternode.conf</source>
-        <translation>Nije moguće analizirati masternode.conf
-</translation>
+        <translation>Could not parse masternode.conf</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
-        <translation>Opcije otklanjanja pogrešaka / testiranja:</translation>
+        <translation>Debugging/Testing options:</translation>
     </message>
     <message>
         <source>Delete blockchain folders and resync from scratch</source>
-        <translation>Brisanje blockchain mape i RESYNC od nule</translation>
+        <translation>Delete blockchain folders and resync from scratch</translation>
     </message>
     <message>
         <source>Disable OS notifications for incoming transactions (default: %u)</source>
-        <translation>Onemogućite obavijesti OS-a za dolazne transakcije (zadano: %u)</translation>
+        <translation>Disable OS notifications for incoming transactions (default: %u)</translation>
     </message>
     <message>
         <source>Disable safemode, override a real safe mode event (default: %u)</source>
-        <translation>Onemogućivanje sigurnosnog modula, nadjačavanje sigurnog načina rada (zadano: %u)</translation>
+        <translation>Disable safe mode, override a real safe mode event (default: %u)</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Otkrijte vlastitu IP adresu (zadano: 1 prilikom slušanja i nije za vanjski ip)</translation>
+        <translation>Discover own IP address (default: 1 when listening and no -externalip)</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Ne učitavaj novčanik i onesspobiti RPC pozive</translation>
+        <translation>Do not load the wallet and disable wallet RPC calls</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Želite li sada obnoviti blok bazu podataka?</translation>
+        <translation>Do you want to rebuild the block database now?</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Gotovo učitavanje</translation>
+        <translation>Done loading</translation>
     </message>
     <message>
         <source>Enable automatic Zerocoin minting (0-1, default: %u)</source>
-        <translation>Omogući automatsko Zerocoin stvaranje (0-1, zadano: %u)</translation>
+        <translation>Enable automatic Zerocoin minting (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable publish hash transaction (locked via SwiftX) in &lt;address&gt;</source>
-        <translation>Omogući objavu hash transakcije (zaključano putem usluge SwiftX) u </translation>
+        <translation>Enable publish hash transaction (locked via SwiftX) in &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw transaction (locked via SwiftX) in &lt;address&gt;</source>
-        <translation>Omogući objavljivanje neobrađene transakcije (zaključano putem usluge SwiftX) u</translation>
+        <translation>Enable publish raw transaction (locked via SwiftX) in &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
-        <translation>Omogućite klijentu da djeluje kao masternode (0-1, zadano: %u)</translation>
+        <translation>Enable the client to act as a masternode (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Entries are full.</source>
-        <translation>Unosi su puni.</translation>
+        <translation>Entries are full.</translation>
     </message>
     <message>
         <source>Error connecting to Masternode.</source>
-        <translation>Pogreška pri povezivanju s Masternodeom.</translation>
+        <translation>Error connecting to Masternode.</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>Pogreška prilikom inicijalizacije baze blokova</translation>
+        <translation>Error initialising block database</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Pogreška pri pokretanju okruženja baze podataka novčanika %s!</translation>
+        <translation>Error initialising wallet database environment %s!</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Pogreška pri učitavanju baze podataka blokova</translation>
+        <translation>Error loading block database</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
-        <translation>Pogreška prilikom učitavanja wallet.dat</translation>
+        <translation>Error loading wallet.dat</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Pogreška pri učitavanju wallet.dat: novčanik oštećen</translation>
+        <translation>Error loading wallet.dat: Wallet corrupted</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of OBSR Core</source>
-        <translation>Pogreška prilikom učitavanja wallet.dat: Novčanik zahtijeva noviju verziju OBSR jezgre</translation>
+        <translation>Error loading wallet.dat: Wallet requires newer version of OBSR Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Pogreška pri otvaranju baze podataka blokova</translation>
+        <translation>Error opening block database</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>Pogreška pri čitanju iz baze podataka, zatvaranje.</translation>
+        <translation>Error reading from database, shutting down.</translation>
     </message>
     <message>
         <source>Error recovering public key.</source>
-        <translation>Pogreška prilikom vraćanja javnog ključa.</translation>
+        <translation>Error recovering public key.</translation>
     </message>
     <message>
         <source>Error writing zerocoinDB to disk</source>
-        <translation>Greška u zapisivanju zerocoinDB na disk</translation>
+        <translation>Error writing zerocoinDB to disk</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Greška</translation>
+        <translation>Error</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
-        <translation>Pogreška: Došlo je do kobne interne pogreške, pogledajte detalje o debug.logu</translation>
+        <translation>Error: A fatal internal error occurred, see debug.log for details</translation>
     </message>
     <message>
         <source>Error: Can't select current denominated inputs</source>
-        <translation>Pogreška: Nije moguće odabrati trenutne unose</translation>
+        <translation>Error: Can't select current denominated inputs</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Pogreška: prostor na disku je nizak!</translation>
+        <translation>Error: Disk space is low!</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -tor found, use -onion.</source>
-        <translation>Pogreška: neodržani argument - tor pronađen, koristite -onion.</translation>
+        <translation>Error: Unsupported argument -tor found, use -onion.</translation>
     </message>
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Pogreška: Novčanik zaključan, ne može stvoriti transakciju!</translation>
+        <translation>Error: Wallet locked, unable to create transaction!</translation>
     </message>
     <message>
         <source>Error: You already have pending entries in the Obfuscation pool</source>
-        <translation>Pogreška: već imate unose čekanja u grupi za Prekrivanje</translation>
+        <translation>Error: You already have pending entries in the Obfuscation pool</translation>
     </message>
     <message>
         <source>Failed to calculate accumulator checkpoint</source>
-        <translation>Nije uspjelo izračunavanje kontrolne točke akumulatora</translation>
+        <translation>Failed to calculate accumulator checkpoint</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Slušanje nije bilo na bilo kojem priključku. Koristite -listen = 0 ako to želite.</translation>
+        <translation>Failed to listen on any port. Use -listen=0 if you want this.</translation>
+    </message>
+    <message>
+        <source>Failed to parse host:port string</source>
+        <translation>Failed to parse host:port string</translation>
     </message>
     <message>
         <source>Failed to read block</source>
-        <translation>Greška čitanja bloka</translation>
+        <translation>Failed to read block</translation>
     </message>
     <message>
         <source>Fee (in OBSR/kB) to add to transactions you send (default: %s)</source>
-        <translation>Naknada (u OBSR / kB) za dodavanje transakcija koje šaljete (zadano: %s)</translation>
+        <translation>Fee (in OBSR/kB) to add to transactions you send (default: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
-        <translation>Završavanje transakcije.</translation>
+        <translation>Finalising transaction.</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
-        <translation>Prisilno poktretanje sigurnosnog načina rada (zadano: %u)</translation>
+        <translation>Force safe mode (default: %u)</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
-        <translation>Pronađeno dovoljno korisnika, potpisivanje (čekanje %s)</translation>
+        <translation>Found enough users, signing ( waiting %s )</translation>
     </message>
     <message>
         <source>Found enough users, signing ...</source>
-        <translation>Pronađeno dovoljno korisnika, potpisivanje ...</translation>
+        <translation>Found enough users, signing ...</translation>
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
-        <translation>Generirajte novčiće (zadano: %u)</translation>
+        <translation>Generate coins (default: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
-        <translation>Koliko blokova treba provjeriti pri pokretanju (zadano: %u, 0 = sve)</translation>
+        <translation>How many blocks to check at start up (default: %u, 0 = all)</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
-        <translation>ako &lt;category&gt;nije isporučen, ispišite sve informacije o uklanjanju pogrešaka.</translation>
+        <translation>If &lt;category&gt; is not supplied, output all debugging information.</translation>
     </message>
     <message>
         <source>Importing...</source>
-        <translation>Uvozim...</translation>
+        <translation>Importing...</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file</source>
-        <translation>Uvoz blokova iz vanjske blk000 ?? dat datoteke</translation>
+        <translation>Imports blocks from external blk000??.dat file</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>Uključi IP adrese u izlaz za ispravljanje pogrešaka (zadano: %u)</translation>
+        <translation>Include IP addresses in debug output (default: %u)</translation>
     </message>
     <message>
         <source>Incompatible mode.</source>
-        <translation>Nepodudarni način rada.</translation>
+        <translation>Incompatible mode.</translation>
     </message>
     <message>
         <source>Incompatible version.</source>
-        <translation>Nepodudarna verzija.</translation>
+        <translation>Incompatible version.</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Netočan ili nijedan blok geneze nije pronađen. Pogrešan datadir za mrežu?</translation>
+        <translation>Incorrect or no genesis block found. Wrong datadir for network?</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informacije</translation>
+        <translation>Information</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. OBSR Core is shutting down.</source>
-        <translation>Provjera ispravnosti inicijalizacije nije uspjela. OBSR Core se zatvara.</translation>
+        <translation>Initialisation sanity check failed. OBSR Core is shutting down.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
-        <translation>Unos nije valjan.</translation>
+        <translation>Input is not valid.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nedovoljna sredstva</translation>
+        <translation>Insufficient funds</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
-        <translation>Nedovoljna sredstva.</translation>
+        <translation>Insufficient funds.</translation>
     </message>
     <message>
         <source>Invalid -onion address or hostname: '%s'</source>
-        <translation>nevažeća -onion adresa ili naziv hosta: '%s'</translation>
+        <translation>Invalid -onion address or hostname: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Nevažeći iznos za -maxtxfee =&lt;amount&gt;: '%s'</translation>
+        <translation>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Nevažeći iznos za -minrelaytxfee =&lt;amount&gt;: '%s'</translation>
+        <translation>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Nevažeći iznos za -mintfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Nevažeći iznos za -paytxfee =&lt;amount&gt;: '%s' (mora biti barem %s)</translation>
+        <translation>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Nevažeći iznos za -paytxfee =&lt;amount&gt;: '%s'</translation>
+        <translation>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
-        <translation>Nevažeći iznos za -reservebalance =&lt;amount&gt;</translation>
+        <translation>Invalid amount for -reservebalance=&lt;amount&gt;</translation>
     </message>
     <message>
         <source>Invalid amount</source>
-        <translation>Nevažeći iznos</translation>
+        <translation>Invalid amount</translation>
     </message>
     <message>
         <source>Invalid masternodeprivkey. Please see documenation.</source>
-        <translation>Nevažeći masternodeprivkey. Molimo pogledajte dokumentaciju.</translation>
+        <translation>Invalid masternodeprivkey. Please see documentation.</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Nevažeća mrežna maska specificirana u kategoriji -whitelist: '%s'</translation>
+        <translation>Invalid netmask specified in -whitelist: '%s'</translation>
     </message>
     <message>
         <source>Invalid port detected in masternode.conf</source>
-        <translation>Nevažeći port otkriven u masternode.conf</translation>
+        <translation>Invalid port detected in masternode.conf</translation>
     </message>
     <message>
         <source>Invalid private key.</source>
-        <translation>Nevažeći privatni ključ.</translation>
+        <translation>Invalid private key.</translation>
     </message>
     <message>
         <source>Invalid script detected.</source>
-        <translation>Otkriven nevažeća skripta.</translation>
+        <translation>Invalid script detected.</translation>
     </message>
     <message>
         <source>Percentage of automatically minted Zerocoin  (1-100, default: %u)</source>
-        <translation>Postotak automatskog kovanog Zerocoina (1-100, zadano: %u)</translation>
+        <translation>Percentage of automatically minted Zerocoin  (1-100, default: %u)</translation>
     </message>
     <message>
         <source>Reindex the OBSR and zOBSR money supply statistics</source>
-        <translation>Ponovno indeksirati statistiku OBSR i zOBSR ponude novca</translation>
+        <translation>Reindex the OBSR and zOBSR money supply statistics</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
-        <translation>Reindeksiranje zerocoin databaze...</translation>
+        <translation>Reindexing zerocoin database...</translation>
     </message>
     <message>
         <source>Reindexing zerocoin failed</source>
-        <translation>Reindeksiranje zerocoin neuspjelo</translation>
+        <translation>Reindexing zerocoin failed</translation>
     </message>
     <message>
         <source>Selected coins value is less than payment target</source>
-        <translation>Odabrana vrijednost novčića je manja od količine za plačanje</translation>
+        <translation>Selected coins value is less than payment target</translation>
     </message>
     <message>
         <source>SwiftX options:</source>
-        <translation>SwiftX opcije:</translation>
+        <translation>SwiftX options:</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</source>
-        <translation>Ovo je priprema za testiranje prije puštanja - upotrebljavajte na vlastiti rizik - nemojte ga koristiti za staking ili trgovinske aplikacije!</translation>
+        <translation>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</translation>
     </message>
     <message>
         <source> mints deleted
 </source>
-        <translation>mints izbrisana
+        <translation> mints deleted
 </translation>
     </message>
     <message>
         <source> mints updated, </source>
-        <translation>mintova ažurirano</translation>
+        <translation> mints updated, </translation>
     </message>
     <message>
         <source> unconfirmed transactions removed
 </source>
-        <translation>uklonjene nepotvrđene transakcije</translation>
+        <translation> unconfirmed transactions removed
+</translation>
     </message>
     <message>
         <source>Disable all OBSR specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Onemogući sve specifične funkcije OBSR (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, zadano: %u)</translation>
+        <translation>Disable all OBSR specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
-        <translation>Omogućite SwiftX, prikažite potvrde za zaključane transakcije (bool, zadano: %s)</translation>
+        <translation>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</translation>
     </message>
     <message>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Pogreška: transakcija je odbijena! To se može dogoditi ako su neki od novčića u vašem novčaniku već bili potrošeni, primjerice, ako ste upotrijebili kopiju wallet.data, a novčići su potrošeni u kopiji, ali nisu označeni kao ovdje potrošeni.</translation>
+        <translation>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</translation>
     </message>
     <message>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Pogreška: ova transakcija zahtijeva naknadu za transakciju od najmanje %s zbog svoje količine, složenosti ili korištenja nedavno primljenih sredstava!</translation>
+        <translation>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -checklevel found. Checklevel must be level 4.</source>
-        <translation>Pogreška: pronađen je nepotpuni argument. Checklevel mora biti razina 4.</translation>
+        <translation>Error: Unsupported argument -checklevel found. Checklevel must be level 4.</translation>
     </message>
     <message>
         <source>Execute command when the best block changes and its size is over (%s in cmd is replaced by block hash, %d with the block size)</source>
-        <translation>Izvrši naredbu kada se promijeni najbolji blok i njezina veličina je gotova (%s u cmd zamjenjuje blok hash, %d s veličinom bloka)</translation>
+        <translation>Execute command when the best block changes and its size is over (%s in cmd is replaced by block hash, %d with the block size)</translation>
     </message>
     <message>
         <source>Failed to find coin set amongst held coins with less than maxNumber of Spends</source>
-        <translation>Nije pronađen set novčića koji se drže s manje od maksimuma potrošnje</translation>
+        <translation>Failed to find coin set amongst held coins with less than maxNumber of Spends</translation>
     </message>
     <message>
         <source>In rare cases, a spend with 7 coins exceeds our maximum allowable transaction size, please retry spend using 6 or less coins</source>
-        <translation>U rijetkim slučajevima, potrošnja s 7 kovanica premašuje našu maksimalnu dopuštenu veličinu transakcije, pokušajte ponovo pokušati potrošiti 6 ili manje kovanica</translation>
+        <translation>In rare cases, a spend with 7 coins exceeds our maximum allowable transaction size, please retry spend using 6 or less coins</translation>
     </message>
     <message>
         <source>Preferred Denomination for automatically minted Zerocoin  (1/5/10/50/100/500/1000/5000), 0 for no preference. default: %u)</source>
-        <translation>Preferirana denominacija za automatski ovjereni Zerocoin (1/5/10/50/100/500/1000/5000), 0 bez preferencije. zadana vrijednost: %u)</translation>
+        <translation>Preferred Denomination for automatically minted Zerocoin  (1/5/10/50/100/500/1000/5000), 0 for no preference. default: %u)</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any automatic zOBSR backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Navedite put prilagođenog sigurnosnog kopiranja da biste dodali kopiju bilo koje automatske zOBSR sigurnosne kopije. Ako je postavljeno kao dir, svaka sigurnosna kopija generira vremensku datoteku. Ako je postavljen kao datoteka, prepisat će na tu datoteku svaku kopiju. Ako je postavljen backuppath, dogodit će se 4 sigurnosne kopije</translation>
+        <translation>Specify custom backup path to add a copy of any automatic zOBSR backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
-        <translation>Navedite put prilagođenog sigurnosnog kopiranja da biste dodali kopiju sigurnosne kopije lisnice. Ako je postavljeno kao dir, svaka sigurnosna kopija generira vremensku datoteku. Ako je postavljen kao datoteka, prepisat će na tu datoteku svaku kopiju.</translation>
+        <translation>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</translation>
     </message>
     <message>
         <source>SwiftX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>SwiftX zahtijeva ulaze s najmanje 6 potvrda, možda ćete morati pričekati nekoliko minuta i pokušati ponovo.</translation>
+        <translation>SwiftX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; može biti:</translation>
+        <translation>&lt;category&gt; can be:</translation>
     </message>
     <message>
         <source>Attempt to force blockchain corruption recovery</source>
-        <translation>Pokušaj prisiljavanja blokiranja korupcije na oporavak</translation>
+        <translation>Attempt to force blockchain corruption recovery</translation>
     </message>
     <message>
         <source>CoinSpend: Accumulator witness does not verify</source>
-        <translation>CoinSpend: Svjedok akumulatora ne potvrđuje</translation>
+        <translation>CoinSpend: Accumulator witness does not verify</translation>
     </message>
     <message>
         <source>Display the stake modifier calculations in the debug.log file.</source>
-        <translation>Prikažite izračune modifikatora uloga u debug.log datoteci.</translation>
+        <translation>Display the stake modifier calculations in the debug.log file.</translation>
     </message>
     <message>
         <source>Display verbose coin stake messages in the debug.log file.</source>
-        <translation>Prikažite opsežne poruke za ulaganje novčića u datoteku debug.log.</translation>
+        <translation>Display verbose coin stake messages in the debug.log file.</translation>
     </message>
     <message>
         <source>Enable publish hash block in &lt;address&gt;</source>
-        <translation>Omogući blokiranje zbirke oglasa u sustavu&lt;address&gt;</translation>
+        <translation>Enable publish hash block in &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish hash transaction in &lt;address&gt;</source>
-        <translation>Omogući transakciju hash transakcije u sustavu &lt;address&gt;</translation>
+        <translation>Enable publish hash transaction in &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw block in &lt;address&gt;</source>
-        <translation>Omogući objavljivanje neobrađenog bloka u &lt;address&gt;</translation>
+        <translation>Enable publish raw block in &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable publish raw transaction in &lt;address&gt;</source>
-        <translation>Omogući objavljivanje neobrađene transakcije u&lt;address&gt;</translation>
+        <translation>Enable publish raw transaction in &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable staking functionality (0-1, default: %u)</source>
-        <translation>Omogući funkcionalnost odstupanja (0-1, zadano: %u)</translation>
+        <translation>Enable staking functionality (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Pogreška: Došlo je do kobne interne pogreške, pogledajte detalje o debug.logu</translation>
+        <translation>Error: A fatal internal error occurred, see debug.log for details</translation>
     </message>
     <message>
         <source>Error: No valid utxo!</source>
-        <translation>Pogreška: Nema valjanog utxo!</translation>
+        <translation>Error: No valid utxo!</translation>
     </message>
     <message>
         <source>Failed to create mint</source>
-        <translation>Nije uspjelo kovanje</translation>
+        <translation>Failed to create mint</translation>
     </message>
     <message>
         <source>Failed to find Zerocoins in wallet.dat</source>
-        <translation>Neuspjelo pronalaženje Zerocoina u wallet.dat</translation>
+        <translation>Failed to find Zerocoins in wallet.dat</translation>
     </message>
     <message>
         <source>Failed to select a zerocoin</source>
-        <translation>Odabir Zerocoina nije uspjelo</translation>
+        <translation>Failed to select a zerocoin</translation>
     </message>
     <message>
         <source>Failed to wipe zerocoinDB</source>
-        <translation>Neuspjelo brisanje zerocoinDB</translation>
+        <translation>Failed to wipe zerocoinDB</translation>
     </message>
     <message>
         <source>Failed to write coin serial number into wallet</source>
-        <translation>Nije uspio zapisi serijskog broja novčića u novčanik</translation>
+        <translation>Failed to write coin serial number into wallet</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Zadržite najviše &lt;n&gt; neprenosive transakcije u memoriji (zadano: %u)</translation>
+        <translation>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</translation>
     </message>
     <message>
         <source>Last Obfuscation was too recent.</source>
-        <translation>Poslijednje prikrivanje je bilo nedavno.</translation>
+        <translation>Last Obfuscation was too recent.</translation>
     </message>
     <message>
         <source>Last successful Obfuscation action was too recent.</source>
-        <translation>Posljednje uspješno Prikrivanje je bilo nedavno.</translation>
+        <translation>Last successful Obfuscation action was too recent.</translation>
     </message>
     <message>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
-        <translation>Ograničite veličinu predmemorije potpisa na 1 unosa (zadano: %u)</translation>
+        <translation>Limit size of signature cache to &lt;n&gt; entries (default: %u)</translation>
     </message>
     <message>
         <source>Line: %d</source>
-        <translation>Linija: %d</translation>
+        <translation>Line: %d</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Slušajte za povezivanje JSON-RPC veze &lt;port&gt; (zadano: %u ili testnet: %u)</translation>
+        <translation>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Slušajte za veze &lt;port&gt;uključeno (zadano: %u ili testnet: %u)</translation>
+        <translation>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Učitavanje adresa ...</translation>
+        <translation>Loading addresses...</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Učitavanje indeksa blokova ...</translation>
+        <translation>Loading block index...</translation>
     </message>
     <message>
         <source>Loading budget cache...</source>
-        <translation>Učitavanje predmemorije proračuna ...</translation>
+        <translation>Loading budget cache...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
-        <translation>Učitavanje predmemorije masternoda ...</translation>
+        <translation>Loading masternode cache...</translation>
     </message>
     <message>
         <source>Loading masternode payment cache...</source>
-        <translation>Učitavanje predmemorije plaćanja masternoda ...</translation>
+        <translation>Loading masternode payment cache...</translation>
     </message>
     <message>
         <source>Loading sporks...</source>
-        <translation>Učitavanje aplikacije ...</translation>
+        <translation>Loading sporks...</translation>
     </message>
     <message>
         <source>Loading wallet... (%3.2f %%)</source>
-        <translation>Učitavanje novčanika ... (%3.2f %%)</translation>
+        <translation>Loading wallet... (%3.2f %%)</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Učitavanje novčanika...</translation>
+        <translation>Loading wallet...</translation>
     </message>
     <message>
         <source>Location of the auth cookie (default: data dir)</source>
-        <translation>Lokacija autentičnog kolačića (zadano: dir. Podataka)</translation>
+        <translation>Location of the auth cookie (default: data dir)</translation>
     </message>
     <message>
         <source>Lock is already in place.</source>
-        <translation>Zaključavanje na mjestu.</translation>
+        <translation>Lock is already in place.</translation>
     </message>
     <message>
         <source>Lock masternodes from masternode configuration file (default: %u)</source>
-        <translation>Zaključaj masternode iz masternode konfiguracijske datoteke (zadano: %u)</translation>
+        <translation>Lock masternodes from masternode configuration file (default: %u)</translation>
     </message>
     <message>
         <source>Lookup(): Invalid -proxy address or hostname: '%s'</source>
-        <translation>Potražnja(): nevažeća adresa -proxy ili naziv hosta: '%s'</translation>
+        <translation>Lookup(): Invalid -proxy address or hostname: '%s'</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Održavajte najviše &lt;n&gt; veza s vršnjacima (zadano: %u)</translation>
+        <translation>Maintain at most &lt;n&gt; connections to peers (default: %u)</translation>
     </message>
     <message>
         <source>Masternode options:</source>
-        <translation>Opcije Masternoda:</translation>
+        <translation>Masternode options:</translation>
     </message>
     <message>
         <source>Masternode queue is full.</source>
-        <translation>Niz Masternoda je pun.</translation>
+        <translation>Masternode queue is full.</translation>
     </message>
     <message>
         <source>Masternode:</source>
@@ -5700,559 +5880,563 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksimalni međuspremnik za primanje veze, &lt;n&gt;* 1000 bajta (zadano: %u)</translation>
+        <translation>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksimalni pošiljatelj za slanje po vezama, &lt;n&gt;* 1000 bajta (zadano: %u)</translation>
+        <translation>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</translation>
     </message>
     <message>
         <source>Mint did not make it into blockchain</source>
-        <translation>Kovanje nije ušlo u blockchain</translation>
+        <translation>Mint did not make it into blockchain</translation>
     </message>
     <message>
         <source>Missing input transaction information.</source>
-        <translation>Nedostaju informacije o ulaznoj transakciji.</translation>
+        <translation>Missing input transaction information.</translation>
     </message>
     <message>
         <source>Mixing in progress...</source>
-        <translation>Miješanje u tijeku ...</translation>
+        <translation>Mixing in progress...</translation>
     </message>
     <message>
         <source>Need address because change is not exact</source>
-        <translation>Trebate adresu, jer ostatak nije točan</translation>
+        <translation>Need address because change is not exact</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Morate navesti vezu s -whitebind: '%s'</translation>
+        <translation>Need to specify a port with -whitebind: '%s'</translation>
     </message>
     <message>
         <source>No Masternodes detected.</source>
-        <translation>Masternode nije pronađen.</translation>
+        <translation>No Masternodes detected.</translation>
     </message>
     <message>
         <source>No compatible Masternode found.</source>
-        <translation>Nema kompatibilnog Masternoda.</translation>
+        <translation>No compatible Masternode found.</translation>
     </message>
     <message>
         <source>No funds detected in need of denominating.</source>
-        <translation>Nema otkrivenih sredstava kojima je potrebna denominacija.</translation>
+        <translation>No funds detected in need of denominating.</translation>
     </message>
     <message>
         <source>No matching denominations found for mixing.</source>
-        <translation>Za miješanje nisu pronađeni odgovarajući apoeni.</translation>
+        <translation>No matching denominations found for mixing.</translation>
     </message>
     <message>
         <source>Node relay options:</source>
-        <translation>Opcije releja čvorova:</translation>
+        <translation>Node relay options:</translation>
     </message>
     <message>
         <source>Non-standard public key detected.</source>
-        <translation>Otkriven je nestandardni javni ključ.</translation>
+        <translation>Non-standard public key detected.</translation>
     </message>
     <message>
         <source>Not compatible with existing transactions.</source>
-        <translation>Nije kompatibilno s postojećim transakcijama.</translation>
+        <translation>Not compatible with existing transactions.</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Nije dostupno dovoljno deskriptora datoteka.</translation>
+        <translation>Not enough file descriptors available.</translation>
     </message>
     <message>
         <source>Not in the Masternode list.</source>
-        <translation>Nije na popisu Masternode.</translation>
+        <translation>Not in the Masternode list.</translation>
     </message>
     <message>
         <source>Number of automatic wallet backups (default: 10)</source>
-        <translation>Broj automatskih sigurnosnih kopija novčanika (zadani: 10)</translation>
+        <translation>Number of automatic wallet backups (default: 10)</translation>
     </message>
     <message>
         <source>Number of custom location backups to retain (default: %d)</source>
-        <translation>Broj sigurnosnih kopija prilagođenih lokacija za zadržavanje (zadano: %d)</translation>
+        <translation>Number of custom location backups to retain (default: %d)</translation>
     </message>
     <message>
         <source>Obfuscation is idle.</source>
-        <translation>Prikrivanje je u stanju mirovanja.</translation>
+        <translation>Obfuscation is idle.</translation>
     </message>
     <message>
         <source>Obfuscation request complete:</source>
-        <translation>Zahtjev za Prikrivanje dovršeno:</translation>
+        <translation>Obfuscation request complete:</translation>
     </message>
     <message>
         <source>Obfuscation request incomplete:</source>
-        <translation>Nedovršeni zahtjevi za Prikrivanje:</translation>
+        <translation>Obfuscation request incomplete:</translation>
     </message>
     <message>
         <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
-        <translation>Prihvatite blok lanac koji odgovara ugrađenim kontrolnim točkama (zadano: %u)</translation>
+        <translation>Only accept block chain matching built-in checkpoints (default: %u)</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Samo se povežite s čvorovima u mreži &lt;net&gt;(ipv4, ipv6 ili luk)</translation>
+        <translation>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>Mogučnosti:</translation>
+        <translation>Options:</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Lozinka za JSON-RPC veze</translation>
+        <translation>Password for JSON-RPC connections</translation>
     </message>
     <message>
         <source>isValid(): Invalid -proxy address or hostname: '%s'</source>
-        <translation>isValid (): Nevažeća proxy adresa ili naziv hosta: '%s'</translation>
+        <translation>isValid(): Invalid -proxy address or hostname: '%s'</translation>
     </message>
     <message>
         <source>Preparing for resync...</source>
-        <translation>Priprema za resync ...</translation>
+        <translation>Preparing for resync...</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Dodaj na početak izlaz za uklanjanje pogrešaka s vremenskom oznakom (zadano: %u)</translation>
+        <translation>Prepend debug output with timestamp (default: %u)</translation>
     </message>
     <message>
         <source>Print version and exit</source>
-        <translation>Ispis verzije i izlaz</translation>
+        <translation>Print version and exit</translation>
     </message>
     <message>
         <source>RPC server options:</source>
-        <translation>Opcije RPC poslužitelja:</translation>
+        <translation>RPC server options:</translation>
     </message>
     <message>
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
-        <translation>Nasumično ispusti 1 svake &lt;n&gt; mrežne poruke</translation>
+        <translation>Randomly drop 1 of every &lt;n&gt; network messages</translation>
     </message>
     <message>
         <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
-        <translation>Označava slučajno svaka 1 &lt;n&gt; mrežne poruke</translation>
+        <translation>Randomly fuzz 1 of every &lt;n&gt; network messages</translation>
     </message>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>Obnovi indeks blok lanca iz trenutnih blk000??.dat datoteka</translation>
+        <translation>Rebuild block chain index from current blk000??.dat files</translation>
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
-        <translation>Primanje i prikaz upozorenja P2P mreže (zadano: %u)</translation>
+        <translation>Receive and display P2P network alerts (default: %u)</translation>
     </message>
     <message>
         <source>Reindex the accumulator database</source>
-        <translation>Ponovno indeksirati bazu podataka akumulatora</translation>
+        <translation>Reindex the accumulator database</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>Transakcije prijenosnika i minanja podataka (zadano: %u)</translation>
+        <translation>Relay and mine data carrier transactions (default: %u)</translation>
     </message>
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>
-        <translation>Relay ne-P2SH multisig (zadano: %u)</translation>
+        <translation>Relay non-P2SH multisig (default: %u)</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Ponovno skeniranje blok-lanca za transakcije novčanika koji nedostaju</translation>
+        <translation>Rescan the block chain for missing wallet transactions</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Ponovno skeniranje ...</translation>
+        <translation>Rescanning...</translation>
     </message>
     <message>
         <source>ResetMintZerocoin finished: </source>
-        <translation>ResetMintZerocoin je završio:</translation>
+        <translation>ResetMintZerocoin finished: </translation>
     </message>
     <message>
         <source>ResetSpentZerocoin finished: </source>
-        <translation>ResetSpentZerocoin završio: </translation>
+        <translation>ResetSpentZerocoin finished: </translation>
     </message>
     <message>
         <source>Run a thread to flush wallet periodically (default: %u)</source>
-        <translation>Pokrenite niti kako biste redovito prigušili novčanik (zadano: %u)</translation>
+        <translation>Run a thread to flush wallet periodically (default: %u)</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Radi u pozadini kao daemon i prihvatite naredbe</translation>
+        <translation>Run in the background as a daemon and accept commands</translation>
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>Ako je moguće, pošaljite transakcije kao transakcije s nultom naknadom (zadano: %u)</translation>
+        <translation>Send transactions as zero-fee transactions if possible (default: %u)</translation>
     </message>
     <message>
         <source>Session not complete!</source>
-        <translation>Sjednica nije dovršena!</translation>
+        <translation>Session not complete!</translation>
     </message>
     <message>
         <source>Session timed out.</source>
-        <translation>Sjednica je istekla.</translation>
+        <translation>Session timed out.</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Postavite veličinu predmemorije baze podataka u megabajtima (%d do %d, zadano: %d)</translation>
+        <translation>Set database cache size in megabytes (%d to %d, default: %d)</translation>
     </message>
     <message>
         <source>Set external address:port to get to this masternode (example: %s)</source>
-        <translation>Postavite vanjsku adresu:port da biste došli do tog masternoda (primjer: %s)</translation>
+        <translation>Set external address:port to get to this masternode (example: %s)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Postavite veličinu veličine baze na &lt;n&gt; (zadano: %u)</translation>
+        <translation>Set key pool size to &lt;n&gt; (default: %u)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>Postavite maksimalnu veličinu bloka u bajtima (zadano: %d)</translation>
+        <translation>Set maximum block size in bytes (default: %d)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: %u)</source>
-        <translation>Postavite minimalnu veličinu bloka u bajtovima (zadano: %u)</translation>
+        <translation>Set minimum block size in bytes (default: %u)</translation>
     </message>
     <message>
         <source>Set the Maximum reorg depth (default: %u)</source>
-        <translation>Postavite maksimalnu dubinu reorg (zadano: %u)</translation>
+        <translation>Set the Maximum reorg depth (default: %u)</translation>
     </message>
     <message>
         <source>Set the masternode private key</source>
-        <translation>Postavite masternode privatni ključ</translation>
+        <translation>Set the masternode private key</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>Postavite broj niti za RPC pozive usluge (zadano: %d)</translation>
+        <translation>Set the number of threads to service RPC calls (default: %d)</translation>
     </message>
     <message>
         <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
-        <translation>Postavlja DB_PRIVATE zastavicu u okruženju novčanika db (zadano: %u)</translation>
+        <translation>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Prikaži sve opcije uklanjanja pogrešaka (upotreba: --help -help-debug)</translation>
+        <translation>Show all debugging options (usage: --help -help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Smanji datoteku debug.log na pokretanju klijenta (zadano: 1 kada nema -debug)</translation>
+        <translation>Shrink debug.log file on client start up (default: 1 when no -debug)</translation>
     </message>
     <message>
         <source>Signing failed.</source>
-        <translation>Potpisivanje nije uspjelo.</translation>
+        <translation>Signing failed.</translation>
     </message>
     <message>
         <source>Signing timed out.</source>
-        <translation>Potpisivanje je isteklo.</translation>
+        <translation>Signing timed out.</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Potpisivanje transakcije nije uspjelo</translation>
+        <translation>Signing transaction failed</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>Navedite konfiguracijsku datoteku (zadano: %s)</translation>
+        <translation>Specify configuration file (default: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Navedite vrijeme veze u milisekundama (minimalno: 1, zadano: %d)</translation>
+        <translation>Specify connection timeout in milliseconds (minimum: 1, default: %d)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Navedite direktorij podataka</translation>
+        <translation>Specify data directory</translation>
     </message>
     <message>
         <source>Specify masternode configuration file (default: %s)</source>
-        <translation>Navedite masternode konfiguracijsku datoteku (zadano: %s)</translation>
+        <translation>Specify masternode configuration file (default: %s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>Navedite datoteku pid (zadano: %s)</translation>
+        <translation>Specify pid file (default: %s)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Odredite datoteku novčanika (u direktoriju podataka)</translation>
+        <translation>Specify wallet file (within data directory)</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Navedite svoju javnu adresu</translation>
+        <translation>Specify your own public address</translation>
     </message>
     <message>
         <source>Spend Valid</source>
-        <translation>Potrošnja valjana</translation>
+        <translation>Spend Valid</translation>
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>Provedite nepotvrđene promjene prilikom slanja transakcija (zadano: %u)</translation>
+        <translation>Spend unconfirmed change when sending transactions (default: %u)</translation>
     </message>
     <message>
         <source>Staking options:</source>
-        <translation>Mogućnosti Stakinga:</translation>
+        <translation>Staking options:</translation>
     </message>
     <message>
         <source>Stop running after importing blocks from disk (default: %u)</source>
-        <translation>Prestani prikazivati nakon uvoza blokova s diska (zadano: %u)</translation>
+        <translation>Stop running after importing blocks from disk (default: %u)</translation>
     </message>
     <message>
         <source>Submitted following entries to masternode: %u / %d</source>
-        <translation>Sljedeće unose podnesi na masternode: %u / %d</translation>
+        <translation>Submitted following entries to masternode: %u / %d</translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
-        <translation>Poslano na masternode, čeka se više unosa ( %u / %d ) %s</translation>
+        <translation>Submitted to masternode, waiting for more entries ( %u / %d ) %s</translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting in queue %s</source>
-        <translation>poslano na masternode, čeka se %s</translation>
+        <translation>Submitted to masternode, waiting in queue %s</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
-        <translation>Sinkronizacija neuspjela</translation>
+        <translation>Synchronisation failed</translation>
     </message>
     <message>
         <source>Synchronization finished</source>
-        <translation>Sinkronizacija završena</translation>
+        <translation>Synchronisation finished</translation>
     </message>
     <message>
         <source>Synchronization pending...</source>
-        <translation>Sinkronizacija je na čekanju ...</translation>
+        <translation>Synchronisation pending...</translation>
     </message>
     <message>
         <source>Synchronizing budgets...</source>
-        <translation>Sinkronizacija proračuna ...</translation>
+        <translation>Synchronising budgets...</translation>
     </message>
     <message>
         <source>Synchronizing masternode winners...</source>
-        <translation>Usklađivanje dobitnika masternoda...</translation>
+        <translation>Synchronising masternode winners...</translation>
     </message>
     <message>
         <source>Synchronizing masternodes...</source>
-        <translation>Sinkronizacija masternoda...</translation>
+        <translation>Synchronising masternodes...</translation>
     </message>
     <message>
         <source>Synchronizing sporks...</source>
-        <translation>Sinkronizacija sporka...</translation>
+        <translation>Synchronising sporks...</translation>
     </message>
     <message>
         <source>Syncing zOBSR wallet...</source>
-        <translation>Sinkronizacija zOBSR novčanika...</translation>
+        <translation>Syncing zOBSR wallet...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
-        <translation>Korištena je potrošnja novčića</translation>
+        <translation>The coin spend has been used</translation>
     </message>
     <message>
         <source>The transaction did not verify</source>
-        <translation>Transakcija nije potvrđena</translation>
+        <translation>The transaction did not verify</translation>
     </message>
     <message>
         <source>This help message</source>
-        <translation>Ova poruka za pomoć</translation>
+        <translation>This help message</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>Ovo je pokusni software</translation>
+        <translation>This is experimental software.</translation>
     </message>
     <message>
         <source>This is intended for regression testing tools and app development.</source>
-        <translation>To je namijenjeno alatima za test regresije i razvoju aplikacija.</translation>
+        <translation>This is intended for regression testing tools and app development.</translation>
     </message>
     <message>
         <source>This is not a Masternode.</source>
-        <translation>Ovo nije Masternode.</translation>
+        <translation>This is not a Masternode.</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Prag za odspajanje loših vršnjaka (zadano: %u)</translation>
+        <translation>Threshold for disconnecting misbehaving peers (default: %u)</translation>
     </message>
     <message>
         <source>Too many spends needed</source>
-        <translation>Potrebno je previše Potrošnji</translation>
+        <translation>Too many spends needed</translation>
     </message>
     <message>
         <source>Tor control port password (default: empty)</source>
-        <translation>Lozinka za kontrolni port Tor (zadano: prazno)</translation>
+        <translation>Tor control port password (default: empty)</translation>
     </message>
     <message>
         <source>Tor control port to use if onion listening enabled (default: %s)</source>
-        <translation>Tor kontrolni priključak koji će se koristiti ako je uključeno slušanje portova (zadano: %s)</translation>
+        <translation>Tor control port to use if onion listening enabled (default: %s)</translation>
     </message>
     <message>
         <source>Transaction Created</source>
-        <translation>Stvorena transakcija</translation>
+        <translation>Transaction Created</translation>
     </message>
     <message>
         <source>Transaction Mint Started</source>
-        <translation>Transakcijsko kovanje započeto</translation>
+        <translation>Transaction Mint Started</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Iznos transakcije premali</translation>
+        <translation>Transaction amount too small</translation>
     </message>
     <message>
         <source>Transaction amounts must be positive</source>
-        <translation>Iznos transakcije mora biti pozitivan</translation>
+        <translation>Transaction amounts must be positive</translation>
     </message>
     <message>
         <source>Transaction created successfully.</source>
-        <translation>Transakcija uspješno stvorena.</translation>
+        <translation>Transaction created successfully.</translation>
     </message>
     <message>
         <source>Transaction fees are too high.</source>
-        <translation>Previsoka naknada za transakciju.</translation>
+        <translation>Transaction fees are too high.</translation>
     </message>
     <message>
         <source>Transaction not valid.</source>
-        <translation>Transakcija nije valjana.</translation>
+        <translation>Transaction not valid.</translation>
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>Transakcija prevelika da bi bila besplatna</translation>
+        <translation>Transaction too large for fee policy</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Transakcija prevelika</translation>
+        <translation>Transaction too large</translation>
     </message>
     <message>
         <source>Transmitting final transaction.</source>
-        <translation>Šaljem finalnu transakciju. </translation>
+        <translation>Transmitting final transaction.</translation>
     </message>
     <message>
         <source>Try to spend with a higher security level to include more coins</source>
-        <translation>Pokušajte potrošiti s višom razinom sigurnosti kako biste uključili više novca</translation>
+        <translation>Try to spend with a higher security level to include more coins</translation>
     </message>
     <message>
         <source>Trying to spend an already spent serial #, try again.</source>
-        <translation>Pokušavate potrošiti već utrošeni serijski broj #, pokušajte ponovo.</translation>
+        <translation>Trying to spend an already spent serial #, try again.</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Nije moguće vezati se na %s na ovom računalu (vezanje vraćene pogreške %s)</translation>
+        <translation>Unable to bind to %s on this computer (bind returned error %s)</translation>
     </message>
     <message>
         <source>Unable to find transaction containing mint</source>
-        <translation>Nije moguće pronaći transakciju koja sadrži mintanje</translation>
+        <translation>Unable to find transaction containing mint</translation>
     </message>
     <message>
         <source>Unable to sign spork message, wrong key?</source>
-        <translation>Nije moguće potpisati spork poruku, pogrešan ključ?</translation>
+        <translation>Unable to sign spork message, wrong key?</translation>
     </message>
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Nije moguće pokrenuti HTTP poslužitelj. Detalje potražite u debug logu.</translation>
+        <translation>Unable to start HTTP server. See debug log for details.</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Nepoznata mreža specificirana u -onlynet: '%s'</translation>
+        <translation>Unknown network specified in -onlynet: '%s'</translation>
     </message>
     <message>
         <source>Unknown state: id = %u</source>
-        <translation>Nepoznato stanje: id = %u</translation>
+        <translation>Unknown state: id = %u</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
-        <translation>Nadogradnja novčanika u najnoviji format</translation>
+        <translation>Upgrade wallet to latest format</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>Koristite UPnP za mapiranje priključka za slušanje (zadano: %u)</translation>
+        <translation>Use UPnP to map the listening port (default: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Koristite UPnP za mapiranje porta za slušanje (zadano: 1 prilikom slušanja)</translation>
+        <translation>Use UPnP to map the listening port (default: 1 when listening)</translation>
     </message>
     <message>
         <source>Use a custom max chain reorganization depth (default: %u)</source>
-        <translation>Koristite prilagođenu maksimalnu dubinu reorganizacije lanca (zadano: %u)</translation>
+        <translation>Use a custom max chain reorganisation depth (default: %u)</translation>
     </message>
     <message>
         <source>Use the test network</source>
-        <translation>Koristi testnu mrežu</translation>
+        <translation>Use the test network</translation>
+    </message>
+    <message>
+        <source>User Agent comment (%s) contains unsafe characters.</source>
+        <translation>User Agent comment (%s) contains unsafe characters.</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Korisničko ime za JSON-RPC veze</translation>
+        <translation>Username for JSON-RPC connections</translation>
     </message>
     <message>
         <source>Value is below the smallest available denomination (= 1) of zOBSR</source>
-        <translation>Vrijednost je niža od najmanje dostupne denominacije (= 1) zOBSR-a</translation>
+        <translation>Value is below the smallest available denomination (= 1) of zOBSR</translation>
     </message>
     <message>
         <source>Value more than Obfuscation pool maximum allows.</source>
-        <translation>Vrijednost veća od maksimalnog broja Prikrivanja zbirnih sredstava.</translation>
+        <translation>Value more than Obfuscation pool maximum allows.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>Provjera blokova ...</translation>
+        <translation>Verifying blocks...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>Provjera novčanika...</translation>
+        <translation>Verifying wallet...</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation>Novčanik %s nalazi se izvan direktorija podataka %s</translation>
+        <translation>Wallet %s resides outside data directory %s</translation>
     </message>
     <message>
         <source>Wallet is locked.</source>
-        <translation>Novčanik zaključan.</translation>
+        <translation>Wallet is locked.</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart OBSR Core to complete</source>
-        <translation>Potrebno je prepisati novčanik: ponovo pokrenite OBSR Core</translation>
+        <translation>Wallet needed to be rewritten: restart OBSR Core to complete</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>Opcije novčanika:</translation>
+        <translation>Wallet options:</translation>
     </message>
     <message>
         <source>Wallet window title</source>
-        <translation>Naziv prozora novčanika</translation>
+        <translation>Wallet window title</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Upozorenje</translation>
+        <translation>Warning</translation>
     </message>
     <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Upozorenje: Ova verzija je zastarjela, potrebna nadogradnja!</translation>
+        <translation>Warning: This version is obsolete, upgrade required!</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Upozorenje: nepodržani argument -baschmark zanemaren, upotrijebite -debug = klupu.</translation>
+        <translation>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Upozorenje: nepodržani argument -debugnet ignoriran, upotrijebite -debug=net.</translation>
+        <translation>Warning: Unsupported argument -debugnet ignored, use -debug=net.</translation>
     </message>
     <message>
         <source>Will retry...</source>
-        <translation>Ponovno pokušati...</translation>
+        <translation>Will retry...</translation>
     </message>
     <message>
         <source>You don't have enough Zerocoins in your wallet</source>
-        <translation>Nemate dovoljno Zerocoina u novčaniku</translation>
+        <translation>You don't have enough Zerocoins in your wallet</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation>orate obnoviti bazu podataka koristeći -index za promjenu -txindexa</translation>
+        <translation>You need to rebuild the database using -reindex to change -txindex</translation>
     </message>
     <message>
         <source>Your entries added successfully.</source>
-        <translation>Unosi uspješno dodani.</translation>
+        <translation>Your entries added successfully.</translation>
     </message>
     <message>
         <source>Your transaction was accepted into the pool!</source>
-        <translation>Vaša transakcija je prihvaćena u bazen!</translation>
+        <translation>Your transaction was accepted into the pool!</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>Zapping svih transakcija iz novčanika ...</translation>
+        <translation>Zapping all transactions from wallet...</translation>
     </message>
     <message>
         <source>ZeroMQ notification options:</source>
-        <translation>Mogućnosti ZeroMQ obavijesti:</translation>
+        <translation>ZeroMQ notification options:</translation>
     </message>
     <message>
         <source>Zerocoin options:</source>
-        <translation>Zerocoin mogućnosti:</translation>
+        <translation>Zerocoin options:</translation>
     </message>
     <message>
         <source>on startup</source>
-        <translation>na pokretanju</translation>
+        <translation>on start up</translation>
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat korumpiran, spašavanje nije uspjelo</translation>
+        <translation>wallet.dat corrupt, salvage failed</translation>
     </message>
 </context>
 </TS>

@@ -8,37 +8,38 @@ EXTRA_LIBRARIES += qt/libbitcoinqt.a
 # obsr qt core #
 QT_TS = \
   qt/locale/obsr_bg.ts \
-  qt/locale/obsr_ca.ts \
-  qt/locale/obsr_cs.ts \
-  qt/locale/obsr_da.ts \
-  qt/locale/obsr_de.ts \
-  qt/locale/obsr_en.ts \
-  qt/locale/obsr_en_US.ts \
-  qt/locale/obsr_eo.ts \
-  qt/locale/obsr_es.ts \
-  qt/locale/obsr_es_ES.ts \
-  qt/locale/obsr_fi.ts \
-  qt/locale/obsr_fr_FR.ts \
-  qt/locale/obsr_hi_IN.ts \
-  qt/locale/obsr_hr.ts \
-  qt/locale/obsr_hr_HR.ts \
-  qt/locale/obsr_it.ts \
-  qt/locale/obsr_ja.ts \
-  qt/locale/obsr_ko_KR.ts \
-  qt/locale/obsr_lt_LT.ts \
-  qt/locale/obsr_nl.ts \
-  qt/locale/obsr_pl.ts \
-  qt/locale/obsr_pt.ts \
-  qt/locale/obsr_pt_BR.ts \
-  qt/locale/obsr_ro_RO.ts \
-  qt/locale/obsr_ru.ts \
-  qt/locale/obsr_sk.ts \
-  qt/locale/obsr_sv.ts \
-  qt/locale/obsr_tr.ts \
-  qt/locale/obsr_uk.ts \
-  qt/locale/obsr_vi.ts \
-  qt/locale/obsr_zh_CN.ts \
-  qt/locale/obsr_zh_TW.ts
+   qt/locale/obsr_ca.ts \
+   qt/locale/obsr_cs.ts \
+   qt/locale/obsr_da.ts \
+   qt/locale/obsr_de.ts \
+   qt/locale/obsr_en.ts \
+   qt/locale/obsr_en_GB.ts \
+   qt/locale/obsr_en_US.ts \
+   qt/locale/obsr_eo.ts \
+   qt/locale/obsr_es.ts \
+   qt/locale/obsr_es_ES.ts \
+   qt/locale/obsr_fi.ts \
+   qt/locale/obsr_fr_FR.ts \
+   qt/locale/obsr_hi_IN.ts \
+   qt/locale/obsr_hr.ts \
+   qt/locale/obsr_hr_HR.ts \
+   qt/locale/obsr_it.ts \
+   qt/locale/obsr_ja.ts \
+   qt/locale/obsr_ko_KR.ts \
+   qt/locale/obsr_lt_LT.ts \
+   qt/locale/obsr_nl.ts \
+   qt/locale/obsr_pl.ts \
+   qt/locale/obsr_pt.ts \
+   qt/locale/obsr_pt_BR.ts \
+   qt/locale/obsr_ro_RO.ts \
+   qt/locale/obsr_ru.ts \
+   qt/locale/obsr_sk.ts \
+   qt/locale/obsr_sv.ts \
+   qt/locale/obsr_tr.ts \
+   qt/locale/obsr_uk.ts \
+   qt/locale/obsr_vi.ts \
+   qt/locale/obsr_zh_CN.ts \
+   qt/locale/obsr_zh_TW.ts
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
