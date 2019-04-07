@@ -24,7 +24,7 @@ OBSR Core is extensively tested on multiple operating systems using the Linux ke
 
 Microsoft ended support for Windows XP on [April 8th, 2014](https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support), No attempt is made to prevent installing or running the software on Windows XP, you can still do so at your own risk but be aware that there are known instabilities and issues. Please do not report issues about Windows XP to the issue tracker.
 
-Apple released it's last Mountain Lion update August 13, 2015, and officially ended support on [December 14, 2015](http://news.fnal.gov/2015/10/mac-os-x-mountain-lion-10-8-end-of-life-december-14/). OBSR Core software starting with v3.2.0 will no longer run on MacOS versions prior to Yosemite (10.10). Please do not report issues about MacOS versions prior to Yosemite to the issue tracker.
+Apple released it's last Mountain Lion update August 13, 2015, and officially ended support on [December 14, 2015](http://news.fnal.gov/2015/10/mac-os-x-mountain-lion-10-8-end-of-life-december-14/). OBSR Core software starting with v1.1.00 will no longer run on MacOS versions prior to Yosemite (10.10). Please do not report issues about MacOS versions prior to Yosemite to the issue tracker.
 
 OBSR Core should also work on most other Unix-like systems but is not frequently tested on them.
 
@@ -52,14 +52,14 @@ On March 6th 2019, an attack was detected on the OBSR network zerocoin protocol,
 
 As a result of this, all zOBSR functionality was disabled via one of our sporks shortly after verification of this exploit. A full report, detailing how this attack was performed, as well as investigation results and mitigation methods is available [On Medium](https://medium.com/@dev.obsr/report-wrapped-serials-attack-5f4bf7b51701).
 
-zOBSR functions will be restored after v3.2.0 is pushed out and the majority of the network has upgraded.
+zOBSR functions will be restored after v1.1.00 is pushed out and the majority of the network has upgraded.
 
 Major New Features
 ------
 
 ### BIP65 (CHECKLOCKTIMEVERIFY) Soft-Fork
 
-OBSR Core v3.2.0 introduces new consensus rules for scripting pathways to support the [BIP65](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki) standard. This is being carried out as a soft-fork in order to provide ample time for stakers to update their wallet version.
+OBSR Core v1.1.00 introduces new consensus rules for scripting pathways to support the [BIP65](https://github.com/bitcoin/bips/blob/master/bip-0065.mediawiki) standard. This is being carried out as a soft-fork in order to provide ample time for stakers to update their wallet version.
 
 ### Automint Addresses
 
