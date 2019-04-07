@@ -697,7 +697,6 @@ bool calculateAccumulatedBlocksFor(
         pindex = chainActive.Next(pindex);
     }
 
-    return blocksToInclude;
     // A certain amount of accumulated coins are required
     if (nMintsAdded < Params().Zerocoin_RequiredAccumulation()) {
         strError = _(strprintf("Less than %d mints added, unable to create spend",
