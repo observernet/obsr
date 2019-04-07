@@ -2,7 +2,7 @@
 
 [Desktop Entry]
 Type=Application
-Version=1.1.00
+Version=1.1.01
 Encoding=UTF-8
 Name=OBServer QT Regtest
 Icon=${SNAP}/qt-regtest.ico
