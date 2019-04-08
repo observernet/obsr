@@ -152,7 +152,7 @@ parts:
         if [ -d "$EXTRA_INCLUDES" ]; then
           export HOST_ID_SALT="$EXTRA_INCLUDES"
         fi
-        make -j4 -C ${BASEPREFIX} HOST="${i}"
+        make ${MAKEOPTS} -C ${BASEPREFIX} HOST="${i}"
         unset HOST_ID_SALT
       done
       # Faketime for binaries
@@ -236,7 +236,7 @@ parts:
       - binutils
       - python3
       - clang
-      - build-essential
+      - build-essentialy
     stage-packages: [ca-certificates]
     after:
       - desktop-qt5
