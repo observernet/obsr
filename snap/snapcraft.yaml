@@ -132,7 +132,6 @@ parts:
       cat << EOF > ${WRAP_DIR}/${prog}
       #!/usr/bin/env bash
       REAL="`which -a ${prog}-8 | grep -v ${WRAP_DIR}/${prog} | head -1`"
-      if [ $SNAPCRAFT_ARCH_TRIPLET = "i386-linux-gnu" ]; then
       for var in "\$@"
       do
       if [ "\$var" = "-m32" ]; then
@@ -141,7 +140,6 @@ parts:
       break
       fi
       done
-      fi
       \$REAL \$@
       EOF
       chmod +x ${WRAP_DIR}/${prog}
@@ -154,7 +152,7 @@ parts:
         if [ -d "$EXTRA_INCLUDES" ]; then
           export HOST_ID_SALT="$EXTRA_INCLUDES"
         fi
-        make ${MAKEOPTS} -C ${BASEPREFIX} HOST="${i}"
+        make -j4 -C ${BASEPREFIX} HOST="${i}"
         unset HOST_ID_SALT
       done
       # Faketime for binaries
