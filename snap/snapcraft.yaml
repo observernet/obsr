@@ -84,35 +84,27 @@ parts:
         export BASE_CACHE=${GBUILD_PACKAGE_CACHE}
         mkdir -p ${BASE_CACHE} ${SOURCES_PATH}
       fi
-      function create_global_faketime_wrappers {
+      # Faketime for depends so intermediate results are comparable
+      export PATH_orig=${PATH}
       for prog in ${FAKETIME_PROGS}; do
         echo '#!/usr/bin/env bash' > ${WRAP_DIR}/${prog}
         echo "REAL=\`which -a ${prog} | grep -v ${WRAP_DIR}/${prog} | head -1\`" >> ${WRAP_DIR}/${prog}
         echo 'export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/faketime/libfaketime.so.1' >> ${WRAP_DIR}/${prog}
-        echo "export FAKETIME=\"$1\"" >> ${WRAP_DIR}/${prog}
+        echo "export FAKETIME=\"2000-01-01 12:00:00\"" >> ${WRAP_DIR}/${prog}
         echo "\$REAL \$@" >> $WRAP_DIR/${prog}
         chmod +x ${WRAP_DIR}/${prog}
       done
-      }
-      function create_per-host_faketime_wrappers {
-      for i in $HOSTS; do
-        for prog in ${FAKETIME_HOST_PROGS}; do
-            if which ${i}-${prog}-8
-            then
-                echo '#!/usr/bin/env bash' > ${WRAP_DIR}/${i}-${prog}
-                echo "REAL=\`which -a ${i}-${prog}-8 | grep -v ${WRAP_DIR}/${i}-${prog} | head -1\`" >> ${WRAP_DIR}/${i}-${prog}
-                echo 'export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/faketime/libfaketime.so.1' >> ${WRAP_DIR}/${i}-${prog}
-                echo "export FAKETIME=\"$1\"" >> ${WRAP_DIR}/${i}-${prog}
-                echo "\$REAL \$@" >> $WRAP_DIR/${i}-${prog}
-                chmod +x ${WRAP_DIR}/${i}-${prog}
-            fi
-        done
+      for prog in ${FAKETIME_HOST_PROGS}; do
+          if which ${HOST}-${prog}-8
+          then
+              echo '#!/usr/bin/env bash' > ${WRAP_DIR}/${HOST}-${prog}
+              echo "REAL=\`which -a ${HOST}-${prog}-8 | grep -v ${WRAP_DIR}/${HOST}-${prog} | head -1\`" >> ${WRAP_DIR}/${HOST}-${prog}
+              echo 'export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/faketime/libfaketime.so.1' >> ${WRAP_DIR}/${HOST}-${prog}
+              echo "export FAKETIME=\"2000-01-01 12:00:00\"" >> ${WRAP_DIR}/${HOST}-${prog}
+              echo "\$REAL \$@" >> $WRAP_DIR/${HOST}-${prog}
+              chmod +x ${WRAP_DIR}/${HOST}-${prog}
+          fi
       done
-      }
-      # Faketime for depends so intermediate results are comparable
-      export PATH_orig=${PATH}
-      create_global_faketime_wrappers "2000-01-01 12:00:00"
-      create_per-host_faketime_wrappers "2000-01-01 12:00:00"
       export PATH=${WRAP_DIR}:${PATH}
       for i in ${HOSTS}; do
       if [ ${i} = "arm-linux-gnueabihf" ]
@@ -162,8 +154,25 @@ parts:
       done
       # Faketime for binaries
       export PATH=${PATH_orig}
-      create_global_faketime_wrappers "${REFERENCE_DATETIME}"
-      create_per-host_faketime_wrappers "${REFERENCE_DATETIME}"
+      for prog in ${FAKETIME_PROGS}; do
+        echo '#!/usr/bin/env bash' > ${WRAP_DIR}/${prog}
+        echo "REAL=\`which -a ${prog} | grep -v ${WRAP_DIR}/${prog} | head -1\`" >> ${WRAP_DIR}/${prog}
+        echo 'export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/faketime/libfaketime.so.1' >> ${WRAP_DIR}/${prog}
+        echo "export FAKETIME=\"${REFERENCE_DATETIME}\"" >> ${WRAP_DIR}/${prog}
+        echo "\$REAL \$@" >> $WRAP_DIR/${prog}
+        chmod +x ${WRAP_DIR}/${prog}
+      done
+      for prog in ${FAKETIME_HOST_PROGS}; do
+          if which ${HOST}-${prog}-8
+          then
+              echo '#!/usr/bin/env bash' > ${WRAP_DIR}/${HOST}-${prog}
+              echo "REAL=\`which -a ${HOST}-${prog}-8 | grep -v ${WRAP_DIR}/${HOST}-${prog} | head -1\`" >> ${WRAP_DIR}/${HOST}-${prog}
+              echo 'export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/faketime/libfaketime.so.1' >> ${WRAP_DIR}/${HOST}-${prog}
+              echo "export FAKETIME=\"${REFERENCE_DATETIME}\"" >> ${WRAP_DIR}/${HOST}-${prog}
+              echo "\$REAL \$@" >> $WRAP_DIR/${HOST}-${prog}
+              chmod +x ${WRAP_DIR}/${HOST}-${prog}
+          fi
+      done
       export PATH=${WRAP_DIR}:${PATH}
       # Create the release tarball using (arbitrarily) the first host
       ./autogen.sh
