@@ -157,7 +157,7 @@ parts:
       for prog in ${FAKETIME_PROGS}; do
         echo '#!/usr/bin/env bash' > ${WRAP_DIR}/${prog}
         echo "REAL=\`which -a ${prog} | grep -v ${WRAP_DIR}/${prog} | head -1\`" >> ${WRAP_DIR}/${prog}
-        echo 'export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/faketime/libfaketime.so.1' >> ${WRAP_DIR}/${prog}
+        echo 'export LD_PRELOAD=/usr/lib/$HOST/faketime/libfaketime.so.1' >> ${WRAP_DIR}/${prog}
         echo "export FAKETIME=\"${REFERENCE_DATETIME}\"" >> ${WRAP_DIR}/${prog}
         echo "\$REAL \$@" >> $WRAP_DIR/${prog}
         chmod +x ${WRAP_DIR}/${prog}
@@ -167,7 +167,7 @@ parts:
           then
               echo '#!/usr/bin/env bash' > ${WRAP_DIR}/${HOST}-${prog}
               echo "REAL=\`which -a ${HOST}-${prog}-8 | grep -v ${WRAP_DIR}/${HOST}-${prog} | head -1\`" >> ${WRAP_DIR}/${HOST}-${prog}
-              echo 'export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/faketime/libfaketime.so.1' >> ${WRAP_DIR}/${HOST}-${prog}
+              echo 'export LD_PRELOAD=/usr/lib/$HOST/faketime/libfaketime.so.1' >> ${WRAP_DIR}/${HOST}-${prog}
               echo "export FAKETIME=\"${REFERENCE_DATETIME}\"" >> ${WRAP_DIR}/${HOST}-${prog}
               echo "\$REAL \$@" >> $WRAP_DIR/${HOST}-${prog}
               chmod +x ${WRAP_DIR}/${HOST}-${prog}
