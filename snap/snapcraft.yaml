@@ -235,6 +235,7 @@ parts:
       - bsdmainutils
       - binutils
       - python3
+      - clang
     stage-packages: [ca-certificates]
     after:
       - desktop-qt5
