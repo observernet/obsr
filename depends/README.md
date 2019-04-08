@@ -27,6 +27,8 @@ Common `host-platform-triplets` for cross compilation are:
 - `aarch64-linux-gnu` for Linux ARM 64 bit
 - `riscv32-linux-gnu` for Linux RISC-V 32 bit
 - `riscv64-linux-gnu` for Linux RISC-V 64 bit
+- `x86_64-pc-linux-gnu` for Linux 64 bit
+- `i686-pc-linux-gnu` for Linux 32 bit
 
 No other options are needed, the paths are automatically configured.
 
