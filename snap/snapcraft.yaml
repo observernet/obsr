@@ -208,3 +208,42 @@ parts:
         cd ../../
         rm -rf distsrc-${i}
       done
+    build-packages:
+      - curl
+      - wget
+      - g++
+      - gcc
+      - make
+      - autoconf
+      - automake
+      - faketime
+      - cmake
+      - pkg-config
+      - libtool
+      - bsdmainutils
+      - binutils
+      - python3
+    stage-packages: [ca-certificates]
+    after:
+      - desktop-qt5
+      - patches
+  desktop-qt5:
+    stage-packages:
+      - libxkbcommon0
+      - ttf-ubuntu-font-family
+      - dmz-cursor-theme
+      - light-themes
+      - shared-mime-info
+      - libqt5gui5
+      - libgdk-pixbuf2.0-0
+      - libqt5svg5 # for loading icon themes which are svg
+      - locales-all
+      - qtwayland5
+  patches:
+    source: snap/patches
+    plugin: dump
+    prime:
+      - -*
+  desktop:
+    source: snap/usr/share/applications
+    plugin: dump
