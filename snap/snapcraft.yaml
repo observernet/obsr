@@ -132,6 +132,7 @@ parts:
       cat << EOF > ${WRAP_DIR}/${prog}
       #!/usr/bin/env bash
       REAL="`which -a ${prog}-8 | grep -v ${WRAP_DIR}/${prog} | head -1`"
+      if [ $SNAPCRAFT_ARCH_TRIPLET = "i386-linux-gnu" ]; then
       for var in "\$@"
       do
       if [ "\$var" = "-m32" ]; then
@@ -140,6 +141,7 @@ parts:
       break
       fi
       done
+      fi
       \$REAL \$@
       EOF
       chmod +x ${WRAP_DIR}/${prog}
