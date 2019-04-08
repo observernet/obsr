@@ -121,9 +121,12 @@ parts:
       # x86 needs /usr/include/i386-linux-gnu/asm pointed to /usr/include/x86_64-linux-gnu/asm,
       # but we can't write there. Instead, create a link here and force it to be included in the
       # search paths by wrapping gcc/g++.
-      mkdir -p $EXTRA_INCLUDES_BASE/i686-pc-linux-gnu
-      rm -f $WRAP_DIR/extra_includes/i686-pc-linux-gnu/asm
-      ln -s /usr/include/x86_64-linux-gnu/asm $EXTRA_INCLUDES_BASE/i686-pc-linux-gnu/asm
+      if [ $SNAPCRAFT_ARCH_TRIPLET = "i386-linux-gnu" ]
+      then
+        mkdir -p $EXTRA_INCLUDES_BASE/i686-pc-linux-gnu
+        rm -f $WRAP_DIR/extra_includes/i686-pc-linux-gnu/asm
+        ln -s /usr/include/x86_64-linux-gnu/asm $EXTRA_INCLUDES_BASE/i686-pc-linux-gnu/asm
+      fi
       for prog in gcc g++; do
       rm -f ${WRAP_DIR}/${prog}
       cat << EOF > ${WRAP_DIR}/${prog}
@@ -131,11 +134,11 @@ parts:
       REAL="`which -a ${prog}-8 | grep -v ${WRAP_DIR}/${prog} | head -1`"
       for var in "\$@"
       do
-        if [ "\$var" = "-m32" ]; then
-          export C_INCLUDE_PATH="$EXTRA_INCLUDES_BASE/i686-pc-linux-gnu"
-          export CPLUS_INCLUDE_PATH="$EXTRA_INCLUDES_BASE/i686-pc-linux-gnu"
-          break
-        fi
+      if [ "\$var" = "-m32" ]; then
+      export C_INCLUDE_PATH="$EXTRA_INCLUDES_BASE/i686-pc-linux-gnu"
+      export CPLUS_INCLUDE_PATH="$EXTRA_INCLUDES_BASE/i686-pc-linux-gnu"
+      break
+      fi
       done
       \$REAL \$@
       EOF
