@@ -77,10 +77,6 @@ endif
 # obsr core #
 BITCOIN_CORE_H = \
   activemasternode.h \
-  accumulators.h \
-  accumulatorcheckpoints.h \
-  accumulatorcheckpoints.json.h \
-  accumulatormap.h \
   addrman.h \
   alert.h \
   allocators.h \
@@ -104,9 +100,7 @@ BITCOIN_CORE_H = \
   compat/sanity.h \
   compressor.h \
   primitives/block.h \
-  primitives/deterministicmint.h \
   primitives/transaction.h \
-  primitives/zerocoin.h \
   core_io.h \
   crypter.h \
   denomination_functions.h \
@@ -135,7 +129,6 @@ BITCOIN_CORE_H = \
   masternodeconfig.h \
   merkleblock.h \
   miner.h \
-  mintpool.h \
   mruset.h \
   netbase.h \
   net.h \
@@ -182,8 +175,16 @@ BITCOIN_CORE_H = \
   wallet_ismine.h \
   walletdb.h \
   zobsrchain.h \
-  zobsrtracker.h \
-  zobsrwallet.h \
+  zobsr/accumulators.h \
+  zobsr/accumulatorcheckpoints.h \
+  zobsr/accumulatorcheckpoints.json.h \
+  zobsr/accumulatormap.h \
+  zobsr/deterministicmint.h \
+  zobsr/mintpool.h \
+  zobsr/witness.h \
+  zobsr/zerocoin.h \
+  zobsr/zobsrtracker.h \
+  zobsr/zobsrwallet.h \
   genwit.h \
   concurrentqueue.h \
   lightzobsrthread.h \
@@ -265,17 +266,19 @@ libbitcoin_wallet_a_SOURCES = \
   masternode-sync.cpp \
   masternodeconfig.cpp \
   masternodeman.cpp \
-  mintpool.cpp \
   rpcdump.cpp \
-  primitives/deterministicmint.cpp \
-  primitives/zerocoin.cpp \
+  zobsr/deterministicmint.cpp \
+  zobsr/zerocoin.cpp \
   rpcwallet.cpp \
   kernel.cpp \
   wallet.cpp \
   wallet_ismine.cpp \
   walletdb.cpp \
-  zobsrwallet.cpp \
-  zobsrtracker.cpp \
+  zobsr/accumulators.cpp \
+  zobsr/mintpool.cpp \
+  zobsr/witness.cpp \
+  zobsr/zobsrwallet.cpp \
+  zobsr/zobsrtracker.cpp \
   stakeinput.cpp \
   genwit.cpp \
   lightzobsrthread.cpp \
@@ -347,9 +350,9 @@ libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
-  accumulators.cpp \
-  accumulatorcheckpoints.cpp \
-  accumulatormap.cpp \
+  zobsr/accumulators.cpp \
+  zobsr/accumulatorcheckpoints.cpp \
+  zobsr/accumulatormap.cpp \
   allocators.cpp \
   amount.cpp \
   base58.cpp \
@@ -358,9 +361,9 @@ libbitcoin_common_a_SOURCES = \
   coins.cpp \
   compressor.cpp \
   primitives/block.cpp \
-  primitives/deterministicmint.cpp \
+  zobsr/deterministicmint.cpp \
   primitives/transaction.cpp \
-  primitives/zerocoin.cpp \
+  zobsr/zerocoin.cpp \
   core_read.cpp \
   core_write.cpp \
   hash.cpp \

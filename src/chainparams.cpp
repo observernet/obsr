@@ -68,25 +68,23 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
     (   54559, uint256("70ae62a807304ac7fd9f49e6fc8851ac0016b4343259f23c3ecca5cb6e68538e"))   //
     (   70868, uint256("c08a09e908c04faab3e218239f74f82b6f1643493de3fde06b51e2ed951f817f"))   // 1.0.2
     (   87574, uint256("3a820ed9cbc6d9575f4641280278fe48b4571e8fb74dd633ee590d4a3b558f34"))   // 1.0.2
-    (  245272, uint256("abe066fe4a8c896754975d397418f55f485106c765640fa2556abb09a7807b5d"));  // 1.1.00 (fake stake fix)
+    (  245272, uint256("abe066fe4a8c896754975d397418f55f485106c765640fa2556abb09a7807b5d"))   // 1.1.00 (fake stake fix)
+    (  263008, uint256("b8372783c2588a9092e36d5a746faed535884c205c0c4b3e310aff610acade64"));  // 1.1.01
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1553647863, // * UNIX timestamp of last checkpoint block
-    510148,     // * total number of transactions between genesis and last checkpoint
+    1554727035, // * UNIX timestamp of last checkpoint block
+    546559,     // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of
-    (       0, uint256("0x0000070f9c4520b097379c2f6be965a4e3727acf250be9ae420ec6d10d0a02b5"))
-    (       1, uint256("0x00000f5a3d0540fe8e48f5fdb3e03bc1dc3329177067cd9dfa112ffe72f9c00c"))
-    (      99, uint256("0x000000e262fd60c2a04f6cb0e5f021e4de964f677c27d0916007db15771d3ebf")) // Testlaunch PoW 2 blocks to end remain
-    (     100, uint256("0x0000003288e4e769c33dddfdb75aacf30520ef5a3d6c1ae9a33bb551864b5963"));// 
+    (       0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1553659468,
-    102,
+    1538661890,
+    0,
     250};
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
@@ -158,6 +156,7 @@ public:
         nBlockEnforceInvalidUTXO = 1; //Start enforcing the invalid UTXO's
         nInvalidAmountFiltered = 0*COIN; //Amount of invalid coins filtered through exchanges, that should be considered valid
         nBlockZerocoinV2 = 150; //!> The block that zerocoin v2 becomes active - GMT: Friday, October 5, 2018 3:58:01 PM
+        nBlockDoubleAccumulated = 99999999;
         nEnforceNewSporkKey = 1538661892; //!> Sporks signed after GMT: Thursday, October 4, 2018 2:04:52 PM must use the new spork key
         nRejectOldSporkKey = 1538661893; //!> Reject old spork key after GMT: Thursday, October 4, 2018 2:04:53 PM
 
