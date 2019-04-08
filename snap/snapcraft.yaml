@@ -234,6 +234,7 @@ parts:
       - binutils
       - python3
       - build-essential
+      - autotools-dev
     stage-packages: [ca-certificates]
     after:
       - desktop-qt5
