@@ -221,8 +221,8 @@ parts:
     build-packages:
       - curl
       - wget
-      - g++-7
-      - gcc-7
+      - g++
+      - gcc
       - make
       - autoconf
       - automake
