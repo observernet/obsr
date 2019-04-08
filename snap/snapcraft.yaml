@@ -236,6 +236,7 @@ parts:
       - binutils
       - python3
       - clang
+      - build-essential
     stage-packages: [ca-certificates]
     after:
       - desktop-qt5
