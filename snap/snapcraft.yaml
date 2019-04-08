@@ -58,7 +58,7 @@ parts:
     source-tag: master
     plugin: nil
     override-build: |
-      WRAP_DIR=$HOME/wrapped
+      WRAP_DIR=$SNAPCRAFT_ARCH_TRIPLET/wrapped
       if [ $SNAPCRAFT_ARCH_TRIPLET = "i386-linux-gnu" ]
       then
         HOSTS=i686-linux-gnu
