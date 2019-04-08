@@ -108,8 +108,7 @@ parts:
           fi
       done
       export PATH=${WRAP_DIR}:${PATH}
-      for i in ${HOSTS}; do
-      if [ ${i} = "arm-linux-gnueabihf" ]
+      if [ $SNAPCRAFT_ARCH_TRIPLET = "arm-linux-gnueabihf" ]
         then
           update-alternatives --install /usr/bin/arm-linux-gnueabihf-gcc \
           arm-linux-gnueabihf-gcc /usr/bin/arm-linux-gnueabihf-gcc-4.8 100
@@ -131,7 +130,7 @@ parts:
       rm -f ${WRAP_DIR}/${prog}
       cat << EOF > ${WRAP_DIR}/${prog}
       #!/usr/bin/env bash
-      REAL="`which -a ${prog}-7 | grep -v ${WRAP_DIR}/${prog} | head -1`"
+      REAL="`which -a ${prog}-5 | grep -v ${WRAP_DIR}/${prog} | head -1`"
       for var in "\$@"
       do
       if [ "\$var" = "-m32" ]; then
@@ -147,14 +146,12 @@ parts:
       cd $SNAPCRAFT_PART_BUILD
       BASEPREFIX=`pwd`/depends
       # Build dependencies for each host
-      for i in $HOSTS; do
-        EXTRA_INCLUDES="$EXTRA_INCLUDES_BASE/$i"
-        if [ -d "$EXTRA_INCLUDES" ]; then
-          export HOST_ID_SALT="$EXTRA_INCLUDES"
-        fi
-        make ${MAKEOPTS} -C ${BASEPREFIX} HOST="${i}"
-        unset HOST_ID_SALT
-      done
+      EXTRA_INCLUDES="$EXTRA_INCLUDES_BASE/$HOST"
+      if [ -d "$EXTRA_INCLUDES" ]; then
+        export HOST_ID_SALT="$EXTRA_INCLUDES"
+      fi
+      make ${MAKEOPTS} -C ${BASEPREFIX} HOST="${HOST}"
+      unset HOST_ID_SALT
       # Faketime for binaries
       export PATH=${PATH_orig}
       for prog in ${FAKETIME_PROGS}; do
