@@ -70,7 +70,7 @@ __asm(".symver log2f_old,log2f@GLIBC_2.4");
 #elif defined(__aarch64__)
 __asm(".symver log2f_old,log2f@GLIBC_2.17");
 #elif defined(__s390x__)
-__asm(".symver log2f_old,log2f@GLIBC_2.27");
+__asm(".symver log2f_old,log2f@GLIBC_2.17");
 #elif defined(__riscv)
 __asm(".symver log2f_old,log2f@GLIBC_2.27");
 #endif
