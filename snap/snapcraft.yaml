@@ -180,10 +180,10 @@ parts:
       DISTNAME=`echo ${SOURCEDIST} | sed 's/.tar.*//'`
       # Correct tar file order
       mkdir -p temp
-      pushd temp
+      cd temp
       tar xf ../$SOURCEDIST
       find obsr-* | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | xz -9 > ../$SOURCEDIST
-      popd
+      cd ..
       # Workaround for tarball not building with the bare tag version (prep)
       make -C src obj/build.h
       ORIGPATH="$PATH"
