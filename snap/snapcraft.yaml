@@ -110,10 +110,10 @@ parts:
       export PATH=${WRAP_DIR}:${PATH}
       if [ $SNAPCRAFT_ARCH_TRIPLET = "arm-linux-gnueabihf" ]
         then
-          update-alternatives --install /usr/bin/$SNAPCRAFT_ARCH_TRIPLET-gcc \
-          $SNAPCRAFT_ARCH_TRIPLET-gcc /usr/bin/$SNAPCRAFT_ARCH_TRIPLET-gcc-4.8 100
-          update-alternatives --install /usr/bin/$SNAPCRAFT_ARCH_TRIPLET-g++ \
-          $SNAPCRAFT_ARCH_TRIPLET-g++ /usr/bin/$SNAPCRAFT_ARCH_TRIPLET-g++-4.8 100
+          update-alternatives --install /usr/bin/gcc \
+          gcc /usr/bin/gcc-4.8 100
+          update-alternatives --install /usr/bin/g++ \
+          g++ /usr/bin/g++-4.8 100
           make HOST=$SNAPCRAFT_ARCH_TRIPLET
       fi
       EXTRA_INCLUDES_BASE=$WRAP_DIR/extra_includes
