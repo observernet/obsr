@@ -59,6 +59,7 @@ parts:
     plugin: nil
     override-build: |
       # print glib version
+      # powerpc64le-linux-gnu (Ubuntu GLIBC 2.23-0ubuntu11) 2.23)
       echo "GLIBC version:"
       ldd --version
       # Patch - Default home folder
@@ -85,9 +86,9 @@ parts:
         arm-linux-gnueabihf-gcc /usr/bin/arm-linux-gnueabihf-gcc-4.8 100
         update-alternatives --install /usr/bin/arm-linux-gnueabihf-g++ \
         arm-linux-gnueabihf-g++ /usr/bin/arm-linux-gnueabihf-g++-4.8 100
-        make HOST=$SNAPCRAFT_ARCH_TRIPLET
+        make HOST=$SNAPCRAFT_ARCH_TRIPLET -j4
       else
-        make HOST=$SNAPCRAFT_ARCH_TRIPLET
+        make HOST=$SNAPCRAFT_ARCH_TRIPLET -j4
       fi
       # Configure Observer Core
       cd $SNAPCRAFT_PART_BUILD
@@ -102,7 +103,13 @@ parts:
       # Compile Observer Core
       make -j4
       # strip symbols
-      strip src/obsrd src/obsr-cli src/obsr-tx src/qt/obsr-qt src/test/test_obsr
+      BINARIES="obsrd obsr-cli obsr-tx qt/obsr-qt test/test_obsr"
+      for b in $BINARIES; do
+        if [ -e src/${b} ]; then
+          echo "Strip binary src/${b}"
+          strip src/${b}
+        fi
+      done
       # Install Observer Core
       make install prefix=$SNAPCRAFT_PART_INSTALL
       # print in log which files are installed
