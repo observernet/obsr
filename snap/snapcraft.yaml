@@ -69,8 +69,8 @@ parts:
       fi
       #HOSTS="i686-pc-linux-gnu x86_64-linux-gnu arm-linux-gnueabihf aarch64-linux-gnu riscv64-linux-gnu"
       CONFIGFLAGS="--enable-glibc-back-compat --enable-reduce-exports --disable-bench --disable-gui-tests"
-      FAKETIME_HOST_PROGS="gcc g++"
-      FAKETIME_PROGS="date ar ranlib nm"
+      #FAKETIME_HOST_PROGS="gcc g++"
+      #FAKETIME_PROGS="date ar ranlib nm"
       HOST_CFLAGS="-O2 -g"
       HOST_CXXFLAGS="-O2 -g"
       HOST_LDFLAGS=-static-libstdc++
@@ -87,26 +87,26 @@ parts:
         mkdir -p ${BASE_CACHE} ${SOURCES_PATH}
       fi
       # Faketime for depends so intermediate results are comparable
-      export PATH_orig=${PATH}
-      for prog in ${FAKETIME_PROGS}; do
-        echo '#!/usr/bin/env bash' > ${WRAP_DIR}/${prog}
-        echo "REAL=\`which -a ${prog} | grep -v ${WRAP_DIR}/${prog} | head -1\`" >> ${WRAP_DIR}/${prog}
-        echo 'export LD_PRELOAD=/usr/lib/${HOST}/faketime/libfaketime.so.1' >> ${WRAP_DIR}/${prog}
-        echo "export FAKETIME=\"2000-01-01 12:00:00\"" >> ${WRAP_DIR}/${prog}
-        echo "\$REAL \$@" >> $WRAP_DIR/${prog}
-        chmod +x ${WRAP_DIR}/${prog}
-      done
-      for prog in ${FAKETIME_HOST_PROGS}; do
-          if which ${HOST}-${prog}-8
-          then
-              echo '#!/usr/bin/env bash' > ${WRAP_DIR}/${HOST}-${prog}
-              echo "REAL=\`which -a ${HOST}-${prog}-8 | grep -v ${WRAP_DIR}/${HOST}-${prog} | head -1\`" >> ${WRAP_DIR}/${HOST}-${prog}
-              echo 'export LD_PRELOAD=/usr/lib/${HOST}/faketime/libfaketime.so.1' >> ${WRAP_DIR}/${HOST}-${prog}
-              echo "export FAKETIME=\"2000-01-01 12:00:00\"" >> ${WRAP_DIR}/${HOST}-${prog}
-              echo "\$REAL \$@" >> $WRAP_DIR/${HOST}-${prog}
-              chmod +x ${WRAP_DIR}/${HOST}-${prog}
-          fi
-      done
+      #export PATH_orig=${PATH}
+      #for prog in ${FAKETIME_PROGS}; do
+      #  echo '#!/usr/bin/env bash' > ${WRAP_DIR}/${prog}
+      #  echo "REAL=\`which -a ${prog} | grep -v ${WRAP_DIR}/${prog} | head -1\`" >> ${WRAP_DIR}/${prog}
+      #  echo 'export LD_PRELOAD=/usr/lib/${HOST}/faketime/libfaketime.so.1' >> ${WRAP_DIR}/${prog}
+      #  echo "export FAKETIME=\"2000-01-01 12:00:00\"" >> ${WRAP_DIR}/${prog}
+      #  echo "\$REAL \$@" >> $WRAP_DIR/${prog}
+      #  chmod +x ${WRAP_DIR}/${prog}
+      #done
+      #for prog in ${FAKETIME_HOST_PROGS}; do
+      #    if which ${HOST}-${prog}-8
+      #    then
+      #        echo '#!/usr/bin/env bash' > ${WRAP_DIR}/${HOST}-${prog}
+      #        echo "REAL=\`which -a ${HOST}-${prog}-8 | grep -v ${WRAP_DIR}/${HOST}-${prog} | head -1\`" >> ${WRAP_DIR}/${HOST}-${prog}
+      #        echo 'export LD_PRELOAD=/usr/lib/${HOST}/faketime/libfaketime.so.1' >> ${WRAP_DIR}/${HOST}-${prog}
+      #        echo "export FAKETIME=\"2000-01-01 12:00:00\"" >> ${WRAP_DIR}/${HOST}-${prog}
+      #        echo "\$REAL \$@" >> $WRAP_DIR/${HOST}-${prog}
+      #        chmod +x ${WRAP_DIR}/${HOST}-${prog}
+      #    fi
+      #done
       export PATH=${WRAP_DIR}:${PATH}
       if [ $SNAPCRAFT_ARCH_TRIPLET = "arm-linux-gnueabihf" ]
         then
@@ -150,28 +150,28 @@ parts:
       fi
       make ${MAKEOPTS} -C ${BASEPREFIX} HOST="${HOST}"
       unset HOST_ID_SALT
-      # Faketime for binaries
-      export PATH=${PATH_orig}
-      for prog in ${FAKETIME_PROGS}; do
-        echo '#!/usr/bin/env bash' > ${WRAP_DIR}/${prog}
-        echo "REAL=\`which -a ${prog} | grep -v ${WRAP_DIR}/${prog} | head -1\`" >> ${WRAP_DIR}/${prog}
-        echo 'export LD_PRELOAD=/usr/lib/$HOST/faketime/libfaketime.so.1' >> ${WRAP_DIR}/${prog}
-        echo "export FAKETIME=\"${REFERENCE_DATETIME}\"" >> ${WRAP_DIR}/${prog}
-        echo "\$REAL \$@" >> $WRAP_DIR/${prog}
-        chmod +x ${WRAP_DIR}/${prog}
-      done
-      for prog in ${FAKETIME_HOST_PROGS}; do
-          if which ${HOST}-${prog}-8
-          then
-              echo '#!/usr/bin/env bash' > ${WRAP_DIR}/${HOST}-${prog}
-              echo "REAL=\`which -a ${HOST}-${prog}-8 | grep -v ${WRAP_DIR}/${HOST}-${prog} | head -1\`" >> ${WRAP_DIR}/${HOST}-${prog}
-              echo 'export LD_PRELOAD=/usr/lib/$HOST/faketime/libfaketime.so.1' >> ${WRAP_DIR}/${HOST}-${prog}
-              echo "export FAKETIME=\"${REFERENCE_DATETIME}\"" >> ${WRAP_DIR}/${HOST}-${prog}
-              echo "\$REAL \$@" >> $WRAP_DIR/${HOST}-${prog}
-              chmod +x ${WRAP_DIR}/${HOST}-${prog}
-          fi
-      done
-      export PATH=${WRAP_DIR}:${PATH}
+      ## Faketime for binaries
+      #export PATH=${PATH_orig}
+      #for prog in ${FAKETIME_PROGS}; do
+      #  echo '#!/usr/bin/env bash' > ${WRAP_DIR}/${prog}
+      #  echo "REAL=\`which -a ${prog} | grep -v ${WRAP_DIR}/${prog} | head -1\`" >> ${WRAP_DIR}/${prog}
+      #  echo 'export LD_PRELOAD=/usr/lib/$HOST/faketime/libfaketime.so.1' >> ${WRAP_DIR}/${prog}
+      #  echo "export FAKETIME=\"${REFERENCE_DATETIME}\"" >> ${WRAP_DIR}/${prog}
+      #  echo "\$REAL \$@" >> $WRAP_DIR/${prog}
+      #  chmod +x ${WRAP_DIR}/${prog}
+      #done
+      #for prog in ${FAKETIME_HOST_PROGS}; do
+      #    if which ${HOST}-${prog}-8
+      #    then
+      #        echo '#!/usr/bin/env bash' > ${WRAP_DIR}/${HOST}-${prog}
+      #        echo "REAL=\`which -a ${HOST}-${prog}-8 | grep -v ${WRAP_DIR}/${HOST}-${prog} | head -1\`" >> ${WRAP_DIR}/${HOST}-${prog}
+      #        echo 'export LD_PRELOAD=/usr/lib/$HOST/faketime/libfaketime.so.1' >> ${WRAP_DIR}/${HOST}-${prog}
+      #        echo "export FAKETIME=\"${REFERENCE_DATETIME}\"" >> ${WRAP_DIR}/${HOST}-${prog}
+      #        echo "\$REAL \$@" >> $WRAP_DIR/${HOST}-${prog}
+      #        chmod +x ${WRAP_DIR}/${HOST}-${prog}
+      #    fi
+      #done
+      #export PATH=${WRAP_DIR}:${PATH}
       # Create the release tarball using (arbitrarily) the first host
       ./autogen.sh
       CONFIG_SITE=${BASEPREFIX}/`echo "${HOSTS}" | awk '{print $1;}'`/share/config.site ./configure --prefix=/
@@ -187,34 +187,32 @@ parts:
       # Workaround for tarball not building with the bare tag version (prep)
       make -C src obj/build.h
       ORIGPATH="$PATH"
-      # Extract the release tarball into a dir for each host and build
-      for i in ${HOSTS}; do
-        export PATH=${BASEPREFIX}/${i}/native/bin:${ORIGPATH}
-        mkdir -p distsrc-${i}
-        cd distsrc-${i}
-        INSTALLPATH=$SNAPCRAFT_PART_INSTALL
-        #mkdir -p ${INSTALLPATH}
-        tar --strip-components=1 -xJf ../$SOURCEDIST
-        # Workaround for tarball not building with the bare tag version
-        echo '#!/bin/true' >share/genbuild.sh
-        mkdir src/obj
-        cp ../src/obj/build.h src/obj/
-        CONFIG_SITE=${BASEPREFIX}/${i}/share/config.site ./configure --prefix=/ --disable-ccache --disable-maintainer-mode --disable-dependency-tracking ${CONFIGFLAGS} CFLAGS="${HOST_CFLAGS}" CXXFLAGS="${HOST_CXXFLAGS}" LDFLAGS="${HOST_LDFLAGS}"
-        make ${MAKEOPTS}
-        make ${MAKEOPTS} -C src check-security
-        make ${MAKEOPTS} -C src check-symbols
-        make install DESTDIR=${INSTALLPATH}
-        cd ${INSTALLPATH}
-        find . -name "lib*.la" -delete
-        find . -name "lib*.a" -delete
-        rm -rf ${DISTNAME}/lib/pkgconfig
-        find ${DISTNAME}/bin -type f -executable -exec ../contrib/devtools/split-debug.sh {} {} {}.dbg \;
-        ## find ${DISTNAME}/lib -type f -exec ../contrib/devtools/split-debug.sh {} {} {}.dbg \;
-        #find ${DISTNAME} -not -name "*.dbg" | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | xz -9 > ${OUTDIR}/${DISTNAME}-${i}.tar.xz
-        #find ${DISTNAME} -name "*.dbg" | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | xz -9 > ${OUTDIR}/${DISTNAME}-${i}-debug.tar.xz
-        cd ../../
-        rm -rf distsrc-${i}
-      done
+      # Extract the release tarball into a dir and build
+      export PATH=${BASEPREFIX}/${HOST}/native/bin:${ORIGPATH}
+      mkdir -p distsrc-${HOST}
+      cd distsrc-${HOST}
+      INSTALLPATH=$SNAPCRAFT_PART_INSTALL
+      #mkdir -p ${INSTALLPATH}
+      tar --strip-components=1 -xJf ../$SOURCEDIST
+      # Workaround for tarball not building with the bare tag version
+      echo '#!/bin/true' >share/genbuild.sh
+      mkdir src/obj
+      cp ../src/obj/build.h src/obj/
+      CONFIG_SITE=${BASEPREFIX}/${HOST}/share/config.site ./configure --prefix=/ --disable-ccache --disable-maintainer-mode --disable-dependency-tracking ${CONFIGFLAGS} CFLAGS="${HOST_CFLAGS}" CXXFLAGS="${HOST_CXXFLAGS}" LDFLAGS="${HOST_LDFLAGS}"
+      make ${MAKEOPTS}
+      make ${MAKEOPTS} -C src check-security
+      make ${MAKEOPTS} -C src check-symbols
+      make install DESTDIR=${INSTALLPATH}
+      cd ${INSTALLPATH}
+      find . -name "lib*.la" -delete
+      find . -name "lib*.a" -delete
+      rm -rf ${DISTNAME}/lib/pkgconfig
+      find ${DISTNAME}/bin -type f -executable -exec ../contrib/devtools/split-debug.sh {} {} {}.dbg \;
+      ## find ${DISTNAME}/lib -type f -exec ../contrib/devtools/split-debug.sh {} {} {}.dbg \;
+      #find ${DISTNAME} -not -name "*.dbg" | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | xz -9 > ${OUTDIR}/${DISTNAME}-${HOST}.tar.xz
+      #find ${DISTNAME} -name "*.dbg" | sort | tar --no-recursion --mode='u+rw,go+r-w,a+X' --owner=0 --group=0 -c -T - | xz -9 > ${OUTDIR}/${DISTNAME}-${HOST}-debug.tar.xz
+      cd ../../
+      rm -rf distsrc-${HOST}
     build-packages:
       - curl
       - wget
@@ -223,7 +221,6 @@ parts:
       - make
       - autoconf
       - automake
-      - faketime
       - cmake
       - pkg-config
       - libtool
