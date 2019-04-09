@@ -4,11 +4,21 @@ name: obsr
 version: v1.1.01
 summary:   peer-to-peer network based digital currency
 description: |
-  Obsr is a free open source peer-to-peer electronic cash system that
-  is completely decentralized, without the need for a central server or
-  trusted parties.  Users hold the crypto keys to their own money and
-  transact directly with each other, with the help of a P2P network to
-  check for double-spending.
+  OBSR is an open source crypto-currency focused on fast private
+  transactions with low transaction fees & environmental footprint.
+  It utilizes a custom Proof of Stake protocol for securing its network
+  and uses an innovative variable seesaw reward mechanism
+  that dynamically balances 90% of its block reward size between
+  masternodes and staking nodes and 10% dedicated for budget proposals.
+  The goal of OBSR is to achieve a decentralized sustainable
+  crypto currency with near instant full-time private transactions,
+  fair governance and community intelligence.
+  
+  - Anonymized transactions using the Zerocoin Protocol (http://www.obsr.org/zobsr).
+  - Fast transactions featuring guaranteed zero confirmation transactions, we call it SwiftX.
+  - Decentralized blockchain voting utilizing Masternode technology to form a DAO. The blockchain will distribute monthly treasury funds based on successful proposals submitted by the community and voted on by the DAO.
+  
+  Github: https://github.com/observernet/obsr/
 
 grade: stable
 confinement: strict
@@ -59,7 +69,7 @@ parts:
     plugin: nil
     override-build: |
       # print glib version
-      # powerpc64le-linux-gnu (Ubuntu GLIBC 2.23-0ubuntu11) 2.23)
+      # s390x-linux-gnu, powerpc64le-linux-gnu, aarch64-linux-gnu, arm-linux-gnueabihf, x86_64-linux-gnu: (Ubuntu GLIBC 2.23-0ubuntu11) 2.23)
       echo "GLIBC version:"
       ldd --version
       # Patch - Default home folder
@@ -74,7 +84,7 @@ parts:
       # Build Dependencies
       echo "START BUILDING FOR $SNAPCRAFT_ARCH_TRIPLET architecture"
       cd $SNAPCRAFT_PART_BUILD/depends
-      # Fix building ARM and AARCh64, as on some point they fail with, predownload all packages
+      # Fix building ARM and AARCH64, as on some point they fail with, predownload all packages
       #   curl: (22) The requested URL returned error: 407
       make download-linux
       if [ $SNAPCRAFT_ARCH_TRIPLET = "i386-linux-gnu" ]
