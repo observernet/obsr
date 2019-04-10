@@ -63,9 +63,7 @@ parts:
     source-tag: master
     plugin: nil
     override-build: |
-      LONGNAME="Observer Core"
       SHORTNAME="obsr"
-      SHORTNAMECAPS="OBSR"
       if [ $SNAPCRAFT_ARCH_TRIPLET = "i386-linux-gnu" ]; then
         HOST="i686-linux-gnu"
       else
@@ -78,21 +76,21 @@ parts:
       git apply ${SNAPCRAFT_STAGE}/fix-use-snap-instead-of-dirty.patch
       sed -i 's/tar --strip-components/tar --no-same-owner --strip-components/' ${SNAPCRAFT_PART_BUILD}/depends/funcs.mk
       # BUILD DEPENDENCIES
-      echo "START BUILDING ${LONGNAME} FOR ${SNAPCRAFT_ARCH_TRIPLET} architecture"
+      echo "START BUILDING ${SHORTNAME} FOR ${SNAPCRAFT_ARCH_TRIPLET} architecture"
       cd ${SNAPCRAFT_PART_BUILD}/depends
       make download-linux
       make -j4 HOST=${HOST}
       # CONFIGURE
-      echo "Configure ${LONGNAME}"
+      echo "Configure ${SHORTNAME}"
       cd ${SNAPCRAFT_PART_BUILD}
-      echo "Configure and build ${SHORTNAMECAPS}"
+      echo "Configure and build ${SHORTNAME}"
       ./autogen.sh
       ./configure --prefix=`pwd`/depends/${HOST}
       # COMPILE
-      echo "Compile ${LONGNAME}"
+      echo "Compile ${SHORTNAME}"
       make -j4
       # INSTALL
-      echo "Install ${LONGNAME}"
+      echo "Install ${SHORTNAME}"
       make install prefix=${SNAPCRAFT_PART_INSTALL}
       # POST INSTALL
       if [ $SNAPCRAFT_ARCH_TRIPLET = "powerpc64le-linux-gnu" ]; then
