@@ -1,7 +1,8 @@
 # Copyright (c) 2018-2019 The Ion developers
 # Copyright (c) 2019 The OBSR developers
 name: obsr
-version: v1.1.01
+base: core18
+version: v1.1.99
 summary:   peer-to-peer network based digital currency
 description: |
   OBSR is an open source crypto-currency focused on fast private
@@ -19,117 +20,98 @@ description: |
   - Decentralized blockchain voting utilizing Masternode technology to form a DAO. The blockchain will distribute monthly treasury funds based on successful proposals submitted by the community and voted on by the DAO.
   
   Github: https://github.com/observernet/obsr/
-
-grade: stable
+grade: devel
 confinement: strict
 icon: share/pixmaps/bitcoin256.png
 apps:
   daemon:
     command: obsrd
-    plugs: [network, network-bind, home, removable-media]
+    plugs: [network, network-bind, network-status, home, removable-media]
     environment:
       XDG_DATA_DIRS: $SNAP_USER_DATA:$SNAP/usr/share:$XDG_DATA_DIRS
-  daemon-testnet:
-    command: obsrd --testnet
-    plugs: [network, network-bind, home, removable-media]
-    environment:
-      XDG_DATA_DIRS: $SNAP_USER_DATA:$SNAP/usr/share:$XDG_DATA_DIRS
-  daemon-regtest:
-    command: obsrd --regtest
-    plugs: [network, network-bind, home, removable-media]
   qt:
-    command: desktop-launch obsr-qt
-    plugs: [network, network-bind, unity7, unity8-calendar, unity8-contacts, desktop, desktop-legacy, wayland, x11, mir, opengl, home, removable-media]
+    command: obsr-qt
+    plugs: [network, network-bind, network-status, unity7, desktop, desktop-legacy, wayland, x11, mir, opengl, home, gsettings, removable-media, screen-inhibit-control, pulseaudio, media-hub]
     desktop: qt.desktop
+    environment:
+      QT_XKB_CONFIG_ROOT: $SNAP_USER_DATA:$SNAP/usr/share:$QT_XKB_CONFIG_ROOT
   qt-testnet:
-    command: desktop-launch obsr-qt --testnet
-    plugs: [network, network-bind, unity7, unity8-calendar, unity8-contacts, desktop, desktop-legacy, wayland, x11, mir, opengl, home, removable-media]
+    command: obsr-qt --testnet
+    plugs: [network, network-bind, network-status, unity7, desktop, desktop-legacy, wayland, x11, mir, opengl, home, gsettings, removable-media, screen-inhibit-control, pulseaudio, media-hub]
     desktop: qt-testnet.desktop
+    environment:
+      QT_XKB_CONFIG_ROOT: $SNAP_USER_DATA:$SNAP/usr/share:$QT_XKB_CONFIG_ROOT
   qt-regtest:
-    command: desktop-launch obsr-qt --regtest
-    plugs: [network, network-bind, unity7, unity8-calendar, unity8-contacts, desktop, desktop-legacy, wayland, x11, mir, opengl, home, removable-media]
+    command: obsr-qt --regtest
+    plugs: [network, network-bind, network-status, unity7, desktop, desktop-legacy, wayland, x11, mir, opengl, home, gsettings, removable-media, screen-inhibit-control, pulseaudio, media-hub]
     desktop: qt-regtest.desktop
+    environment:
+      QT_XKB_CONFIG_ROOT: $SNAP_USER_DATA:$SNAP/usr/share:$QT_XKB_CONFIG_ROOT
   cli:
     command: obsr-cli
-    plugs: [network, network-bind, home]
-  cli-testnet:
-    command: obsr-cli --testnet
-    plugs: [network, network-bind, home]
-  cli-regtest:
-    command: obsr-cli --regtest
-    plugs: [network, network-bind, home]
+    plugs: [network, network-bind, home, removable-media]
   tx:
     command: obsr-tx
-    plugs: [home]
+    plugs: [home, removable-media]
+  test:
+    command: test_obsr
+    plugs: [home, removable-media]
 parts:
   obsr:
     source: https://github.com/observernet/obsr
     source-type: git
-    source-tag: v1.1.01
+    source-tag: master
     plugin: nil
     override-build: |
-      # print glib version
-      # s390x-linux-gnu, powerpc64le-linux-gnu, aarch64-linux-gnu, arm-linux-gnueabihf, x86_64-linux-gnu: (Ubuntu GLIBC 2.23-0ubuntu11) 2.23)
-      echo "GLIBC version:"
-      ldd --version
-      # Patch - Default home folder
-      ## We don't want to copy the full blockchain every time that the snap is   
-      ## updated, but there's no way to define a default data dir in obsr-qt.
-      ## Additionaly we fix funcs.mk
+      LONGNAME="Observer Core"
+      SHORTNAME="obsr"
+      SHORTNAMECAPS="OBSR"
+      if [ $SNAPCRAFT_ARCH_TRIPLET = "i386-linux-gnu" ]; then
+        HOST="i686-linux-gnu"
+      else
+        HOST="${SNAPCRAFT_ARCH_TRIPLET}"
+      fi
+      # APPLY PATCHES
       echo "apply patches:"
-      git apply $SNAPCRAFT_STAGE/default_data_dir.patch
-      git apply $SNAPCRAFT_STAGE/fix-bdb-tmp-folder.patch
-      ## Patch - Fix Bug extracting sources without ownership
-      sed -i 's/tar --strip-components/tar --no-same-owner --strip-components/' $SNAPCRAFT_PART_BUILD/depends/funcs.mk
-      # Build Dependencies
-      echo "START BUILDING FOR $SNAPCRAFT_ARCH_TRIPLET architecture"
-      cd $SNAPCRAFT_PART_BUILD/depends
-      # Fix building ARM and AARCH64, as on some point they fail with, predownload all packages
-      #   curl: (22) The requested URL returned error: 407
+      git apply ${SNAPCRAFT_STAGE}/default_data_dir.patch
+      git apply ${SNAPCRAFT_STAGE}/fix-bdb-tmp-folder.patch
+      sed -i 's/tar --strip-components/tar --no-same-owner --strip-components/' ${SNAPCRAFT_PART_BUILD}/depends/funcs.mk
+      # BUILD DEPENDENCIES
+      echo "START BUILDING ${LONGNAME} FOR ${SNAPCRAFT_ARCH_TRIPLET} architecture"
+      cd ${SNAPCRAFT_PART_BUILD}/depends
       make download-linux
-      if [ $SNAPCRAFT_ARCH_TRIPLET = "i386-linux-gnu" ]
-      then
-        make HOST=i686-linux-gnu
-      #elif [ $SNAPCRAFT_ARCH_TRIPLET = "arm-linux-gnueabihf" ]
-      #then
-      #  update-alternatives --install /usr/bin/arm-linux-gnueabihf-gcc \
-      #  arm-linux-gnueabihf-gcc /usr/bin/arm-linux-gnueabihf-gcc-4.8 100
-      #  update-alternatives --install /usr/bin/arm-linux-gnueabihf-g++ \
-      #  arm-linux-gnueabihf-g++ /usr/bin/arm-linux-gnueabihf-g++-4.8 100
-      #  make HOST=$SNAPCRAFT_ARCH_TRIPLET -j4
-      else
-        make HOST=$SNAPCRAFT_ARCH_TRIPLET -j4
-      fi
-      # Configure Observer Core
-      cd $SNAPCRAFT_PART_BUILD
-      echo "Configure and build OBSR"
+      make -j4 HOST=${HOST}
+      # CONFIGURE
+      echo "Configure ${LONGNAME}"
+      cd ${SNAPCRAFT_PART_BUILD}
+      echo "Configure and build ${SHORTNAMECAPS}"
       ./autogen.sh
-      if [ $SNAPCRAFT_ARCH_TRIPLET = "i386-linux-gnu" ]
-      then
-        ./configure --prefix=`pwd`/depends/i686-linux-gnu
-      else
-        ./configure --prefix=`pwd`/depends/$SNAPCRAFT_ARCH_TRIPLET
-      fi
-      # Compile Observer Core
+      ./configure --prefix=`pwd`/depends/${HOST}
+      # COMPILE
+      echo "Compile ${LONGNAME}"
       make -j4
-      # strip symbols
-      BINARIES="obsrd obsr-cli obsr-tx qt/obsr-qt test/test_obsr"
-      for b in $BINARIES; do
-        if [ -e src/${b} ]; then
-          echo "Strip binary src/${b}"
-          strip src/${b}
+      # INSTALL
+      echo "Install ${LONGNAME}"
+      make install prefix=${SNAPCRAFT_PART_INSTALL}
+      # POST INSTALL
+      if [ $SNAPCRAFT_ARCH_TRIPLET = "powerpc64le-linux-gnu" ]; then
+        if [ -e $SNAPCRAFT_PART_BUILD/src/qt/${SHORTNAME}-qt ]; then
+          echo "PPC64EL fix - ${SHORTNAME}-qt exists, fix unrequired"
+        else
+          echo "echo ${SHORTNAME}-qt is not installed" > ${SNAPCRAFT_PART_INSTALL}/usr/bin/${SHORTNAME}-qt
+          chmod +x ${SNAPCRAFT_PART_INSTALL}/usr/bin/${SHORTNAME}-qt
+          echo "PPC64EL fix - ${SHORTNAME}-qt exists, fix required, dummy as ${SHORTNAME}-qt"
         fi
-      done
-      # Install Observer Core
-      make install prefix=$SNAPCRAFT_PART_INSTALL
-      # print in log which files are installed
+      fi
       echo "Installed files:"
-      find $SNAPCRAFT_PART_INSTALL -type f
+      find ${SNAPCRAFT_PART_INSTALL} -type f
     build-packages:
       - curl
       - wget
-      - g++
       - gcc
+      - gcc-8
+      - g++
+      - g++-8
       - make
       - autoconf
       - automake
@@ -139,11 +121,6 @@ parts:
       - bsdmainutils
       - binutils
       - python3
-    stage-packages: [ca-certificates]
-    after:
-      - desktop-qt5
-      - patches
-  desktop-qt5:
     stage-packages:
       - libxkbcommon0
       - ttf-ubuntu-font-family
@@ -155,6 +132,9 @@ parts:
       - libqt5svg5 # for loading icon themes which are svg
       - locales-all
       - qtwayland5
+      - ca-certificates
+    after:
+      - patches
   patches:
     source: snap/patches
     plugin: dump

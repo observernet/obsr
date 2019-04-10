@@ -51,12 +51,13 @@ There are 4 different channels:
   `sudo snap install --candidate obsr`
 
 ### Install latest beta version:
-  _(this is always current beta release version, built from release tag or commit)_
+  _(this is launchpad version, built from master and auto built 4 times a day if there are any changes)_
 
   `sudo snap install --beta obsr`
 
 ### Install latest edge version:
-  _(this is always current latest version built from latest commit on master)_
+  _(this is always current latest version built from latest commit on master)
+  _(on this branch platform, arm devices do not work, please use beta channel, as example on raspberrypi)_
 
   `sudo snap install --edge obsr`
 
