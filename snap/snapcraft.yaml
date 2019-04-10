@@ -75,6 +75,7 @@ parts:
       echo "apply patches:"
       git apply ${SNAPCRAFT_STAGE}/default_data_dir.patch
       git apply ${SNAPCRAFT_STAGE}/fix-bdb-tmp-folder.patch
+      git apply ${SNAPCRAFT_STAGE}/fix-use-snap-instead-of-dirty.patch
       sed -i 's/tar --strip-components/tar --no-same-owner --strip-components/' ${SNAPCRAFT_PART_BUILD}/depends/funcs.mk
       # BUILD DEPENDENCIES
       echo "START BUILDING ${LONGNAME} FOR ${SNAPCRAFT_ARCH_TRIPLET} architecture"
