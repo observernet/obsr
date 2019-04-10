@@ -2,7 +2,7 @@
 # Copyright (c) 2019 The OBSR developers
 name: obsr
 base: core18
-version: v1.1.01
+version: v1.1.99
 summary:   peer-to-peer network based digital currency
 description: |
   OBSR is an open source crypto-currency focused on fast private
@@ -20,7 +20,7 @@ description: |
   - Decentralized blockchain voting utilizing Masternode technology to form a DAO. The blockchain will distribute monthly treasury funds based on successful proposals submitted by the community and voted on by the DAO.
   
   Github: https://github.com/observernet/obsr/
-grade: stable
+grade: devel
 confinement: strict
 icon: share/pixmaps/bitcoin256.png
 apps:
@@ -60,7 +60,7 @@ parts:
   obsr:
     source: https://github.com/observernet/obsr
     source-type: git
-    source-tag: v1.1.01-snap
+    source-tag: master
     plugin: nil
     override-build: |
       SHORTNAME="obsr"
