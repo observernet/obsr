@@ -4,8 +4,8 @@
   - [How to install?](#how-to-install)
     - [To install the latest stable version:](#to-install-the-latest-stable-version)
     - [Install latest candidate version:](#install-latest-candidate-version)
-    - [Install latest beta version:](#install-latest-beta-version)
-    - [Install latest edge version:](#install-latest-edge-version)
+    - [Install latest beta version (launchpad snap builds):](#install-latest-beta-version-launchpad-snap-builds)
+    - [Install latest edge version (snapcraft snap):](#install-latest-edge-version-snapcraft-snap)
   - [How to update/upgrade?](#how-to-updateupgrade)
   - [How to UnInstall?](#how-to-uninstall)
   - [Where is OBSR snap's default datafolder?](#where-is-obsr-snaps-default-datafolder)
@@ -13,7 +13,7 @@
     - [Launch QT from startmenu](#launch-qt-from-startmenu)
     - [Launch daemon/qt/cli/tx from terminal](#launch-daemonqtclitx-from-terminal)
 
-<iframe src="https://snapcraft.io/obsr/embedded?button=black&channels=true&summary=true&screenshot=true" frameborder="0" width="100%" height="840px" style="border: 1px solid #CCC; border-radius: 2px;"></iframe>
+<a><iframe src="https://snapcraft.io/obsr/embedded?button=black&channels=true&summary=true&screenshot=true" frameborder="0" width="100%" height="840px" style="border: 1px solid #CCC; border-radius: 2px;"></iframe></a>
 
 # OBSR SNAP FAQ
 
@@ -50,14 +50,14 @@ There are 4 different channels:
 
   `sudo snap install --candidate obsr`
 
-### Install latest beta version:
+### Install latest beta version (launchpad snap builds):
   _(this is launchpad version, built from master and auto built 4 times a day if there are any changes)_
-
+  _(snaps built on launchpad are automaticly released under beta channel)_
   `sudo snap install --beta obsr`
 
-### Install latest edge version:
+### Install latest edge version (snapcraft snap):
   _(this is always current latest version built from latest commit on master)
-  _(on this branch platform, arm devices do not work, please use beta channel, as example on raspberrypi)_
+  _(edge builds with snapcraft on each commit to master)_
 
   `sudo snap install --edge obsr`
 
