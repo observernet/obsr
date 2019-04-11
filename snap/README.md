@@ -13,7 +13,7 @@
     - [Launch QT from startmenu](#launch-qt-from-startmenu)
     - [Launch daemon/qt/cli/tx from terminal](#launch-daemonqtclitx-from-terminal)
 
-<a><iframe src="https://snapcraft.io/obsr/embedded?button=black&channels=true&summary=true&screenshot=true" frameborder="0" width="100%" height="840px" style="border: 1px solid #CCC; border-radius: 2px;"></iframe></a>
+<html><iframe src="https://snapcraft.io/obsr/embedded?button=black&channels=true&summary=true&screenshot=true" frameborder="0" width="100%" height="840px" style="border: 1px solid #CCC; border-radius: 2px;"></iframe></html>
 
 # OBSR SNAP FAQ
 
