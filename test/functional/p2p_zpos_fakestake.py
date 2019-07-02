@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2019 The OBSR Core developers
+# Copyright (c) 2019 The PIVX developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -21,7 +21,7 @@ class zPoSFakeStake(OBSR_FakeStakeTest):
         self.init_test()
 
         DENOM_TO_USE = 5000         # zc denomination
-        INITAL_MINED_BLOCKS = 350   # First mined blocks (rewards collected to mint)
+        INITAL_MINED_BLOCKS = 321   # First mined blocks (rewards collected to mint)
         MORE_MINED_BLOCKS = 301     # More blocks mined before spending zerocoins
         self.NUM_BLOCKS = 2         # Number of spammed blocks
 

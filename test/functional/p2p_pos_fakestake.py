@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2019 The OBSR Core developers
+# Copyright (c) 2019 The PIVX developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -17,7 +17,7 @@ class PoSFakeStake(OBSR_FakeStakeTest):
         self.description = "Covers the scenario of a PoS block where the coinstake input prevout is already spent."
         self.init_test()
 
-        INITAL_MINED_BLOCKS = 200   # First mined blocks (rewards collected to spend)
+        INITAL_MINED_BLOCKS = 150   # First mined blocks (rewards collected to spend)
         MORE_MINED_BLOCKS = 100     # Blocks mined after spending
         STAKE_AMPL_ROUNDS = 2       # Rounds of stake amplification
         self.NUM_BLOCKS = 3         # Number of spammed blocks

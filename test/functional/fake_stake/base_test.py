@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Copyright (c) 2019 The PIVX developers
+# Distributed under the MIT software license, see the accompanying
+# file COPYING or http://www.opensource.org/licenses/mit-license.php.
 # -*- coding: utf-8 -*-
 
 from io import BytesIO
@@ -48,7 +51,9 @@ class OBSR_FakeStakeTest(BitcoinTestFramework):
         :param:
         :return:
         '''
-        self.log.info("\n\n*** Starting %s ***\n------------------------\n%s\n", self.__class__.__name__, self.description)
+        title = "*** Starting %s ***" % self.__class__.__name__
+        underline = "-" * len(title)
+        self.log.info("\n\n%s\n%s\n%s\n", title, underline, self.description)
         # Global Test parameters (override in run_test)
         self.DEFAULT_FEE = 0.1
         # Spam blocks to send in current test
@@ -92,8 +97,6 @@ class OBSR_FakeStakeTest(BitcoinTestFramework):
         :return  block:              (CBlock) generated block
         '''
 
-        self.log.info("Creating Spam Block")
-
         # If not given inputs to create spam txes, use a copy of the staking inputs
         if len(spendingPrevOuts) == 0:
             spendingPrevOuts = dict(stakingPrevOuts)
@@ -117,8 +120,6 @@ class OBSR_FakeStakeTest(BitcoinTestFramework):
         if not block.solve_stake(stakingPrevOuts):
             raise Exception("Not able to solve for any prev_outpoint")
 
-        self.log.info("Stake found. Signing block...")
-
         # Sign coinstake TX and add it to the block
         signed_stake_tx = self.sign_stake_tx(block, stakingPrevOuts[block.prevoutStake][0], fZPoS)
         block.vtx.append(signed_stake_tx)
@@ -130,10 +131,10 @@ class OBSR_FakeStakeTest(BitcoinTestFramework):
 
         # remove a random prevout from the list
         # (to randomize block creation if the same height is picked two times)
-        del spendingPrevOuts[choice(list(spendingPrevOuts))]
+        if len(spendingPrevOuts) > 0:
+            del spendingPrevOuts[choice(list(spendingPrevOuts))]
 
         # Create spam for the block. Sign the spendingPrevouts
-        self.log.info("Creating spam TXes...")
         for outPoint in spendingPrevOuts:
             value_out = int(spendingPrevOuts[outPoint][0] - self.DEFAULT_FEE * COIN)
             tx = create_transaction(outPoint, b"", value_out, nTime, scriptPubKey=CScript([self.block_sig_key.get_pubkey(), OP_CHECKSIG]))
