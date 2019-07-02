@@ -7,40 +7,47 @@
 
 #include "primitives/transaction.h"
 #include "main.h"
+#include "test_obsr.h"
 
 #include <boost/test/unit_test.hpp>
 
-BOOST_AUTO_TEST_SUITE(main_tests)
+BOOST_FIXTURE_TEST_SUITE(main_tests, TestingSetup)
 
-CAmount nMoneySupplyPoWEnd = 11278125000 * COIN;
+CAmount nMoneySupplyPoWEnd = 43199500 * COIN;
 
 BOOST_AUTO_TEST_CASE(subsidy_limit_test)
 {
     CAmount nSum = 0;
     for (int nHeight = 0; nHeight < 1; nHeight += 1) {
-        /* premine in block 1 (8,437,500,000 OBSR) */
+        /* premine in block 1 (60,001 OBSR) */
         CAmount nSubsidy = GetBlockValue(nHeight);
-        BOOST_CHECK(nSubsidy <= 8437500000 * COIN);
+        BOOST_CHECK(nSubsidy <= 60001 * COIN);
         nSum += nSubsidy;
     }
 
-    for (int nHeight = 1; nHeight < 100; nHeight += 1) {
+    for (int nHeight = 1; nHeight < 86400; nHeight += 1) {
         /* PoW Phase One */
         CAmount nSubsidy = GetBlockValue(nHeight);
-        BOOST_CHECK(nSubsidy <= 28125000 * COIN);
+        BOOST_CHECK(nSubsidy <= 250 * COIN);
         nSum += nSubsidy;
     }
 
-
-    for (int nHeight = 101; nHeight < 102; nHeight += 1) {
+    for (int nHeight = 86400; nHeight < 151200; nHeight += 1) {
         /* PoW Phase Two */
         CAmount nSubsidy = GetBlockValue(nHeight);
-        BOOST_CHECK(nSubsidy <= 28125000 * COIN);
+        BOOST_CHECK(nSubsidy <= 225 * COIN);
+        nSum += nSubsidy;
+    }
+
+    for (int nHeight = 151200; nHeight < 259200; nHeight += 1) {
+        /* PoW Phase Two */
+        CAmount nSubsidy = GetBlockValue(nHeight);
+        BOOST_CHECK(nSubsidy <= 45 * COIN);
         BOOST_CHECK(MoneyRange(nSubsidy));
         nSum += nSubsidy;
         BOOST_CHECK(nSum > 0 && nSum <= nMoneySupplyPoWEnd);
     }
-    BOOST_CHECK(nSum == 1127812500000000000ULL);
+    BOOST_CHECK(nSum == 4109975100000000ULL);
 }
 
 BOOST_AUTO_TEST_SUITE_END()

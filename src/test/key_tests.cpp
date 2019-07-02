@@ -1,5 +1,5 @@
 // Copyright (c) 2012-2013 The Bitcoin Core developers
-// Copyright (c) 2017 The PIVX developers
+// Copyright (c) 2017-2018 The PIVX developers
 // Copyright (c) 2018 The OBSR developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -11,6 +11,7 @@
 #include "uint256.h"
 #include "util.h"
 #include "utilstrencodings.h"
+#include "test_obsr.h"
 
 #include <string>
 #include <vector>
@@ -19,17 +20,17 @@
 
 using namespace std;
 
-static const string strSecret1     ("8ShugJCYKEDAtJoHM5G6UD61QVSRfNz3WAPipa9BHZFn9Jwm9K4");
-static const string strSecret2     ("8SukBZytDfEakz5MjuhfxxHHayYMu23ZmQLAFakZ51oPp8BmroD");
-static const string strSecret1C    ("ZreEyMrSFbdi2fifGen72SPWuKjG29AgQX3NTVw8LcPfVkPAr2ew");
-static const string strSecret2C    ("ZrMLjkh4azsQfmw3yBkPBTiLeUGPkaA3jPxJmstNJMNCkGAK9Wod");
-static const CBitcoinAddress addr1 ("obSr74j4TPo9sBaq9W2giSia7kbfJR1YJ3");
-static const CBitcoinAddress addr2 ("oPm8Xex8AbtwGBaYtXAsQ9zkBrcUWJ5WBo");
-static const CBitcoinAddress addr1C("oPE3PFpJHqzKpacsYuJZZ3WjrPckix4Y7K");
-static const CBitcoinAddress addr2C("oM5zaveCnGQL4Ugz74L67S2vPuLnsWoXNB");
+static const string strSecret1     ("87vK7Vayi3QLsuiva5yWSuVwSMhMcRM9dBsaD6JXMD1P5vnjRFn");
+static const string strSecret2     ("87FGYGFDg5SYfdD4XL593hr7do6f52czPecVsYSAXi8N4RGeS9i");
+static const string strSecret1C    ("YRYJwfAyJ9c2jhi3T2xQyLijGvM7yLTw4izDaNQLxBzgUYrQiPmJ");
+static const string strSecret2C    ("YNZyazHkwUbkmUpEYsBGWwHnHQTy2n9rJy1gS5k54YXVx3pE8n6N");
+static const CBitcoinAddress addr1 ("DBFi8XAE1rcdCQfkv9w22n8Y9RxgaJnrDD");
+static const CBitcoinAddress addr2 ("DPvKfv1FVp69yZMDzeuugvfZ9pzYiMv1bs");
+static const CBitcoinAddress addr1C("DNPrHK9ezAAUVExFDpZ7EE1xWpPskgp1gP");
+static const CBitcoinAddress addr2C("DNBVSAoc2whPFjZVAZ1pQbXPJk1LRrDC8Q");
 
 
-static const string strAddressBad("XSQaZUjXrBxY1odbF7dEZyduQBDw9hjkxU");
+static const string strAddressBad("Xta1praZQjyELweyMByXyiREw1ZRsjXzVP");
 
 
 #ifdef KEY_TESTS_DUMPINFO
@@ -59,8 +60,7 @@ void dumpKeyInfo(uint256 privkey)
 }
 #endif
 
-
-BOOST_AUTO_TEST_SUITE(key_tests)
+BOOST_FIXTURE_TEST_SUITE(key_tests, TestingSetup)
 
 BOOST_AUTO_TEST_CASE(key_test1)
 {

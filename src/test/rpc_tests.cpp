@@ -1,5 +1,5 @@
 // Copyright (c) 2012-2013 The Bitcoin Core developers
-// Copyright (c) 2017 The PIVX developers
+// Copyright (c) 2017-2018 The PIVX developers
 // Copyright (c) 2018 The OBSR developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -10,6 +10,8 @@
 #include "base58.h"
 #include "netbase.h"
 #include "util.h"
+
+#include "test/test_obsr.h"
 
 #include <boost/algorithm/string.hpp>
 #include <boost/test/unit_test.hpp>
@@ -49,7 +51,7 @@ UniValue CallRPC(string args)
 }
 
 
-BOOST_AUTO_TEST_SUITE(rpc_tests)
+BOOST_FIXTURE_TEST_SUITE(rpc_tests, TestingSetup)
 
 BOOST_AUTO_TEST_CASE(rpc_rawparams)
 {
@@ -101,10 +103,10 @@ BOOST_AUTO_TEST_CASE(rpc_rawsign)
       "\"vout\":1,\"scriptPubKey\":\"a914f5404a39a4799d8710e15db4c4512c5e06f97fed87\","
       "\"redeemScript\":\"5121021431a18c7039660cd9e3612a2a47dc53b69cb38ea4ad743b7df8245fd0438f8e21029bbeff390ce736bd396af43b52a1c14ed52c086b1e5585c15931f68725772bac52ae\"}]";
     r = CallRPC(string("createrawtransaction ")+prevout+" "+
-      "{\"oUFAHrcHFymQVLkPpRPEuRk3L2PBWv9mny\":1}");
+      "{\"6ckcNMWRYgTnPcrTXCdwhDnMLwj3zwseej\":1}");
     string notsigned = r.get_str();
-    string privkey1 = "\"ZtkJQJvkuTA5a5pBupX1t93UnrxyTiRsZDMFWDQGh6x1mVFhLzDA\"";
-    string privkey2 = "\"ZxMFHEpaYAQD39NqtTZnVwkpUt9J7CE63KVH44mDPrdZrHTZ3Rm4\"";
+    string privkey1 = "\"YVobcS47fr6kceZy9LzLJR8WQ6YRpUwYKoJhrnEXepebMxaSpbnn\"";
+    string privkey2 = "\"YRyMjG8hbm8jHeDMAfrzSeHq5GgAj7kuHFvJtMudCUH3sCkq1WtA\"";
     r = CallRPC(string("signrawtransaction ")+notsigned+" "+prevout+" "+"[]");
     BOOST_CHECK(find_value(r.get_obj(), "complete").get_bool() == false);
     r = CallRPC(string("signrawtransaction ")+notsigned+" "+prevout+" "+"["+privkey1+","+privkey2+"]");
@@ -119,8 +121,8 @@ BOOST_AUTO_TEST_CASE(rpc_format_monetary_values)
     BOOST_CHECK(ValueFromAmount(50000000LL).write() == "0.50000000");
     BOOST_CHECK(ValueFromAmount(89898989LL).write() == "0.89898989");
     BOOST_CHECK(ValueFromAmount(100000000LL).write() == "1.00000000");
-    BOOST_CHECK(ValueFromAmount(1124999999999999990LL).write() == "11249999999.99999990");
-    BOOST_CHECK(ValueFromAmount(1124999999999999999LL).write() == "11249999999.99999999");
+    BOOST_CHECK(ValueFromAmount(2099999999999990LL).write() == "20999999.99999990");
+    BOOST_CHECK(ValueFromAmount(2099999999999999LL).write() == "20999999.99999999");
 
     BOOST_CHECK_EQUAL(ValueFromAmount(0).write(), "0.00000000");
     BOOST_CHECK_EQUAL(ValueFromAmount((COIN/10000)*123456789).write(), "12345.67890000");
@@ -161,8 +163,8 @@ BOOST_AUTO_TEST_CASE(rpc_parse_monetary_values)
     BOOST_CHECK_EQUAL(AmountFromValue(ValueFromString("0.50000000")), 50000000LL);
     BOOST_CHECK_EQUAL(AmountFromValue(ValueFromString("0.89898989")), 89898989LL);
     BOOST_CHECK_EQUAL(AmountFromValue(ValueFromString("1.00000000")), 100000000LL);
-    BOOST_CHECK_EQUAL(AmountFromValue(ValueFromString("11249999999.9999999")), 1125000000000000000LL);
-    BOOST_CHECK_EQUAL(AmountFromValue(ValueFromString("11249999999.99999999")), 1125000000000000000LL);
+    BOOST_CHECK_EQUAL(AmountFromValue(ValueFromString("20999999.9999999")), 2099999999999990LL);
+    BOOST_CHECK_EQUAL(AmountFromValue(ValueFromString("20999999.99999999")), 2099999999999999LL);
 }
 
 BOOST_AUTO_TEST_CASE(json_parse_errors)
