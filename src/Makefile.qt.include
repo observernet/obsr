@@ -8,38 +8,38 @@ EXTRA_LIBRARIES += qt/libbitcoinqt.a
 # obsr qt core #
 QT_TS = \
   qt/locale/obsr_bg.ts \
-   qt/locale/obsr_ca.ts \
-   qt/locale/obsr_cs.ts \
-   qt/locale/obsr_da.ts \
-   qt/locale/obsr_de.ts \
-   qt/locale/obsr_en.ts \
-   qt/locale/obsr_en_GB.ts \
-   qt/locale/obsr_en_US.ts \
-   qt/locale/obsr_eo.ts \
-   qt/locale/obsr_es.ts \
-   qt/locale/obsr_es_ES.ts \
-   qt/locale/obsr_fi.ts \
-   qt/locale/obsr_fr_FR.ts \
-   qt/locale/obsr_hi_IN.ts \
-   qt/locale/obsr_hr.ts \
-   qt/locale/obsr_hr_HR.ts \
-   qt/locale/obsr_it.ts \
-   qt/locale/obsr_ja.ts \
-   qt/locale/obsr_ko_KR.ts \
-   qt/locale/obsr_lt_LT.ts \
-   qt/locale/obsr_nl.ts \
-   qt/locale/obsr_pl.ts \
-   qt/locale/obsr_pt.ts \
-   qt/locale/obsr_pt_BR.ts \
-   qt/locale/obsr_ro_RO.ts \
-   qt/locale/obsr_ru.ts \
-   qt/locale/obsr_sk.ts \
-   qt/locale/obsr_sv.ts \
-   qt/locale/obsr_tr.ts \
-   qt/locale/obsr_uk.ts \
-   qt/locale/obsr_vi.ts \
-   qt/locale/obsr_zh_CN.ts \
-   qt/locale/obsr_zh_TW.ts
+  qt/locale/obsr_ca.ts \
+  qt/locale/obsr_cs.ts \
+  qt/locale/obsr_da.ts \
+  qt/locale/obsr_de.ts \
+  qt/locale/obsr_en.ts \
+  qt/locale/obsr_en_GB.ts \
+  qt/locale/obsr_en_US.ts \
+  qt/locale/obsr_eo.ts \
+  qt/locale/obsr_es.ts \
+  qt/locale/obsr_es_ES.ts \
+  qt/locale/obsr_fi.ts \
+  qt/locale/obsr_fr_FR.ts \
+  qt/locale/obsr_hi_IN.ts \
+  qt/locale/obsr_hr.ts \
+  qt/locale/obsr_hr_HR.ts \
+  qt/locale/obsr_it.ts \
+  qt/locale/obsr_ja.ts \
+  qt/locale/obsr_ko_KR.ts \
+  qt/locale/obsr_lt_LT.ts \
+  qt/locale/obsr_nl.ts \
+  qt/locale/obsr_pl.ts \
+  qt/locale/obsr_pt.ts \
+  qt/locale/obsr_pt_BR.ts \
+  qt/locale/obsr_ro_RO.ts \
+  qt/locale/obsr_ru.ts \
+  qt/locale/obsr_sk.ts \
+  qt/locale/obsr_sv.ts \
+  qt/locale/obsr_tr.ts \
+  qt/locale/obsr_uk.ts \
+  qt/locale/obsr_vi.ts \
+  qt/locale/obsr_zh_CN.ts \
+  qt/locale/obsr_zh_TW.ts
 
 QT_FORMS_UI = \
   qt/forms/addressbookpage.ui \
@@ -47,7 +47,6 @@ QT_FORMS_UI = \
   qt/forms/bip38tooldialog.ui \
   qt/forms/coincontroldialog.ui \
   qt/forms/blockexplorer.ui \
-  qt/forms/obfuscationconfig.ui \
   qt/forms/editaddressdialog.ui \
   qt/forms/governancepage.ui \
   qt/forms/helpmessagedialog.ui \
@@ -83,7 +82,6 @@ QT_MOC_CPP = \
   qt/moc_coincontroldialog.cpp \
   qt/moc_coincontroltreewidget.cpp \
   qt/moc_csvmodelwriter.cpp \
-  qt/moc_obfuscationconfig.cpp \
   qt/moc_editaddressdialog.cpp \
   qt/moc_governancepage.cpp \
   qt/moc_guiutil.cpp \
@@ -159,7 +157,6 @@ BITCOIN_QT_H = \
   qt/coincontroldialog.h \
   qt/coincontroltreewidget.h \
   qt/csvmodelwriter.h \
-  qt/obfuscationconfig.h \
   qt/editaddressdialog.h \
   qt/governancepage.h \
   qt/guiconstants.h \
@@ -216,10 +213,7 @@ RES_ICONS = \
   qt/res/icons/bitcoin.png \
   qt/res/icons/bitcoin_testnet.ico \
   qt/res/icons/bitcoin_testnet.png \
-  qt/res/icons/bitcoin_regtest.ico \
   qt/res/icons/bitcoin_regtest.png \
-  qt/res/icons/bitcoin_unittest.ico \
-  qt/res/icons/bitcoin_unittest.png \
   qt/res/icons/browse.png \
   qt/res/icons/clock1.png \
   qt/res/icons/clock2.png \
@@ -315,7 +309,6 @@ BITCOIN_QT_WALLET_CPP = \
   qt/blockexplorer.cpp \
   qt/coincontroldialog.cpp \
   qt/coincontroltreewidget.cpp \
-  qt/obfuscationconfig.cpp \
   qt/editaddressdialog.cpp \
   qt/governancepage.cpp \
   qt/masternodelist.cpp \
@@ -358,7 +351,6 @@ RES_IMAGES = \
   qt/res/images/splash.png \
   qt/res/images/splash_testnet.png \
   qt/res/images/splash_regtest.png \
-  qt/res/images/splash_unittest.png \
   qt/res/images/obsr_logo_horizontal.png \
   qt/res/images/downArrow_dark.png \
   qt/res/images/downArrow_small_dark.png \
@@ -367,10 +359,7 @@ RES_IMAGES = \
   qt/res/images/upArrow_small.png \
   qt/res/images/leftArrow_small_dark.png \
   qt/res/images/rightArrow_small_dark.png \
-  qt/res/images/qtreeview_selected.png \
-  qt/res/images/walletFrame.png \
-  qt/res/images/walletFrame_bg.png \
-  qt/res/images/walletFrame_bg.png
+  qt/res/images/qtreeview_selected.png
 
 RES_CSS = \
   qt/res/css/default.css
