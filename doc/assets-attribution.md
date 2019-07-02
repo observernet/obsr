@@ -89,17 +89,15 @@ Everaldo (Everaldo Coelho)
 ### Assets Used
 	src/qt/res/icons/debugwindow.png
 
-dev@obsr.org
+Jonas Schnelli
 -----------------------
 
 ### Info
-* Designer: dev@obsr.org
+* Designer: Jonas Schnelli (based on the original bitcoin logo from Bitboy)
 * License: MIT
 
 ### Assets Used
-	src/qt/res/icons/bitcoin.icns, src/qt/res/src/obsr.svg,
-	src/qt/res/src/bitcoin.ico, src/qt/res/src/obsr.png,
+	src/qt/res/icons/bitcoin.icns, src/qt/res/src/bitcoin.svg,
+	src/qt/res/src/bitcoin.ico, src/qt/res/src/bitcoin.png,
 	src/qt/res/src/bitcoin_testnet.png, docs/bitcoin_logo_doxygen.png,
-	src/qt/res/src/bitcoin_regtest.png, src/qt/res/src/bitcoin_unittest.png,
-	src/qt/res/images/splash.png, src/qt/res/images/splash_testnet.png,
-	src/qt/res/images/splash_regtest.png, src/qt/res/images/splash_unittest.png
+	src/qt/res/images/splash.png, src/qt/res/images/splash_testnet.png
