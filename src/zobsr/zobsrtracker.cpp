@@ -1,5 +1,4 @@
-// Copyright (c) 2018 The PIVX developers
-// Copyright (c) 2018 The OBSR developers
+// Copyright (c) 2018-2019 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -9,7 +8,7 @@
 #include "sync.h"
 #include "main.h"
 #include "txdb.h"
-#include "walletdb.h"
+#include "wallet/walletdb.h"
 #include "zobsr/accumulators.h"
 #include "zobsr/zobsrwallet.h"
 #include "witness.h"
@@ -461,7 +460,7 @@ bool CzOBSRTracker::UpdateStatusInternal(const std::set<uint256>& setMempool, CM
     return false;
 }
 
-std::set<CMintMeta> CzOBSRTracker::ListMints(bool fUnusedOnly, bool fMatureOnly, bool fUpdateStatus, bool fWrongSeed)
+std::set<CMintMeta> CzOBSRTracker::ListMints(bool fUnusedOnly, bool fMatureOnly, bool fUpdateStatus, bool fWrongSeed, bool fExcludeV1)
 {
     CWalletDB walletdb(strWalletFile);
     if (fUpdateStatus) {
@@ -474,6 +473,8 @@ std::set<CMintMeta> CzOBSRTracker::ListMints(bool fUnusedOnly, bool fMatureOnly,
 
         CzOBSRWallet* zOBSRWallet = new CzOBSRWallet(strWalletFile);
         for (auto& dMint : listDeterministicDB) {
+            if (fExcludeV1 && dMint.GetVersion() < 2)
+                continue;
             Add(dMint, false, false, zOBSRWallet);
         }
         delete zOBSRWallet;

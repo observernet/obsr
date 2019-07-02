@@ -1,5 +1,4 @@
-// Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2018 The OBSR developers
+// Copyright (c) 2017-2019 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -148,7 +147,7 @@ bool LoadAccumulatorValuesFromDB(const uint256 nCheckpoint)
         if (!zerocoinDB->ReadAccumulatorValue(nChecksum, bnValue)) {
             if (!count(listAccCheckpointsNoDB.begin(), listAccCheckpointsNoDB.end(), nCheckpoint))
                 listAccCheckpointsNoDB.push_back(nCheckpoint);
-            LogPrint("zero", "%s : Missing databased value for checksum %d", __func__, nChecksum);
+            LogPrint("zero", "%s : Missing databased value for checksum %d\n", __func__, nChecksum);
             return false;
         }
         mapAccumulatorValues.insert(make_pair(nChecksum, bnValue));
@@ -271,10 +270,8 @@ bool CalculateAccumulatorCheckpoint(int nHeight, uint256& nCheckpoint, Accumulat
 
     while (pindex->nHeight < nHeight - 10) {
         // checking whether we should stop this process due to a shutdown request
-        /*
         if (ShutdownRequested())
             return false;
-        */
 
         //make sure this block is eligible for accumulation
         if (pindex->nHeight < Params().Zerocoin_StartHeight()) {
@@ -449,7 +446,7 @@ bool GetAccumulatorValue(int& nHeight, const libzerocoin::CoinDenomination denom
 
     int nHeightCheckpoint = 0;
     AccumulatorCheckpoints::Checkpoint checkpoint = AccumulatorCheckpoints::GetClosestCheckpoint(nHeight, nHeightCheckpoint);
-    if (nHeightCheckpoint <= 0) {
+    if (nHeightCheckpoint < 0) {
         //Start at the first zerocoin
         libzerocoin::Accumulator accumulator(Params().Zerocoin_Params(false), denom);
         bnAccValue = accumulator.getValue();
@@ -673,8 +670,10 @@ bool calculateAccumulatedBlocksFor(
 ){
 
     int amountOfScannedBlocks = 0;
+    bool fDoubleCounted = false;
     int nMintsAdded = 0;
     while (pindex) {
+
         if (pindex->nHeight >= nHeightStop) {
             //If this height is within the invalid range (when fraudulent coins were being minted), then continue past this range
             if(InvalidCheckpointRange(pindex->nHeight))
@@ -692,6 +691,13 @@ bool calculateAccumulatedBlocksFor(
 
         // Add it
         nMintsAdded += AddBlockMintsToAccumulator(coin, nHeightMintAdded, pindex, &witnessAccumulator, true);
+
+        // 10 blocks were accumulated twice when zOBSR v2 was activated
+        if (pindex->nHeight == 1050010 && !fDoubleCounted) {
+            pindex = chainActive[1050000];
+            fDoubleCounted = true;
+            continue;
+        }
 
         amountOfScannedBlocks++;
         pindex = chainActive.Next(pindex);

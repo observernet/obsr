@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2018 The PIVX developers
+// Copyright (c) 2015-2019 The PIVX developers
 // Copyright (c) 2018 The OBSR developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -160,6 +160,9 @@ public:
         nEnforceNewSporkKey = 1538661892; //!> Sporks signed after GMT: Thursday, October 4, 2018 2:04:52 PM must use the new spork key
         nRejectOldSporkKey = 1538661893; //!> Reject old spork key after GMT: Thursday, October 4, 2018 2:04:53 PM
 
+        // Public coin spend enforcement
+        nPublicZCSpends = 1880000;
+
         // Fake Serial Attack
         nFakeSerialBlockheightEnd = 0;
         nSupplyBeforeFakeSerial = 0; // 568897
@@ -216,7 +219,7 @@ public:
         fSkipProofOfWorkCheck = false;
         fTestnetToBeDeprecatedFieldRPC = false;
         fHeadersFirstSyncingActive = false;
-
+        nBudgetCycleBlocks = 43200; //!< Amount of blocks in a months period of time (using 1 minutes per) = (60*24*30)
         nPoolMaxTransactions = 3;
         strSporkKey = "041449e5ad74fd7c33c82117ab908da0d49779330f9503055a82f25983068063062a7099a49aed29cbac4a9d94b9b13f0b0756097e0fda444b4bd9bea2a237d28c";
         strSporkKeyOld = "040007976ea2750f5c3d9af5d8e802e381c71d1e661214adfb4cd61be489d4cdf49128cdac8e94302869dc2f4f38f0c89036c0381afe26b9620bc622cf5d11349b";
@@ -231,6 +234,7 @@ public:
             "8441436038339044149526344321901146575444541784240209246165157233507787077498171257724679629263863563732899121548"
             "31438167899885040445364023527381951378636564391212010397122822120720357";
         nMaxZerocoinSpendsPerTransaction = 7; // Assume about 20kb each
+        nMaxZerocoinPublicSpendsPerTransaction = 637; // Assume about 220 bytes each input
         nMinZerocoinMintFee = 1 * CENT; //high fee required for zerocoin mints
         nMintRequiredConfirmations = 20; //the maximum amount of confirmations until accumulated in 19
         nRequiredAccumulation = 1;
@@ -239,6 +243,7 @@ public:
         nZerocoinRequiredStakeDepth = 200; //The required confirmations for a zobsr to be stakable
 
         nBudget_Fee_Confirmations = 6; // Number of confirmations for the finalization fee
+        nProposalEstablishmentTime = 60 * 60 * 24; // Proposals must be at least a day old to make it into a budget
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const
@@ -287,6 +292,9 @@ public:
         nEnforceNewSporkKey = 1538661892; //!> Sporks signed after GMT: Thursday, October 4, 2018 2:04:52 PM must use the new spork key
         nRejectOldSporkKey = 1538661893; //!> Reject old spork key after GMT: Thursday, October 4, 2018 2:04:53 PM
 
+        // Public coin spend enforcement
+        nPublicZCSpends = 1000000;
+
         // Fake Serial Attack
         nFakeSerialBlockheightEnd = -1;
         nSupplyBeforeFakeSerial = 0;
@@ -325,12 +333,15 @@ public:
         fTestnetToBeDeprecatedFieldRPC = true;
 
         nPoolMaxTransactions = 2;
+        nBudgetCycleBlocks = 144; //!< Ten cycles per day on testnet
         strSporkKey = "04bb8b30e137591e0ecacb9ea776249e2771e1075d3acba3f31d0cf0ee0e04e1b5427706e959649f20dc8e98796e9ba1863142350332a8b0f088c2ec0219bbc533";
         strSporkKeyOld = "04ee2a8a415ac76434ecca011fc0984221de3b59c176bec2ecfd58db5bbe20a7e30f8c85cab80d4a216e38729852be95ba6345d70aa6875aeca34c93ef0f68ae77";
         strObfuscationPoolDummyAddress = "tyuDwZMktGm9hXDr9C4BFZVnFQkRdoSJQ9";
         nStartMasternodePayments = 1420837558; //Fri, 09 Jan 2015 21:05:58 GMT
         nBudget_Fee_Confirmations = 3; // Number of confirmations for the finalization fee. We have to make this very short
                                        // here because we only have a 8 block finalization window on testnet
+
+        nProposalEstablishmentTime = 60 * 5; // Proposals must be at least 5 mns old to make it into a test budget
     }
     const Checkpoints::CCheckpointData& Checkpoints() const
     {
@@ -373,6 +384,9 @@ public:
         nBlockRecalculateAccumulators = 999999999; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = 999999999; //First block that bad serials emerged
         nBlockLastGoodCheckpoint = 999999999; //Last valid accumulator checkpoint
+
+        // Public coin spend enforcement
+        nPublicZCSpends = 350;
 
         // Fake Serial Attack
         nFakeSerialBlockheightEnd = -1;
