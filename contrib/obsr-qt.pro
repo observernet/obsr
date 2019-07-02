@@ -312,7 +312,7 @@ HEADERS += src/activemasternode.h \
            src/test/data/sig_noncanonical.json.h \
            src/test/data/sighash.json.h \
            src/test/data/tx_invalid.json.h \
-           #src/test/data/tx_valid.json.h \
+           src/test/data/tx_valid.json.h \
            src/leveldb/helpers/memenv/memenv.h \
            src/leveldb/include/leveldb/c.h \
            src/leveldb/include/leveldb/cache.h \
@@ -519,7 +519,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/alert_tests.cpp \
            src/test/allocator_tests.cpp \
            src/test/base32_tests.cpp \
-           #src/test/base58_tests.cpp \
+           src/test/base58_tests.cpp \
            src/test/base64_tests.cpp \
            src/test/bip32_tests.cpp \
            src/test/bloom_tests.cpp \
@@ -531,7 +531,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/DoS_tests.cpp \
            src/test/getarg_tests.cpp \
            src/test/hash_tests.cpp \
-           #src/test/key_tests.cpp \
+           src/test/key_tests.cpp \
            src/test/main_tests.cpp \
            src/test/mempool_tests.cpp \
            src/test/miner_tests.cpp \
@@ -546,12 +546,12 @@ SOURCES += src/activemasternode.cpp \
            src/test/script_tests.cpp \
            src/test/scriptnum_tests.cpp \
            src/test/serialize_tests.cpp \
-           #src/test/sighash_tests.cpp \
+           src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
            src/test/test_obsr.cpp \
            src/test/timedata_tests.cpp \
-           #src/test/transaction_tests.cpp \
+           src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
            src/test/univalue_tests.cpp \
            src/test/util_tests.cpp \
