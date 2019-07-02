@@ -4034,6 +4034,10 @@ Vær tålmodig...</translation>
         <translation>DASH "core" udviklerne</translation>
     </message>
     <message>
+        <source>The PIVX Core developers</source>
+        <translation>PIVX "core" udviklerne</translation>
+    </message>
+    <message>
         <source>The OBSR Core developers</source>
         <translation>OBSR "core" udviklerne</translation>
     </message>
@@ -5014,6 +5018,10 @@ Vær tålmodig...</translation>
     <message>
         <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
         <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2018-%i The OBSR Core Developers</source>
+        <translation>Copyright (C) 2018-%i The OBSR Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

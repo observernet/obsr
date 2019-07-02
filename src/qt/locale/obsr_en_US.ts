@@ -3292,6 +3292,10 @@ https://www.transifex.com/obsr-project/obsr-project-translations</translation>
         <translation>The Dash Core developers</translation>
     </message>
     <message>
+        <source>The PIVX Core developers</source>
+        <translation>The PIVX Core developers</translation>
+    </message>
+    <message>
         <source>The OBSR Core developers</source>
         <translation>The OBSR Core developers</translation>
     </message>
@@ -4284,6 +4288,10 @@ for example: alertnotify=echo %%s | mail -s "OBSR Alert" admin@foo.com
     <message>
         <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
         <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2018-%i The OBSR Core Developers</source>
+        <translation>Copyright (C) 2018-%i The OBSR Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

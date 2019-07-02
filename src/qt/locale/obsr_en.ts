@@ -5529,6 +5529,11 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1"/>
+        <source>The PIVX Core developers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>The OBSR Core developers</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6853,6 +6858,11 @@ Please be patient...</source>
     <message>
         <location line="+1"/>
         <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copyright (C) 2018-%i The OBSR Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

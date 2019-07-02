@@ -4282,6 +4282,10 @@ Proszę być cierpliwym...</translation>
         <translation>Twórcy Dash Core</translation>
     </message>
     <message>
+        <source>The PIVX Core developers</source>
+        <translation>Twórcy PIVX Core</translation>
+    </message>
+    <message>
         <source>The OBSR Core developers</source>
         <translation>Twórcy OBSR Core</translation>
     </message>
@@ -5297,6 +5301,10 @@ Proszę być cierpliwym...</translation>
     <message>
         <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
         <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2018-%i The OBSR Core Developers</source>
+        <translation>Copyright (C) 2018-%i The OBSR Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

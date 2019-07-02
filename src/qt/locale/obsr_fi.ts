@@ -2137,6 +2137,10 @@
         <translation>Dash Core kehittäjät</translation>
     </message>
     <message>
+        <source>The PIVX Core developers</source>
+        <translation>PIVX core kehittäjät</translation>
+    </message>
+    <message>
         <source>The OBSR Core developers</source>
         <translation>OBSR core kehittäjät</translation>
     </message>

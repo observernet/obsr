@@ -3819,6 +3819,10 @@ Lütfen sabırlı olun...</translation>
         <translation>The Dash Core developers</translation>
     </message>
     <message>
+        <source>The PIVC Core developers</source>
+        <translation>The PIVX Core developers</translation>
+    </message>
+    <message>
         <source>The OBSR Core developers</source>
         <translation>The OBSR Core developers</translation>
     </message>

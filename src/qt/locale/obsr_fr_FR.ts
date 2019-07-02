@@ -4290,6 +4290,10 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Les développeurs OBSR Core</translation>
     </message>
     <message>
+        <source>The PIVX Core developers</source>
+        <translation>Les développeurs PIVX Core</translation>
+    </message>
+    <message>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -5305,6 +5309,10 @@ S'il vous plaît soyez patient ...</translation>
     <message>
         <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
         <translation>Copyright (C) 2015-%i Les développeurs de PIVX Core</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2018-%i The OBSR Core Developers</source>
+        <translation>Copyright (C) 2018-%i Les développeurs de OBSR Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

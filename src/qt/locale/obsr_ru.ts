@@ -4016,6 +4016,10 @@ Please be patient...</source>
         <translation>Разработчики Dash Core</translation>
     </message>
     <message>
+        <source>The PIVX Core developers</source>
+        <translation>Разработчики PIVX Core</translation>
+    </message>
+    <message>
         <source>The OBSR Core developers</source>
         <translation>Разработчики OBSR Core</translation>
     </message>
@@ -4995,6 +4999,10 @@ Please be patient...</source>
     <message>
         <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
         <translation>Copyright (C) 2015-%i Разработчики PIVX Core</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2018-%i The OBSR Core Developers</source>
+        <translation>Copyright (C) 2018-%i Разработчики OBSR Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

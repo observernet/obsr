@@ -3007,6 +3007,10 @@ https://www.transifex.com/obsr-project/obsr-project-translations</translation>
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
+        <source>The PIVX Core developers</source>
+        <translation>Os desenvolvedores do PIVX Core</translation>
+    </message>
+    <message>
         <source>The OBSR Core developers</source>
         <translation>Os desenvolvedores do OBSR Core</translation>
     </message>
@@ -3661,7 +3665,11 @@ https://www.transifex.com/obsr-project/obsr-project-translations</translation>
     </message>
     <message>
         <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do OBSR Core</translation>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do PIVX Core</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2018-%i The OBSR Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2018-%i aos Desenvolvedores do OBSR Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

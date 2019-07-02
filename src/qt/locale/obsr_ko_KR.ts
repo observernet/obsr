@@ -4018,6 +4018,10 @@ Please be patient...</source>
         <translation>Dash Core 개발자</translation>
     </message>
     <message>
+        <source>The PIVX Core developers</source>
+        <translation>PIVX Core 개발자</translation>
+    </message>
+    <message>
         <source>The OBSR Core developers</source>
         <translation>OBSR Core 개발자</translation>
     </message>
@@ -4998,6 +5002,10 @@ Please be patient...</source>
     <message>
         <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
         <translation>Copyright (C) 2015-%i The PIVX Core 개발자</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2018-%i The OBSR Core Developers</source>
+        <translation>Copyright (C) 2018-%i The OBSR Core 개발자</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
