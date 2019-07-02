@@ -77,7 +77,7 @@ Now, you can either build from self-compiled [depends](/depends/README.md) or in
 
 **Note:** For Ubuntu versions starting with Bionic (18.04), or Debian versions starting with Stretch, use `libssl1.0-dev`
 above instead of `libssl-dev`. OBSR Core does not support the use of OpenSSL 1.1, though compilation is still possible
-by passing `--with-incompatible-ssl` to configure (NOT RECOMMENDED!).
+by passing `--with-unsupported-ssl` to configure (NOT RECOMMENDED!).
 
 BerkeleyDB is required for the wallet.
 

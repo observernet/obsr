@@ -336,6 +336,7 @@ def run_tests(test_list, src_dir, build_dir, exeext, tmpdir, jobs=1, enable_cove
 
     all_passed = all(map(lambda test_result: test_result.was_successful, test_results))
 
+
     sys.exit(not all_passed)
 
 def print_results(test_results, max_len_name, runtime):
