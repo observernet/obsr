@@ -1837,9 +1837,9 @@ Vær tålmodig efter at du har klikket på import.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/obsr-project/obsr-project-translations</source>
+https://www.transifex.com/observer/obsr</source>
         <translation>Det valgte sprog mangler, eller oversættelsen er mangelfuld. Hjælp ved at bidrage med oversættelser her:
-https://www.transifex.com/obsr-project/obsr-project-translations</translation>
+https://www.transifex.com/observer/obsr</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>

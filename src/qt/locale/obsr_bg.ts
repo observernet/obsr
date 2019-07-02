@@ -1819,9 +1819,9 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/obsr-project/obsr-project-translations</source>
+https://www.transifex.com/observer/obsr</source>
         <translation>Липсващ език или непълен превод? Помогнете с преводите тук:
-https://www.transifex.com/obsr-project/obsr-project-translations</translation>
+https://www.transifex.com/observer/obsr</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>

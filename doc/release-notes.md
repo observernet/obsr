@@ -1,10 +1,10 @@
 (note: this is a temporary file, to be added-to by anybody, and moved to release-notes at release time)
 
-OBSR Core version *version* is now available from:  <https://github.com/obsr-project/obsr/releases>
+OBSR Core version *version* is now available from:  <https://github.com/observernet/obsr/releases>
 
 This is a new major version release, including various bug fixes and performance improvements, as well as updated translations.
 
-Please report bugs using the issue tracker at github: <https://github.com/obsr-project/obsr/issues>
+Please report bugs using the issue tracker at github: <https://github.com/observernet/obsr/issues>
 
 
 Mandatory Update
@@ -64,7 +64,7 @@ Notice text has been added to the privacy tab indicating that zOBSR minting is d
 
 The `masternode` and `mnbudget` RPC commands, which were marked as deprecated in OBSR Core v2.3.1 (September 19, 2017), have now been completely removed from OBSR Core.
 
-Several new commands were added in v2.3.1 to replace the two aforementioned commands, reference the [v2.3.1 Release Notes](https://github.com/OBSR-Project/OBSR/blob/master/doc/release-notes/release-notes-2.3.1.md#rpc-changes) for further details.
+Several new commands were added in v2.3.1 to replace the two aforementioned commands, reference the [v2.3.1 Release Notes](https://github.com/observernet/OBSR/blob/master/doc/release-notes/release-notes-2.3.1.md#rpc-changes) for further details.
 
 ### New `getblockindexstats` Command
 
@@ -156,4 +156,4 @@ Detailed release notes follow. This overview includes changes that affect behavi
 Thanks to everyone who directly contributed to this release:
 
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/obsr-project-translations/), the QA team during Testing and the Node hosts supporting our Testnet.
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/observernet-translations/), the QA team during Testing and the Node hosts supporting our Testnet.

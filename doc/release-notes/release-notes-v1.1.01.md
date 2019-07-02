@@ -99,7 +99,7 @@ Thanks to everyone who directly contributed to this release:
 - ckti <ckti@3re.io>
 - OBSERVER <43307485+observerdev@users.noreply.github.com>
 - observerdev <dev@obsr.org>
-- obsr-project <42689327+obsr-project@users.noreply.github.com>
+- observernet <42689327+observernet@users.noreply.github.com>
 - warrows <warrows@gamer666.fr>
 - furszy <5377650+furszy@users.noreply.github.com>
 - Fuzzbawls <fuzzbawls@gmail.com>

@@ -29,8 +29,8 @@ Build-Depends: debhelper,
  dh-systemd
 Standards-Version: 3.9.2
 Homepage: http://www.obsr.org
-Vcs-Git: git://github.com/OBSR-Project/OBSR.git
-Vcs-Browser: http://github.com/OBSR-Project/OBSR
+Vcs-Git: git://github.com/observernet/OBSR.git
+Vcs-Browser: http://github.com/observernet/OBSR
 
 Package: obsrd
 Architecture: any

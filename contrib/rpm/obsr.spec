@@ -24,18 +24,18 @@ URL:		https://obsr.org/
 Source0:	https://obsr.org/bin/obsr-core-%{version}/obsr-%{version}.tar.gz
 Source1:	http://download.oracle.com/berkeley-db/db-%{bdbv}.NC.tar.gz
 
-Source10:	https://raw.githubusercontent.com/obsr-project/obsr/v%{version}/contrib/debian/examples/obsr.conf
+Source10:	https://raw.githubusercontent.com/observernet/obsr/v%{version}/contrib/debian/examples/obsr.conf
 
 #man pages
-Source20:	https://raw.githubusercontent.com/obsr-project/obsr/v%{version}/doc/man/obsrd.1
-Source21:	https://raw.githubusercontent.com/obsr-project/obsr/v%{version}/doc/man/obsr-cli.1
-Source22:	https://raw.githubusercontent.com/obsr-project/obsr/v%{version}/doc/man/obsr-qt.1
+Source20:	https://raw.githubusercontent.com/observernet/obsr/v%{version}/doc/man/obsrd.1
+Source21:	https://raw.githubusercontent.com/observernet/obsr/v%{version}/doc/man/obsr-cli.1
+Source22:	https://raw.githubusercontent.com/observernet/obsr/v%{version}/doc/man/obsr-qt.1
 
 #selinux
-Source30:	https://raw.githubusercontent.com/obsr-project/obsr/v%{version}/contrib/rpm/obsr.te
+Source30:	https://raw.githubusercontent.com/observernet/obsr/v%{version}/contrib/rpm/obsr.te
 # Source31 - what about obsr-tx and bench_obsr ???
-Source31:	https://raw.githubusercontent.com/obsr-project/obsr/v%{version}/contrib/rpm/obsr.fc
-Source32:	https://raw.githubusercontent.com/obsr-project/obsr/v%{version}/contrib/rpm/obsr.if
+Source31:	https://raw.githubusercontent.com/observernet/obsr/v%{version}/contrib/rpm/obsr.fc
+Source32:	https://raw.githubusercontent.com/observernet/obsr/v%{version}/contrib/rpm/obsr.if
 
 Source100:	https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg
 

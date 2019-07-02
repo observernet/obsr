@@ -8,7 +8,7 @@ Transifex is setup to monitor the GitHub repo for updates, and when code contain
 
 Multiple language support is critical in assisting OBSR's global adoption, and growth. One of OBSR's greatest strengths is cross-border money transfers, any help making that easier is greatly appreciated.
 
-See the [Transifex OBSR project](https://www.transifex.com/obsr-project/obsr-project-translations/) to assist in translations.
+See the [Transifex OBSR project](https://www.transifex.com/observer/obsr/) to assist in translations.
 
 ### Writing code with translations
 We use automated scripts to help extract translations in both Qt, and non-Qt source files. It is rarely necessary to manually edit the files in `src/qt/locale/`. The translation source files must adhere to the following format:
@@ -43,7 +43,7 @@ git commit
 ### Creating a Transifex account
 Visit the [Transifex Signup](https://www.transifex.com/signup/) page to create an account. Take note of your username and password, as they will be required to configure the command-line tool.
 
-You can find the OBSR translation project at [https://www.transifex.com/obsr-project/obsr-project-translations/](https://www.transifex.com/obsr-project/obsr-project-translations/).
+You can find the OBSR translation project at [https://www.transifex.com/observer/obsr/](https://www.transifex.com/observer/obsr/).
 
 ### Installing the Transifex client command-line tool
 The client is used to fetch updated translations. If you are having problems, or need more details, see [https://docs.transifex.com/client/installing-the-client](https://docs.transifex.com/client/installing-the-client)

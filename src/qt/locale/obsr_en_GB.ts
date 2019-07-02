@@ -1893,9 +1893,9 @@ Please be patient after clicking import.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/obsr-project/obsr-project-translations</source>
+https://www.transifex.com/observer/obsr</source>
         <translation>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/obsr-project/obsr-project-translations</translation>
+https://www.transifex.com/observer/obsr</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>

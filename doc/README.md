@@ -26,7 +26,7 @@ Drag OBSR-Qt to your applications folder, and then run OBSR-Qt.
 
 ### Need Help?
 
-* See the documentation at the [OBSR Wiki](https://github.com/OBSR-Project/OBSR/wiki)
+* See the documentation at the [OBSR Wiki](https://github.com/observernet/OBSR/wiki)
 for help and more information.
 * Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [OBSR Forum](http://forum.obsr.org/).
 * Join our Discord server [Discord Server](https://discord.obsr.org)

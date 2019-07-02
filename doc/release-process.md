@@ -5,8 +5,8 @@ Release Process
 
 ### Before every release candidate
 
-* Update translations (ping Fuzzbawls on Discord) see [translation_process.md](https://github.com/OBSR-Project/OBSR/blob/master/doc/translation_process.md#synchronising-translations).
-* Update manpages, see [gen-manpages.sh](https://github.com/obsr-project/obsr/blob/master/contrib/devtools/README.md#gen-manpagessh).
+* Update translations (ping Fuzzbawls on Discord) see [translation_process.md](https://github.com/observernet/OBSR/blob/master/doc/translation_process.md#synchronising-translations).
+* Update manpages, see [gen-manpages.sh](https://github.com/observernet/obsr/blob/master/contrib/devtools/README.md#gen-manpagessh).
 
 ### Before every major and minor release
 
@@ -48,10 +48,10 @@ If you're using the automated script (found in [contrib/gitian-build.py](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/obsr-project/gitian.sigs.git
-    git clone https://github.com/obsr-project/obsr-detached-sigs.git
+    git clone https://github.com/observernet/gitian.sigs.git
+    git clone https://github.com/observernet/obsr-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/obsr-project/obsr.git
+    git clone https://github.com/observernet/obsr.git
 
 ### OBSR maintainers/release engineers, suggestion for writing release notes
 
@@ -210,7 +210,7 @@ Codesigner only: Commit the detached codesign payloads:
 Non-codesigners: wait for Windows/macOS detached signatures:
 
 - Once the Windows/macOS builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [obsr-detached-sigs](https://github.com/obsr-Project/obsr-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [obsr-detached-sigs](https://github.com/observernet/obsr-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed macOS binary:
 
@@ -287,6 +287,6 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
-  - Create a [new GitHub release](https://github.com/OBSR-Project/OBSR/releases/new) with a link to the archived release notes.
+  - Create a [new GitHub release](https://github.com/observernet/OBSR/releases/new) with a link to the archived release notes.
 
   - Celebrate

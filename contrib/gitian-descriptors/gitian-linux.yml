@@ -33,7 +33,7 @@ packages:
 - "ca-certificates"
 - "python3"
 remotes:
-- "url": "https://github.com/obsr-project/obsr.git"
+- "url": "https://github.com/observernet/obsr.git"
   "dir": "obsr"
 files: []
 script: |
