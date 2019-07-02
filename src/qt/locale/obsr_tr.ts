@@ -670,11 +670,11 @@
     </message>
     <message>
         <source>&amp;About OBSR Core</source>
-        <translation>Pıvx core Hakkında</translation>
+        <translation>Obsr core Hakkında</translation>
     </message>
     <message>
         <source>Show information about OBSR Core</source>
-        <translation>Pıvx Core hakkında bilgi göster</translation>
+        <translation>Obsr Core hakkında bilgi göster</translation>
     </message>
     <message>
         <source>Modify configuration options for OBSR</source>

@@ -1,7 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018 The OBSR developers
+// Copyright (c) 2015-2019 The PIVX developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -23,8 +22,8 @@
 
 #ifdef ENABLE_WALLET
 #include "masternodeconfig.h"
-#include "wallet.h"
-#include "walletdb.h"
+#include "wallet/wallet.h"
+#include "wallet/walletdb.h"
 #endif
 
 #include <QNetworkProxy>
@@ -97,11 +96,6 @@ void OptionsModel::Init()
     if (!settings.contains("nPreferredDenom"))
         settings.setValue("nPreferredDenom", 0);
     nPreferredDenom = settings.value("nPreferredDenom", "0").toLongLong();
-
-    if (!settings.contains("nAnonymizeObsrAmount"))
-        settings.setValue("nAnonymizeObsrAmount", 1000);
-
-    nAnonymizeObsrAmount = settings.value("nAnonymizeObsrAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -273,8 +267,6 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return QVariant(nZeromintPercentage);
         case ZeromintPrefDenom:
             return QVariant(nPreferredDenom);
-        case AnonymizeObsrAmount:
-            return QVariant(nAnonymizeObsrAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -410,11 +402,6 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             fHideOrphans = value.toBool();
             settings.setValue("fHideOrphans", fHideOrphans);
             emit hideOrphansChanged(fHideOrphans);
-            break;
-        case AnonymizeObsrAmount:
-            nAnonymizeObsrAmount = value.toInt();
-            settings.setValue("nAnonymizeObsrAmount", nAnonymizeObsrAmount);
-            emit anonymizeObsrAmountChanged(nAnonymizeObsrAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();
