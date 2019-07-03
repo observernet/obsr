@@ -20,7 +20,7 @@ description: |
   - Decentralized blockchain voting utilizing Masternode technology to form a DAO. The blockchain will distribute monthly treasury funds based on successful proposals submitted by the community and voted on by the DAO.
   
   Github: https://github.com/observernet/obsr/
-grade: devel
+grade: stable
 confinement: strict
 icon: share/pixmaps/bitcoin256.png
 apps:
