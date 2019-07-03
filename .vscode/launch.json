@@ -1881,6 +1881,688 @@
                     "ignoreFailures": true
                 }
             ]
+        },
+        // FULL SUITE ALL TESTS
+        {
+            "name": "test suite (extended) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--extended", "--jobs=4"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "test suite (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        // NORMAL SINGLE TESTS
+        {
+            "name": "example_test.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "example_test.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "feature_block.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "feature_block.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "feature_reindex.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "feature_reindex.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "feature_proxy.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "feature_proxy.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "feature_cltv.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "feature_cltv.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "feature_minchainwork.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "feature_minchainwork.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "feature_uacomment.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "feature_uacomment.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "feature_config_args.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "feature_config_args.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "feature_help.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "feature_help.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "feature_fee_estimation.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "feature_fee_estimation.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "feature_notifications.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "feature_notifications.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "interface_bitcoin_cli.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "interface_bitcoin_cli.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "interface_rest.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "interface_rest.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "interface_http.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "interface_http.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "interface_zmq.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "interface_zmq.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "mempool_spend_coinbase.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "mempool_spend_coinbase.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "mempool_reorg.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "mempool_reorg.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "mempool_persist.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "mempool_persist.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "mempool_resurrect.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "mempool_resurrect.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "mempool_limit.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "mempool_limit.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "mining_basic.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "mining_basic.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "mining_prioritisetransaction.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "mining_prioritisetransaction.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "p2p_mempool.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "p2p_mempool.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "p2p_pos_fakestake.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "p2p_pos_fakestake.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "p2p_pos_fakestake_accepted.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "p2p_pos_fakestake_accepted.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "p2p_zpos_fakestake.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "p2p_zpos_fakestake.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "p2p_zpos_fakestake_accepted.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "p2p_zpos_fakestake_accepted.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "p2p_pos_doublespend.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "p2p_pos_doublespend.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "p2p_disconnect_ban.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "p2p_disconnect_ban.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "p2p_invalid_block.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "p2p_invalid_block.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "p2p_invalid_tx.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "p2p_invalid_tx.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "p2p_leak.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "p2p_leak.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "p2p_fingerprint.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "p2p_fingerprint.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "p2p_unrequested_blocks.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "p2p_unrequested_blocks.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "p2p_timeouts.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "p2p_timeouts.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "p2p_feefilter.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "p2p_feefilter.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "rpc_fundrawtransaction.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "rpc_fundrawtransaction.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "rpc_listtransactions.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "rpc_listtransactions.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "rpc_rawtransaction.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "rpc_rawtransaction.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "rpc_bip38.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "rpc_bip38.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "rpc_getchaintips.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "rpc_getchaintips.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "rpc_users.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "rpc_users.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "rpc_signrawtransaction.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "rpc_signrawtransaction.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "rpc_decodescript.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "rpc_decodescript.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "rpc_blockchain.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "rpc_blockchain.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "rpc_deprecated.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "rpc_deprecated.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "rpc_net.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "rpc_net.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "rpc_signmessage.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "rpc_signmessage.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "rpc_bind.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "rpc_bind.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "rpc_invalidateblock.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "rpc_invalidateblock.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "wallet_basic.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "wallet_basic.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "wallet_accounts.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "wallet_accounts.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "wallet_dump.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "wallet_dump.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "wallet_zapwallettxes.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "wallet_zapwallettxes.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "wallet_importmulti.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "wallet_importmulti.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "wallet_backup.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "wallet_backup.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "wallet_listreceivedby.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "wallet_listreceivedby.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "wallet_abandonconflict.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "wallet_abandonconflict.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "wallet_keypool_topup.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "wallet_keypool_topup.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "wallet_txn_doublespend.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "wallet_txn_doublespend.py", "--mineblock"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "wallet_txn_clone.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "wallet_txn_clone.py","--mineblock"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "wallet_disable.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "wallet_disable.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "wallet_keypool.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "wallet_keypool.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "wallet_import_rescan.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "wallet_import_rescan.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "wallet_bumpfee.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "wallet_bumpfee.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "wallet_listsinceblock.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "wallet_listsinceblock.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "wallet_encryption.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "wallet_encryption.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "wallet_resendwallettransactions.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "wallet_resendwallettransactions.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "zerocoin_wrapped_serials.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "zerocoin_wrapped_serials.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        // NON_SCRIPTS
+        {
+            "name": "combine_logs.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "combine_logs.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "create_cache.py (normal) (internal terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4", "create_cache.py"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "test suite (extended) (external terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--extended", "--jobs=4"],
+
+            "cwd": "${workspaceFolder}",
+
+            "console": "externalTerminal"
+        },
+        {
+            "name": "test suite (normal) (external terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test/functional/test_runner.py",
+            "args": ["--jobs=4"],
+
+            "cwd": "${workspaceFolder}",
+
+            "console": "externalTerminal"
         }
     ]
 }
