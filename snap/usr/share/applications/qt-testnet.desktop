@@ -2,7 +2,7 @@
 
 [Desktop Entry]
 Type=Application
-Version=1.2.00
+Version=1.2.99
 Encoding=UTF-8
 Name=OBServer QT Testnet
 Icon=${SNAP}/qt-testnet.ico
