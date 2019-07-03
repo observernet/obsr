@@ -1,5 +1,5 @@
 ---
-name: "obsr-win-3.4"
+name: "obsr-win-1.2"
 enable_cache: true
 distro: "ubuntu"
 suites:

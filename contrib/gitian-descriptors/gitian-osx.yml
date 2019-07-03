@@ -1,5 +1,5 @@
 ---
-name: "obsr-osx-3.4"
+name: "obsr-osx-1.2"
 enable_cache: true
 distro: "ubuntu"
 suites:
