@@ -22,7 +22,7 @@ description: |
   Github: https://github.com/observernet/obsr/
 grade: stable
 confinement: strict
-icon: share/pixmaps/bitcoin256.png
+icon: share/pixmaps/obsr256.png
 apps:
   daemon:
     command: obsrd
