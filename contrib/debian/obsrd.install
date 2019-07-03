@@ -1,2 +1,3 @@
 usr/local/bin/obsrd usr/bin
 usr/local/bin/obsr-cli usr/bin
+debian/examples/obsr.conf etc/obsr

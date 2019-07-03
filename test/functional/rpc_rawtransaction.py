@@ -244,10 +244,9 @@ class RawTransactionsTest(BitcoinTestFramework):
         self.sync_all()
         self.nodes[0].generate(1)
         self.sync_all()
-        print("Node 0 balance %.8f" % self.nodes[0].getbalance())
-        print("Balance %.8f" % bal)
         assert_equal(self.nodes[0].getbalance(), bal+Decimal('28125000.00000000')+Decimal('2.19000000')) #block reward + tx
-
+#253125241
+#281249991
         # 2of2 test for combining transactions
         bal = self.nodes[2].getbalance()
         addr1 = self.nodes[1].getnewaddress()

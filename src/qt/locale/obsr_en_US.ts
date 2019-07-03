@@ -3292,6 +3292,10 @@ https://www.transifex.com/observer/obsr</translation>
         <translation>The Dash Core developers</translation>
     </message>
     <message>
+        <source>The PIVX Core developers</source>
+        <translation>The PIVX Core developers</translation>
+    </message>
+    <message>
         <source>The OBSR Core developers</source>
         <translation>The OBSR Core developers</translation>
     </message>
@@ -4114,12 +4118,12 @@ for example: alertnotify=echo %%s | mail -s "OBSR Alert" admin@foo.com
         <translation>Unable to locate enough Obfuscation denominated funds for this transaction.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 1000000 OBSR.</source>
-        <translation>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 1000000 OBSR.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 OBSR.</source>
+        <translation>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 OBSR.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000000 OBSR.</source>
-        <translation>Unable to locate enough funds for this transaction that are not equal 1000000 OBSR.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 OBSR.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 10000 OBSR.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>

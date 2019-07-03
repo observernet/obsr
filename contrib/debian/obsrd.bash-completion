@@ -1,1 +1,2 @@
 contrib/obsrd.bash-completion	obsrd
+contrib/obsr-cli.bash-completion obsr-cli

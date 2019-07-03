@@ -30,10 +30,8 @@
         <file alias="add">res/icons/add.png</file>
         <file alias="bitcoin_testnet">res/icons/bitcoin_testnet.png</file>
         <file alias="bitcoin_regtest">res/icons/bitcoin_regtest.png</file>
-        <file alias="bitcoin_unittest">res/icons/bitcoin_unittest.png</file>
         <file alias="edit">res/icons/edit.png</file>
         <file alias="history">res/icons/history.png</file>
-        
         <file alias="overview">res/icons/overview.png</file>
         <file alias="masternodes">res/icons/masternodes.png</file>
         <file alias="governance">res/icons/governance.png</file>
@@ -82,12 +80,9 @@
         <file alias="leftArrow_small">res/images/leftArrow_small_dark.png</file>
         <file alias="rightArrow_small">res/images/rightArrow_small_dark.png</file>
         <file alias="qtreeview_selected">res/images/qtreeview_selected.png</file>
-        <file alias="walletFrame_bg">res/images/walletFrame_bg.png</file>
-        <file alias="walletFrame">res/images/walletFrame.png</file>
         <file alias="splash">res/images/splash.png</file>
         <file alias="splash_testnet">res/images/splash_testnet.png</file>
         <file alias="splash_regtest">res/images/splash_regtest.png</file>
-        <file alias="splash_unittest">res/images/splash_unittest.png</file>
     </qresource>
     <qresource prefix="/movies">
         <file alias="spinner-000">res/movies/spinner-000.png</file>

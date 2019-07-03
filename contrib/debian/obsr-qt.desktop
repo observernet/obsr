@@ -1,6 +1,6 @@
 [Desktop Entry]
-Encoding=UTF-8
-Name=OBSR
+Version=1.0
+Name=OBSR Core
 Comment=OBSR P2P Cryptocurrency
 Comment[fr]=OBSR, monnaie virtuelle cryptographique pair à pair
 Comment[tr]=OBSR, eşten eşe kriptografik sanal para birimi
@@ -10,3 +10,4 @@ Type=Application
 Icon=obsr128
 MimeType=x-scheme-handler/obsr;
 Categories=Office;Finance;
+StartupWMClass=Obsr-qt

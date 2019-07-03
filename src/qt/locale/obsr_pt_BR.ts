@@ -1528,73 +1528,6 @@ MultiSend: %1</translation>
     </message>
 </context>
 <context>
-    <name>ObfuscationConfig</name>
-    <message>
-        <source>Configure Obfuscation</source>
-        <translation>Configurar Ofuscação</translation>
-    </message>
-    <message>
-        <source>Basic Privacy</source>
-        <translation>Privacidade Básica</translation>
-    </message>
-    <message>
-        <source>High Privacy</source>
-        <translation>Alta Privacidade</translation>
-    </message>
-    <message>
-        <source>Maximum Privacy</source>
-        <translation>Privacidade Máxima</translation>
-    </message>
-    <message>
-        <source>Please select a privacy level.</source>
-        <translation>Favor selecionar o nível de privacidade.</translation>
-    </message>
-    <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 OBSR</source>
-        <translation>Use 2 masternodes separados para embaralhar fundos até 10000 OBSR</translation>
-    </message>
-    <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 OBSR</source>
-        <translation>Use 8 masternodes separados para embaralhar fundos até 10000 OBSR</translation>
-    </message>
-    <message>
-        <source>Use 16 separate masternodes</source>
-        <translation>Use 16 masternodes separados</translation>
-    </message>
-    <message>
-        <source>This option is the quickest and will cost about ~0.025 OBSR to anonymize 10000 OBSR</source>
-        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 OBSR para anonimizar 10000 OBSR</translation>
-    </message>
-    <message>
-        <source>This option is moderately fast and will cost about 0.05 OBSR to anonymize 10000 OBSR</source>
-        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 OBSR para anonimizar 10000 OBSR</translation>
-    </message>
-    <message>
-        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Esta é a opção mais lenta e mais segura. Usando a anonimização máxima vai custar</translation>
-    </message>
-    <message>
-        <source>0.1 OBSR per 10000 OBSR you anonymize.</source>
-        <translation>0.1 OBSR por 10000 OBSR que deixar anônima.</translation>
-    </message>
-    <message>
-        <source>Obfuscation Configuration</source>
-        <translation>Configuração de ofuscação</translation>
-    </message>
-    <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening OBSR's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela OBSR's.</translation>
-    </message>
-    <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening OBSR's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela OBSR's.</translation>
-    </message>
-    <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening OBSR's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela OBSR's.</translation>
-    </message>
-</context>
-<context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
@@ -1740,10 +1673,6 @@ https://www.transifex.com/observer/obsr</translation>
     <message>
         <source>User Interface Theme:</source>
         <translation>Usar tema de inferface:</translation>
-    </message>
-    <message>
-        <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Unidades para mostrar as quantias:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
@@ -1938,20 +1867,8 @@ https://www.transifex.com/observer/obsr</translation>
         <translation>zOBSR</translation>
     </message>
     <message>
-        <source>0.000 000 00 OBSR</source>
-        <translation>0.000 000 00 OBSR</translation>
-    </message>
-    <message>
         <source>Reset</source>
         <translation>Reinicia</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Quantidade:</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Quantia:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2084,22 +2001,6 @@ https://www.transifex.com/observer/obsr</translation>
     <message>
         <source>out of sync</source>
         <translation>fora de sincronia</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Copiar quantidade</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Copiar quantia</translation>
-    </message>
-    <message>
-        <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
-        <translation>Erro: Sua carteira está travada. Favor inserir a palavra-chave da carteira primeiro.</translation>
-    </message>
-    <message>
-        <source>Message: Enter an amount &gt; 0.</source>
-        <translation>Mensagem: Insira uma quantia &gt; 0.</translation>
     </message>
     <message>
         <source>Confirm additional Fees</source>
@@ -3106,6 +3007,10 @@ https://www.transifex.com/observer/obsr</translation>
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
+        <source>The PIVX Core developers</source>
+        <translation>Os desenvolvedores do PIVX Core</translation>
+    </message>
+    <message>
         <source>The OBSR Core developers</source>
         <translation>Os desenvolvedores do OBSR Core</translation>
     </message>
@@ -3675,8 +3580,8 @@ https://www.transifex.com/observer/obsr</translation>
         <translation>Define o tamanho máximo de transações de alta prioridade/taxa baixa em bytes (padrão: %d)</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000000 OBSR.</source>
-        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 1000000 OBSR.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 OBSR.</source>
+        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 OBSR.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3731,20 +3636,8 @@ https://www.transifex.com/observer/obsr</translation>
         <translation>Adicionar um nó para conectar e tentar manter uma conexão aberta</translation>
     </message>
     <message>
-        <source>Already have that input.</source>
-        <translation>Já possui este input.</translation>
-    </message>
-    <message>
         <source>Block creation options:</source>
         <translation>Opções de criação de bloco:</translation>
-    </message>
-    <message>
-        <source>Can't find random Masternode.</source>
-        <translation>Não conseguiu encontrar um Masternode aleatório.</translation>
-    </message>
-    <message>
-        <source>Can't mix while sync in progress.</source>
-        <translation>Não é possível embaralhar enquanto a sincronia estiver em progresso.</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
@@ -3776,7 +3669,7 @@ https://www.transifex.com/observer/obsr</translation>
     </message>
     <message>
         <source>Copyright (C) 2018-%i The OBSR Core Developers</source>
-        <translation>Todos os direitos reservados (C) %i aos Desenvolvedores do OBSR Core</translation>
+        <translation>Todos os direitos reservados (C) 2018-%i aos Desenvolvedores do OBSR Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3805,14 +3698,6 @@ https://www.transifex.com/observer/obsr</translation>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
         <translation>Permite ao cliente atuar como um masternode (0-1, padrão: %u)</translation>
-    </message>
-    <message>
-        <source>Entries are full.</source>
-        <translation>As entradas estão cheias.</translation>
-    </message>
-    <message>
-        <source>Error connecting to Masternode.</source>
-        <translation>Erro ao conectar ao Masternode.</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
@@ -3867,10 +3752,6 @@ https://www.transifex.com/observer/obsr</translation>
         <translation>erro: Carteira travada, não foi possível criar a transação!</translation>
     </message>
     <message>
-        <source>Error: You already have pending entries in the Obfuscation pool</source>
-        <translation>Erro: Você já possui entradas pendentes na pool de Ofuscação</translation>
-    </message>
-    <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Falhou em escutar qualquer porta. Use -listen=0 se você quiser isso.</translation>
     </message>
@@ -3883,20 +3764,8 @@ https://www.transifex.com/observer/obsr</translation>
         <translation>Taxa (em OBSR/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
     </message>
     <message>
-        <source>Finalizing transaction.</source>
-        <translation>Encerrando a transação.</translation>
-    </message>
-    <message>
         <source>Force safe mode (default: %u)</source>
         <translation>Forçar modo seguro (padrão: %u)</translation>
-    </message>
-    <message>
-        <source>Found enough users, signing ( waiting %s )</source>
-        <translation>Encontrou usuários suficientes, autenticando (aguardando %s)</translation>
-    </message>
-    <message>
-        <source>Found enough users, signing ...</source>
-        <translation>Encontrou usuários suficientes, autenticando...</translation>
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
@@ -3911,24 +3780,12 @@ https://www.transifex.com/observer/obsr</translation>
         <translation>Importando...</translation>
     </message>
     <message>
-        <source>Incompatible mode.</source>
-        <translation>Modo incompatível.</translation>
-    </message>
-    <message>
-        <source>Incompatible version.</source>
-        <translation>Versão incompatível.</translation>
-    </message>
-    <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
         <translation>Incorreto ou bloco gênesis não encontrado. O datadir de rede estaria errado?</translation>
     </message>
     <message>
         <source>Information</source>
         <translation>Informação</translation>
-    </message>
-    <message>
-        <source>Input is not valid.</source>
-        <translation>O input não é válido.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -3983,10 +3840,6 @@ https://www.transifex.com/observer/obsr</translation>
         <translation>Chave privada inválida.</translation>
     </message>
     <message>
-        <source>Invalid script detected.</source>
-        <translation>Script inválido detectado.</translation>
-    </message>
-    <message>
         <source>SwiftX options:</source>
         <translation>opções SwiftX:</translation>
     </message>
@@ -3999,14 +3852,6 @@ https://www.transifex.com/observer/obsr</translation>
     <message>
         <source>&lt;category&gt; can be:</source>
         <translation>&lt;category&gt; pode ser:</translation>
-    </message>
-    <message>
-        <source>Last Obfuscation was too recent.</source>
-        <translation>Última ofuscação foi muito recente.</translation>
-    </message>
-    <message>
-        <source>Last successful Obfuscation action was too recent.</source>
-        <translation>Última ação de ofuscação com sucesso foi muito recente.</translation>
     </message>
     <message>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
@@ -4041,10 +3886,6 @@ https://www.transifex.com/observer/obsr</translation>
         <translation>Carregando carteira...</translation>
     </message>
     <message>
-        <source>Lock is already in place.</source>
-        <translation>Trava já está no lugar.</translation>
-    </message>
-    <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
         <translation>Manter pelo menos &lt;n&gt; conexões aos pares (padrão: %u)</translation>
     </message>
@@ -4053,60 +3894,16 @@ https://www.transifex.com/observer/obsr</translation>
         <translation>Opções de Masternode:</translation>
     </message>
     <message>
-        <source>Masternode queue is full.</source>
-        <translation>A fila do Masternode está cheia.</translation>
-    </message>
-    <message>
-        <source>Masternode:</source>
-        <translation>Masternode:</translation>
-    </message>
-    <message>
-        <source>Mixing in progress...</source>
-        <translation>Embaralhamento em progresso.</translation>
-    </message>
-    <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
         <translation>Necessário especificar uma porta com -whitebind: '%s'</translation>
-    </message>
-    <message>
-        <source>No Masternodes detected.</source>
-        <translation>Nenhum Masternode detectado.</translation>
-    </message>
-    <message>
-        <source>No compatible Masternode found.</source>
-        <translation>Nenhum Masternode compatível encontrado.</translation>
     </message>
     <message>
         <source>Node relay options:</source>
         <translation>Opções de propagação do Nó:</translation>
     </message>
     <message>
-        <source>Non-standard public key detected.</source>
-        <translation>Chave pública não-padronizada detectada.</translation>
-    </message>
-    <message>
-        <source>Not compatible with existing transactions.</source>
-        <translation>Não é compatível com as transações existentes.</translation>
-    </message>
-    <message>
-        <source>Not in the Masternode list.</source>
-        <translation>Não está na lista de Masternodes.</translation>
-    </message>
-    <message>
         <source>Number of automatic wallet backups (default: 10)</source>
         <translation>Número de backups automáticos da carteira (padrão: 10)</translation>
-    </message>
-    <message>
-        <source>Obfuscation is idle.</source>
-        <translation>Ofuscação está ociosa.</translation>
-    </message>
-    <message>
-        <source>Obfuscation request complete:</source>
-        <translation>Requisição de ofuscação completa:</translation>
-    </message>
-    <message>
-        <source>Obfuscation request incomplete:</source>
-        <translation>Requisição de ofuscação incompleta:</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
@@ -4139,10 +3936,6 @@ https://www.transifex.com/observer/obsr</translation>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
         <translation>Enviar transações com taxa zero se possível (padrão: %u)</translation>
-    </message>
-    <message>
-        <source>Session not complete!</source>
-        <translation>Sessão não está completa!</translation>
     </message>
     <message>
         <source>Session timed out.</source>
@@ -4217,18 +4010,6 @@ https://www.transifex.com/observer/obsr</translation>
         <translation>Parar de rodar depois de importar blocos do disco (padrão: %u)</translation>
     </message>
     <message>
-        <source>Submitted following entries to masternode: %u / %d</source>
-        <translation>Enviadas as seguintes entradas ao masternode: %u / %d</translation>
-    </message>
-    <message>
-        <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
-        <translation>Enviado ao masternode, aguardando por mais entradas ( %u / %d) %s</translation>
-    </message>
-    <message>
-        <source>Submitted to masternode, waiting in queue %s</source>
-        <translation>Enviado ao masternode, aguardando na fila %s</translation>
-    </message>
-    <message>
         <source>Synchronization failed</source>
         <translation>Sincronização falhou</translation>
     </message>
@@ -4253,28 +4034,12 @@ https://www.transifex.com/observer/obsr</translation>
         <translation>Este software é experimental.</translation>
     </message>
     <message>
-        <source>This is not a Masternode.</source>
-        <translation>Isto não é um Masternode.</translation>
-    </message>
-    <message>
         <source>Transaction amount too small</source>
         <translation>Quantia de transação muito pequena</translation>
     </message>
     <message>
         <source>Transaction amounts must be positive</source>
         <translation>Quantias de transação devem ser positivas</translation>
-    </message>
-    <message>
-        <source>Transaction created successfully.</source>
-        <translation>Transação criada com sucesso.</translation>
-    </message>
-    <message>
-        <source>Transaction fees are too high.</source>
-        <translation>Taxa de transação muito elevada.</translation>
-    </message>
-    <message>
-        <source>Transaction not valid.</source>
-        <translation>Transação não é válida.</translation>
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
@@ -4285,16 +4050,8 @@ https://www.transifex.com/observer/obsr</translation>
         <translation>Transação muito grande</translation>
     </message>
     <message>
-        <source>Transmitting final transaction.</source>
-        <translation>Transmitindo transação final.</translation>
-    </message>
-    <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
         <translation>Rede desconhecida especificada em -onlynet: '%s'</translation>
-    </message>
-    <message>
-        <source>Unknown state: id = %u</source>
-        <translation>Estado desconhecido: id = %u</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
@@ -4309,20 +4066,12 @@ https://www.transifex.com/observer/obsr</translation>
         <translation>Nome de usuário para conexões JSON-RPC</translation>
     </message>
     <message>
-        <source>Value more than Obfuscation pool maximum allows.</source>
-        <translation>Valor maior que o máximo permitido pela pool de Ofuscação </translation>
-    </message>
-    <message>
         <source>Verifying blocks...</source>
         <translation>Verificando blocos...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
         <translation>Verificando carteira...</translation>
-    </message>
-    <message>
-        <source>Wallet is locked.</source>
-        <translation>Carteira está travada.</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart OBSR Core to complete</source>
@@ -4353,20 +4102,8 @@ https://www.transifex.com/observer/obsr</translation>
         <translation>Aviso: Argumento não suportado -debugnet ignorado, use -debug=net.</translation>
     </message>
     <message>
-        <source>Will retry...</source>
-        <translation>Tentando novamente...</translation>
-    </message>
-    <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>Você precisa refazer a base de dados usando -reindex para mudar -txindex</translation>
-    </message>
-    <message>
-        <source>Your entries added successfully.</source>
-        <translation>Suas entradas foram adicionadas com sucesso.</translation>
-    </message>
-    <message>
-        <source>Your transaction was accepted into the pool!</source>
-        <translation>Sua transação foi aceita na pool!</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>

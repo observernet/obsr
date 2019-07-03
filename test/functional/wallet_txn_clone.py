@@ -22,7 +22,7 @@ class TxnMallTest(BitcoinTestFramework):
         disconnect_nodes(self.nodes[2], 1)
 
     def run_test(self):
-        # All nodes should start with 703125000 OBSR:
+        # All nodes should start with 1,250 BTC:
         starting_balance = 703125000
         for i in range(4):
             assert_equal(self.nodes[i].getbalance(), starting_balance)

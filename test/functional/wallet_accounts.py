@@ -43,14 +43,14 @@ class WalletAccountsTest(BitcoinTestFramework):
         #for address_group in address_groups:
         #    assert_equal(len(address_group), 1)
         #    assert_equal(len(address_group[0]), 2)
-        #    assert_equal(address_group[0][1], 250)
+        #    assert_equal(address_group[0][1], 28125000)
         #    linked_addresses.add(address_group[0][0])
 
         # send 50 from each address to a third address not in this wallet
         # There's some fee that will come back to us when the miner reward
         # matures.
         node.settxfee(0)
-        common_address = "tuyWUwKjpxPYaiu1evfBiH9MgA12r1CXp6"
+        common_address = "uGaEKrdJ3SYVDbU7pb6wpdtWtsxxMY12Sb"
         txid = node.sendmany("", {common_address: 100}, 1)
         tx_details = node.gettransaction(txid)
         fee = -tx_details['details'][0]['fee']

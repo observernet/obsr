@@ -1,2 +1,2 @@
-debian/manpages/obsrd.1
-debian/manpages/obsr.conf.5
+doc/man/obsrd.1
+doc/man/obsr-cli.1

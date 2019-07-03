@@ -2,7 +2,7 @@
 # Copyright (c) 2019 The OBSR developers
 name: obsr
 base: core18
-version: v1.1.99
+version: v1.2.99
 summary:   peer-to-peer network based digital currency
 description: |
   OBSR is an open source crypto-currency focused on fast private

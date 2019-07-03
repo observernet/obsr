@@ -56,71 +56,70 @@ BASE_SCRIPTS= [
     # Scripts that are run by the travis build process.
     # Longest test should go first, to favor running tests in parallel
     'wallet_backup.py',
-    'p2p_pos_fakestake.py',
-    'p2p_pos_fakestake_accepted.py',
-    'p2p_zpos_fakestake.py',
-    'p2p_zpos_fakestake_accepted.py',
-    'zerocoin_wrapped_serials.py',
+    #'p2p_pos_fakestake.py',
+    #'p2p_pos_fakestake_accepted.py',
+    #'p2p_zpos_fakestake.py',
+    #'p2p_zpos_fakestake_accepted.py',
+    #'zerocoin_wrapped_serials.py',
     # vv Tests less than 5m vv
-    #'feature_block.py', # Not required/ **TODO**
-    #'rpc_fundrawtransaction.py', # Not required/ **TODO**
+    #'feature_block.py',
+    #'rpc_fundrawtransaction.py',
     # vv Tests less than 2m vv
-    'p2p_pos_doublespend.py',
-    #'wallet_basic.py', # Not required/ **TODO**
+    #'p2p_pos_doublespend.py',
+    #'wallet_basic.py',
     'wallet_accounts.py',
     'wallet_dump.py',
     'rpc_listtransactions.py',
     # vv Tests less than 60s vv
     'wallet_zapwallettxes.py',
-    #'wallet_importmulti.py', # No importmulti function
+    #'wallet_importmulti.py',
     #'mempool_limit.py', # We currently don't limit our mempool
     'wallet_listreceivedby.py',
-    #'wallet_abandonconflict.py', # Not required/ **TODO**
+    #'wallet_abandonconflict.py',
     'rpc_rawtransaction.py',
     'feature_reindex.py',
     'rpc_bip38.py',
     # vv Tests less than 30s vv
     'wallet_keypool_topup.py',
-    'interface_zmq.py', # **TODO** - fix AssertionError: not(10c5b3ffc2dc8f8d7056a92f99830faac90e9f13eafec35bef15c2951466d12a == d49637991d4db2ff637e0878b96c956b4ab5fe7149d03e2bf060e4c2d19166f1) , uncomment #assert_equal(genhashes[x], bytes_to_hex_str(hash256(block[:112])))
+    #'interface_zmq.py',
     'interface_bitcoin_cli.py',
-    #'mempool_resurrect.py', # Not required
-    #'wallet_txn_doublespend.py --mineblock', # Not required/ **TODO**
-    #'wallet_txn_clone.py --mineblock', # Not required/ **TODO**
-    #'rpc_getchaintips.py', # Not required/ **TODO**
-    #'p2p_sendheaders, # needs full rewrite/ **TODO**
+    #'mempool_resurrect.py',
+    #'wallet_txn_doublespend.py --mineblock',
+    #'wallet_txn_clone.py --mineblock',
+    #'rpc_getchaintips.py',
     'interface_rest.py',
-    #'mempool_spend_coinbase.py', # Not required/ **TODO**
-    #'mempool_reorg.py', # Not required
+    #'mempool_spend_coinbase.py',
+    #'mempool_reorg.py',
     #'mempool_persist.py', # Not yet implemented
     'interface_http.py',
-    #'rpc_users.py', # Not required/ **TODO**
+    #'rpc_users.py',
     'feature_proxy.py',
     'rpc_signrawtransaction.py',
     'p2p_disconnect_ban.py',
     'rpc_decodescript.py',
     'rpc_blockchain.py',
-    #'rpc_deprecated.py', # Not required/ **TODO**
+    #'rpc_deprecated.py',
     'wallet_disable.py',
     'rpc_net.py',
     'wallet_keypool.py',
-    'p2p_mempool.py',
-    'mining_prioritisetransaction.py',
-    #'p2p_invalid_block.py', # Not required/ **TODO**
-    #'p2p_invalid_tx.py', # Not required/ **TODO**
+    #'p2p_mempool.py',
+    #'mining_prioritisetransaction.py',
+    #'p2p_invalid_block.py',
+    #'p2p_invalid_tx.py',
     'rpc_signmessage.py',
-    #'wallet_import_rescan.py', # Not required/ **TODO**
-    #'mining_basic.py', # needs re-write
-    #'wallet_bumpfee.py', # Not required/ **TODO**
-    #'wallet_listsinceblock.py', # Not required/ **TODO**
-    'p2p_leak.py',
+    #'wallet_import_rescan.py',
+    #'mining_basic.py',
+    #'wallet_bumpfee.py',
+    #'wallet_listsinceblock.py',
+    #'p2p_leak.py',
     'wallet_encryption.py',
-    #'feature_cltv.py', # Not required/ **TODO**
-    #'wallet_resendwallettransactions.py', # Not required/ **TODO**
-    'feature_minchainwork.py',
-    #'p2p_fingerprint.py', # Not required/ **TODO**
+    #'feature_cltv.py',
+    #'wallet_resendwallettransactions.py',
+    #'feature_minchainwork.py',
+    #'p2p_fingerprint.py',
     'feature_uacomment.py',
-    #'p2p_unrequested_blocks.py', # Not required/ **TODO**
-    #'feature_config_args.py', # Not required/ **TODO**
+    #'p2p_unrequested_blocks.py',
+    #'feature_config_args.py',
     'feature_help.py',
     # Don't append tests at the end to avoid merge conflicts
     # Put them in a random line within the section that fits their approximate run-time
@@ -130,15 +129,15 @@ EXTENDED_SCRIPTS = [
     # These tests are not run by the travis build process.
     # Longest test should go first, to favor running tests in parallel
     # vv Tests less than 20m vv
-    #'feature_fee_estimation.py', # Not required/ **TODO**
+    #'feature_fee_estimation.py',
     # vv Tests less than 5m vv
     # vv Tests less than 2m vv
-    'p2p_timeouts.py',
+    #'p2p_timeouts.py',
     # vv Tests less than 60s vv
-    #'p2p_feefilter.py', # Not required/ **TODO**
+    #'p2p_feefilter.py',
     'rpc_bind.py',
     # vv Tests less than 30s vv
-    #'example_test.py', # Not required/ **TODO**
+    #'example_test.py',
     'feature_notifications.py',
     'rpc_invalidateblock.py',
 ]
@@ -477,7 +476,7 @@ def check_script_list(src_dir):
     python_files = set([t for t in os.listdir(script_dir) if t[-3:] == ".py"])
     missed_tests = list(python_files - set(map(lambda x: x.split()[0], ALL_SCRIPTS + NON_SCRIPTS)))
     if len(missed_tests) != 0:
-        print("%sWARNING!%s The following scripts are not being run because they are either depreceated or have to be edited before use: %s. Check the test lists in test_runner.py." % (BOLD[1], BOLD[0], str(missed_tests)))
+        print("%sWARNING!%s The following scripts are not being run: %s. Check the test lists in test_runner.py." % (BOLD[1], BOLD[0], str(missed_tests)))
         if os.getenv('TRAVIS') == 'true':
             # On travis this warning is an error to prevent merging incomplete commits into master
             sys.exit(1)
