@@ -162,7 +162,7 @@ public:
         nRejectOldSporkKey = 1538661893; //!> Reject old spork key after GMT: Thursday, October 4, 2018 2:04:53 PM
 
         // Public coin spend enforcement
-        nPublicZCSpends = 412699;
+        nPublicZCSpends = 422779;
 
         // Fake Serial Attack
         nFakeSerialBlockheightEnd = 0;
@@ -294,7 +294,7 @@ public:
         nRejectOldSporkKey = 1538661893; //!> Reject old spork key after GMT: Thursday, October 4, 2018 2:04:53 PM
 
         // Public coin spend enforcement
-        nPublicZCSpends = 1000000;
+        nPublicZCSpends = 500;
 
         // Fake Serial Attack
         nFakeSerialBlockheightEnd = -1;
