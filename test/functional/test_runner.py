@@ -56,8 +56,8 @@ BASE_SCRIPTS= [
     # Scripts that are run by the travis build process.
     # Longest test should go first, to favor running tests in parallel
     'wallet_backup.py',
-    'p2p_pos_fakestake.py',
-    'p2p_pos_fakestake_accepted.py',
+    #'p2p_pos_fakestake.py',
+    #'p2p_pos_fakestake_accepted.py',
     #'p2p_zpos_fakestake.py',
     #'p2p_zpos_fakestake_accepted.py',
     #'zerocoin_wrapped_serials.py',
@@ -65,7 +65,7 @@ BASE_SCRIPTS= [
     #'feature_block.py',
     #'rpc_fundrawtransaction.py',
     # vv Tests less than 2m vv
-    'p2p_pos_doublespend.py',
+    #'p2p_pos_doublespend.py',
     'wallet_basic.py',
     'wallet_accounts.py',
     'wallet_dump.py',
@@ -83,13 +83,13 @@ BASE_SCRIPTS= [
     'wallet_keypool_topup.py',
     #'interface_zmq.py',
     'interface_bitcoin_cli.py',
-    'mempool_resurrect.py',
+    #'mempool_resurrect.py',
     'wallet_txn_doublespend.py --mineblock',
     'wallet_txn_clone.py --mineblock',
     #'rpc_getchaintips.py',
     'interface_rest.py',
-    'mempool_spend_coinbase.py',
-    'mempool_reorg.py',
+    #'mempool_spend_coinbase.py',
+    #'mempool_reorg.py',
     #'mempool_persist.py', # Not yet implemented
     'interface_http.py',
     #'rpc_users.py',

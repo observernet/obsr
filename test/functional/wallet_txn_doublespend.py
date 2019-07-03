@@ -23,8 +23,8 @@ class TxnMallTest(BitcoinTestFramework):
         disconnect_nodes(self.nodes[2], 1)
 
     def run_test(self):
-        # All nodes should start with 6,250 OBSR:
-        starting_balance = 6250
+        # All nodes should start with 703,125,000 OBSR:
+        starting_balance = 703125000
         for i in range(4):
             assert_equal(self.nodes[i].getbalance(), starting_balance)
             self.nodes[i].getnewaddress("")  # bug workaround, coins generated assigned to first getnewaddress!
@@ -77,7 +77,7 @@ class TxnMallTest(BitcoinTestFramework):
         # Node0's balance should be starting balance, plus 50BTC for another
         # matured block, minus 40, minus 20, and minus transaction fees:
         expected = starting_balance + fund_foo_tx["fee"] + fund_bar_tx["fee"]
-        if self.options.mine_block: expected += 250
+        if self.options.mine_block: expected += 28125000
         expected += tx1["amount"] + tx1["fee"]
         expected += tx2["amount"] + tx2["fee"]
         assert_equal(self.nodes[0].getbalance(), expected)
