@@ -161,6 +161,9 @@ public:
         nEnforceNewSporkKey = 1538661892; //!> Sporks signed after GMT: Thursday, October 4, 2018 2:04:52 PM must use the new spork key
         nRejectOldSporkKey = 1538661893; //!> Reject old spork key after GMT: Thursday, October 4, 2018 2:04:53 PM
 
+        // Start enforcing CHECKLOCKTIMEVERIFY (BIP65) rule
+        nBIP65Height = 402618;
+
         // Public coin spend enforcement
         nPublicZCSpends = 422779;
 
@@ -293,6 +296,9 @@ public:
         nEnforceNewSporkKey = 1538661892; //!> Sporks signed after GMT: Thursday, October 4, 2018 2:04:52 PM must use the new spork key
         nRejectOldSporkKey = 1538661893; //!> Reject old spork key after GMT: Thursday, October 4, 2018 2:04:53 PM
 
+        // Start enforcing CHECKLOCKTIMEVERIFY (BIP65) rule
+        nBIP65Height = 1;
+
         // Public coin spend enforcement
         nPublicZCSpends = 500;
 
@@ -385,6 +391,9 @@ public:
         nBlockRecalculateAccumulators = 999999999; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = 999999999; //First block that bad serials emerged
         nBlockLastGoodCheckpoint = 999999999; //Last valid accumulator checkpoint
+
+        // Start enforcing CHECKLOCKTIMEVERIFY (BIP65) rule
+        nBIP65Height = 402618;
 
         // Public coin spend enforcement
         nPublicZCSpends = 350;
