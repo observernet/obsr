@@ -259,7 +259,7 @@ double CCoinsViewCache::GetPriority(const CTransaction& tx, int nHeight) const
         assert(coins);
         if (!coins->IsAvailable(txin.prevout.n)) continue;
         if (coins->nHeight < nHeight) {
-            dResult += coins->vout[txin.prevout.n].nValue * (nHeight - coins->nHeight);
+            dResult += coins->vout[txin.prevout.n].nValue * (double)(nHeight - coins->nHeight);
         }
     }
     return tx.ComputePriority(dResult);
